@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue name="Unaligned Forces" id="581a-46b9-5b86-44b7" authorName="WindstormSCR" battleScribeVersion="2.03" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="2" library="true" revision="23" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Faction: Unaligned Forces" id="e1ff-c0fa-2ca7-3466" hidden="false">
+      <constraints>
+        <constraint id="223b-e22c-21da-9aee" field="51b2-306e-1021-d207" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1000"/>
+      </constraints>
+      <modifiers>
+        <modifier field="223b-e22c-21da-9aee" type="set" value="250">
+          <conditions>
+            <condition childId="d62d-db22-4893-4bc0" field="selections" includeChildSelections="true" scope="force" shared="true" type="greaterThan" value="0"/>
+          </conditions>
+        </modifier>
+        <modifier field="223b-e22c-21da-9aee" type="set" value="500">
+          <conditions>
+            <condition childId="baf8-997f-e323-a090" field="selections" includeChildSelections="true" scope="force" shared="true" type="greaterThan" value="0"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+    <categoryEntry name="Wall of Martyrs" id="fc43-1a6a-44bd-4350" hidden="false"/>
+    <categoryEntry name="Bunker" id="4f49-11ac-ce05-5a31" hidden="false"/>
+    <categoryEntry name="Skyshield Landing Pad" id="c5e3-117a-a679-a415" hidden="false"/>
+    <categoryEntry name="Primaris Redoubt" id="62e0-9a0b-b965-9df1" hidden="false"/>
+    <categoryEntry name="Firestorm Redoubt" id="bd6f-cfc-c88-9f95" hidden="false"/>
+    <categoryEntry name="Plasma Obliterator" id="9278-7145-847f-3cac" hidden="false"/>
+    <categoryEntry name="Macro-cannon Aquila Strongpoint" id="97a9-7f06-f2e0-84fa" hidden="false"/>
+    <categoryEntry name="Vortex Missile Strongpoint" id="cc17-b0ac-fdc9-4672" hidden="false"/>
+    <categoryEntry name="Ambull" id="7d2a-37ff-a5ac-15e4" hidden="false"/>
+    <categoryEntry name="The Archivist" id="c2ad-1025-acf0-324f" hidden="false"/>
+    <categoryEntry name="Guardian Drone" id="393a-5707-47ac-8a47" hidden="false"/>
+    <categoryEntry name="Vengeance Weapon Battery" id="5c5f-5977-50b8-9ae1" hidden="false"/>
+    <categoryEntry name="Aegis Defence Line with Weapon Emplacement" id="c1aa-8ee-2a60-ecf4" hidden="false"/>
+    <categoryEntry name="Fortress of Redemption" id="8f18-8c8b-3d82-6e18" hidden="false"/>
+    <categoryEntry name="Bastion" id="8888-fb01-3ef-63d0" hidden="false"/>
+    <categoryEntry name="Void Shield Generator" id="ccb3-6116-5cf1-62b7" hidden="false"/>
+    <categoryEntry name="Defence Line" id="5207-4f15-f3e-c6ff" hidden="false"/>
+    <categoryEntry name="Imperial Fortress Walls" id="a7ed-6216-ee97-5b7a" hidden="false"/>
+    <categoryEntry name="Spindle Drones" id="cade-8bdc-1e52-e011" hidden="false"/>
+    <categoryEntry name="Defence Emplacement" id="5d7b-c048-8c24-5043" hidden="false"/>
+    <categoryEntry name="Castellum Stronghold" id="10ec-c57f-1acc-6db7" hidden="false"/>
+    <categoryEntry name="Sentry Gun" id="5b23-6112-24a0-5ba5" hidden="false"/>
+    <categoryEntry name="Breaching Robot" id="2997-c698-96cd-e3f8" hidden="false"/>
+    <categoryEntry name="Hrud" id="7f3e-c109-6646-8255" hidden="false"/>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink name="Ambull [Legends]" id="60d8-7d2-71d-6e4a" hidden="false" import="true" targetId="e85b-17c7-1ad9-8375" type="selectionEntry"/>
+    <entryLink name="Guardian Drone [Legends]" id="da3c-7385-5909-abd5" hidden="false" import="true" targetId="e3ba-7f87-c32-229" type="selectionEntry"/>
+    <entryLink name="Spindle Drones [Legends]" id="4ad3-7c1d-33a0-9852" hidden="false" import="true" targetId="da76-e18f-523e-d45a" type="selectionEntry"/>
+    <entryLink name="The Archivist [Legends]" id="5716-86b8-dbda-f28a" hidden="false" import="true" targetId="11b2-8348-ae67-fa98" type="selectionEntry"/>
+    <entryLink name="Sentry Gun" id="5aa0-78d6-5aa4-15de" hidden="false" import="true" targetId="983d-b163-dc9f-3c54" type="selectionEntry"/>
+    <entryLink name="Searchlight" id="977c-a27d-7164-02f2" hidden="false" import="true" targetId="61f3-ff33-ec7a-3546" type="selectionEntry"/>
+    <entryLink name="Hrud" id="ae44-3f75-11fc-268a" hidden="false" import="true" targetId="e34f-aff0-0eee-7e35" type="selectionEntry"/>
+  </entryLinks>
+  <sharedProfiles>
+    <profile name="Reinforced Cover" id="241c-8bed-ca28-f77" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Roof Access" id="2e62-f126-df89-60d" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Friendly INFANTRY models can be set up or end any type of move on top of the roof section of this FORTIFICATION.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gates" id="f791-bfaa-d110-9379" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this FORTIFICATION is first set up on the battlefield, each gate section can be set up with its gate open or closed. In your Command phase, you can open or close the gate of each of this model’s gate sections. While a gate is open, models can move and draw line of sight through it as if it were not there.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Battlements" id="f644-db15-d1f0-3c48" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Friendly INFANTRY models can be set up or end any type of move on top of the flat battlement sections of this FORTIFICATION.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Defence Line" id="29fe-dbb0-2a7-a301" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this FORTIFICATION is set up, all parts of it must be set up within 1&quot; of another part. While an INFANTRY model has the Benefit of Cover as a result of this FORTIFICATION (see below), that model has a 4+ invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Trench Line" id="7669-c371-7ee3-ce0f" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Friendly INFANTRY models can be set up or end any type of move on top of the flat platform section of this FORTIFICATION.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Damaged: 1-6 Wounds Remaining" id="39db-fc02-9b22-388d" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Damaged: 1-10 Wounds Remaining" id="33ea-51f2-96cb-4893" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mighty Edifice" id="5dd-a7bc-b1a6-9a00" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can only include this FORTIFICATION in your army in games of Onslaught size or greater.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry name="Ambull" id="e85b-17c7-1ad9-8375" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Faction: Unaligned Forces" id="a2c1-3a0f-d4cc-b72f" primary="false" targetId="e1ff-c0fa-2ca7-3466"/>
+        <categoryLink name="Allied Units" id="4fb7-9a37-3b26-6013" primary="true" targetId="887b-ab87-92a2-20f5"/>
+        <categoryLink name="Monster" id="61ae-6a82-acc9-8b6f" primary="false" targetId="9693-cf84-fe69-37a9"/>
+        <categoryLink name="Character" id="98bd-8f3d-4737-bbe4" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+        <categoryLink name="Ambull" id="bb02-a4b1-fa11-4bac" primary="false" targetId="7d2a-37ff-a5ac-15e4"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="2637-054f-8617-c2a5" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="3"/>
+        <constraint id="3e82-812b-94db-21a1" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="6"/>
+        <constraint id="ea7e-128d-7046-fde8" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
+        <constraint id="2b0a-c821-f8f8-6f36" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="85"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Crusade" id="125d-5ba0-4e24-f759" hidden="false" import="true" sortIndex="1" targetId="3088-b399-bea3-ec18" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="435a-e270-1c67-af4" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
+        <infoLink name="Feel No Pain" id="2308-ce93-5765-7e7e" hidden="false" targetId="9bf4-280f-bbe2-6fbb" type="rule">
+          <modifiers>
+            <modifier field="name" type="append" value="5+"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <comment>Crusade modifiers</comment>
+          <modifiers>
+            <modifier field="ea7e-128d-7046-fde8" type="increment" value="2">
+              <repeats>
+                <repeat childId="d1a5-4297-168b-11cd" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="2b0a-c821-f8f8-6f36" type="increment" value="2">
+              <repeats>
+                <repeat childId="d1a5-4297-168b-11cd" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="name" type="append" value="(Battle-ready)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="5"/>
+                    <condition childId="cac3-71d1-ea4b-795d" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Blooded)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="5"/>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="15"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Battle-hardened)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="15"/>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="30"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Heroic)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="30"/>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="50"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Legendary)">
+              <conditions>
+                <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="50"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition childId="2973-ea51-7f8d-5403" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Ambull" id="f274-7ebf-75d0-44b5" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">8+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Frenzy" id="f481-16a8-9242-1441" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an enemy unit is selected to shoot or fight, after it has finished making its attacks, if one or more of those attacks targeted this model and this model is not destroyed, this model can fight as if it were the Fight phase</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Borewyrm Infestation" id="c551-a719-4c3-93f5" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Twice per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that
+is more than 9&quot; horizontally away from all enemy models. If the battle ends and this unit is not on the battlefield, it is destroyed. 
+
+Designer’s Note: Place two Borewyrm Infestation tokens next to this model, removing one each time this ability has been used.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Wargear" id="9946-824b-f220-11be" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry name="Enormous claws" id="e5b0-1627-ba3b-841e" hidden="false" import="true" type="upgrade">
+              <categoryLinks>
+                <categoryLink name="Melee Weapon" id="25eb-ec3e-4aec-5e76" hidden="false" primary="false" targetId="ccdd-3987-11ed-90cd"/>
+                <categoryLink name="Damage Dx Weapon" id="dd5f-6db4-90a7-c24c" hidden="false" primary="false" targetId="4986-bf86-beb4-13ac"/>
+              </categoryLinks>
+              <constraints>
+                <constraint id="b0ad-ed54-d6bb-149" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="6935-9310-dbfe-b4c8" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Enormous claws" id="af45-70fa-c712-2c49" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">D3</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon Upgrades" id="5fb5-a65c-4f90-75da" flatten="true" hidden="false">
+                  <entryLinks>
+                    <entryLink name="Weapon Modifications" id="ca77-6ea6-c419-ad15" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
+                    <entryLink name="Crusade Relic Upgrades" id="48a2-ba99-a4c3-23ee" hidden="false" import="true" targetId="b678-4a99-210e-931f" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Guardian Drone" id="e3ba-7f87-c32-229" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Faction: Unaligned Forces" id="2686-fb2f-dd21-e510" primary="false" targetId="e1ff-c0fa-2ca7-3466"/>
+        <categoryLink name="Allied Units" id="626e-a5f3-46e8-3f23" primary="true" targetId="887b-ab87-92a2-20f5"/>
+        <categoryLink name="Monster" id="956e-7d12-7fb0-12a8" primary="false" targetId="9693-cf84-fe69-37a9"/>
+        <categoryLink name="Guardian Drone" id="4cf0-207-d593-cc17" primary="false" targetId="393a-5707-47ac-8a47"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="8a70-1a90-97eb-5914" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="3"/>
+        <constraint id="169e-e40d-8911-3e55" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="3"/>
+        <constraint id="473b-d192-f384-aae7" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
+        <constraint id="f510-3f41-7152-4464" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="55"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Crusade" id="d6b1-486b-446f-d4aa" hidden="false" import="true" sortIndex="1" targetId="3088-b399-bea3-ec18" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Feel No Pain" id="3af9-eb06-6d3e-afce" hidden="false" targetId="9bf4-280f-bbe2-6fbb" type="rule">
+          <modifiers>
+            <modifier field="name" type="append" value="5+"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <comment>Crusade modifiers</comment>
+          <modifiers>
+            <modifier field="169e-e40d-8911-3e55" type="set" value="6">
+              <conditions>
+                <condition childId="1511-18fe-f51e-7b9d" field="selections" includeChildSelections="true" scope="self" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+            <modifier field="473b-d192-f384-aae7" type="increment" value="2">
+              <repeats>
+                <repeat childId="d1a5-4297-168b-11cd" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="f510-3f41-7152-4464" type="increment" value="2">
+              <repeats>
+                <repeat childId="d1a5-4297-168b-11cd" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="name" type="append" value="(Battle-ready)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="5"/>
+                    <condition childId="cac3-71d1-ea4b-795d" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Blooded)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="5"/>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="15"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Battle-hardened)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="15"/>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="30"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Heroic)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="30"/>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="50"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Legendary)">
+              <conditions>
+                <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="50"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition childId="2973-ea51-7f8d-5403" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Drone Commander (Aura)" id="6177-edd5-89f8-10f0" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly **^^Spindle Drones^^** unit is within 6&quot; of this model, it has an Objective Control characteristic of 1, and each time a model in that unit makes an attack, add 1 to the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Guardian Drone" id="2164-a8b3-1e0a-ff34" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">7</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Wargear" id="58fa-ec3e-e1a3-4ba8" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry name="Destroyer pulse" id="1ab6-25ac-947b-bf5f" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="ab00-ab55-b236-6f62" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="9727-3f6-1e2b-6fe0" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Weapon Modifications" id="c079-255d-9033-c983" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
+              </entryLinks>
+              <infoLinks>
+                <infoLink name="Pistol" id="230d-1f55-a508-200b" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Destroyer pulse" id="6468-f7a-cf-1f16" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Guardian salvo launchers" id="3200-448d-b069-ce9b" hidden="false" import="true" type="upgrade">
+              <categoryLinks>
+                <categoryLink name="Attacks Dx Weapon" id="ff15-f2d5-2ca7-e081" hidden="false" primary="false" targetId="e993-e086-6de1-12af"/>
+              </categoryLinks>
+              <constraints>
+                <constraint id="742f-d8d8-3732-606b" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="2400-47a0-8b36-c508" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Weapon Modifications" id="0cec-6a02-46ed-36bb" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
+              </entryLinks>
+              <infoLinks>
+                <infoLink name="Blast" id="efd3-c0f-a875-ddd4" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Guardian salvo launchers" id="6317-ed6f-87cc-a6b4" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Manipulator limbs" id="7291-ec92-1fd4-75ad" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="91d8-4ea3-c3b-312d" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="c362-426a-6d33-f94b" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Weapon Modifications" id="fe10-336e-af16-0187" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
+              </entryLinks>
+              <profiles>
+                <profile name="Manipulator limbs" id="8c32-7c4d-8e22-d07d" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Spindle Drones" id="da76-e18f-523e-d45a" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Faction: Unaligned Forces" id="a1b4-5e25-f583-d5b" primary="false" targetId="e1ff-c0fa-2ca7-3466"/>
+        <categoryLink name="Allied Units" id="3bea-1908-e216-3a6" primary="true" targetId="887b-ab87-92a2-20f5"/>
+        <categoryLink name="Infantry" id="bf1c-22b1-6ac4-1852" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+        <categoryLink name="Spindle Drones" id="abb0-27c3-595a-2290" primary="false" targetId="cade-8bdc-1e52-e011"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="32d0-ce4c-48a2-b2a6" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="3"/>
+        <constraint id="6851-d50b-08bc-9795" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="3"/>
+        <constraint id="7180-7c69-b991-d922" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
+        <constraint id="c1c5-1e7f-b77e-b665" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Crusade" id="d475-30ca-88c4-2a1a" hidden="false" import="true" sortIndex="1" targetId="3088-b399-bea3-ec18" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <comment>Crusade modifiers</comment>
+          <modifiers>
+            <modifier field="6851-d50b-08bc-9795" type="set" value="6">
+              <conditions>
+                <condition childId="1511-18fe-f51e-7b9d" field="selections" includeChildSelections="true" scope="self" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+            <modifier field="7180-7c69-b991-d922" type="increment" value="2">
+              <repeats>
+                <repeat childId="d1a5-4297-168b-11cd" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="c1c5-1e7f-b77e-b665" type="increment" value="2">
+              <repeats>
+                <repeat childId="d1a5-4297-168b-11cd" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="name" type="append" value="(Battle-ready)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="5"/>
+                    <condition childId="cac3-71d1-ea4b-795d" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Blooded)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="5"/>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="15"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Battle-hardened)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="15"/>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="30"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Heroic)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="30"/>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="50"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Legendary)">
+              <conditions>
+                <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="50"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition childId="2973-ea51-7f8d-5403" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Spindle Drones" id="a050-08fd-451c-4f2a" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry name="Spindle Drone" id="e32d-ae0a-732f-5864" collective="false" hidden="false" import="true" type="model">
+              <constraints>
+                <constraint id="aca2-1adb-691f-bb3c" field="selections" scope="parent" shared="true" type="min" value="4"/>
+                <constraint id="feec-4e88-ffe1-d175" field="selections" scope="parent" shared="true" type="max" value="4"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Feel No Pain" id="bd29-e1d9-68d-a45b" hidden="false" targetId="9bf4-280f-bbe2-6fbb" type="rule">
+                  <modifiers>
+                    <modifier field="name" type="append" value="5+"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <profiles>
+                <profile name="Spindle Drone" id="a470-533e-a14a-bcb2" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Threat Level Rising" id="839a-dbe6-f30a-20a1" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry name="Drone pulse" id="8e88-801b-56-a3d4" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="4cef-590d-cea1-ec9f" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="a59-b296-5bb1-6c5b" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink name="Weapon Modifications" id="dcf9-fbcc-4105-20c1" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
+                  </entryLinks>
+                  <infoLinks>
+                    <infoLink name="Pistol" id="f626-49a6-14c0-c6fd" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
+                  </infoLinks>
+                  <profiles>
+                    <profile name="Drone pulse" id="eeef-d2e4-8b2-da34" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Close combat weapon" id="9370-323f-758e-f4b4" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="d26d-c432-738d-9d83" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="96d9-e47b-8d1d-b5ba" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink name="Weapon Modifications" id="4fc2-78c8-a9ba-7f0f" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
+                  </entryLinks>
+                  <profiles>
+                    <profile name="Close combat weapon" id="a43f-c689-eb14-49c2" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="The Archivist" id="11b2-8348-ae67-fa98" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Faction: Unaligned Forces" id="eb77-4bd0-3fc0-6934" primary="false" targetId="e1ff-c0fa-2ca7-3466"/>
+        <categoryLink name="Allied Units" id="7aa5-803c-aaf8-7b22" primary="true" targetId="887b-ab87-92a2-20f5"/>
+        <categoryLink name="Monster" id="bf9e-c4ad-47d7-addc" primary="false" targetId="9693-cf84-fe69-37a9"/>
+        <categoryLink name="Epic Hero" id="a401-4542-364d-ded9" primary="false" targetId="4f3a-f0f7-6647-348d"/>
+        <categoryLink name="Character" id="296a-c343-6dc-563c" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+        <categoryLink name="The Archivist" id="e9ed-1efc-b769-6480" primary="false" targetId="c2ad-1025-acf0-324f"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="221e-e703-450c-56de" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="70"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Lone Operative" id="f4a3-f6d6-6a8d-acf8" hidden="false" targetId="a8a0-8fe7-898-e0f3" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition childId="2973-ea51-7f8d-5403" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="The Archivist" id="9048-aa3f-1224-25fe" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">6</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fearsome Assault" id="128a-9f8e-e659-fa7e" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Disruptive Influence (Aura)" id="6e34-22d9-a4ab-22ad" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While an enemy unit is within 6&quot; of this model, each time that unit takes a Battle-shock or Leadership test, subtract 1 from that test.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Atomic disassembler" id="368e-12b2-f6f7-b37b" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="db17-fe74-b0bc-fa9c" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="5f7a-e7be-5372-3ad9" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Pistol" id="1a54-7f5e-bd96-7172" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
+            <infoLink name="Ignores Cover" id="90bd-5785-e0ac-73e9" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Atomic disassembler" id="ccfb-da5f-6573-19a8" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Ignores Cover, Pistol</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Eradicator glove" id="29a1-6633-a564-40e2" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="dcbe-6a0a-9b78-b233" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="796d-5878-d600-d288" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Eradicator glove" id="9a27-5f9b-48bb-f529" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Crusade" id="1ef2-459d-8aee-980d" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink name="Mighty Champions" id="472a-05f3-1939-ee3e" hidden="false" import="true" targetId="f842-6e90-bc5a-80f1" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Comms antenna" id="4985-9124-1e83-10f0" hidden="false" import="true" type="upgrade">
+      <profiles>
+        <profile name="Comms Antenna" id="e4e8-32c4-fe76-76e" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Command phase, if one or more Character models are embarked within this Fortification, roll one D6: on a 5+, you gain 1CP</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Icarus lascannon" id="72e7-16-6f4c-ecbd" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Anti-" id="303c-83f6-5ba9-3d68" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Icarus Lascannon" id="22ce-ef35-75b0-f0f3" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Quad-gun" id="aece-7cae-ceb6-4079" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Twin-linked" id="f7ec-d7cb-4fcb-6d44" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+        <infoLink name="Anti-" id="1a3a-9d14-584a-3b5a" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Quad-gun" id="a103-4e16-9e2-b099" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 3+, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Heavy bolter" id="9772-d936-9e34-8549" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Sustained Hits" id="7022-92b2-89df-b949" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Heavy bolter" id="ae44-5e76-8f9d-b613" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Quad lascannon" id="e55-db9a-8f67-b41f" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Twin-linked" id="1aa0-afcb-3774-4d8e" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+        <infoLink name="Anti-" id="ca10-d873-c93a-8113" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Quad lascannon" id="c317-5f56-6f74-d4d2" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Anti-Fly 2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Punisher gatling cannon" id="708f-a01b-953d-d59e" hidden="false" import="true" type="upgrade">
+      <profiles>
+        <profile name="Punisher gatling cannon" id="5df7-e2e1-d087-be41" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">20</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Battle cannon" id="837d-5927-b2f1-d4b8" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Blast" id="8d22-a65-734e-8e9b" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Battle cannon" id="b8fa-1557-64ec-760f" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Multi-melta" id="9caf-4cf9-3a99-5e84" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Melta" id="27df-60aa-d82e-177e" hidden="false" targetId="7cdb-fb99-44a9-8849" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Multi-melta" id="1522-b78-d8a-83bf" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Twin heavy bolter" id="9c32-9f63-8d26-8ec9" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Sustained Hits" id="af34-3edd-e4d4-a824" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+        <infoLink name="Twin-linked" id="c224-b70d-66c1-4a6d" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Twin heavy bolter" id="757c-fbf9-ad90-549c" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Twin heavy flamer" id="ad83-5e8f-6f3f-37b2" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Ignores Cover" id="2763-d8a3-a50f-47a" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
+        <infoLink name="Twin-linked" id="7d21-8ad5-7bdc-9398" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+        <infoLink name="Torrent" id="5f01-8c53-93be-d21d" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Twin heavy flamer" id="94e8-d958-e3ac-a4b8" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Ignores Cover, Torrent, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Twin lascannon" id="475-eb92-56f5-9f9f" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Twin-linked" id="b25a-661b-46c5-bb77" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Twin lascannon" id="8f53-c3a6-7cc8-34a3" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Castellum air defence missiles" id="454f-4f6a-1859-dbbf" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Anti-" id="ca3d-33b6-5384-8c13" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Castellum air defence missiles" id="b62a-94ad-fd13-baa8" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Fly 2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Twin assault cannon" id="f0ef-58b5-5e72-228d" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Twin-linked" id="b9d4-12dd-4557-67e4" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+        <infoLink name="Devastating Wounds" id="88b8-ec5f-b7b3-cc91" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Twin assault cannon" id="1482-a8cc-33a5-7823" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Sentry Gun" id="983d-b163-dc9f-3c54" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Vehicle" id="7649-6f74-5735-f5b0" hidden="false" primary="false" targetId="dbd4-63-af05-998"/>
+        <categoryLink name="Faction: Unaligned Forces" id="1c90-33ba-18f5-59b1" hidden="false" primary="false" targetId="e1ff-c0fa-2ca7-3466"/>
+        <categoryLink name="Sentry Gun" id="2c39-36d3-454f-e007" hidden="false" primary="false" targetId="5b23-6112-24a0-5ba5"/>
+        <categoryLink name="Allied Units" id="65ca-78da-ffb1-2a6b" hidden="false" primary="true" targetId="887b-ab87-92a2-20f5"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="9869-d845-89a6-6273" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Sentry Gun" id="5105-3270-024a-f8a4" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Defensive Emplacement" id="d0aa-93cb-a957-d92f" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In the Create the Battlefield and Place Objective Markers step, set this model up in one of the Sentry Gun positions (marked D1 on the mission map).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Twin heavy bolter" id="7fed-ef47-7301-6705" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="1761-7b54-bbcf-1c7e" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="f9d0-eda9-4cf7-7537" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Twin-linked" id="1321-bc24-2589-4f21" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+            <infoLink name="Sustained Hits" id="c5f9-11e1-e4b5-0b37" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+            <infoLink name="Heavy" id="3c59-7d65-e536-8d8c" hidden="false" targetId="1202-10a8-78e9-4c67" type="rule"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Twin heavy bolter" id="b146-a9fd-5916-abcb" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Sustained Hits 1, Twin-linked</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Searchlight" id="61f3-ff33-ec7a-3546" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Allied Units" id="7941-6aa3-56f9-4a99" hidden="false" primary="true" targetId="887b-ab87-92a2-20f5"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="9869-d845-89a6-6273" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Enemy Spotted" id="f259-0a73-856e-7f0d" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model from your army makes a ranged attack that targets an enemy unit that is within 9&quot; of and visible to any Searchlights from your army, re-roll a Hit of 1 and, if the model making that attack is a Sentry Gun, add 1 to the Hit roll as well.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Wall" id="de01-a5f9-74d5-29bf" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model is a terrain feature and counts as a Wall.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Camera Network" id="d311-42fc-3963-6017" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In the Create the Battlefield and Place Objective Markers step, set this terrain feature up in one of the Searchlight positions (marked D2 on the mission map) that does not already contain a Searchlight.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Hrud" id="e34f-aff0-0eee-7e35" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Faction: Unaligned Forces" id="31ad-7ae2-b6be-9c81" primary="false" targetId="e1ff-c0fa-2ca7-3466"/>
+        <categoryLink name="Allied Units" id="7d2f-7d17-1ade-ec38" primary="true" targetId="887b-ab87-92a2-20f5"/>
+        <categoryLink name="Beast" id="43af-fec4-907e-5dfc" hidden="false" primary="false" targetId="4c3e-9310-a516-3590"/>
+        <categoryLink name="Hrud" id="f4b4-4110-2453-67d7" hidden="false" primary="false" targetId="7f3e-c109-6646-8255"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="6523-9290-74cb-7020" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="3"/>
+        <constraint id="db2f-4b43-2151-3598" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="3"/>
+        <constraint id="9934-a88f-e77a-29b6" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
+        <constraint id="161b-66c2-476a-505d" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Crusade" id="3486-9df8-8bff-b631" hidden="false" import="true" sortIndex="1" targetId="3088-b399-bea3-ec18" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <comment>Crusade modifiers</comment>
+          <modifiers>
+            <modifier field="db2f-4b43-2151-3598" type="set" value="6">
+              <conditions>
+                <condition childId="1511-18fe-f51e-7b9d" field="selections" includeChildSelections="true" scope="self" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+            <modifier field="9934-a88f-e77a-29b6" type="increment" value="2">
+              <repeats>
+                <repeat childId="d1a5-4297-168b-11cd" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="161b-66c2-476a-505d" type="increment" value="2">
+              <repeats>
+                <repeat childId="d1a5-4297-168b-11cd" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="name" type="append" value="(Battle-ready)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="5"/>
+                    <condition childId="cac3-71d1-ea4b-795d" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Blooded)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="5"/>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="15"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Battle-hardened)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="15"/>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="30"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Heroic)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="30"/>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="50"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Legendary)">
+              <conditions>
+                <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="50"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition childId="2973-ea51-7f8d-5403" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Hrud" id="5d82-5a2c-bf79-f039" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry name="Hrud" id="34f3-1ab5-1ae1-d4d0" collective="false" hidden="false" import="true" type="model">
+              <constraints>
+                <constraint id="ace3-da4e-f132-b254" field="selections" scope="parent" shared="true" type="min" value="5"/>
+                <constraint id="4a3f-c35f-8508-06e9" field="selections" scope="parent" shared="true" type="max" value="5"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Invulnerable Save (5+)" id="6420-dcbc-9d3b-bd14" hidden="false" targetId="3b8a-73e4-1389-b399" type="profile"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Hrud" id="2464-9032-73f8-6b2e" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Aura of Entropy (Aura)" id="516b-23a7-af91-69a6" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of the Movement phase, roll a D6. On a 2+ all units within 3&quot; of this unit take D3 mortal wounds.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry name="Horrific tendrils" id="b172-7951-84cc-f9f6" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="fbe6-7548-5694-0afc" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="f53d-865b-50a1-9ee1" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink name="Weapon Modifications" id="f8e4-1533-0bfb-bd3b" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
+                  </entryLinks>
+                  <profiles>
+                    <profile name="Horrific tendrils" id="f283-dcb4-74ec-2437" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Crusade" id="3088-b399-bea3-ec18" collapsible="true" hidden="false">
+      <comment>Crusade content</comment>
+      <entryLinks>
+        <entryLink name="Experience Points" id="8b66-51a2-6b2e-3703" hidden="false" import="true" sortIndex="1" targetId="2dbf-4d49-5d74-85c9" type="selectionEntry"/>
+        <entryLink name="Legendary Veterans" id="18ff-7906-1959-9faf" hidden="false" import="true" sortIndex="2" targetId="1511-18fe-f51e-7b9d" type="selectionEntry"/>
+        <entryLink name="Battle Scars" id="f75e-c7cb-c17f-87f5" collapsible="true" hidden="false" import="true" sortIndex="5" targetId="1576-e816-033f-828d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="cac3-71d1-ea4b-795d" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Battle Tallies" id="3c9c-b7ad-c68c-dc46" hidden="false" sortIndex="3">
+          <selectionEntries>
+            <selectionEntry name="Battles Played" id="7f52-3142-2d45-f5e1" hidden="false" import="true" type="upgrade"/>
+            <selectionEntry name="Battles Survived" id="4831-6ba3-ef86-96d8" hidden="false" import="true" type="upgrade"/>
+            <selectionEntry name="Enemy Units Destroyed" id="31ec-9798-9e59-308a" hidden="false" import="true" type="upgrade"/>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Battle Honours" id="917a-5670-3ebe-29d8" collapsible="true" hidden="false" sortIndex="4">
+          <entryLinks>
+            <entryLink name="Battle Traits" id="0cfb-5f52-a863-2cd0" hidden="false" import="true" targetId="0511-d9ad-2978-2234" type="selectionEntryGroup"/>
+            <entryLink name="Crusade Relics" id="d223-e293-ad24-58fc" hidden="false" import="true" targetId="e919-5b46-974d-a5b1" type="selectionEntryGroup"/>
+            <entryLink name="Tyrannic War Battle Honours" id="8b06-cf16-9350-8835" hidden="false" import="true" targetId="1927-d905-041e-b914" type="selectionEntryGroup"/>
+            <entryLink name="Pariah Nexus Blackstone Upgrades" id="765b-9c7e-e7b7-ead0" hidden="false" import="true" targetId="66c2-2a46-e7ed-a935" type="selectionEntryGroup"/>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Weapon Modifications" id="3a50-1128-d025-a7e3" hidden="false">
+              <entryLinks>
+                <entryLink name="Weapon Modifications" id="85ec-778b-66b7-b65b" hidden="false" import="true" targetId="d1a5-4297-168b-11cd" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
