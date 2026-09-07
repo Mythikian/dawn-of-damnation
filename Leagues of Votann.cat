@@ -341,7 +341,6 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
             <constraint id="0680-ce91-6814-3912" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Warlord" id="c997-d780-6a4e-fac4" collective="false" hidden="false" import="true" targetId="92b3-11ff-2a27-cd0c" type="selectionEntry"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Leader" id="79d3-b005-92f2-a0e0" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
@@ -407,6 +406,18 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
               </characteristics>
             </profile>
           </profiles>
+        </selectionEntry>
+        <selectionEntry name="Warlord" id="5bf5-c750-e4b0-60f0" collective="false" hidden="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink name="Warlord" id="75e1-a8e6-b6b8-aa80" hidden="false" primary="false" targetId="5c0e-4c31-d51b-e470"/>
+          </categoryLinks>
+          <constraints>
+            <constraint id="37e7-55a5-4db2-e69a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="e0f6-4c96-f7e3-9b2d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1649,7 +1660,6 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
         <categoryLink name="Warlord" id="ad6c-be77-de19-cc97" hidden="false" primary="false" targetId="5c0e-4c31-d51b-e470"/>
       </categoryLinks>
       <constraints>
-        <constraint id="06d8-d536-47a9-c782" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
         <constraint id="92bf-21f2-854f-4b23" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <costs>
@@ -8029,9 +8039,6 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
-      <entryLinks>
-        <entryLink name="Warlord" id="7c66-e480-c29e-7adc" collective="false" hidden="false" import="true" targetId="92b3-11ff-2a27-cd0c" type="selectionEntry"/>
-      </entryLinks>
       <infoLinks>
         <infoLink name="Invulnerable Save (4+)" id="05d5-f7b5-f969-1473" hidden="false" targetId="5b77-29f8-7b77-75e3" type="profile"/>
         <infoLink name="Prioritised Efficiency" id="dd5d-4fc6-4131-a326" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
