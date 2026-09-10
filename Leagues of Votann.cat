@@ -111,6 +111,10 @@
     <entryLink name="Yagdmeister" id="e3e2-3617-eb33-9dc0" hidden="false" import="true" targetId="32ce-7c3f-dbac-3ca3" type="selectionEntry"/>
     <entryLink name="Goliath Mega-Cannon" id="cf26-b6dd-e092-0f42" hidden="false" import="true" targetId="67be-9db3-c175-c796" type="selectionEntry"/>
     <entryLink name="Skalvian Explorator" id="ca06-5a62-39e0-f0a9" hidden="false" import="true" targetId="d354-8f74-2ebd-8360" type="selectionEntry"/>
+    <entryLink name="Vartijan Exo-Drillers" id="167b-0750-f310-6a0a" hidden="false" import="true" targetId="a5d7-2dd1-a3bd-c7bf" type="selectionEntry"/>
+    <entryLink name="Grymm Walkers" id="9ccf-681b-67ee-602c" hidden="false" import="true" targetId="baad-dbf7-13f4-425b" type="selectionEntry"/>
+    <entryLink name="Overlord Armoured Airship" id="a54e-b07c-b6ce-96e1" hidden="false" import="true" targetId="33ea-6349-a51e-7cd2" type="selectionEntry"/>
+    <entryLink name="Surtr Pattern Exo-Walker" id="4ea7-b562-caea-7c65" hidden="false" import="true" targetId="50fc-f485-9c01-7394" type="selectionEntry"/>
   </entryLinks>
   <sharedInfoGroups>
     <infoGroup name="Grudges" id="b346-4032-3d54-4e62" hidden="false">
@@ -8869,6 +8873,9 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         <categoryLink name="Titanic" id="dc72-76b8-477b-4674" hidden="false" primary="false" targetId="5929-ad51-d006-e008"/>
         <categoryLink name="Faction: Leagues of Votann" id="6191-a1c3-dc14-3edf" hidden="false" primary="false" targetId="8474-765-16a9-f00d"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="d984-2303-98eb-0029" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="3"/>
+      </constraints>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="440"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -9026,6 +9033,9 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         <categoryLink name="Faction: Leagues of Votann" id="5e32-eb14-7a87-8cf0" hidden="false" primary="false" targetId="8474-765-16a9-f00d"/>
         <categoryLink name="Cyclops War-Fortress" id="605e-51a0-a905-2c24" hidden="false" primary="false" targetId="91ae-20c9-9529-f92d"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="51f8-a795-fc83-1fa4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="3"/>
+      </constraints>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="500"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -9383,8 +9393,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9790,8 +9799,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9853,8 +9861,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9938,8 +9945,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10023,8 +10029,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10086,8 +10091,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10126,13 +10130,12 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
                       </characteristics>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Gravitic impact hammer" id="0e6f-3d0b-f29b-2e4f" collective="true" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Gravitic chain-blade" id="0e6f-3d0b-f29b-2e4f" collective="true" hidden="false" import="true" type="upgrade">
                   <constraints>
                     <constraint id="4802-d513-b4c3-8d0b" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="dfd4-12a6-5485-4816" field="selections" scope="parent" shared="true" type="min" value="1"/>
@@ -10141,7 +10144,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                     <infoLink name="Anti-" id="53e2-97c3-435c-7971" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
                   </infoLinks>
                   <profiles>
-                    <profile name="Gravitic impact hammer" id="8a37-7be7-2571-7961" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                    <profile name="Gravitic chain-blade" id="8a37-7be7-2571-7961" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                         <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
@@ -10341,7 +10344,6 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                 <selectionEntry name="Twin heavy bolt revolvers" id="7c98-4c83-8aa7-a704" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <constraints>
                     <constraint id="f8e7-feaa-d280-120b" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="25cf-4d67-0b12-d976" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <infoLinks>
                     <infoLink name="Twin-linked" id="75de-f758-5667-81c6" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
@@ -10364,7 +10366,6 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                 <selectionEntry name="Magna-bolt Pistol" id="1156-abba-7d4e-6dc7" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <constraints>
                     <constraint id="f68e-01bd-1b2b-c324" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="2b10-1c86-7da3-7a65" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <infoLinks>
                     <infoLink name="Pistol" id="fd6a-6a41-dea9-1687" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
@@ -10395,7 +10396,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
             <constraint id="eb42-c6f6-0552-11d3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="5"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry name="Hernkyn Bikers" id="5d95-6b56-9091-7d71" collective="false" hidden="false" import="true" sortIndex="1" type="model">
+            <selectionEntry name="Hernkyn Biker" id="5d95-6b56-9091-7d71" collective="false" hidden="false" import="true" sortIndex="1" type="model">
               <constraints>
                 <constraint id="6293-bf81-d64a-bdae" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="5"/>
               </constraints>
@@ -10683,8 +10684,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -11543,8 +11543,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
               </characteristics>
             </profile>
           </profiles>
@@ -12111,8 +12110,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -12199,6 +12197,9 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         <categoryLink name="Land Train" id="af41-7224-3f75-2dc5" hidden="false" primary="false" targetId="38e0-2e7a-236f-16f3"/>
         <categoryLink name="Transport" id="06c1-b314-c4a2-de45" hidden="false" primary="false" targetId="75e8-57c4-40e3-1817"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="fc94-dbbc-9bea-4e83" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="3"/>
+      </constraints>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="460"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -12320,8 +12321,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
               </characteristics>
             </profile>
           </profiles>
@@ -12405,6 +12405,9 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         <categoryLink name="Transport" id="d1ea-da8d-2452-676b" hidden="false" primary="false" targetId="75e8-57c4-40e3-1817"/>
         <categoryLink name="Leviathan Super-Heavy Assault Transport" id="607f-a5e7-a8d2-b4f2" hidden="false" primary="false" targetId="7e1c-26ec-721c-aa95"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="1235-8a62-ecdb-d8e0" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="3"/>
+      </constraints>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="530"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -12526,8 +12529,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
               </characteristics>
             </profile>
           </profiles>
@@ -12949,7 +12951,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
 
 Calibrated Fire Solutions: Improve the Armour Penetration characteristic of that unit’s ranged weapons by 1.
 Optimized Actuators: Add 1&quot; to Move and +1 to Advance rolls. 
-Reinforced Plating: Improve the Save characteristic of that unit by 1 (to a maximum of 2+). </characteristic>
+Reinforced Plating: Improve the Save characteristic of that unit by 1 (to a maximum of 2+).</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" id="5ce1-0fb8-3247-16fb" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -13024,8 +13026,7 @@ Reinforced Plating: Improve the Save characteristic of that unit by 1 (to a maxi
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">D3</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
               </characteristics>
             </profile>
           </profiles>
