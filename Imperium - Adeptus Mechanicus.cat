@@ -12386,7 +12386,6 @@ as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.</characteristi
         <categoryLink name="Towering" id="c718-e184-33b2-a250" hidden="false" primary="false" targetId="d666-e2c9-b6cc-5716"/>
         <categoryLink name="Imperium" id="8690-25b1-3498-e8cb" hidden="false" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
         <categoryLink name="Faction: Adeptus Mechanicus" id="2815-5219-3d76-4f03" hidden="false" primary="false" targetId="5418-f86b-6e76-c5a"/>
-        <categoryLink name="Smoke" id="6df3-e6aa-8911-b948" hidden="false" primary="false" targetId="6df-937-16bc-8c1a"/>
       </categoryLinks>
       <constraints>
         <constraint id="7572-e0a2-1261-154c" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="3"/>
