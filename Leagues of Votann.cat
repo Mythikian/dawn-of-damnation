@@ -7610,6 +7610,9 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         <categoryLink name="Exoarmour" id="1bbb-11b1-0aa0-b622" primary="false" targetId="bdab-20b8-9690-34e9"/>
         <categoryLink name="Warmaster Gorun" id="194d-115b-d1aa-1c0f" primary="false" targetId="3cf0-c87f-673e-3630"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="dc28-d64c-7954-584e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="1"/>
+      </constraints>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="200"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -7775,15 +7778,15 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
             <infoLink name="Pistol" id="3653-7726-88c5-27b4" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
           </infoLinks>
           <profiles>
-            <profile name="Heavy bolt revolver" id="ab9f-a0d6-13a7-de8f" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+            <profile name="Heavy bolt revolver" id="ab9f-a0d6-13a7-de8f" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
               <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">18&quot;</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Pistol</characteristic>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7819,15 +7822,15 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
             <infoLink name="Devastating Wounds" id="5049-268f-b703-1810" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
           </infoLinks>
           <profiles>
-            <profile name="Bulltarch" id="643a-02e3-e09d-ac4e" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+            <profile name="Bulltarch" id="643a-02e3-e09d-ac4e" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
               <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">24&quot;</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 4+, Assault, Devastating Wounds</characteristic>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 4+, Assault, Devastating Wounds</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8505,79 +8508,6 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
               </profiles>
             </selectionEntry>
           </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Weapon" id="5c7c-4f57-4c99-d26d" collective="false" defaultSelectionEntryId="77d1-ad07-5fa7-0006" hidden="false" import="true">
-              <constraints>
-                <constraint id="daf9-899e-9f4f-fac0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="a759-04db-f6d7-9f49" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry name="Autoch-pattern bolter" id="5e5f-76f4-bb58-8a8f" collective="false" hidden="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-                  </costs>
-                  <entryLinks>
-                    <entryLink name="Weapon Modifications" id="dfcb-f3f0-8ef5-a043" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
-                  </entryLinks>
-                  <profiles>
-                    <profile name="Autoch-pattern bolter" id="830d-23f0-4c81-e63a" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                        <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry name="Ion blaster" id="e796-ce2e-d8e3-957e" collective="false" hidden="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-                  </costs>
-                  <entryLinks>
-                    <entryLink name="Weapon Modifications" id="d800-b17a-3961-175f" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
-                  </entryLinks>
-                  <profiles>
-                    <profile name="Ion blaster" id="231a-9de5-fb57-2886" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
-                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                        <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry name="Theyn&apos;s pistol" id="8f3a-cae4-b264-f6c1" hidden="false" import="true" type="upgrade">
-                  <entryLinks>
-                    <entryLink name="Weapon Modifications" id="f19d-e7dc-54b9-443a" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
-                  </entryLinks>
-                  <infoLinks>
-                    <infoLink name="Pistol" id="7800-5d93-debb-9169" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
-                  </infoLinks>
-                  <profiles>
-                    <profile name="Theyn&apos;s pistol" id="0318-e842-7b3b-2dac" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                        <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -8816,7 +8746,6 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                     <selectionEntry name="Heavy flamer" id="a2f7-730d-a416-0e28" collective="true" hidden="false" import="true" type="upgrade">
                       <constraints>
                         <constraint id="2d9b-b381-aafb-9cbd" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="a6d3-8996-f5ac-2b5f" field="selections" scope="parent" shared="true" type="min" value="1"/>
                       </constraints>
                       <infoLinks>
                         <infoLink name="Ignores Cover" id="9e09-9501-5f6d-c156" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
@@ -8839,7 +8768,6 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                     <selectionEntry name="Autoch-pattern heavy bolter" id="496a-b8eb-a287-fd31" collective="true" hidden="false" import="true" type="upgrade">
                       <constraints>
                         <constraint id="e125-d4de-0703-282c" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="a271-1d7d-4548-8ca3" field="selections" scope="parent" shared="true" type="min" value="1"/>
                       </constraints>
                       <infoLinks>
                         <infoLink name="Sustained Hits" id="3fec-5866-38a9-aafa" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
@@ -10650,11 +10578,6 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Unit Transport" id="5f94-fd0d-95c7-95f6" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can only embark in a transport if an ^^**Ironkin Steeljacks**^^ model can embark in it, when it does it takes up the space of 3 models.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Dual Grymm Fists" id="4e10-454d-c13f-4a28" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is equipped with 2 Grymm fists, those weapons gain [Twin-linked].</characteristic>
@@ -10783,7 +10706,6 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                     </selectionEntry>
                     <selectionEntry name="HYLas rotary cannon" id="75ed-3d29-b391-4991" collective="true" hidden="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint id="7c31-6398-75bf-b3f6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                         <constraint id="3fc6-8160-c928-9b8b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
@@ -10903,7 +10825,6 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                     </selectionEntry>
                     <selectionEntry name="HYLas rotary cannon" id="790e-5570-f5bc-4033" collective="true" hidden="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint id="1fe0-7c59-cf3c-d257" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                         <constraint id="4665-40c5-0ca6-f7db" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
@@ -10944,6 +10865,9 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         <categoryLink name="Surtr Pattern Exo-Walker" id="4ea4-f07f-1bdb-5be8" hidden="false" primary="false" targetId="c695-d55f-2102-69e8"/>
         <categoryLink name="Faction: Leagues of Votann" id="ec2a-93c6-e55c-ca4e" hidden="false" primary="false" targetId="8474-765-16a9-f00d"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="fce2-6024-8053-b092" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="3"/>
+      </constraints>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="180"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -11535,15 +11459,15 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
             <constraint id="f441-fcaa-c6c2-6735" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <profiles>
-            <profile name="Las-beam cutter" id="9c0f-c108-4512-ea82" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+            <profile name="Las-beam cutter" id="9c0f-c108-4512-ea82" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
               <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">18&quot;</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
               </characteristics>
             </profile>
           </profiles>
@@ -11578,15 +11502,15 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
             <infoLink name="Sustained Hits" id="d367-3ff0-1e2b-a24a" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
           </infoLinks>
           <profiles>
-            <profile name="Fractal pulse beamer" id="3d04-6272-a735-47b9" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+            <profile name="Fractal pulse beamer" id="3d04-6272-a735-47b9" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
               <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">12&quot;</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-4</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">D6</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Heavy, Melta 2, Sustained Hits 1</characteristic>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Melta 2, Sustained Hits 1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11601,15 +11525,15 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
             <infoLink name="Pistol" id="45f0-c064-8dc3-cded" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
           </infoLinks>
           <profiles>
-            <profile name="Inferno pistol" id="b62e-c23e-8841-2f84" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+            <profile name="Inferno pistol" id="b62e-c23e-8841-2f84" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
               <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">6&quot;</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-4</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">D3</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Melta 2, Pistol</characteristic>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">6&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2, Pistol</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11694,7 +11618,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Goliath Mega-Cannon" id="67be-9db3-c175-c796" hidden="false" import="true" type="model">
+    <selectionEntry name="Goliath Mega-Cannon" id="67be-9db3-c175-c796" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Vehicle" id="1145-46e5-6f37-00e8" hidden="false" primary="true" targetId="dbd4-63-af05-998"/>
         <categoryLink name="Faction: Leagues of Votann" id="00ce-078d-0aea-3312" hidden="false" primary="false" targetId="8474-765-16a9-f00d"/>
@@ -11912,7 +11836,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Iron Eagle Gyrocopter" id="293a-ef96-56e5-3bfd" hidden="false" import="true" type="model">
+    <selectionEntry name="Iron Eagle Gyrocopter" id="293a-ef96-56e5-3bfd" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Vehicle" id="84bf-0d35-1fb3-b71d" hidden="false" primary="true" targetId="dbd4-63-af05-998"/>
         <categoryLink name="Fly" id="206a-5881-1a7b-450d" hidden="false" primary="false" targetId="c619-2086-bbcf-69c9"/>
@@ -12590,6 +12514,9 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         <categoryLink name="Aircraft" id="5dce-6a9c-3dbf-8896" hidden="false" primary="false" targetId="63f1-e6e8-f6f6-a4f0"/>
         <categoryLink name="Fly" id="d2f9-aab5-1c67-4bab" hidden="false" primary="false" targetId="c619-2086-bbcf-69c9"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="cf53-e147-8ec0-ef88" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="3"/>
+      </constraints>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="350"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -12977,15 +12904,15 @@ Reinforced Plating: Improve the Save characteristic of that unit by 1 (to a maxi
             <infoLink name="Pistol" id="cc8b-662e-f8f8-6d4b" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
           </infoLinks>
           <profiles>
-            <profile name="Autoch-pattern bolt pistol" id="223c-dc2a-88d9-31aa" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+            <profile name="Autoch-pattern bolt pistol" id="223c-dc2a-88d9-31aa" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
               <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">12&quot;</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Pistol</characteristic>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13018,15 +12945,15 @@ Reinforced Plating: Improve the Save characteristic of that unit by 1 (to a maxi
             <constraint id="9708-bfe0-0979-7597" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <profiles>
-            <profile name="Integrated forge-las blaster" id="8ee0-07ac-d6da-a5bc" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+            <profile name="Integrated forge-las blaster" id="8ee0-07ac-d6da-a5bc" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
               <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">24&quot;</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">D3</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
               </characteristics>
             </profile>
           </profiles>
@@ -13228,7 +13155,7 @@ Reinforced Plating: Improve the Save characteristic of that unit by 1 (to a maxi
                       <characteristics>
                         <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
@@ -13243,7 +13170,7 @@ Reinforced Plating: Improve the Save characteristic of that unit by 1 (to a maxi
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Skalvian Explorator" id="d354-8f74-2ebd-8360" hidden="false" import="true" type="model">
+    <selectionEntry name="Skalvian Explorator" id="d354-8f74-2ebd-8360" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Vehicle" id="499f-9d19-cf1c-5038" hidden="false" primary="true" targetId="dbd4-63-af05-998"/>
         <categoryLink name="Faction: Leagues of Votann" id="b446-9ea1-c05f-c894" hidden="false" primary="false" targetId="8474-765-16a9-f00d"/>
@@ -13351,7 +13278,7 @@ Reinforced Plating: Improve the Save characteristic of that unit by 1 (to a maxi
       <profiles>
         <profile name="Reinforced Treads" id="c157-8184-79c4-fc41" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a Normal or Advance move, it can move over terrain features that are 4&quot; or less in height as if they were not there.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a Normal or Advance move, it can move over terrain features that are 6&quot; or less in height as if they were not there.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-5 wounds remaining" id="da65-31c3-f5d0-a36d" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
