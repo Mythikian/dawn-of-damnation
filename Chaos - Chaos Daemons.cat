@@ -412,7 +412,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Cultist Mob" id="87bf-6c85-abde-c4c1" hidden="false" import="true" targetId="1267-78f1-7774-859" type="selectionEntry">
+    <entryLink name="Cultist Mob" id="87bf-6c85-abde-c4c1" hidden="false" import="true" targetId="478-9d24-e5c8-c6f7" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Shadow Legion" id="5605-33dc-9211-5e6c" hidden="false" primary="false" targetId="4df3-beae-010c-9087"/>
         <categoryLink name="Undivided" id="c45d-aa38-c639-a541" hidden="false" primary="false" targetId="1299-7e3f-6272-c60f"/>
@@ -506,7 +506,7 @@
         <modifier field="category" type="set-primary" value="887b-ab87-92a2-20f5"/>
       </modifiers>
     </entryLink>
-    <entryLink name="Rogue Psyker [Legends]" id="2590-e50e-c89f-9fcf" hidden="false" import="true" targetId="c0f9-d16c-6caf-5b95" type="selectionEntry">
+    <entryLink name="Renegade Psyker" id="2590-e50e-c89f-9fcf" hidden="false" import="true" targetId="c0f9-d16c-6caf-5b95" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Shadow Legion" id="da6c-eda4-8919-678d" hidden="false" primary="false" targetId="4df3-beae-010c-9087"/>
         <categoryLink name="Undivided" id="555a-7c7b-db47-8cb6" hidden="false" primary="false" targetId="1299-7e3f-6272-c60f"/>
@@ -556,28 +556,6 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Gellerpox Infected [Legends]" id="934e-83e6-cde0-4895" hidden="false" import="true" targetId="e1c2-8417-403a-68" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Shadow Legion" id="3943-f3e0-40bc-4011" hidden="false" primary="false" targetId="4df3-beae-010c-9087"/>
-        <categoryLink name="Undivided" id="8cc0-f694-02e6-1d78" hidden="false" primary="false" targetId="1299-7e3f-6272-c60f"/>
-      </categoryLinks>
-      <infoLinks>
-        <infoLink name="Disciples of Be&apos;lakor" id="21aa-2f16-5fbd-aa3f" hidden="false" targetId="d4db-ebd5-8c2f-3616" type="profile"/>
-      </infoLinks>
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="5063-25bd-d22e-665b" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
-                <condition childId="cac3-71d1-ea4b-795d" field="forces" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier field="category" type="set-primary" value="887b-ab87-92a2-20f5"/>
       </modifiers>
     </entryLink>
     <entryLink name="Negavolt Cultists [Legends]" id="e5cf-11b9-6cff-b4ad" hidden="false" import="true" targetId="9238-473a-54ee-6b0e" type="selectionEntry">
@@ -675,28 +653,6 @@
       </categoryLinks>
       <infoLinks>
         <infoLink name="Disciples of Be&apos;lakor" id="e8cf-2781-5ec2-eb67" hidden="false" targetId="d4db-ebd5-8c2f-3616" type="profile"/>
-      </infoLinks>
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="5063-25bd-d22e-665b" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
-                <condition childId="cac3-71d1-ea4b-795d" field="forces" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier field="category" type="set-primary" value="887b-ab87-92a2-20f5"/>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Mutoid Vermin [Legends]" id="0d29-c01f-5213-7f96" hidden="false" import="true" targetId="afed-8173-a1e0-cbae" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Shadow Legion" id="4a9f-9e16-d5f8-5b81" hidden="false" primary="false" targetId="4df3-beae-010c-9087"/>
-        <categoryLink name="Undivided" id="a340-b1b3-179f-7680" hidden="false" primary="false" targetId="1299-7e3f-6272-c60f"/>
-      </categoryLinks>
-      <infoLinks>
-        <infoLink name="Disciples of Be&apos;lakor" id="8a56-d33f-e4cd-66ae" hidden="false" targetId="d4db-ebd5-8c2f-3616" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">

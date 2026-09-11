@@ -12873,7 +12873,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         </profile>
         <profile name="Architect of the Hold" id="8713-58a4-7665-b3eb" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command phase, select one friendly ^^**Leagues of Votann Vehicle**^^ unit within 6&quot; of this model. Until the start of your next Command phase, that unit gains one of the following benefits: 
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command phase, select one friendly ^^**Leagues of Votann Vehicle**^^ unit within 3&quot; of this model. Until the start of your next Command phase, that unit gains one of the following benefits: 
 
 
 Calibrated Fire Solutions: Improve the Armour Penetration characteristic of that unit’s ranged weapons by 1.

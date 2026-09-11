@@ -7225,6 +7225,17 @@ While using the Houndpack Lance Detachment, the following rules apply:
       <entryLinks>
         <entryLink name="Core Strategems" id="9b6a-33f7-aca1-197b" hidden="false" import="true" targetId="0839-9c72-300b-471b" type="selectionEntry"/>
       </entryLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="46d8-abc8-ef3a-9f85" field="selections" scope="primary-catalogue" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <selectionEntryGroups>
         <selectionEntryGroup name="Army Strategems" id="86a2-85ca-cbc8-0e17" hidden="false">
           <constraints>

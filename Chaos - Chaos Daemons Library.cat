@@ -19634,7 +19634,7 @@ _Designer’s Note: While this unit contains one or more ^^Exalted Pink Horrors^
                   <characteristics>
                     <characteristic name="Strategem Cost" typeId="38d7-0faa-1108-d204">1CP</characteristic>
                     <characteristic name="When" typeId="2f7e-483c-69ff-d744">Your Charge phase.</characteristic>
-                    <characteristic name="Target" typeId="984d-daae-2634-1f6a">One ^^**LEGIONES DAEMONICA KHORNE^^** unit from your army that has not been selected to charge this phase.</characteristic>
+                    <characteristic name="Target" typeId="984d-daae-2634-1f6a">One **^^LEGIONES DAEMONICA KHORNE^^** unit from your army that has not been selected to charge this phase.</characteristic>
                     <characteristic name="Effect" typeId="4f06-3e5b-b1fc-63e2">Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.</characteristic>
                     <characteristic name="Restrictions" typeId="f1bf-245a-984d-b6f1">N/A</characteristic>
                   </characteristics>

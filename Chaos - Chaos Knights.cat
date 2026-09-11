@@ -122,33 +122,6 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Gellerpox Infected [Legends]" id="e8d2-106a-e195-ae23" hidden="false" import="true" targetId="e1c2-8417-403a-68" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Wretched Thralls" id="51da-3208-c328-9ee9" hidden="false" primary="false" targetId="ac7d-42cc-342b-c911"/>
-      </categoryLinks>
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="7fe8-de91-8976-e705" field="selections" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
-                <condition childId="cac3-71d1-ea4b-795d" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier field="error" type="add" value="This unit can only be included in an Iconoclast Fiefdom Detachment">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="ff7b-8f73-1756-650a" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
-                <condition childId="7fe8-de91-8976-e705" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="lessThan" value="1"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
     <entryLink name="Fellgor Beastmen" id="46d0-40d6-adfb-db29" hidden="false" import="true" targetId="6bf7-888c-7aa6-6831" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Wretched Thralls" id="7851-57b8-93ec-9aeb" hidden="false" primary="false" targetId="ac7d-42cc-342b-c911"/>
@@ -203,7 +176,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Cultist Mob" id="affe-d1e3-0377-f6f5" hidden="false" import="true" targetId="1267-78f1-7774-859" type="selectionEntry">
+    <entryLink name="Cultist Mob" id="affe-d1e3-0377-f6f5" hidden="false" import="true" targetId="478-9d24-e5c8-c6f7" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Wretched Thralls" id="c78f-92c0-21de-7999" hidden="false" primary="false" targetId="ac7d-42cc-342b-c911"/>
       </categoryLinks>
@@ -233,33 +206,6 @@
     <entryLink name="Cultist Mob with Firearms [Legends]" id="7613-f941-5829-876a" hidden="false" import="true" targetId="478-9d24-e5c8-c6f7" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Wretched Thralls" id="2459-bfae-2d94-e00c" hidden="false" primary="false" targetId="ac7d-42cc-342b-c911"/>
-      </categoryLinks>
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="7fe8-de91-8976-e705" field="selections" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
-                <condition childId="cac3-71d1-ea4b-795d" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier field="error" type="add" value="This unit can only be included in an Iconoclast Fiefdom Detachment">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="ff7b-8f73-1756-650a" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
-                <condition childId="7fe8-de91-8976-e705" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="lessThan" value="1"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Mutoid Vermin [Legends]" id="f018-ea7f-b4a1-cf2f" hidden="false" import="true" targetId="afed-8173-a1e0-cbae" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Wretched Thralls" id="477f-4600-0ee9-2a04" hidden="false" primary="false" targetId="ac7d-42cc-342b-c911"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -446,7 +392,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Rogue Psyker [Legends]" id="7df5-0ddc-5a83-0252" hidden="false" import="true" targetId="c0f9-d16c-6caf-5b95" type="selectionEntry">
+    <entryLink name="Renegade Psyker" id="7df5-0ddc-5a83-0252" hidden="false" import="true" targetId="c0f9-d16c-6caf-5b95" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Wretched Thralls" id="c53a-b90c-8a5f-638b" hidden="false" primary="false" targetId="ac7d-42cc-342b-c911"/>
       </categoryLinks>
