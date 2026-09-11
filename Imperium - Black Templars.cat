@@ -37,6 +37,7 @@
     <entryLink name="Land Raider Crusader" id="7f21-2e51-4d2a-91d6" hidden="false" import="true" targetId="8525-2de1-14fd-c1f5" type="selectionEntry"/>
     <entryLink name="Sternguard Veteran Squad" id="ff16-9d2c-44ac-0b02" hidden="false" import="true" targetId="a499-86fa-4d0c-b06d" type="selectionEntry"/>
     <entryLink name="Emperor&apos;s Champion (Anointed)" id="6026-02a5-3a68-b768" hidden="false" import="true" targetId="85b9-b304-a55c-30ef" type="selectionEntry"/>
+    <entryLink name="Templar Chaplain Deadnought" id="fa5b-069f-8757-d3fa" hidden="false" import="true" targetId="8e98-44ba-ac5e-6a4c" type="selectionEntry"/>
   </entryLinks>
   <sharedProfiles>
     <profile name="Attached Unit" id="63d9-2355-9727-3346" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
