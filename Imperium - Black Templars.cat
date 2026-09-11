@@ -5631,7 +5631,7 @@ You can attach this model to one of the above units even if one Captain, Chapter
         </profile>
         <profile name="Crusader&apos;s Litany [Aura]" id="79f2-dc67-c96c-c063" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly ^^^***BLACK TEMPLARS***^^^ unit is within 6&quot; of this model, each time a model in that unit makes a melee attack, you can re-roll a Wound roll of 1. If that unit is below its Starting Strength, you can re-roll the Wound roll instead.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly **^^BLACK TEMPLARS^^** unit is within 6&quot; of this model, each time a model in that unit makes a melee attack, you can re-roll a Wound roll of 1. If that unit is below its Starting Strength, you can re-roll the Wound roll instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5707,7 +5707,6 @@ You can attach this model to one of the above units even if one Captain, Chapter
                 <selectionEntry name="Twin bolt cannon" id="2a1f-5c42-a9ec-11d7" hidden="false" import="true" type="upgrade">
                   <constraints>
                     <constraint id="6790-6c0e-0fde-5ffb" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="529d-0ffa-4754-14d4" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <infoLinks>
                     <infoLink name="Sustained Hits" id="d176-c7e6-14fe-1497" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
@@ -5730,7 +5729,6 @@ You can attach this model to one of the above units even if one Captain, Chapter
                 <selectionEntry name="Burst lance" id="5158-577d-d6e7-d517" hidden="false" import="true" type="upgrade">
                   <constraints>
                     <constraint id="1b99-d2f8-db02-c20d" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="e93d-4081-54e6-ff38" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <profiles>
                     <profile name="Burst lance" id="b6d5-423e-e401-52bf" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">

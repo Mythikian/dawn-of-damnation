@@ -6108,7 +6108,6 @@ If a Character unit from your army with the Leader ability can be attached to a
                 <selectionEntry name="Gravis power fists" id="3ca0-f82d-cdeb-fe8e" hidden="false" import="true" type="upgrade">
                   <constraints>
                     <constraint id="c7b0-2b94-1d7a-0465" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="82f0-6433-bb08-7e55" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <infoLinks>
                     <infoLink name="Twin-linked" id="acb5-ce0c-44ea-6880" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
@@ -6131,7 +6130,6 @@ If a Character unit from your army with the Leader ability can be attached to a
                 <selectionEntry name="Talons of perdition" id="fcd2-f538-2287-8820" hidden="false" import="true" type="upgrade">
                   <constraints>
                     <constraint id="44ab-dda6-6b9a-c04f" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="da20-8a4b-0d9f-81f0" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <infoLinks>
                     <infoLink name="Twin-linked" id="14ce-0ba1-a004-1f86" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
