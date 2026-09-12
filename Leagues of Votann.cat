@@ -115,6 +115,7 @@
     <entryLink name="Grymm Walkers" id="9ccf-681b-67ee-602c" hidden="false" import="true" targetId="baad-dbf7-13f4-425b" type="selectionEntry"/>
     <entryLink name="Overlord Armoured Airship" id="a54e-b07c-b6ce-96e1" hidden="false" import="true" targetId="33ea-6349-a51e-7cd2" type="selectionEntry"/>
     <entryLink name="Surtr Pattern Exo-Walker" id="4ea7-b562-caea-7c65" hidden="false" import="true" targetId="50fc-f485-9c01-7394" type="selectionEntry"/>
+    <entryLink name="Cthonian Beastslayer" id="9279-e111-6168-54c1" hidden="false" import="true" targetId="1eab-d843-51a5-459d" type="selectionEntry"/>
   </entryLinks>
   <sharedInfoGroups>
     <infoGroup name="Grudges" id="b346-4032-3d54-4e62" hidden="false">

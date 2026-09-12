@@ -5516,7 +5516,6 @@ You can attach this model to one of the above units even if one Captain, Chapter
     <selectionEntry name="Templar Chaplain Deadnought" id="8e98-44ba-ac5e-6a4c" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Vehicle" id="6927-ef30-ac87-818c" hidden="false" primary="true" targetId="dbd4-63-af05-998"/>
-        <categoryLink name="Smoke" id="2121-70ab-a981-a554" hidden="false" primary="false" targetId="6df-937-16bc-8c1a"/>
         <categoryLink name="Imperium" id="1dc3-21a4-8699-cf74" hidden="false" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
         <categoryLink name="Faction: Adeptus Astartes" id="4363-b2e1-911b-cd54" hidden="false" primary="false" targetId="6e7-40c-58d9-e402"/>
         <categoryLink name="Walker" id="40ed-bca0-4ed4-9652" hidden="false" primary="false" targetId="6dda-e157-334d-e93a"/>
@@ -5681,7 +5680,7 @@ You can attach this model to one of the above units even if one Captain, Chapter
                             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                             <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
                             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                            <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+                            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
                             <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                           </characteristics>
                         </profile>
