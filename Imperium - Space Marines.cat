@@ -359,7 +359,7 @@
     <entryLink name="Storm Speeder Thunderstrike" id="e1c7-4bd8-ebad-6154" hidden="false" import="true" targetId="993a-9cbc-8052-e40" type="selectionEntry"/>
     <entryLink name="Stormhawk Interceptor" id="b8d1-94bf-bbad-c41e" hidden="false" import="true" targetId="3d99-47aa-8cf3-883f" type="selectionEntry"/>
     <entryLink name="Vindicator" id="ac92-1f43-46e4-bfa7" hidden="false" import="true" targetId="cb6d-201f-4888-3027" type="selectionEntry"/>
-    <entryLink name="Deredeo Dreadnought [Legends]" id="4edd-c031-f40-60cb" hidden="false" import="true" targetId="d38d-c3a2-f753-efea" type="selectionEntry">
+    <entryLink name="Deredeo Dreadnought" id="4edd-c031-f40-60cb" hidden="false" import="true" targetId="d38d-c3a2-f753-efea" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Faction: Adeptus Astartes" id="e3ba-8a1d-4801-3ad3" primary="false" targetId="6e7-40c-58d9-e402"/>
         <categoryLink name="Imperium" id="605-9287-7920-e193" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
@@ -440,7 +440,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink name="Relic Contemptor Dreadnought [Legends]" id="6a6e-7e3d-2721-35bc" hidden="false" import="true" targetId="783a-1c02-b377-b169" type="selectionEntry">
+    <entryLink name="Relic Contemptor Dreadnought" id="6a6e-7e3d-2721-35bc" hidden="false" import="true" targetId="783a-1c02-b377-b169" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Faction: Adeptus Astartes" id="870b-6c30-3cb6-6237" primary="false" targetId="6e7-40c-58d9-e402"/>
         <categoryLink name="Imperium" id="c296-e94a-4fb1-1096" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
@@ -521,7 +521,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink name="Leviathan Dreadnought [Legends]" id="c88c-5a05-c07f-bfc1" hidden="false" import="true" targetId="14d4-8062-f090-6719" type="selectionEntry">
+    <entryLink name="Leviathan Dreadnought" id="c88c-5a05-c07f-bfc1" hidden="false" import="true" targetId="14d4-8062-f090-6719" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Faction: Adeptus Astartes" id="10a9-a6da-552c-79c5" primary="false" targetId="6e7-40c-58d9-e402"/>
         <categoryLink name="Imperium" id="c67c-3cba-b07e-b842" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
@@ -602,7 +602,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink name="Deathstorm Drop Pod [Legends]" id="266a-70d9-cc0d-b7c" hidden="false" import="true" targetId="68be-7090-1fbc-9021" type="selectionEntry">
+    <entryLink name="Deathstorm Drop Pod" id="266a-70d9-cc0d-b7c" hidden="false" import="true" targetId="68be-7090-1fbc-9021" type="selectionEntry">
       <constraints>
         <constraint id="3116-dcd6-a294-29ed" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="3"/>
         <constraint id="e176-ec56-dc8e-53ba" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
@@ -679,7 +679,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink name="Land Raider Proteus [Legends]" id="33d5-e15f-2823-41ae" hidden="false" import="true" targetId="34c8-1025-33f7-baaf" type="selectionEntry">
+    <entryLink name="Land Raider Proteus" id="33d5-e15f-2823-41ae" hidden="false" import="true" targetId="34c8-1025-33f7-baaf" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Faction: Adeptus Astartes" id="4042-eea7-ad2b-87c3" primary="false" targetId="6e7-40c-58d9-e402"/>
         <categoryLink name="Imperium" id="6595-1ef9-1759-a3d9" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
@@ -774,7 +774,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Land Raider Achilles [Legends]" id="b695-9234-c39e-83bd" hidden="false" import="true" targetId="3006-ffe-2b0c-6b1b" type="selectionEntry">
+    <entryLink name="Land Raider Achilles" id="b695-9234-c39e-83bd" hidden="false" import="true" targetId="3006-ffe-2b0c-6b1b" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Faction: Adeptus Astartes" id="1f28-cf7e-1fcc-a3e1" primary="false" targetId="6e7-40c-58d9-e402"/>
         <categoryLink name="Imperium" id="8d10-9034-d289-3421" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
@@ -869,7 +869,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Rapier Carrier [Legends]" id="235d-274d-1944-b1dd" hidden="false" import="true" targetId="2aee-e03c-836e-4c6e" type="selectionEntry">
+    <entryLink name="Rapier Carrier" id="235d-274d-1944-b1dd" hidden="false" import="true" targetId="2aee-e03c-836e-4c6e" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Faction: Adeptus Astartes" id="237f-bbf4-eb3c-7be0" primary="false" targetId="6e7-40c-58d9-e402"/>
         <categoryLink name="Imperium" id="6754-fb1d-f176-d793" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
@@ -964,7 +964,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Whirlwind Scorpius [Legends]" id="7795-911d-2974-74e7" hidden="false" import="true" targetId="97dc-f0c8-1354-88fb" type="selectionEntry">
+    <entryLink name="Whirlwind Scorpius" id="7795-911d-2974-74e7" hidden="false" import="true" targetId="97dc-f0c8-1354-88fb" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Faction: Adeptus Astartes" id="1847-94f2-5d09-1a04" primary="false" targetId="6e7-40c-58d9-e402"/>
         <categoryLink name="Imperium" id="e0f3-f119-ccff-8e92" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
@@ -1059,7 +1059,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Vindicator Laser Destroyer [Legends]" id="1ac7-5d1f-dc18-6e7c" hidden="false" import="true" targetId="128d-5011-8e6-45a6" type="selectionEntry">
+    <entryLink name="Vindicator Laser Destroyer" id="1ac7-5d1f-dc18-6e7c" hidden="false" import="true" targetId="128d-5011-8e6-45a6" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Faction: Adeptus Astartes" id="3026-158b-f7b-c323" primary="false" targetId="6e7-40c-58d9-e402"/>
         <categoryLink name="Imperium" id="6168-a0aa-86d7-5dfb" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
@@ -1154,7 +1154,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Xiphon Interceptor [Legends]" id="b733-bbb9-7d4e-ee8f" hidden="false" import="true" targetId="1aa5-d081-2442-4c37" type="selectionEntry">
+    <entryLink name="Xiphon Interceptor" id="b733-bbb9-7d4e-ee8f" hidden="false" import="true" targetId="1aa5-d081-2442-4c37" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Faction: Adeptus Astartes" id="ad90-1caa-46f7-cc01" primary="false" targetId="6e7-40c-58d9-e402"/>
         <categoryLink name="Imperium" id="5c0e-2c7a-c9f6-f52a" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
@@ -1235,7 +1235,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink name="Storm Eagle Gunship [Legends]" id="1588-c304-7a3e-e4df" hidden="false" import="true" targetId="3b7d-b14e-603-e1ad" type="selectionEntry">
+    <entryLink name="Storm Eagle Gunship" id="1588-c304-7a3e-e4df" hidden="false" import="true" targetId="3b7d-b14e-603-e1ad" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Faction: Adeptus Astartes" id="3824-5cf3-43ec-837f" primary="false" targetId="6e7-40c-58d9-e402"/>
         <categoryLink name="Imperium" id="a5c4-687-eeb0-a751" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
@@ -1316,7 +1316,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink name="Fire Raptor Gunship [Legends]" id="506c-80e8-14a1-616f" hidden="false" import="true" targetId="1fc7-7880-e4d4-acbf" type="selectionEntry">
+    <entryLink name="Fire Raptor Gunship" id="506c-80e8-14a1-616f" hidden="false" import="true" targetId="1fc7-7880-e4d4-acbf" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Faction: Adeptus Astartes" id="b8be-482a-449b-d1f6" primary="false" targetId="6e7-40c-58d9-e402"/>
         <categoryLink name="Imperium" id="a781-4f58-a3a6-7276" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
@@ -1397,7 +1397,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink name="Cerberus [Legends]" id="62cb-bc5a-138f-a480" hidden="false" import="true" targetId="4044-b458-fb4d-d05b" type="selectionEntry">
+    <entryLink name="Cerberus" id="62cb-bc5a-138f-a480" hidden="false" import="true" targetId="4044-b458-fb4d-d05b" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Faction: Adeptus Astartes" id="ea78-1bac-8f0d-f362" primary="false" targetId="6e7-40c-58d9-e402"/>
         <categoryLink name="Imperium" id="9ccf-8547-12c1-328" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
@@ -1492,7 +1492,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Fellblade [Legends]" id="420f-595f-eecb-8ab3" hidden="false" import="true" targetId="585d-722b-4304-2f63" type="selectionEntry">
+    <entryLink name="Fellblade" id="420f-595f-eecb-8ab3" hidden="false" import="true" targetId="585d-722b-4304-2f63" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Faction: Adeptus Astartes" id="d1c5-e832-3403-fcc3" primary="false" targetId="6e7-40c-58d9-e402"/>
         <categoryLink name="Imperium" id="2034-d14d-5759-2abb" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
@@ -1587,7 +1587,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Falchion [Legends]" id="9ead-c374-2f0a-ab36" hidden="false" import="true" targetId="625b-29e4-7be7-db5a" type="selectionEntry">
+    <entryLink name="Falchion" id="9ead-c374-2f0a-ab36" hidden="false" import="true" targetId="625b-29e4-7be7-db5a" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Faction: Adeptus Astartes" id="aaf-8c8c-c811-2733" primary="false" targetId="6e7-40c-58d9-e402"/>
         <categoryLink name="Imperium" id="499d-4919-79ae-eafb" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
@@ -1682,7 +1682,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Mastodon [Legends]" id="ac38-15df-80ac-563f" hidden="false" import="true" targetId="e337-7f05-f1b3-d64e" type="selectionEntry">
+    <entryLink name="Mastodon" id="ac38-15df-80ac-563f" hidden="false" import="true" targetId="e337-7f05-f1b3-d64e" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Faction: Adeptus Astartes" id="489d-cac5-c002-2dd6" primary="false" targetId="6e7-40c-58d9-e402"/>
         <categoryLink name="Imperium" id="1324-8eaa-e39e-1e98" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
@@ -1777,7 +1777,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Sokar-pattern Stormbird [Legends]" id="b9d-75b3-db8d-8cee" hidden="false" import="true" targetId="a80f-8343-85f3-716a" type="selectionEntry">
+    <entryLink name="Sokar-pattern Stormbird" id="b9d-75b3-db8d-8cee" hidden="false" import="true" targetId="a80f-8343-85f3-716a" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Faction: Adeptus Astartes" id="6049-212b-6eca-8e66" primary="false" targetId="6e7-40c-58d9-e402"/>
         <categoryLink name="Imperium" id="a9bd-e9ea-f36a-ef1" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
