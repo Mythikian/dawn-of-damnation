@@ -13073,7 +13073,7 @@ as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.</characteristi
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes an attack that targets that enemy unit, you can re-roll a hit roll of 1.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Attached Unit:" id="f8e2-06c5-5b9e-33be" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Attached Unit" id="f8e2-06c5-5b9e-33be" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a CHARACTER unit from your army with the Leader ability can be attached to a KATAPHRON unit, it can instead be attached to this unit.</characteristic>
           </characteristics>
@@ -13315,7 +13315,7 @@ as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.</characteristi
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an attack made by this model is allocated to a non-MONSTER, non-VEHICLE model, you can re-roll Wound rolls of 1.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Attached Unit:" id="111d-bc25-bc07-679d" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Attached Unit" id="111d-bc25-bc07-679d" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a CHARACTER unit from your army with the Leader ability can be attached to a KATAPHRON unit, it can instead be attached to this unit.</characteristic>
           </characteristics>

@@ -13344,9 +13344,6 @@ While ^^**Typhus^^** is leading this unit, enemy models destroyed as a result of
         <selectionEntryGroup name="Wargear" id="e433-19f6-56bb-9ad1" hidden="false">
           <selectionEntries>
             <selectionEntry name="Brayhorn" id="7739-115d-3777-6f60" hidden="false" import="true" type="upgrade">
-              <associations>
-                <association name="Brayhorn" id="c90c-dd4a-4190-bfc5" childId="4e4e-d54e-2597-521e" includeChildSelections="true" max="1" min="1" scope="f5b9-50c8-5c60-d8ea"/>
-              </associations>
               <constraints>
                 <constraint id="6d8f-77a9-3f0a-36ad" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -13359,9 +13356,6 @@ While ^^**Typhus^^** is leading this unit, enemy models destroyed as a result of
               </profiles>
             </selectionEntry>
             <selectionEntry name="Herd banner" id="af93-8913-dceb-f433" hidden="false" import="true" type="upgrade">
-              <associations>
-                <association name="Herd Banner" id="385a-970e-c9e9-2c5e" childId="4e4e-d54e-2597-521e" max="1" min="1" scope="f5b9-50c8-5c60-d8ea"/>
-              </associations>
               <constraints>
                 <constraint id="18ec-468b-a6af-5313" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -13637,11 +13631,6 @@ While ^^**Typhus^^** is leading this unit, enemy models destroyed as a result of
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can be attached to the following units:
 ■ ^^**Plague Marines^^**
 ■ ^^**Poxwalkers^^**</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Invulnerable Save" id="86e1-3984-4c4d-b101" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
         <profile name="Living Vectors" id="d9f0-1903-29dd-3f08" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
