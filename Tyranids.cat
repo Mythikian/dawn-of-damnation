@@ -131,6 +131,7 @@
     <entryLink name="Brood Nest" id="bce5-48c4-3a08-b2d5" hidden="false" import="true" targetId="81f5-1bb1-552d-317d" type="selectionEntry"/>
     <entryLink name="Malefactor" id="600e-878c-b14d-79f5" hidden="false" import="true" targetId="bf22-d053-0422-3d5a" type="selectionEntry"/>
     <entryLink name="Dominatrix" id="e0b0-44f9-5aee-0559" hidden="false" import="true" targetId="297e-9d67-8009-5db2" type="selectionEntry"/>
+    <entryLink name="Cortex Leeches" id="584d-4f78-32b7-358f" hidden="false" import="true" targetId="a647-e9e1-8461-77e3" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
     <infoLink name="Synapse" id="6d46-599b-97c8-9bb6" hidden="false" targetId="86aa-437f-260b-5cad" type="rule"/>
@@ -9236,7 +9237,6 @@
         <infoLink name="Invulnerable Save (4+)" id="19ac-ab9c-674e-3d17" hidden="false" targetId="5b77-29f8-7b77-75e3" type="profile"/>
         <infoLink name="Shadow in the Warp" id="c115-5791-6287-af2f" hidden="false" targetId="395b-a159-b293-27aa" type="rule"/>
         <infoLink name="Synapse" id="8a20-871c-e08a-6b0f" hidden="false" targetId="86aa-437f-260b-5cad" type="rule"/>
-        <infoLink name="Leader" id="2984-7de0-0421-1aae" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
       </infoLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -9276,12 +9276,6 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model inflicts mortal wounds to an enemy unit, increase this model&apos;s maximum Wounds characteristic by the number of mortal wounds dealt. (To a maximum of 24), additionally this model regains a number of wounds equal to the number of mortal wounds dealt.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Leader" id="b8d2-f618-dad0-2be4" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following unit:
-- **^^Tyrant Guard^^**</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Feed On Fear" id="dea3-bcb7-bd67-02e4" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time the model makes an attack that targets a unit that is Battle-shocked, you can re-roll the wound roll.</characteristic>
@@ -9296,7 +9290,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="b617-6fc0-7a6f-1363" hidden="false" sortIndex="3">
           <selectionEntries>
-            <selectionEntry name="Bone Sabres" id="6110-5bef-ae18-7ef9" collective="false" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Chitinous claws and teeth" id="6110-5bef-ae18-7ef9" collective="false" hidden="false" import="true" type="upgrade">
               <constraints>
                 <constraint id="0f5e-04e2-8e1f-0042" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                 <constraint id="8c90-2a5d-b84a-79bc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -9304,9 +9298,6 @@
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>
-              <infoLinks>
-                <infoLink name="Twin-linked" id="60bc-856f-502a-a36f" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
-              </infoLinks>
               <profiles>
                 <profile name="Chitinous claws and teeth" id="d128-bf46-b25b-b022" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                   <characteristics>
@@ -9331,7 +9322,7 @@
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Torrent" id="73b2-8fff-0bc2-eb69" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
+                <infoLink name="Devastating Wounds" id="73b2-8fff-0bc2-eb69" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
                 <infoLink name="Psychic" id="def2-a800-fb2b-c228" hidden="false" targetId="e9c4-2bb8-12ee-cd1b" type="rule"/>
               </infoLinks>
               <profiles>
