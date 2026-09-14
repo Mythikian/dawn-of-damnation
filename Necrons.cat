@@ -313,15 +313,15 @@
     <entryLink name="Imotekh the Stormlord" id="572d-e094-2f28-92df" hidden="false" import="true" targetId="49fd-a80d-8cc0-c76b" type="selectionEntry"/>
     <entryLink name="Orikan the Diviner" id="5f58-28f8-190d-b04b" hidden="false" import="true" targetId="ba86-eaad-5396-fc07" type="selectionEntry"/>
     <entryLink name="Detachment" id="b04d-22c1-e41b-3aeb" hidden="false" import="true" targetId="82f1-b597-7b06-8ba2" type="selectionEntry"/>
-    <entryLink name="Anrakyr the Traveller [Legends]" id="5575-621b-c6ca-75d5" hidden="false" import="true" targetId="43b5-f4f9-f7c6-327a" type="selectionEntry"/>
+    <entryLink name="Anrakyr the Traveller" id="5575-621b-c6ca-75d5" hidden="false" import="true" targetId="43b5-f4f9-f7c6-327a" type="selectionEntry"/>
     <entryLink name="Illuminor Szeras" id="2593-8c2-e010-3f23" hidden="false" import="true" targetId="d977-6a26-bc03-4722" type="selectionEntry"/>
-    <entryLink name="Vargard Obyron [Legends]" id="1806-237a-9809-eebe" hidden="false" import="true" targetId="b5c3-317e-df69-53bb" type="selectionEntry"/>
-    <entryLink name="Nemesor Zahndrekh [Legends]" id="54eb-c0ac-f8df-31dd" hidden="false" import="true" targetId="8386-4191-ac3a-aa28" type="selectionEntry"/>
+    <entryLink name="Vargard Obyron" id="1806-237a-9809-eebe" hidden="false" import="true" targetId="b5c3-317e-df69-53bb" type="selectionEntry"/>
+    <entryLink name="Nemesor Zahndrekh" id="54eb-c0ac-f8df-31dd" hidden="false" import="true" targetId="8386-4191-ac3a-aa28" type="selectionEntry"/>
     <entryLink name="Trazyn the Infinite" id="ff0e-62a0-48a8-f438" hidden="false" import="true" targetId="c1e6-b88a-2003-174d" type="selectionEntry"/>
     <entryLink name="Royal Warden" id="3934-2cb0-2ee-1807" hidden="false" import="true" targetId="379b-d6a0-cd05-ef89" type="selectionEntry"/>
     <entryLink name="Skorpekh Lord" id="6733-60f-2fbe-e3bd" hidden="false" import="true" targetId="c401-d95f-c5ce-7738" type="selectionEntry"/>
     <entryLink name="Lokhust Lord" id="c503-8a89-4788-6c55" hidden="false" import="true" targetId="8725-de36-7ef7-45f6" type="selectionEntry"/>
-    <entryLink name="Lord [Legends]" id="12e6-3029-26ea-30a8" hidden="false" import="true" targetId="8005-b0eb-72ab-aed5" type="selectionEntry"/>
+    <entryLink name="Lord" id="12e6-3029-26ea-30a8" hidden="false" import="true" targetId="8005-b0eb-72ab-aed5" type="selectionEntry"/>
     <entryLink name="Catacomb Command Barge" id="4946-825d-357-d831" hidden="false" import="true" targetId="e667-b37c-61c-4893" type="selectionEntry"/>
     <entryLink name="Overlord" id="4c4e-f077-670e-1de9" hidden="false" import="true" targetId="dbe5-257e-e2bd-1b40" type="selectionEntry"/>
     <entryLink name="Technomancer" id="84b7-2141-3e2-66cc" hidden="false" import="true" targetId="852a-ba39-e93f-6b62" type="selectionEntry"/>
@@ -361,14 +361,14 @@
     <entryLink name="Monolith" id="1d2d-84be-9efc-b2f7" hidden="false" import="true" targetId="db10-2662-da6a-516e" type="selectionEntry"/>
     <entryLink name="The Silent King" id="9bf2-9132-e24a-20cb" hidden="false" import="true" targetId="7422-7fbf-8694-364c" type="selectionEntry"/>
     <entryLink name="Convergence of Dominion" id="6da9-8ef0-6f41-b7a8" hidden="false" import="true" targetId="919f-7076-c827-b844" type="selectionEntry"/>
-    <entryLink name="Canoptek Tomb Stalker [Legends]" id="156f-73c-f98a-58c5" hidden="false" import="true" targetId="f868-afbc-9f6b-e4e9" type="selectionEntry"/>
-    <entryLink name="Canoptek Tomb Sentinel [Legends]" id="cdf2-7ed0-8296-d356" hidden="false" import="true" targetId="9519-5dbc-ab5-c720" type="selectionEntry"/>
-    <entryLink name="Canoptek Acanthrites [Legends]" id="93c-8711-b0ef-d490" hidden="false" import="true" targetId="a7e1-5b53-1d89-e1e3" type="selectionEntry"/>
-    <entryLink name="Tesseract Ark [Legends]" id="374a-2fd5-4034-4991" hidden="false" import="true" targetId="ef1-14e1-cf28-4701" type="selectionEntry"/>
+    <entryLink name="Canoptek Tomb Stalker" id="156f-73c-f98a-58c5" hidden="false" import="true" targetId="f868-afbc-9f6b-e4e9" type="selectionEntry"/>
+    <entryLink name="Canoptek Tomb Sentinel" id="cdf2-7ed0-8296-d356" hidden="false" import="true" targetId="9519-5dbc-ab5-c720" type="selectionEntry"/>
+    <entryLink name="Canoptek Acanthrites" id="93c-8711-b0ef-d490" hidden="false" import="true" targetId="a7e1-5b53-1d89-e1e3" type="selectionEntry"/>
+    <entryLink name="Tesseract Ark" id="374a-2fd5-4034-4991" hidden="false" import="true" targetId="ef1-14e1-cf28-4701" type="selectionEntry"/>
     <entryLink name="Seraptek Heavy Construct" id="538e-c4c6-370d-6bb4" hidden="false" import="true" targetId="fa11-cd65-fcf6-427c" type="selectionEntry"/>
-    <entryLink name="Gauss Pylon [Legends]" id="ec3e-6dbf-944c-b1d7" hidden="false" import="true" targetId="b6b0-9a60-d2e4-7ef0" type="selectionEntry"/>
-    <entryLink name="Sentry Pylon [Legends]" id="47c3-1852-53c-f5bf" hidden="false" import="true" targetId="37d1-5b3e-b4e6-f8ef" type="selectionEntry"/>
-    <entryLink name="Night Shroud [Legends]" id="191e-4a0d-e197-6404" hidden="false" import="true" targetId="e6d4-56e1-3bbd-475" type="selectionEntry"/>
+    <entryLink name="Gauss Pylon" id="ec3e-6dbf-944c-b1d7" hidden="false" import="true" targetId="b6b0-9a60-d2e4-7ef0" type="selectionEntry"/>
+    <entryLink name="Sentry Pylon" id="47c3-1852-53c-f5bf" hidden="false" import="true" targetId="37d1-5b3e-b4e6-f8ef" type="selectionEntry"/>
+    <entryLink name="Night Shroud" id="191e-4a0d-e197-6404" hidden="false" import="true" targetId="e6d4-56e1-3bbd-475" type="selectionEntry"/>
     <entryLink name="Show/Hide Options" id="f5b-1682-90da-2911" hidden="false" import="true" targetId="e8ef-836a-a9d1-901d" type="selectionEntry"/>
     <entryLink name="Overlord with Translocation Shroud" id="1439-16ea-58ca-27e9" hidden="false" import="true" targetId="2e4-afdd-efdd-c5c8" type="selectionEntry"/>
     <entryLink name="Order of Battle" id="0b50-35b4-eae0-bfad" hidden="false" import="true" targetId="eda7-8b4b-3719-af36" type="selectionEntry">
@@ -12744,6 +12744,9 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
         <categoryLink name="Epic Hero" id="b414-b98d-1943-6105" primary="true" targetId="4f3a-f0f7-6647-348d"/>
         <categoryLink name="Flayer King Ubjao" id="eb44-d550-e018-89c7" hidden="false" primary="false" targetId="ffc2-ef88-f4ff-4d61"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="8961-2e12-ad91-6143" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="1"/>
+      </constraints>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="135"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -12791,8 +12794,7 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
         <profile name="Leader" id="d3d7-3707-2fb7-aaa2" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
-■ FLAYED ONES
-</characteristic>
+■ FLAYED ONES</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12837,6 +12839,9 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
         <categoryLink name="Epic Hero" id="e5c7-5c5d-5454-2ed4" primary="true" targetId="4f3a-f0f7-6647-348d"/>
         <categoryLink name="Pariah" id="5fe7-ee75-a25b-4752" hidden="false" primary="false" targetId="7d3d-f795-1127-8598"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="8f65-bb7d-90b0-b082" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="1"/>
+      </constraints>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="105"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -12957,6 +12962,7 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
         <constraint id="b563-4489-8ac7-d9b9" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="6"/>
         <constraint id="5a45-5869-71cf-e725" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
         <constraint id="1da5-eb2e-19cb-716c" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
+        <constraint id="05f7-3664-9594-9b60" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="3"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="95"/>
@@ -13132,7 +13138,7 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
         <categoryLink name="Mind Scarab Slaves" id="87f2-b677-8d21-55d8" hidden="false" primary="false" targetId="41e7-49e8-8f30-ba37"/>
       </categoryLinks>
       <constraints>
-        <constraint id="ecce-6e5d-fdf4-2b86" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="3"/>
+        <constraint id="ecce-6e5d-fdf4-2b86" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="6"/>
         <constraint id="9eff-fc9a-da74-f421" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="3"/>
         <constraint id="b270-3683-5685-3dbf" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
         <constraint id="f43a-2a0a-e426-7011" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
@@ -13294,7 +13300,7 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition id="bcba-00be-21c0-7a54" childId="model" field="selections" includeChildSelections="true" scope="5239-e25d-29e6-92dc" shared="true" type="lessThan" value="21"/>
+                        <condition id="bcba-00be-21c0-7a54" childId="model" field="selections" includeChildSelections="true" scope="5239-e25d-29e6-92dc" shared="true" type="lessThan" value="20"/>
                         <condition id="eb3b-294a-b98a-cdc9" childId="3adc-f6e2-d9d6-de9d" field="selections" includeChildSelections="true" scope="5239-e25d-29e6-92dc" shared="true" type="greaterThan" value="1"/>
                       </conditions>
                     </conditionGroup>
@@ -13354,7 +13360,7 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition id="c21d-c5f1-eaae-08bb" childId="model" field="selections" includeChildSelections="true" scope="5239-e25d-29e6-92dc" shared="true" type="lessThan" value="21"/>
+                        <condition id="c21d-c5f1-eaae-08bb" childId="model" field="selections" includeChildSelections="true" scope="5239-e25d-29e6-92dc" shared="true" type="lessThan" value="20"/>
                         <condition id="065c-f9a1-ac89-7f58" childId="f9ba-c029-b54b-9a42" field="selections" includeChildSelections="true" scope="5239-e25d-29e6-92dc" shared="true" type="greaterThan" value="1"/>
                       </conditions>
                     </conditionGroup>
@@ -13414,7 +13420,7 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition id="e2c1-13e2-2fe2-5a40" childId="model" field="selections" includeChildSelections="true" scope="5239-e25d-29e6-92dc" shared="true" type="lessThan" value="21"/>
+                        <condition id="e2c1-13e2-2fe2-5a40" childId="model" field="selections" includeChildSelections="true" scope="5239-e25d-29e6-92dc" shared="true" type="lessThan" value="20"/>
                         <condition id="57ad-1817-193d-370d" childId="9d8a-ae3c-8f0a-be3a" field="selections" includeChildSelections="true" scope="5239-e25d-29e6-92dc" shared="true" type="greaterThan" value="1"/>
                       </conditions>
                     </conditionGroup>
