@@ -17245,7 +17245,7 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
         </modifierGroup>
       </modifierGroups>
       <profiles>
-        <profile name="Skorchas [Legends]" id="7b1d-8f5d-e233-93cb" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+        <profile name="Skorchas" id="7b1d-8f5d-e233-93cb" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
