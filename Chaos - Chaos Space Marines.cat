@@ -1890,12 +1890,8 @@
     <entryLink name="Erebus" id="5d5a-a2c0-8d75-d7c6" hidden="false" import="true" targetId="074f-e7c8-ebb8-bc91" type="selectionEntry"/>
     <entryLink name="Lorgar" id="654d-cdff-3323-bfa4" hidden="false" import="true" targetId="d916-cdae-b164-ff49" type="selectionEntry"/>
     <entryLink name="Perturabo" id="76ac-67b5-5b2f-d45b" hidden="false" import="true" targetId="25c1-177f-e8a9-c7d8" type="selectionEntry"/>
-    <entryLink name="Lernaean Huntsmen" id="22b0-9a9d-c259-4777" hidden="false" import="true" targetId="1b4c-cd4b-966a-f290" type="selectionEntry"/>
-    <entryLink name="Tyrant Siege Terminators" id="ec16-bc97-0598-f707" hidden="false" import="true" targetId="5bad-b0ae-53b4-1271" type="selectionEntry"/>
     <entryLink name="Tyrant Siege Terminator Squad" id="49b4-6dd7-0e42-5d6e" hidden="false" import="true" targetId="5bad-b0ae-53b4-1271" type="selectionEntry"/>
-    <entryLink name="Contekar Terminator Squad" id="15c5-f20e-0899-50d4" hidden="false" import="true" targetId="1b4c-cd4b-966a-f290" type="selectionEntry"/>
     <entryLink name="Contekar Terminator Squad" id="ff25-6b62-41e7-d551" hidden="false" import="true" targetId="1b4c-cd4b-966a-f290" type="selectionEntry"/>
-    <entryLink name="Nârik Dreygur" id="5e68-ade8-af23-6c1e" hidden="false" import="true" targetId="f6a6-5838-93ee-ad11" type="selectionEntry"/>
     <entryLink name="Honsou" id="0914-cd9d-db5a-7d52" hidden="false" import="true" targetId="f6a6-5838-93ee-ad11" type="selectionEntry"/>
     <entryLink name="Nârik Dreygur" id="21f7-ab04-b33f-1be9" hidden="false" import="true" targetId="5486-da29-3516-71cc" type="selectionEntry"/>
     <entryLink name="Kranon the Relentless" id="b9bc-43db-c335-564c" hidden="false" import="true" targetId="c8bb-40c7-5507-b846" type="selectionEntry"/>
@@ -1903,10 +1899,12 @@
     <entryLink name="Ascended" id="ca66-ff71-117c-5d02" hidden="false" import="true" targetId="43bf-5d6f-a3d5-91a1" type="selectionEntry"/>
     <entryLink name="Iron Circle" id="6375-d449-0369-9788" hidden="false" import="true" targetId="808a-5740-2f82-29ea" type="selectionEntry"/>
     <entryLink name="Renegade Command Squad" id="32ef-7b3b-ceeb-8842" hidden="false" import="true" targetId="7944-d12f-de17-14bf" type="selectionEntry"/>
-    <entryLink name="Renegade Command Squad" id="e26f-04aa-804e-3750" hidden="false" import="true" targetId="7944-d12f-de17-14bf" type="selectionEntry"/>
     <entryLink name="Procurator" id="8423-4a31-edb3-d073" hidden="false" import="true" targetId="7bf6-ec08-0f19-944a" type="selectionEntry"/>
     <entryLink name="Saboteur Consul" id="0917-a669-adaf-85fd" hidden="false" import="true" targetId="4467-7936-4c2f-8f23" type="selectionEntry"/>
     <entryLink name="Headhunters Kill Team" id="5af7-3c51-0241-d931" hidden="false" import="true" targetId="6d45-3723-2738-3a31" type="selectionEntry"/>
+    <entryLink name="Gal Vorbak" id="c2e8-b7d3-c137-d2aa" hidden="false" import="true" targetId="04dd-240d-c8a2-3d1c" type="selectionEntry"/>
+    <entryLink name="Solomon Akurra" id="ff2a-0083-490b-5445" hidden="false" import="true" targetId="1428-71e8-e277-3094" type="selectionEntry"/>
+    <entryLink name="Lernaean Huntsmen" id="4311-1ae2-e6e8-26f5" hidden="false" import="true" targetId="bed1-6689-f320-bf4d" type="selectionEntry"/>
   </entryLinks>
   <profileTypes>
     <profileType name="Marks of Chaos" id="3084-68b8-1d20-2f26">
@@ -31742,8 +31740,16 @@ This model can be attached to a unit in addition to another character.</characte
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Bolt pistol" id="6da9-728a-4797-1c5e" collective="true" hidden="false" import="true" targetId="ce4a-6df3-3c24-621b" type="selectionEntry"/>
-                <entryLink name="Close combat weapon" id="667f-f8f9-245e-6598" hidden="false" import="true" targetId="3854-44a6-5746-d602" type="selectionEntry"/>
+                <entryLink name="Bolt pistol" id="6da9-728a-4797-1c5e" collective="true" hidden="false" import="true" targetId="ce4a-6df3-3c24-621b" type="selectionEntry">
+                  <constraints>
+                    <constraint id="dfc6-cfd4-fd1b-3d20" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Close combat weapon" id="667f-f8f9-245e-6598" hidden="false" import="true" targetId="3854-44a6-5746-d602" type="selectionEntry">
+                  <constraints>
+                    <constraint id="8f96-706b-d4e8-78a7" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <profiles>
                 <profile name="Headhunter" id="5687-cacd-915b-fd1f" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -31851,7 +31857,12 @@ This model can be attached to a unit in addition to another character.</characte
               <entryLinks>
                 <entryLink name="Unholy Patronage upgrade" id="5790-c5a2-ff0e-7b1a" hidden="false" import="true" targetId="070c-664e-3e05-b8e9" type="selectionEntry"/>
                 <entryLink name="Chaos Boons" id="a0ff-afc0-078d-d9a5" hidden="false" import="true" targetId="aea5-51c4-142c-460d" type="selectionEntryGroup"/>
-                <entryLink name="Plasma pistol" id="39df-b56a-06c8-045a" hidden="false" import="true" targetId="14a5-4b2-415a-c1d" type="selectionEntry"/>
+                <entryLink name="Plasma pistol" id="39df-b56a-06c8-045a" hidden="false" import="true" targetId="14a5-4b2-415a-c1d" type="selectionEntry">
+                  <constraints>
+                    <constraint id="7fa5-8d9c-d8c4-2d02-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="7fa5-8d9c-d8c4-2d02-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <profiles>
                 <profile name="Headhunter Champion" id="74c9-8990-8740-fd66" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
