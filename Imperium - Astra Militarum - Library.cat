@@ -31094,6 +31094,10 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
                     <categoryLink name="Ranged Weapon" id="74f0-3bc7-d40f-831c" hidden="false" primary="false" targetId="eeda-8544-a2f3-3fab"/>
                     <categoryLink name="Pistol Weapon" id="089f-2558-606c-3a84" hidden="false" primary="false" targetId="1db0-c6b5-19db-8d0c"/>
                   </categoryLinks>
+                  <constraints>
+                    <constraint id="4571-ee5c-059a-3489" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="d0a2-f929-3bdd-22bc" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                  </constraints>
                   <infoLinks>
                     <infoLink name="Pistol" id="c529-2c13-9052-93de" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
                   </infoLinks>
@@ -32124,7 +32128,7 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Goldmask &amp; Rogue" id="073e-ab9a-cf58-80e7" hidden="false" import="true" type="model">
+    <selectionEntry name="Goldmask &amp; Rogue" id="073e-ab9a-cf58-80e7" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Astra Militarum" id="e8f2-87ec-181f-4386" primary="false" targetId="fa45-57e-930e-602b"/>
         <categoryLink name="Imperium" id="00b3-7b91-abea-a1a5" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
@@ -32965,13 +32969,13 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Hot-shot Laspistol" id="1fb9-c9f3-25f4-6dfd" defaultSelectionEntryId="ae26-a7a0-9bc8-48eb" hidden="false">
+                <selectionEntryGroup name="Laspistol" id="1fb9-c9f3-25f4-6dfd" defaultSelectionEntryId="532e-bb49-9a3c-b86a" hidden="false">
                   <constraints>
                     <constraint id="b1a7-c213-294e-6357" field="selections" scope="parent" shared="true" type="min" value="1"/>
                     <constraint id="710b-5306-9344-2dbc" field="selections" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Hot-shot laspistol" id="532e-bb49-9a3c-b86a" hidden="false" import="true" targetId="56ad-b03d-517e-124a" type="selectionEntry">
+                    <entryLink name="Laspistol" id="532e-bb49-9a3c-b86a" hidden="false" import="true" targetId="5837-1692-df16-8061" type="selectionEntry">
                       <entryLinks>
                         <entryLink name="Weapon Modifications" id="15d3-2ee1-266e-8cf8" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
                       </entryLinks>
