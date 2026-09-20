@@ -219,6 +219,7 @@
     <entryLink name="Wolf Scouts" id="1058-f2e6-8f32-7483" hidden="false" import="true" targetId="ee6b-3815-3a1a-6458" type="selectionEntry"/>
     <entryLink name="Leman Russ" id="354a-b3f1-cd01-6442" hidden="false" import="true" targetId="2455-2080-b428-ac0b" type="selectionEntry"/>
     <entryLink name="Wolf Guard Battle Leader with Jump Pack" id="2574-8e42-cb91-933d" hidden="false" import="true" targetId="f426-fbd5-798f-dde8" type="selectionEntry"/>
+    <entryLink name="Iron Priest on Thunderwolf" id="0882-b5ca-cd96-27a2" hidden="false" import="true" targetId="6a01-437c-998a-f48e" type="selectionEntry"/>
   </entryLinks>
   <profileTypes>
     <profileType name="King of Fenris" id="ffe6-0ffb-92ce-50eb" hidden="false">
@@ -1161,13 +1162,6 @@
         <infoLink name="Leader" id="649e-3a31-c1b6-c75" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
         <infoLink name="Oath of Moment" id="1aba-c197-2f89-9a52" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
       </infoLinks>
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition id="7c83-67fe-593c-19d6" childId="9ed-cbf4-bfe5-90bf" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile name="Leader" id="8839-87e-19fe-cc1a" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
@@ -1223,13 +1217,6 @@
           </profiles>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Crusade" id="118b-a7c3-26ba-86a4" hidden="false" sortIndex="1">
-          <entryLinks>
-            <entryLink name="Mighty Champions" id="686f-5cb1-e81c-e4b7" hidden="false" import="true" targetId="f842-6e90-bc5a-80f1" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry name="Harald Deathwolf" id="7d72-63bf-a5f2-bb6c" hidden="false" import="true" type="model">
       <categoryLinks>
@@ -1267,13 +1254,6 @@
         <infoLink name="Invulnerable Save" id="dc02-1316-f8fd-7898" hidden="false" targetId="db19-dee7-9530-ef0e" type="profile"/>
         <infoLink name="Oath of Moment" id="ebf0-20fd-ca6-7605" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
       </infoLinks>
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition id="80a6-1f26-7e95-04ab" childId="9ed-cbf4-bfe5-90bf" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile name="Leader" id="a794-a4ad-dc6c-4619" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
@@ -3281,6 +3261,7 @@ You can attach this model to the above unit even if one Captain or Chapter Mast
         <constraint id="53d4-50e3-0fb9-1b88" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="3"/>
         <constraint id="cb59-8a23-e168-7664" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
         <constraint id="df6a-afdb-d6a7-490c" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
+        <constraint id="c9a7-60cd-2c07-b0e7" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="3"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
@@ -10128,6 +10109,7 @@ a Transport</characteristic>
       </entryLinks>
       <infoLinks>
         <infoLink name="Invulnerable Save (4+)" id="ec56-679d-e209-6b2a" hidden="false" targetId="5b77-29f8-7b77-75e3" type="profile"/>
+        <infoLink name="Oath of Moment" id="a98b-76d5-5f83-b9ca" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Leman Russ" id="bd3b-b5e5-89d8-68db" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
