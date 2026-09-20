@@ -11804,6 +11804,11 @@ You can attach this model to one of the above units even if one other CHARACTER 
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit is within range of an objective marker, each time a ranged attack targets this unit, models in this unit have the Benefit of Cover against that attack.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Unit Composition" id="f205-2b92-1f9d-141a" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can have up to two Leader units attached to it, provided no more than one of those units is a Renegade Command Squad unit. If it does, and this Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <selectionEntries>
         <selectionEntry name="Traitor Sergeant" id="6c8f-83f8-d87b-b60a" collective="false" hidden="false" import="true" sortIndex="2" type="model">
@@ -28333,8 +28338,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
                                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
                                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                                     <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                                   </characteristics>
                                 </profile>
                               </profiles>
@@ -28547,7 +28551,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
         <categoryLink name="Infantry" id="a5db-9709-7057-bf57" hidden="false" primary="true" targetId="cf47-a0d7-7207-29dc"/>
         <categoryLink name="Chaos" id="4141-30b1-d7ee-d6d6" hidden="false" primary="false" targetId="4c00-2578-faf5-6918"/>
         <categoryLink name="Terminator" id="5b1d-c9f8-0190-9a85" hidden="false" primary="false" targetId="740a-892c-8958-defa"/>
-        <categoryLink name="Tyrant Siege Terminators" id="c84b-f9fe-7df3-3141" hidden="false" primary="false" targetId="de58-2626-29ac-3961"/>
+        <categoryLink name="Tyrant Siege Terminator Squad" id="c84b-f9fe-7df3-3141" hidden="false" primary="false" targetId="de58-2626-29ac-3961"/>
       </categoryLinks>
       <constraints>
         <constraint id="5ad3-36b4-973a-0ae4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="3"/>
@@ -28725,8 +28729,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -28798,8 +28801,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -29306,8 +29308,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
 ■ CHOSEN
 ■ HAVOCS
-■ LEGIONARIES
-</characteristic>
+■ LEGIONARIES</characteristic>
           </characteristics>
         </profile>
         <profile name="Honsou" id="83ed-6e77-95c4-6870" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -29461,8 +29462,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
 ■ CHOSEN
-■ LEGIONARIES
-</characteristic>
+■ LEGIONARIES</characteristic>
           </characteristics>
         </profile>
         <profile name="Nârik Dreygur" id="bcd7-1721-fb7a-be8d" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -29529,8 +29529,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
               </characteristics>
             </profile>
           </profiles>
@@ -29604,8 +29603,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
 ■ CHOSEN
 ■ KHORNE BERSERKERS
-■ LEGIONARIES
-</characteristic>
+■ LEGIONARIES</characteristic>
           </characteristics>
         </profile>
         <profile name="Kranon the Relentless" id="53db-fc88-e09f-b10d" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -29751,8 +29749,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
 ■ CHOSEN
-■ LEGIONARIES
-</characteristic>
+■ LEGIONARIES</characteristic>
           </characteristics>
         </profile>
         <profile name="Solomon Akurra" id="55c8-8b99-a106-ba14" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -29767,7 +29764,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
         </profile>
         <profile name="The Harrowmaster" id="7a63-4e1b-ddf8-24b3" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When Declaring battle formations, select one friendly HERETIC ASTARTES INFANTRY unit to gain either the Scouts 6&quot; or Infiltrators rule. </characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When Declaring battle formations, select one friendly HERETIC ASTARTES INFANTRY unit to gain either the Scouts 6&quot; or Infiltrators rule.</characteristic>
           </characteristics>
         </profile>
         <profile name="Hydra Dominatus" id="a07e-2757-3037-93a4" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -29875,8 +29872,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
         <profile name="Leader" id="a0a0-8e29-43c1-0ce4" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
-■ TRAITOR GUARDSMEN SQUAD
-</characteristic>
+■ TRAITOR GUARDSMEN SQUAD</characteristic>
           </characteristics>
         </profile>
         <profile name="Urlock Gaur" id="c516-9145-bff1-2222" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -30455,7 +30451,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
             <profile name="Leader" id="e280-253d-4a02-5b90" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following unit: **^^Traitor Guardsmen Squad^^**
-This model can be attached to a unit in addition to another character.</characteristic>
+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -30664,8 +30660,7 @@ This model can be attached to a unit in addition to another character.</characte
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -30775,8 +30770,7 @@ This model can be attached to a unit in addition to another character.</characte
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
                           </characteristics>
                         </profile>
                         <profile name="➤ Grenade launcher - frag" id="88b7-b631-cea9-3911" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
@@ -30874,8 +30868,7 @@ This model can be attached to a unit in addition to another character.</characte
                                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                                 <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -30897,8 +30890,7 @@ This model can be attached to a unit in addition to another character.</characte
                                 <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
-                                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-</characteristic>
+                                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
                               </characteristics>
                             </profile>
                             <profile name="➤ Grenade launcher - frag" id="2e7a-f2c9-dc5a-cc06" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
@@ -30928,8 +30920,7 @@ This model can be attached to a unit in addition to another character.</characte
                                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                                 <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -30982,8 +30973,7 @@ This model can be attached to a unit in addition to another character.</characte
                                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                                 <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -31024,8 +31014,7 @@ This model can be attached to a unit in addition to another character.</characte
                                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                                 <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -31207,8 +31196,7 @@ This model can be attached to a unit in addition to another character.</characte
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -31255,8 +31243,7 @@ This model can be attached to a unit in addition to another character.</characte
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -31721,7 +31708,7 @@ This model can be attached to a unit in addition to another character.</characte
         </profile>
         <profile name="Saboteurs" id="b155-a16a-e5bb-6d72" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle round, you can target one model with this ability with the Rapid Ingress Stratagem for OCP. </characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle round, you can target one model with this ability with the Rapid Ingress Stratagem for OCP.</characteristic>
           </characteristics>
         </profile>
       </profiles>

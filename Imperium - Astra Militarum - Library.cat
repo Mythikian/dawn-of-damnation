@@ -31010,10 +31010,6 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
                 <constraint id="5112-e40a-f75e-624e" field="selections" scope="parent" shared="true" type="min" value="4"/>
                 <constraint id="1825-7db1-cce1-1210" field="selections" scope="parent" shared="true" type="max" value="9"/>
               </constraints>
-              <entryLinks>
-                <entryLink name="Lasgun" id="d45e-1b23-01af-e096" hidden="false" import="true" targetId="26c-19b3-720-8dcf" type="selectionEntry"/>
-                <entryLink name="Laspistol" id="e64a-7612-af2a-b146" hidden="false" import="true" targetId="2689-4c0e-cdfb-3e5" type="selectionEntry"/>
-              </entryLinks>
               <profiles>
                 <profile name="Rough Rider" id="93a9-4f84-3513-c3e2" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
                   <characteristics>
@@ -31067,6 +31063,50 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
                         <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lance</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Lasgun" id="b601-90b6-6cc9-bbf0" collective="true" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="f945-0476-18fa-b0ed" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="fd3b-5bb4-1314-ca6c" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Rapid Fire" id="fc78-ac3b-d866-44d7" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+                  </infoLinks>
+                  <profiles>
+                    <profile name="Lasgun" id="d1e0-de1a-0a57-3ee1" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 1</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Laspistol" id="bc6f-07a2-3f62-1a9f" collective="true" hidden="false" import="true" type="upgrade">
+                  <categoryLinks>
+                    <categoryLink name="Ranged Weapon" id="74f0-3bc7-d40f-831c" hidden="false" primary="false" targetId="eeda-8544-a2f3-3fab"/>
+                    <categoryLink name="Pistol Weapon" id="089f-2558-606c-3a84" hidden="false" primary="false" targetId="1db0-c6b5-19db-8d0c"/>
+                  </categoryLinks>
+                  <infoLinks>
+                    <infoLink name="Pistol" id="c529-2c13-9052-93de" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
+                  </infoLinks>
+                  <profiles>
+                    <profile name="Laspistol" id="7fd1-e767-6477-e92e" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -31265,6 +31305,11 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
       </entryLinks>
       <infoLinks>
         <infoLink name="Voice Of Command" id="725a-50aa-ab09-a886" hidden="false" targetId="53c9-34f6-2443-a95e" type="rule"/>
+        <infoLink name="Deadly Demise" id="e1b9-61b5-3927-72e1" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier field="name" type="append" value="D3"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -31473,6 +31518,11 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
       </entryLinks>
       <infoLinks>
         <infoLink name="Voice Of Command" id="7ac5-cbca-0e30-d94b" hidden="false" targetId="53c9-34f6-2443-a95e" type="rule"/>
+        <infoLink name="Deadly Demise" id="710c-81ce-fc10-9bf2" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier field="name" type="append" value="D6+2"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -32159,7 +32209,7 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry name="Rogue" id="e422-9464-0fc0-ccc3" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Rogue" id="e422-9464-0fc0-ccc3" hidden="false" import="true" type="model">
           <categoryLinks>
             <categoryLink name="Psyker" id="94db-bfcb-af16-cb42" hidden="false" primary="false" targetId="13bf-2bee-3ae0-b414"/>
           </categoryLinks>
@@ -32167,9 +32217,6 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
             <constraint id="d030-6233-9a1d-14db" field="selections" scope="parent" shared="true" type="max" value="1"/>
             <constraint id="3514-6967-079a-36f6" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
-          <entryLinks>
-            <entryLink name="Laspistol" id="32a9-a5fd-d5b7-e00a" hidden="false" import="true" targetId="1211-ef94-5ea9-6a50" type="selectionEntry"/>
-          </entryLinks>
           <infoLinks>
             <infoLink name="Feel No Pain" id="1f47-247c-5081-86f4" hidden="false" targetId="9bf4-280f-bbe2-6fbb" type="rule"/>
           </infoLinks>
@@ -32218,9 +32265,36 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
                 </profile>
               </profiles>
             </selectionEntry>
+            <selectionEntry name="Laspistol" id="0d21-1123-26ac-40bd" collective="false" hidden="false" import="true" type="upgrade">
+              <comment>BS4+</comment>
+              <categoryLinks>
+                <categoryLink name="Pistol Weapon" id="992a-1584-c4d4-8b7a" hidden="false" primary="false" targetId="1db0-c6b5-19db-8d0c"/>
+                <categoryLink name="Ranged Weapon" id="cd8b-5747-2c17-ca09" hidden="false" primary="false" targetId="eeda-8544-a2f3-3fab"/>
+              </categoryLinks>
+              <constraints>
+                <constraint id="3685-8118-9efb-6f60" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="bfe2-ed57-c74e-7dd4" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Pistol" id="0a3f-5d75-5f5b-cbf1" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Laspistol" id="12ad-0964-5906-0558" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntry>
-        <selectionEntry name="Goldmask" id="2fdc-161f-ce42-6769" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Goldmask" id="2fdc-161f-ce42-6769" hidden="false" import="true" type="model">
           <categoryLinks>
             <categoryLink name="Officer" id="9ae2-697a-b738-22c5" hidden="false" primary="false" targetId="e4d8-c6a1-7c23-ae25"/>
           </categoryLinks>
@@ -32228,10 +32302,6 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
             <constraint id="80c5-25f4-86c7-068f" field="selections" scope="parent" shared="true" type="max" value="1"/>
             <constraint id="b0d8-1b5e-45cf-a7a1" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
-          <entryLinks>
-            <entryLink name="Plasma pistol" id="c134-c0d4-5f77-4483" hidden="false" import="true" targetId="abf2-656d-322e-3c7e" type="selectionEntry"/>
-            <entryLink name="Power weapon" id="8d4d-5982-1a05-e8f3" hidden="false" import="true" targetId="600b-6aef-1737-a654" type="selectionEntry"/>
-          </entryLinks>
           <profiles>
             <profile name="Goldmask" id="857d-5fb6-775f-2a29" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
               <characteristics>
@@ -32254,6 +32324,69 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
               </characteristics>
             </profile>
           </profiles>
+          <selectionEntries>
+            <selectionEntry name="Plasma pistol" id="3043-03ec-78a2-6092" hidden="false" import="true" type="upgrade">
+              <comment>BS4+</comment>
+              <categoryLinks>
+                <categoryLink name="Ranged Weapon" id="bef5-3757-da8e-d76b" hidden="false" primary="false" targetId="eeda-8544-a2f3-3fab"/>
+                <categoryLink name="Pistol Weapon" id="2773-88e5-4159-abf1" hidden="false" primary="false" targetId="1db0-c6b5-19db-8d0c"/>
+              </categoryLinks>
+              <constraints>
+                <constraint id="ab6c-540c-648c-e0a7" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="e338-4b8a-c531-f977" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Hazardous" id="9ecd-427e-0785-91af" hidden="false" targetId="8367-374c-f87-c627" type="rule"/>
+              </infoLinks>
+              <profiles>
+                <profile name="➤ Plasma pistol - standard" id="a267-dabf-2dba-e312" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="➤ Plasma pistol - supercharge" id="6fd7-fcad-4b70-4d78" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Pistol</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Power weapon" id="c5e3-ad09-e3fa-14ac" hidden="false" import="true" type="upgrade">
+              <comment>A4 WS3+</comment>
+              <categoryLinks>
+                <categoryLink name="Melee Weapon" id="8659-912f-0f97-ea91" hidden="false" primary="false" targetId="ccdd-3987-11ed-90cd"/>
+              </categoryLinks>
+              <constraints>
+                <constraint id="d98a-b6df-c7be-e720" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="aa0c-c264-fa84-98a0" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Power weapon" id="2c0b-2137-d768-9031" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -32296,7 +32429,6 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
           </constraints>
         </entryLink>
         <entryLink name="Warlord" id="8286-b1e2-aac5-fe2b" hidden="false" import="true" sortIndex="2" targetId="ea3f-b52b-8dc7-d365" type="selectionEntry"/>
-        <entryLink name="Chainsword" id="1dfb-2e33-722e-17db" hidden="false" import="true" targetId="d296-1bb0-11bf-3b3a" type="selectionEntry"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Invulnerable Save (5+)" id="564a-654f-5348-30ac" hidden="false" targetId="27f4-7449-a636-ae8c" type="profile"/>
@@ -32382,6 +32514,31 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
           </characteristics>
         </profile>
       </profiles>
+      <selectionEntries>
+        <selectionEntry name="Chainsword" id="b9f8-b3c8-73ad-f72a" hidden="false" import="true" type="upgrade">
+          <comment>A5 WS3+</comment>
+          <categoryLinks>
+            <categoryLink name="Melee Weapon" id="0218-89b6-9329-fd69" hidden="false" primary="false" targetId="ccdd-3987-11ed-90cd"/>
+          </categoryLinks>
+          <constraints>
+            <constraint id="c1db-3095-2548-8fa6" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="5f70-08f9-6210-dfa0" field="selections" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Chainsword" id="f266-3de7-504c-815f" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Crusade" id="def2-4a83-d61b-a059" hidden="false" sortIndex="1">
           <entryLinks>
@@ -32560,7 +32717,7 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
           <selectionEntries>
             <selectionEntry name="Tallarn Desert Soldier" id="054b-0fda-a28c-9b8d" hidden="false" import="true" type="model">
               <constraints>
-                <constraint id="e835-4f8c-c0b9-fdfd" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
+                <constraint id="e835-4f8c-c0b9-fdfd" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="5"/>
                 <constraint id="b25b-a8f2-e9bf-27d7" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="9"/>
               </constraints>
               <entryLinks>
@@ -32617,19 +32774,13 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
               <selectionEntries>
                 <selectionEntry name="Tallarn Desert Soldier w/ Plasma gun" id="4228-68dc-ecf3-da11" hidden="false" import="true" type="model">
                   <constraints>
-                    <constraint id="6803-2245-c4a7-bdcf" field="selections" scope="abe4-ca71-d5a7-3883" shared="true" type="max" value="2"/>
+                    <constraint id="6803-2245-c4a7-bdcf" field="selections" scope="4acc-e3c6-372c-4a80" shared="true" type="max" value="2"/>
                   </constraints>
                   <entryLinks>
                     <entryLink name="Close combat weapon" id="e2c9-3b3e-7021-c055" hidden="false" import="true" targetId="f61b-a631-1446-4453" type="selectionEntry">
                       <constraints>
                         <constraint id="c05d-8dae-584f-18fd" field="selections" scope="parent" shared="true" type="min" value="1"/>
                         <constraint id="b1f0-e03c-b280-88dc" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Plasma gun" id="9546-3346-14c7-f63e" hidden="false" import="true" targetId="280a-959f-4c4f-aa28" type="selectionEntry">
-                      <constraints>
-                        <constraint id="2085-59cb-1d1b-b12c" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                        <constraint id="a64b-8f2d-2305-bb50" field="selections" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                     </entryLink>
                   </entryLinks>
@@ -32645,10 +32796,43 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
                       </characteristics>
                     </profile>
                   </profiles>
+                  <selectionEntries>
+                    <selectionEntry name="Plasma gun" id="b486-a964-b2ca-2e8a" collective="true" hidden="false" import="true" type="upgrade">
+                      <comment>BS3+</comment>
+                      <infoLinks>
+                        <infoLink name="Hazardous" id="7009-5abe-d0b1-1397" hidden="false" targetId="8367-374c-f87-c627" type="rule"/>
+                        <infoLink name="Rapid Fire" id="3adf-5d4f-56c0-b60c" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+                      </infoLinks>
+                      <profiles>
+                        <profile name="➤ Plasma gun - standard" id="d6c0-0610-7416-7160" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 1</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="➤ Plasma gun - supercharge" id="5233-e6e5-0a8a-c28d" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 1, Hazardous</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntry>
                 <selectionEntry name="Tallarn Desert Soldier w/ Long-las" id="7701-7ef4-653f-50b3" hidden="false" import="true" type="model">
                   <constraints>
-                    <constraint id="d669-36c6-6cb1-412b" field="selections" scope="abe4-ca71-d5a7-3883" shared="true" type="max" value="2"/>
+                    <constraint id="d669-36c6-6cb1-412b" field="selections" scope="4acc-e3c6-372c-4a80" shared="true" type="max" value="2"/>
                   </constraints>
                   <entryLinks>
                     <entryLink name="Close combat weapon" id="57f0-f0a1-d32e-9d41" hidden="false" import="true" targetId="f61b-a631-1446-4453" type="selectionEntry">
@@ -32657,7 +32841,6 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
                         <constraint id="f4f1-52f5-d709-73a6" field="selections" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                     </entryLink>
-                    <entryLink name="Long-las" id="e057-3a43-82ab-7434" hidden="false" import="true" targetId="7efa-b0a3-9454-b1a8" type="selectionEntry"/>
                   </entryLinks>
                   <profiles>
                     <profile name="Tallarn Desert Soldier" id="e3a5-5df9-fa0e-828a" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -32671,10 +32854,35 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
                       </characteristics>
                     </profile>
                   </profiles>
+                  <selectionEntries>
+                    <selectionEntry name="Long-las" id="b6b9-1302-ede5-ee47" collective="true" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="ae00-cac1-8722-1197" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="ccaa-b05d-3cc1-9d8c" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Precision" id="b191-8586-f121-faee" hidden="false" targetId="9143-31ae-e0a6-6007" type="rule"/>
+                        <infoLink name="Heavy" id="cf01-fa72-8344-1166" hidden="false" targetId="1202-10a8-78e9-4c67" type="rule"/>
+                      </infoLinks>
+                      <profiles>
+                        <profile name="Long-las" id="ab64-a36b-4efc-4348" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Precision</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntry>
-                <selectionEntry name="Tallarn Desert Soldier w/ Tallarn Missile launcher" id="413b-9b71-6e9f-2d8a" hidden="false" import="true" type="model">
+                <selectionEntry name="Tallarn Desert Soldier w/ Tallarn missile launcher" id="413b-9b71-6e9f-2d8a" hidden="false" import="true" type="model">
                   <constraints>
-                    <constraint id="bd5c-802c-35a8-5a82" field="selections" scope="abe4-ca71-d5a7-3883" shared="true" type="max" value="2"/>
+                    <constraint id="bd5c-802c-35a8-5a82" field="selections" scope="4acc-e3c6-372c-4a80" shared="true" type="max" value="2"/>
                   </constraints>
                   <entryLinks>
                     <entryLink name="Close combat weapon" id="5b4b-7306-2676-c893" hidden="false" import="true" targetId="f61b-a631-1446-4453" type="selectionEntry">
@@ -32697,7 +32905,7 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
                     </profile>
                   </profiles>
                   <selectionEntries>
-                    <selectionEntry name="Tallarn Missile launcher" id="de07-3e8e-4137-dafe" collective="true" hidden="false" import="true" type="upgrade">
+                    <selectionEntry name="Tallarn missile launcher" id="de07-3e8e-4137-dafe" collective="true" hidden="false" import="true" type="upgrade">
                       <constraints>
                         <constraint id="6a0c-045c-1710-638d" field="selections" scope="parent" shared="true" type="max" value="1"/>
                         <constraint id="20ce-0364-6cf4-7751" field="selections" scope="parent" shared="true" type="min" value="1"/>
@@ -32707,7 +32915,7 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
                         <infoLink name="Blast" id="a86d-3e93-0ca4-448a" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
                       </infoLinks>
                       <profiles>
-                        <profile name="➤ Tallarn Missile launcher - frag" id="fa89-edd6-f754-693a" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                        <profile name="➤ Tallarn missile launcher - frag" id="fa89-edd6-f754-693a" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
@@ -32718,7 +32926,7 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
                             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Blast</characteristic>
                           </characteristics>
                         </profile>
-                        <profile name="➤ Tallarn Missile launcher - krak" id="e99a-1ffb-e7e5-94b7" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                        <profile name="➤ Tallarn missile launcher - krak" id="e99a-1ffb-e7e5-94b7" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
@@ -33926,6 +34134,11 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
         <profile name="All Terrain Soldiers" id="3769-c4c2-9a1b-fef6" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has a Feel No Pain 5+ against Mortal Wounds</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Attached Unit" id="795b-ce7f-4a6a-2d23" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If an EPIC HERO unit from your army with the Leader ability can be attached to a CADIAN SHOCK TROOPS, it can be attached to this unit instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
