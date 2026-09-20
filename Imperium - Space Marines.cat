@@ -1881,6 +1881,8 @@
     </entryLink>
     <entryLink name="Eradicator Squad with Heavy Bolters" id="7052-d139-8d67-cdb8" hidden="false" import="true" targetId="1989-58cb-7fbe-429b" type="selectionEntry"/>
     <entryLink name="Destroyer Squad" id="f6a2-96a9-a111-35f0" hidden="false" import="true" targetId="575d-c70c-4ed2-4a13" type="selectionEntry"/>
+    <entryLink name="Gabriel Angelos" id="6bf6-2864-f56c-95fa" hidden="false" import="true" targetId="6760-e00c-ebd6-10c9" type="selectionEntry"/>
+    <entryLink name="Tyberos" id="c29b-13b4-8c9f-7f99" hidden="false" import="true" targetId="0972-2cac-b36f-1c7e" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
     <infoLink name="Oath of Moment" id="001d-723a-56e2-f202" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
@@ -13338,6 +13340,9 @@ by 1.</characteristic>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+        <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
       </costs>
       <entryLinks>
         <entryLink name="Crusade" id="e82e-f809-b0cc-f593" hidden="false" import="true" sortIndex="1" targetId="9a99-f13c-a667-e698" type="selectionEntryGroup"/>
@@ -13414,6 +13419,13 @@ by 1.</characteristic>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier field="51b2-306e-1021-d207" type="set" value="140">
+          <conditions>
+            <condition id="72e2-5ec7-5245-6e66" childId="ab57-6d83-441b-4e33" childName="Suppressor" field="selections" includeChildSelections="true" scope="97f6-b1f8-c72d-e826" shared="true" type="atLeast" value="4"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Suppression Fire" id="221-7d8c-a074-f7a8" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
@@ -13471,7 +13483,7 @@ by 1.</characteristic>
             <selectionEntry name="Suppressor" id="ab57-6d83-441b-4e33" hidden="false" import="true" type="model">
               <constraints>
                 <constraint id="f811-9a81-1891-81e" field="selections" scope="parent" shared="true" type="min" value="2"/>
-                <constraint id="4b19-ed92-57fe-4e41" field="selections" scope="parent" shared="true" type="max" value="2"/>
+                <constraint id="4b19-ed92-57fe-4e41" field="selections" scope="parent" shared="true" type="max" value="5"/>
               </constraints>
               <entryLinks>
                 <entryLink name="Close combat weapon" id="2266-cfd2-6d9e-e579" hidden="false" import="true" targetId="6c7d-af5b-482-6fbe" type="selectionEntry">
@@ -25247,16 +25259,28 @@ You can attach this model to the above unit even if one Captain, Chapter Master
                 <entryLink name="Weapon Upgrades" id="7bf5-925f-213e-0840" hidden="false" import="true" targetId="8cf2-a48c-58d2-cb4e" type="selectionEntryGroup"/>
               </entryLinks>
             </entryLink>
-            <entryLink name="Close combat weapon" id="40e5-ca50-a158-123d" hidden="false" import="true" targetId="f3c7-067a-894a-cc3a" type="selectionEntry">
-              <constraints>
-                <constraint id="0e30-7076-1c90-4b26" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="c791-5e57-b7ac-37bd" field="selections" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <entryLinks>
-                <entryLink name="Weapon Upgrades" id="ed40-6f4a-bada-ea1d" hidden="false" import="true" targetId="8cf2-a48c-58d2-cb4e" type="selectionEntryGroup"/>
-              </entryLinks>
-            </entryLink>
           </entryLinks>
+          <selectionEntries>
+            <selectionEntry name="Master Crafted Power Weapon" id="1a55-047a-81ae-9a75" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="3adb-b1db-413e-f899" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="9806-f335-11c4-ef08" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Master Crafted Power Weapon" id="23f1-c7b4-ed45-ab6d" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
@@ -29902,7 +29926,7 @@ Attacks characteristic of 7.</characteristic>
       <profiles>
         <profile name="Overlapping Detonations" id="9a92-7444-774a-206e" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, when this unit is selected to shoot you can select one non‑MONSTER/VEHICLE enemy unit visible to it. While making attacks, this unit’s heavy bolters that targeted that selected unit have [BLAST 1].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, when this unit is selected to shoot you can select one non‑MONSTER/VEHICLE enemy unit visible to it. While making attacks, this unit’s heavy bolters that targeted that selected unit have [BLAST].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -30142,14 +30166,19 @@ Attacks characteristic of 7.</characteristic>
         </modifier>
       </modifiers>
       <profiles>
-        <profile name="Extreme Measures" id="e57c-60a9-5ab0-12a8" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Attached Unit" id="54e4-4a99-13c4-e00c" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a unit from your army with the Leader ability can be attached to a DESOLATION SQUAD, it can be attached to this unit instead.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Extreme Measures" id="b209-aa29-c273-6706" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, you can target this unit with the Grenade Stratagem for 0CP.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Attached Unit" id="54e4-4a99-13c4-e00c" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Destroyer Squad" id="8233-7617-f7ee-d296" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a unit from your army with the Leader ability can be attached to a DESOLATION SQUAD, it can be attached to this unit instead.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can shoot weapons with [Pistol] when it is eligible to shoot all of its other ranged weapons.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -30510,7 +30539,7 @@ Attacks characteristic of 7.</characteristic>
     </selectionEntry>
     <selectionEntry name="Gabriel Angelos" id="6760-e00c-ebd6-10c9" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="Epic Hero" id="fc22-728d-dfca-372f" hidden="false" primary="false" targetId="4f3a-f0f7-6647-348d"/>
+        <categoryLink name="Epic Hero" id="fc22-728d-dfca-372f" hidden="false" primary="true" targetId="4f3a-f0f7-6647-348d"/>
         <categoryLink name="Character" id="8c4a-e9f5-aa2f-5614" hidden="false" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
         <categoryLink name="Infantry" id="d2ff-2d23-23ca-df48" hidden="false" primary="false" targetId="cf47-a0d7-7207-29dc"/>
         <categoryLink name="Imperium" id="4ba9-1ab0-c93b-9c60" hidden="false" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
@@ -30623,7 +30652,7 @@ Attacks characteristic of 7.</characteristic>
     </selectionEntry>
     <selectionEntry name="Tyberos" id="0972-2cac-b36f-1c7e" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="Epic Hero" id="5d6b-5307-a6b2-9456" hidden="false" primary="false" targetId="4f3a-f0f7-6647-348d"/>
+        <categoryLink name="Epic Hero" id="5d6b-5307-a6b2-9456" hidden="false" primary="true" targetId="4f3a-f0f7-6647-348d"/>
         <categoryLink name="Character" id="85ec-f04c-9d6e-e4d6" hidden="false" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
         <categoryLink name="Infantry" id="d4c2-c28b-f21d-2377" hidden="false" primary="false" targetId="cf47-a0d7-7207-29dc"/>
         <categoryLink name="Imperium" id="04d7-96a4-a808-9182" hidden="false" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
