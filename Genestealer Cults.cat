@@ -466,7 +466,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Regimental Attachés [Legends]" id="9f03-ced1-9af-3f2d" hidden="false" import="true" targetId="5da1-9869-294e-8187" type="selectionEntry">
+    <entryLink name="Regimental Attachés" id="9f03-ced1-9af-3f2d" hidden="false" import="true" targetId="5da1-9869-294e-8187" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -593,7 +593,7 @@
       </modifiers>
     </entryLink>
     <entryLink name="Detachment" id="ff89-975d-9ba-8c1a" hidden="false" import="true" targetId="b96c-3fb6-1ee9-15ae" type="selectionEntry"/>
-    <entryLink name="Medusa Carriage Battery [Legends]" id="d733-321e-9ebc-19e0" hidden="false" import="true" targetId="60c8-fd76-c98b-304a" type="selectionEntry">
+    <entryLink name="Trojan Support Vehicle" id="184-14ca-5d75-388f" hidden="false" import="true" targetId="fbaf-15f6-37d8-c5b" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -607,49 +607,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Tarantula Battery [Legends]" id="2938-71f7-c690-ba65" hidden="false" import="true" targetId="1502-bae3-93b4-c89a" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Trojan Support Vehicle [Legends]" id="184-14ca-5d75-388f" hidden="false" import="true" targetId="fbaf-15f6-37d8-c5b" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Rapier Laser Destroyer Battery [Legends]" id="4a16-d194-8210-b98c" hidden="false" import="true" targetId="31ec-a804-92ad-97" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Hades Breaching Drill [Legends]" id="2631-870c-c553-fe0f" hidden="false" import="true" targetId="ed8d-9053-9d33-61da" type="selectionEntry">
+    <entryLink name="Hades Breaching Drill" id="2631-870c-c553-fe0f" hidden="false" import="true" targetId="ed8d-9053-9d33-61da" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -677,20 +635,6 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Carnodon [Legends]" id="2de8-7eee-8607-a56a" hidden="false" import="true" targetId="173e-ddd1-354c-583b" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
     <entryLink name="Cyclops Demolition Vehicle" id="d11b-9325-16dc-3aaf" hidden="false" import="true" targetId="95b4-68d6-26cf-188e" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -705,7 +649,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Malcador [Legends]" id="f195-2bd2-677f-c701" hidden="false" import="true" targetId="f706-c35a-a325-38bf" type="selectionEntry">
+    <entryLink name="Stormblade" id="f317-6c72-c211-30bf" hidden="false" import="true" targetId="a93c-9d4b-8fd9-15b4" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -719,7 +663,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Malcador Annihilator [Legends]" id="1497-1ab9-c084-36cc" hidden="false" import="true" targetId="bc69-45ff-789c-90bb" type="selectionEntry">
+    <entryLink name="Praetor" id="686b-31f0-c201-76d4" hidden="false" import="true" targetId="247-2938-79b6-ff4b" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -733,7 +677,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Malcador Defender [Legends]" id="983f-e99b-41e0-856d" hidden="false" import="true" targetId="a185-ae7a-4503-8ceb" type="selectionEntry">
+    <entryLink name="Crassus" id="9333-2a35-2297-6df" hidden="false" import="true" targetId="c7cc-ad05-15f6-a4f3" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -747,7 +691,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Malcador Infernus [Legends]" id="34a9-4d2-e07e-2f0f" hidden="false" import="true" targetId="5e59-657b-5c85-1d92" type="selectionEntry">
+    <entryLink name="Colossus" id="d0a2-dd28-e7db-8508" hidden="false" import="true" targetId="1653-dc47-25b-c71f" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -761,119 +705,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Earthshaker Carriage Battery [Legends]" id="1e45-5d8-83d3-c2d1" hidden="false" import="true" targetId="efc7-ac4c-1fcd-5b39" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Stormblade [Legends]" id="f317-6c72-c211-30bf" hidden="false" import="true" targetId="a93c-9d4b-8fd9-15b4" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Macharius [Legends]" id="45f4-8ccb-37b8-1b93" hidden="false" import="true" targetId="d7a-7abb-831b-1c67" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Macharius Vanquisher [Legends]" id="aaed-c3ab-4aeb-e7cd" hidden="false" import="true" targetId="731f-e022-6394-3690" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Macharius Vulcan [Legends]" id="f127-548b-3a56-284f" hidden="false" import="true" targetId="e951-f9f2-3dd4-d5b8" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Praetor [Legends]" id="686b-31f0-c201-76d4" hidden="false" import="true" targetId="247-2938-79b6-ff4b" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Crassus [Legends]" id="9333-2a35-2297-6df" hidden="false" import="true" targetId="c7cc-ad05-15f6-a4f3" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Colossus [Legends]" id="d0a2-dd28-e7db-8508" hidden="false" import="true" targetId="1653-dc47-25b-c71f" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Valdor [Legends]" id="b37e-5968-5448-53e9" hidden="false" import="true" targetId="3936-a532-dc5e-8498" type="selectionEntry">
+    <entryLink name="Valdor" id="b37e-5968-5448-53e9" hidden="false" import="true" targetId="3936-a532-dc5e-8498" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -892,7 +724,7 @@
         <categoryLink name="Configuration" id="d278-ad8b-493e-31b6" hidden="false" primary="true" targetId="4ac9-fd30-1e3d-b249"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Gorgon Heavy Transport [Legends]" id="b691-ac32-3768-769d" hidden="false" import="true" targetId="5d8e-2b2a-6ed1-8309" type="selectionEntry">
+    <entryLink name="Arkurian Stormhammer" id="f743-9af9-c9e5-876d" hidden="false" import="true" targetId="59c4-e4de-fe70-b221" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -906,7 +738,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Arkurian Stormhammer [Legends]" id="f743-9af9-c9e5-876d" hidden="false" import="true" targetId="59c4-e4de-fe70-b221" type="selectionEntry">
+    <entryLink name="Dominus Armoured Siege Bombard" id="7268-70dc-2cff-6626" hidden="false" import="true" targetId="fc41-a899-8d5a-dc01" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -920,7 +752,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Dominus Armoured Siege Bombard [Legends]" id="7268-70dc-2cff-6626" hidden="false" import="true" targetId="fc41-a899-8d5a-dc01" type="selectionEntry">
+    <entryLink name="Heavy Mortar Team" id="f69c-857b-d6c5-6ad1" hidden="false" import="true" targetId="e184-bfe9-ea12-a5e3" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -934,7 +766,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Death Korps Grenadier Squad [Legends]" id="1afd-1eb5-9b4f-4f80" hidden="false" import="true" targetId="8a25-2a0c-87d2-3ea6" type="selectionEntry">
+    <entryLink name="Atlas Recovery Vehicle" id="2003-f869-c470-db22" hidden="false" import="true" targetId="9673-7eaa-8ed9-bc7c" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -948,7 +780,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Heavy Mortar Team [Legends]" id="f69c-857b-d6c5-6ad1" hidden="false" import="true" targetId="e184-bfe9-ea12-a5e3" type="selectionEntry">
+    <entryLink name="Elysian Drop Sentinel" id="b5b9-5b32-98ad-3feb" hidden="false" import="true" targetId="badd-6133-a469-613c" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -962,7 +794,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Heavy Quad Launcher Team [Legends]" id="9c05-a229-ecb9-5e12" hidden="false" import="true" targetId="5762-f71e-7693-49a6" type="selectionEntry">
+    <entryLink name="Earthshaker Platform" id="db2e-5ab8-3a0a-462a" hidden="false" import="true" targetId="cb82-5250-6959-d2c3" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -976,7 +808,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Atlas Recovery Vehicle [Legends]" id="2003-f869-c470-db22" hidden="false" import="true" targetId="9673-7eaa-8ed9-bc7c" type="selectionEntry">
+    <entryLink name="Mukaali Riders" id="279b-d60e-bd75-9856" hidden="false" import="true" targetId="421a-6683-9e78-fb7" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -990,7 +822,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Elysian Drop Sentinel [Legends]" id="b5b9-5b32-98ad-3feb" hidden="false" import="true" targetId="badd-6133-a469-613c" type="selectionEntry">
+    <entryLink name="Tauros Venator" id="26dc-dc50-58e8-ad2c" hidden="false" import="true" targetId="a95f-9dd6-de66-fa59" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -1004,7 +836,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Earthshaker Platform [Legends]" id="db2e-5ab8-3a0a-462a" hidden="false" import="true" targetId="cb82-5250-6959-d2c3" type="selectionEntry">
+    <entryLink name="Tauros Assault Vehicle" id="c7ff-da7e-9c97-d6dd" hidden="false" import="true" targetId="6800-f1ce-7deb-d9eb" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -1018,7 +850,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Mukaali Riders [Legends]" id="279b-d60e-bd75-9856" hidden="false" import="true" targetId="421a-6683-9e78-fb7" type="selectionEntry">
+    <entryLink name="Centaur Light Carrier" id="b0dc-2f9b-cb5a-d394" hidden="false" import="true" targetId="81d4-2ed9-b0a4-6bdd" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -1032,105 +864,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Salamander Scout Vehicle [Legends]" id="f00d-f15e-4e0a-f982" hidden="false" import="true" targetId="73b2-edbf-eec3-563d" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Tauros Venator [Legends]" id="26dc-dc50-58e8-ad2c" hidden="false" import="true" targetId="a95f-9dd6-de66-fa59" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Tauros Assault Vehicle [Legends]" id="c7ff-da7e-9c97-d6dd" hidden="false" import="true" targetId="6800-f1ce-7deb-d9eb" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Salamander Command Vehicle [Legends]" id="15b0-9b2a-5ec6-93f8" hidden="false" import="true" targetId="9fb1-876b-ac2d-6c9b" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Storm Chimera [Legends]" id="cf5a-fc4b-fbff-51d" hidden="false" import="true" targetId="b6a7-4d64-1155-70c1" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Centaur Light Carrier [Legends]" id="b0dc-2f9b-cb5a-d394" hidden="false" import="true" targetId="81d4-2ed9-b0a4-6bdd" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Macharius Omega [Legends]" id="65e1-b02a-90a8-6ff2" hidden="false" import="true" targetId="4b76-f049-77b1-38bf" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Stygies Destroyer Tank Hunter [Legends]" id="7cb7-dde0-5165-f974" hidden="false" import="true" targetId="28d1-70b2-70be-c998" type="selectionEntry">
+    <entryLink name="Stygies Destroyer Tank Hunter" id="7cb7-dde0-5165-f974" hidden="false" import="true" targetId="28d1-70b2-70be-c998" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -1158,7 +892,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Armageddon-pattern Medusa [Legends]" id="4adc-5ffa-3df4-b20f" hidden="false" import="true" targetId="a96a-83e1-9200-c88b" type="selectionEntry">
+    <entryLink name="Armageddon-pattern Medusa" id="4adc-5ffa-3df4-b20f" hidden="false" import="true" targetId="a96a-83e1-9200-c88b" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -1172,21 +906,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Elysian Sniper Squad [Legends]" id="e4c-8564-83e-a0f3" hidden="false" import="true" targetId="d4da-78a0-ef0-1e7e" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Griffon Mortar Carrier [Legends]" id="1129-d5b7-45c3-e80a" hidden="false" import="true" targetId="7be8-bfe0-6416-8ed7" type="selectionEntry">
+    <entryLink name="Elysian Sniper Squad" id="e4c-8564-83e-a0f3" hidden="false" import="true" targetId="d4da-78a0-ef0-1e7e" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -1201,7 +921,7 @@
       </modifiers>
     </entryLink>
     <entryLink name="Tectonic Fragdrill [Legends]" id="5f7f-5d6b-5e4-74c1" hidden="false" import="true" targetId="4c63-309e-88e3-7d17" type="selectionEntry"/>
-    <entryLink name="Hydra Platform [Legends]" id="faa3-fd3b-f418-b986" hidden="false" import="true" targetId="f46c-76ef-3d9c-98ea" type="selectionEntry">
+    <entryLink name="Hydra Platform" id="faa3-fd3b-f418-b986" hidden="false" import="true" targetId="f46c-76ef-3d9c-98ea" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -1215,7 +935,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Manticore Platform [Legends]" id="d30b-ba-a081-2947" hidden="false" import="true" targetId="adbb-4624-738f-61ec" type="selectionEntry">
+    <entryLink name="Manticore Platform" id="d30b-ba-a081-2947" hidden="false" import="true" targetId="adbb-4624-738f-61ec" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -1229,7 +949,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Minotaur [Legends]" id="91b4-c703-ce24-8cfc" hidden="false" import="true" targetId="92a9-a820-b7f-7dc2" type="selectionEntry">
+    <entryLink name="Quartermaster Cadre Squad" id="31bf-3409-ac97-54ca" hidden="false" import="true" targetId="1d02-5302-f162-65d6" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -1243,7 +963,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Quartermaster Cadre Squad [Legends]" id="31bf-3409-ac97-54ca" hidden="false" import="true" targetId="1d02-5302-f162-65d6" type="selectionEntry">
+    <entryLink name="Sabre Weapons Battery" id="68a9-43c4-8a95-281" hidden="false" import="true" targetId="3597-3243-6870-70a1" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -1257,21 +977,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Sabre Weapons Battery [Legends]" id="68a9-43c4-8a95-281" hidden="false" import="true" targetId="3597-3243-6870-70a1" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Sentinel Powerlifter [Legends]" id="3b3f-35dc-d185-e4bc" hidden="false" import="true" targetId="8cc1-8512-710f-f15f" type="selectionEntry">
+    <entryLink name="Sentinel Powerlifter" id="3b3f-35dc-d185-e4bc" hidden="false" import="true" targetId="8cc1-8512-710f-f15f" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -1660,48 +1366,6 @@
       </modifiers>
     </entryLink>
     <entryLink name="Ripper Swarms (Parasite of Mortrex)" id="d3c1-31e0-6df4-72b0" hidden="false" import="true" targetId="4390-b3c7-64d2-c1b8" type="selectionEntry"/>
-    <entryLink name="Augmented Bone &apos;Ead [Crucible]" id="6667-cf05-f004-e71c" hidden="false" import="true" targetId="7280-8daf-312a-b01d" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Front-line Commander [Crucible]" id="947a-3d8f-6b20-547e" hidden="false" import="true" targetId="4fc5-184d-b305-3551" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Sentinel Commander [Crucible]" id="23db-7ff7-d74a-75e7" hidden="false" import="true" targetId="a040-9715-5d3a-52af" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="0a59-1d64-257c-04fb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
   </entryLinks>
   <profileTypes>
     <profileType name="Shrew Strategy Abilities" id="7c3a-e6af-b222-5e3d" hidden="false">
