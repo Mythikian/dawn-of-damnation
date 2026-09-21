@@ -176,34 +176,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Cultist Mob" id="affe-d1e3-0377-f6f5" hidden="false" import="true" targetId="478-9d24-e5c8-c6f7" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Wretched Thralls" id="c78f-92c0-21de-7999" hidden="false" primary="false" targetId="ac7d-42cc-342b-c911"/>
-      </categoryLinks>
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="7fe8-de91-8976-e705" field="selections" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
-                <condition childId="cac3-71d1-ea4b-795d" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier field="error" type="add" value="This unit can only be included in an Iconoclast Fiefdom Detachment">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="ff7b-8f73-1756-650a" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
-                <condition childId="7fe8-de91-8976-e705" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="lessThan" value="1"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink name="Cultist Mob with Firearms [Legends]" id="7613-f941-5829-876a" hidden="false" import="true" targetId="478-9d24-e5c8-c6f7" type="selectionEntry">
+    <entryLink name="Cultist Mob" id="7613-f941-5829-876a" hidden="false" import="true" targetId="478-9d24-e5c8-c6f7" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Wretched Thralls" id="2459-bfae-2d94-e00c" hidden="false" primary="false" targetId="ac7d-42cc-342b-c911"/>
       </categoryLinks>
@@ -230,7 +203,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Negavolt Cultists [Legends]" id="998c-ff18-9548-783b" hidden="false" import="true" targetId="9238-473a-54ee-6b0e" type="selectionEntry">
+    <entryLink name="Negavolt Cultists" id="998c-ff18-9548-783b" hidden="false" import="true" targetId="9238-473a-54ee-6b0e" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Wretched Thralls" id="d60e-14c5-2421-ff5d" hidden="false" primary="false" targetId="ac7d-42cc-342b-c911"/>
       </categoryLinks>
@@ -257,7 +230,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Renegade Heavy Weapons Squad [Legends]" id="847f-5171-f508-4397" hidden="false" import="true" targetId="9df-7c70-84d2-e095" type="selectionEntry">
+    <entryLink name="Renegade Heavy Weapons Squad" id="847f-5171-f508-4397" hidden="false" import="true" targetId="9df-7c70-84d2-e095" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Wretched Thralls" id="fb6f-3b3f-b878-24a1" hidden="false" primary="false" targetId="ac7d-42cc-342b-c911"/>
       </categoryLinks>
@@ -284,7 +257,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Renegade Ogryn Beast Handler [Legends]" id="c47c-1579-9a09-1eda" hidden="false" import="true" targetId="658e-a63f-bac7-6201" type="selectionEntry">
+    <entryLink name="Renegade Ogryn Beast Handler" id="c47c-1579-9a09-1eda" hidden="false" import="true" targetId="658e-a63f-bac7-6201" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Wretched Thralls" id="6705-cc46-5374-a5e0" hidden="false" primary="false" targetId="ac7d-42cc-342b-c911"/>
       </categoryLinks>
@@ -338,7 +311,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Renegade Ogryn Brutes [Legends]" id="05d7-76a6-c285-af97" hidden="false" import="true" targetId="24c4-fa24-67ff-eef" type="selectionEntry">
+    <entryLink name="Renegade Ogryn Brutes" id="05d7-76a6-c285-af97" hidden="false" import="true" targetId="24c4-fa24-67ff-eef" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Wretched Thralls" id="c03b-a616-fe0d-7e73" hidden="false" primary="false" targetId="ac7d-42cc-342b-c911"/>
       </categoryLinks>
@@ -365,7 +338,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Renegade Plague Ogryns [Legends]" id="d8f6-58e4-bac7-6a12" hidden="false" import="true" targetId="a7bb-ec24-40e6-5b8c" type="selectionEntry">
+    <entryLink name="Renegade Plague Ogryns" id="d8f6-58e4-bac7-6a12" hidden="false" import="true" targetId="a7bb-ec24-40e6-5b8c" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Wretched Thralls" id="6721-7ce3-a162-8a27" hidden="false" primary="false" targetId="ac7d-42cc-342b-c911"/>
       </categoryLinks>

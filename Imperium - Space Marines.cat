@@ -194,7 +194,7 @@
     <entryLink name="Ancient in Terminator Armor" id="13b9-6251-7254-4b83" hidden="false" import="true" targetId="fc7f-8176-c10c-ca8" type="selectionEntry"/>
     <entryLink name="Apothecary Biologis" id="63c3-df64-ac9f-cae" hidden="false" import="true" targetId="c6e9-c0c8-5f13-5771" type="selectionEntry"/>
     <entryLink name="Assault Intercessor Squad" id="c432-5254-8a25-6c8a" hidden="false" import="true" targetId="a10b-fbfe-b1fa-6f0c" type="selectionEntry"/>
-    <entryLink name="Assault Squad [Legends]" id="db5-450b-5c4b-5743" hidden="false" import="true" targetId="ca4e-47d5-a704-8e5a" type="selectionEntry">
+    <entryLink name="Assault Squad" id="db5-450b-5c4b-5743" hidden="false" import="true" targetId="ca4e-47d5-a704-8e5a" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -207,7 +207,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Assault Squad with Jump Packs [Legends]" id="4f50-ac01-7a79-3362" hidden="false" import="true" targetId="bfe7-b726-9158-d5ad" type="selectionEntry">
+    <entryLink name="Assault Squad with Jump Packs" id="4f50-ac01-7a79-3362" hidden="false" import="true" targetId="bfe7-b726-9158-d5ad" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
@@ -220,7 +220,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Astartes Servitors [Legends]" id="6cd-6624-587-13dd" hidden="false" import="true" targetId="74c4-82d0-4c98-2fa8" type="selectionEntry"/>
+    <entryLink name="Astartes Servitors" id="6cd-6624-587-13dd" hidden="false" import="true" targetId="74c4-82d0-4c98-2fa8" type="selectionEntry"/>
     <entryLink name="Ballistus Dreadnought" id="fa66-cda4-10fa-4c69" hidden="false" import="true" targetId="5dc7-aa6c-7053-cede" type="selectionEntry"/>
     <entryLink name="Bladeguard Ancient" id="b596-18b1-d905-fd1d" hidden="false" import="true" targetId="9ca5-e5f4-f85d-bcca" type="selectionEntry"/>
     <entryLink name="Bladeguard Veteran Squad" id="be1a-7188-94e5-3cfe" hidden="false" import="true" targetId="7044-bf1-f949-c32d" type="selectionEntry"/>
@@ -228,7 +228,7 @@
     <entryLink name="Captain in Gravis Armour" id="152d-fdb1-dfcd-2251" hidden="false" import="true" targetId="1d56-1cc3-de57-10e2" type="selectionEntry"/>
     <entryLink name="Captain in Phobos Armour" id="2632-9483-b17f-ff52" hidden="false" import="true" targetId="a976-7cd5-9657-d91a" type="selectionEntry"/>
     <entryLink name="Captain in Terminator Armour" id="5e35-ae82-23e4-bcef" hidden="false" import="true" targetId="dc24-dd64-5d97-df3c" type="selectionEntry"/>
-    <entryLink name="Captain on Bike [Legends]" id="3497-256c-f286-a424" hidden="false" import="true" targetId="faf9-bf62-8eb5-a3cb" type="selectionEntry"/>
+    <entryLink name="Captain on Bike" id="3497-256c-f286-a424" hidden="false" import="true" targetId="faf9-bf62-8eb5-a3cb" type="selectionEntry"/>
     <entryLink name="Captain with Jump Pack" id="959a-a3bc-4814-fa9a" hidden="false" import="true" targetId="1319-45d-bb95-dfd4" type="selectionEntry"/>
     <entryLink name="Centurion Assault Squad" id="61b4-2eed-923d-90b1" hidden="false" import="true" targetId="2a8a-522d-51e4-3abc" type="selectionEntry"/>
     <entryLink name="Centurion Devastator Squad" id="4b75-80fc-e858-ff91" hidden="false" import="true" targetId="6ba0-cede-e278-f86b" type="selectionEntry"/>
@@ -263,13 +263,13 @@
     <entryLink name="Intercessor Squad" id="85b1-eb9a-17a6-e5be" hidden="false" import="true" targetId="8da0-4570-c3c-819f" type="selectionEntry"/>
     <entryLink name="Invictor Tactical Warsuit" id="868c-850d-ca57-b4b7" hidden="false" import="true" targetId="24df-fdd6-4d7b-fc0e" type="selectionEntry"/>
     <entryLink name="Invader ATV" id="8b71-580f-ad19-83d7" hidden="false" import="true" targetId="8d7b-3dfe-7b91-2490" type="selectionEntry"/>
-    <entryLink name="Ironclad Dreadnought [Legends]" id="de65-a660-340f-96e8" hidden="false" import="true" targetId="64c7-8b87-1b4f-7850" type="selectionEntry"/>
+    <entryLink name="Ironclad Dreadnought" id="de65-a660-340f-96e8" hidden="false" import="true" targetId="64c7-8b87-1b4f-7850" type="selectionEntry"/>
     <entryLink name="Judiciar" id="219b-58dd-df81-b99e" hidden="false" import="true" targetId="8dcb-987c-1ab4-b976" type="selectionEntry"/>
     <entryLink name="Land Raider" id="8c40-7f05-28ff-5e1a" hidden="false" import="true" targetId="8cca-9318-3bec-d360" type="selectionEntry"/>
     <entryLink name="Land Raider Crusader" id="e7d6-b926-8592-d625" hidden="false" import="true" targetId="1d65-c592-2e16-b045" type="selectionEntry"/>
     <entryLink name="Land Raider Redeemer" id="2b9d-9c13-9277-d157" hidden="false" import="true" targetId="d361-a36e-1448-264d" type="selectionEntry"/>
-    <entryLink name="Land Speeder [Legends]" id="a5-bcf5-ff50-3ed3" hidden="false" import="true" targetId="5031-c88d-5a9c-754d" type="selectionEntry"/>
-    <entryLink name="Land Speeder Storm [Legends]" id="e415-ca97-489b-5923" hidden="false" import="true" targetId="fce3-2e6f-cede-69cc" type="selectionEntry">
+    <entryLink name="Land Speeder" id="a5-bcf5-ff50-3ed3" hidden="false" import="true" targetId="5031-c88d-5a9c-754d" type="selectionEntry"/>
+    <entryLink name="Land Speeder Storm" id="e415-ca97-489b-5923" hidden="false" import="true" targetId="fce3-2e6f-cede-69cc" type="selectionEntry">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="70"/>
       </costs>
@@ -282,15 +282,15 @@
       </modifiers>
     </entryLink>
     <entryLink name="Librarian in Phobos Armour" id="a8b0-fc91-17d5-5963" hidden="false" import="true" targetId="137c-2add-1a51-ee96" type="selectionEntry"/>
-    <entryLink name="Vanguard Veteran Squad [Legends]" id="aa6a-a87a-8ec3-6aa5" hidden="false" import="true" targetId="f1b9-b2e8-4ccf-d6cb" type="selectionEntry"/>
-    <entryLink name="Librarian with Jump Pack [Legends]" id="8e04-4d58-493e-e8ba" hidden="false" import="true" targetId="45af-a02e-e8e2-49f" type="selectionEntry"/>
+    <entryLink name="Vanguard Veteran Squad" id="aa6a-a87a-8ec3-6aa5" hidden="false" import="true" targetId="f1b9-b2e8-4ccf-d6cb" type="selectionEntry"/>
+    <entryLink name="Librarian with Jump Pack" id="8e04-4d58-493e-e8ba" hidden="false" import="true" targetId="45af-a02e-e8e2-49f" type="selectionEntry"/>
     <entryLink name="Librarian in Terminator Armour" id="634d-dab3-fa1a-958c" hidden="false" import="true" targetId="2468-24f5-ad9b-8388" type="selectionEntry"/>
     <entryLink name="Lieutenant in Phobos Armour" id="7916-7982-2101-bc03" hidden="false" import="true" targetId="fe0e-6070-e7b-d4b8" type="selectionEntry"/>
     <entryLink name="Apothecary" id="a74c-27a6-a054-e13c" hidden="false" import="true" targetId="8a9d-11f-fad-bd0f" type="selectionEntry"/>
     <entryLink name="Lieutenant in Reiver Armour" id="537f-5a96-5985-700b" hidden="false" import="true" targetId="6dfd-beb0-5b01-b21e" type="selectionEntry"/>
     <entryLink name="Lieutenant with Combi-weapon" id="ec05-3b74-7fd8-343" hidden="false" import="true" targetId="109f-f71d-56-d9eb" type="selectionEntry"/>
     <entryLink name="Outrider Squad" id="da66-4d12-2b43-4360" hidden="false" import="true" targetId="b5e8-c34b-566b-8bda" type="selectionEntry"/>
-    <entryLink name="Scout Bike Squad [Legends]" id="8650-9036-5842-d423" hidden="false" import="true" targetId="699f-a59e-baa6-ba8b" type="selectionEntry"/>
+    <entryLink name="Scout Bike Squad" id="8650-9036-5842-d423" hidden="false" import="true" targetId="699f-a59e-baa6-ba8b" type="selectionEntry"/>
     <entryLink name="Rhino" id="efc9-2aff-c5b-6790" hidden="false" import="true" targetId="a14e-75ca-ef91-397f" type="selectionEntry"/>
     <entryLink name="Predator Annihilator" id="57a1-1350-9b3c-9452" hidden="false" import="true" targetId="31a-6c3e-5843-4023" type="selectionEntry"/>
     <entryLink name="Repulsor Executioner" id="6d49-e23e-978b-7160" hidden="false" import="true" targetId="9259-f166-15f2-7f79" type="selectionEntry"/>
@@ -298,7 +298,7 @@
     <entryLink name="Predator Destructor" id="90c2-1ed5-bebf-73e8" hidden="false" import="true" targetId="d4c8-dd6a-cd7a-ccc3" type="selectionEntry"/>
     <entryLink name="Redemptor Dreadnought" id="fcb6-80ca-22a-4771" hidden="false" import="true" targetId="1d94-b3c8-9205-827e" type="selectionEntry"/>
     <entryLink name="Ancient" id="cd69-af58-774-d387" hidden="false" import="true" targetId="6562-d718-b8e0-c457" type="selectionEntry"/>
-    <entryLink name="Primaris Company Champion [Legends]" id="93f6-358f-c8d-7d4d" hidden="false" import="true" targetId="36cf-5961-78b9-79ce" type="selectionEntry"/>
+    <entryLink name="Primaris Company Champion" id="93f6-358f-c8d-7d4d" hidden="false" import="true" targetId="36cf-5961-78b9-79ce" type="selectionEntry"/>
     <entryLink name="Razorback" id="f91-2bd6-3077-9b69" hidden="false" import="true" targetId="ed11-25b9-a0eb-89f4" type="selectionEntry"/>
     <entryLink name="Librarian" id="b62e-cd23-d338-8142" hidden="false" import="true" targetId="78eb-9334-f5c0-6095" type="selectionEntry"/>
     <entryLink name="Chaplain" id="dfb5-f763-308d-e0d9" hidden="false" import="true" targetId="ceb5-55c7-2d49-d952" type="selectionEntry"/>
@@ -306,7 +306,7 @@
     <entryLink name="Captain" id="91e3-a419-8c58-98f5" hidden="false" import="true" targetId="6c10-5b51-5bc0-8d2c" type="selectionEntry"/>
     <entryLink name="Techmarine" id="c7ef-84b1-fdf5-c5a8" hidden="false" import="true" targetId="e671-cd3a-2b03-3954" type="selectionEntry"/>
     <entryLink name="Repulsor" id="b6f6-3b6d-2508-7c12" hidden="false" import="true" targetId="e8e-fc5c-c689-99ca" type="selectionEntry"/>
-    <entryLink name="Scout Sniper Squad [Legends]" id="b90d-26e-4e1e-73ab" hidden="false" import="true" targetId="9a96-8de3-f4aa-7497" type="selectionEntry">
+    <entryLink name="Scout Sniper Squad" id="b90d-26e-4e1e-73ab" hidden="false" import="true" targetId="9a96-8de3-f4aa-7497" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditions>
@@ -337,7 +337,7 @@
     </entryLink>
     <entryLink name="Suppressor Squad" id="dd1b-428a-9463-f1ee" hidden="false" import="true" targetId="97f6-b1f8-c72d-e826" type="selectionEntry"/>
     <entryLink name="Storm Speeder Hailstrike" id="5cba-2616-bbb4-771d" hidden="false" import="true" targetId="9cb9-9ab5-727f-80e5" type="selectionEntry"/>
-    <entryLink name="Stalker [Legends]" id="66d7-24ac-9496-23be" hidden="false" import="true" targetId="adcd-2954-5a7f-d7ed" type="selectionEntry"/>
+    <entryLink name="Stalker" id="66d7-24ac-9496-23be" hidden="false" import="true" targetId="adcd-2954-5a7f-d7ed" type="selectionEntry"/>
     <entryLink name="Sternguard Veteran Squad" id="bc4e-8331-8179-255b" hidden="false" import="true" targetId="907f-11-c4d1-ec21" type="selectionEntry"/>
     <entryLink name="Storm Speeder Hammerstrike" id="44fa-abe-61ee-c8ab" hidden="false" import="true" targetId="9489-445c-f950-7292" type="selectionEntry"/>
     <entryLink name="Storm Speeder Thunderstrike" id="e1c7-4bd8-ebad-6154" hidden="false" import="true" targetId="993a-9cbc-8052-e40" type="selectionEntry"/>
@@ -1864,13 +1864,13 @@
         <entryLink name="Show Titans" id="7117-d2ee-6c97-a4ea" hidden="false" import="true" targetId="f26b-79db-80e0-3a3b" type="selectionEntry"/>
       </entryLinks>
     </entryLink>
-    <entryLink name="Carab Culln the Risen [Legends]" id="64c2-9759-7dd3-89dc" hidden="false" import="true" targetId="103c-8f97-ed61-1922" type="selectionEntry"/>
-    <entryLink name="Imperial Space Marine [Legends]" id="f926-58fc-de94-89c2" hidden="false" import="true" targetId="faa-3b84-1365-9c22" type="selectionEntry"/>
-    <entryLink name="Company Champion on Bike [Legends]" id="2567-b3bf-f1b-26d5" hidden="false" import="true" targetId="97c3-20c8-4c99-39e5" type="selectionEntry"/>
-    <entryLink name="Ancient on Bike [Legends]" id="1135-ac85-67e9-25aa" hidden="false" import="true" targetId="e4c7-b10c-6896-3f0" type="selectionEntry"/>
-    <entryLink name="Apothecary on Bike [Legends]" id="3e83-39d9-ee6a-7157" hidden="false" import="true" targetId="449f-a74d-e85a-2684" type="selectionEntry"/>
-    <entryLink name="Techmarine on Bike [Legends]" id="f044-7d53-b48f-f6b5" hidden="false" import="true" targetId="33e2-3ddf-7063-df9e" type="selectionEntry"/>
-    <entryLink name="Librarian on Bike [Legends]" id="faf9-d221-4c79-88cf" hidden="false" import="true" targetId="1039-4a94-c791-9e1d" type="selectionEntry"/>
+    <entryLink name="Carab Culln the Risen" id="64c2-9759-7dd3-89dc" hidden="false" import="true" targetId="103c-8f97-ed61-1922" type="selectionEntry"/>
+    <entryLink name="Imperial Space Marine" id="f926-58fc-de94-89c2" hidden="false" import="true" targetId="faa-3b84-1365-9c22" type="selectionEntry"/>
+    <entryLink name="Company Champion on Bike" id="2567-b3bf-f1b-26d5" hidden="false" import="true" targetId="97c3-20c8-4c99-39e5" type="selectionEntry"/>
+    <entryLink name="Ancient on Bike" id="1135-ac85-67e9-25aa" hidden="false" import="true" targetId="e4c7-b10c-6896-3f0" type="selectionEntry"/>
+    <entryLink name="Apothecary on Bike" id="3e83-39d9-ee6a-7157" hidden="false" import="true" targetId="449f-a74d-e85a-2684" type="selectionEntry"/>
+    <entryLink name="Techmarine on Bike" id="f044-7d53-b48f-f6b5" hidden="false" import="true" targetId="33e2-3ddf-7063-df9e" type="selectionEntry"/>
+    <entryLink name="Librarian on Bike" id="faf9-d221-4c79-88cf" hidden="false" import="true" targetId="1039-4a94-c791-9e1d" type="selectionEntry"/>
     <entryLink name="Assault Intercessors with Jump Packs" id="ce90-be8f-9f47-6641" hidden="false" import="true" targetId="cdd9-efda-95-e7b2" type="selectionEntry"/>
     <entryLink name="Order of Battle" id="b013-5371-9474-ec33" hidden="false" import="true" targetId="eda7-8b4b-3719-af36" type="selectionEntry">
       <entryLinks>
@@ -14636,8 +14636,7 @@ by 1.</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16935,7 +16934,7 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </profile>
         <profile name="Predator Destructor" id="f2b8-bb29-706b-31ac" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">11</characteristic>
@@ -26839,6 +26838,10 @@ You can attach this model to one of the above units even if one Captain, Chapte
         <modifier field="hidden" type="set" value="true">
           <conditions>
             <condition childId="6760-e00c-ebd6-10c9" childName="Gabriel Angelos" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
             <condition childId="0972-2cac-b36f-1c7e" childName="Tyberos" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
           </conditions>
         </modifier>
@@ -30579,6 +30582,10 @@ Attacks characteristic of 7.</characteristic>
         <modifier field="hidden" type="set" value="true">
           <conditions>
             <condition childId="103c-8f97-ed61-1922" childName="Carab Culln the Risen" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
             <condition childId="0972-2cac-b36f-1c7e" childName="Tyberos" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
           </conditions>
         </modifier>
@@ -30642,8 +30649,7 @@ Attacks characteristic of 7.</characteristic>
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
               </characteristics>
             </profile>
           </profiles>
@@ -30692,6 +30698,10 @@ Attacks characteristic of 7.</characteristic>
         <modifier field="hidden" type="set" value="true">
           <conditions>
             <condition childId="6760-e00c-ebd6-10c9" childName="Gabriel Angelos" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
             <condition childId="103c-8f97-ed61-1922" childName="Carab Culln the Risen" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
           </conditions>
         </modifier>
