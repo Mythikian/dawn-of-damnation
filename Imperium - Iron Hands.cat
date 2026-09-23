@@ -448,8 +448,7 @@ attack has the [LETHAL HITS] ability. Each time a model in this model’s unit 
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
               </characteristics>
             </profile>
           </profiles>
@@ -814,8 +813,7 @@ attack has the [LETHAL HITS] ability. Each time a model in this model’s unit 
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1021,8 +1019,7 @@ attack has the [LETHAL HITS] ability. Each time a model in this model’s unit 
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1133,8 +1130,7 @@ attack has the [LETHAL HITS] ability. Each time a model in this model’s unit 
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1659,8 +1655,7 @@ attack has the [LETHAL HITS] ability. Each time a model in this model’s unit 
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2072,7 +2067,7 @@ While this model is joined to a unit, it can embark within any Transport that un
       <modifiers>
         <modifier field="51b2-306e-1021-d207" type="set" value="190">
           <conditions>
-            <condition id="a885-3b87-61e0-507a" childId="bf70-5570-130e-b3e3" childName="Hunting Squad" field="selections" scope="bf70-5570-130e-b3e3" shared="true" type="atLeast" value="6"/>
+            <condition id="a885-3b87-61e0-507a" childId="aed2-9135-8958-ce95" childName="Hunting Squad" field="selections" scope="bf70-5570-130e-b3e3" shared="true" type="atLeast" value="6"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2359,8 +2354,7 @@ While this model is joined to a unit, it can embark within any Transport that un
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>

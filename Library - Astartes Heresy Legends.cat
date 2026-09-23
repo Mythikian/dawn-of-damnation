@@ -216,7 +216,7 @@ If this unit has the **^^Infantry^^** keyword:
     <rule name="Oath of Moment" id="3b76-4053-ece9-6e7d" hidden="false">
       <description>If your Army Faction is **^^Adeptus Astartes^^**, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:
 ■ You can reroll the Hit roll
-■ If you are using a Codex: Space Marines Detachment, add 1 to the Wound roll as well.</description>
+■ If you are using a Codex: Space Marines Detachment and your faction is not **^^Black Templars^^**, add 1 to the Wound roll as well.</description>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
