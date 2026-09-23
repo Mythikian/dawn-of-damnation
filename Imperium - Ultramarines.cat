@@ -2296,7 +2296,7 @@ the Hit roll.</characteristic>
             <infoLink name="One Shot" id="7756-2d5f-c75f-5a24" hidden="false" targetId="cd26-1611-860a-91e4" type="rule"/>
           </infoLinks>
           <profiles>
-            <profile name="Armoured Hull" id="3ce3-f85d-9f0f-fe48" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+            <profile name="Hunter-Slayer Missile" id="3ce3-f85d-9f0f-fe48" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
@@ -2542,9 +2542,15 @@ the Hit roll.</characteristic>
                 <entryLink name="Combi-bolter" id="e1f5-fdd8-61f6-605a" collective="true" hidden="false" import="true" targetId="a6ec-ebc1-6f23-20c4" type="selectionEntry">
                   <constraints>
                     <constraint id="efe0-2f86-8ae4-5b32" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="f26b-8c76-110c-6380" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Power fist" id="21ef-3bb1-bf4f-e73c" collective="true" hidden="false" import="true" targetId="f8d8-7e77-4b71-faac" type="selectionEntry"/>
+                <entryLink name="Power fist" id="21ef-3bb1-bf4f-e73c" collective="true" hidden="false" import="true" targetId="f8d8-7e77-4b71-faac" type="selectionEntry">
+                  <constraints>
+                    <constraint id="dcd8-ad7a-ed05-9486" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="1643-5058-ac9f-b441" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <profiles>
                 <profile name="Fulmentarus Terminator" id="9231-200d-9d56-b486" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -2621,6 +2627,7 @@ the Hit roll.</characteristic>
                     <entryLink name="Combi-bolter" id="95c3-5f3e-942e-5bcb" hidden="false" import="true" targetId="a6ec-ebc1-6f23-20c4" type="selectionEntry">
                       <constraints>
                         <constraint id="5912-a20b-7c8c-e3cc" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="5517-7f5f-b581-a152" field="selections" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                     </entryLink>
                   </entryLinks>
@@ -2666,14 +2673,17 @@ the Hit roll.</characteristic>
                         <constraint id="1020-684e-962d-7018" field="selections" scope="parent" shared="true" type="min" value="1"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink name="Power fist" id="3c5b-d3f1-065d-58cf" hidden="false" import="true" targetId="f8d8-7e77-4b71-faac" type="selectionEntry"/>
+                        <entryLink name="Power fist" id="3c5b-d3f1-065d-58cf" hidden="false" import="true" targetId="f8d8-7e77-4b71-faac" type="selectionEntry">
+                          <constraints>
+                            <constraint id="4a8c-f045-f0cf-af12" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </entryLink>
                       </entryLinks>
                       <selectionEntries>
                         <selectionEntry name="Thunder hammer" id="30ae-efb6-279b-7d51" collective="true" hidden="false" import="true" type="upgrade">
                           <comment>Collective</comment>
                           <constraints>
-                            <constraint id="14bc-e73b-1ed7-069d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                            <constraint id="a753-48f3-e0ac-3034" field="selections" includeChildSelections="true" scope="203d-c50f-a438-4982" shared="true" type="max" value="1"/>
+                            <constraint id="661d-fe00-23af-ec71" field="selections" scope="parent" shared="true" type="max" value="1"/>
                           </constraints>
                           <costs>
                             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -2828,7 +2838,7 @@ the Hit roll.</characteristic>
         <selectionEntryGroup name="Praetorian Breacher Squad" id="253b-d79f-a1d3-fc1f" hidden="false" sortIndex="2">
           <constraints>
             <constraint id="23d7-e40a-f413-0983" field="selections" scope="parent" shared="true" type="min" value="3"/>
-            <constraint id="0c2a-5256-1b8a-6804" field="selections" scope="parent" shared="true" type="min" value="6"/>
+            <constraint id="0c2a-5256-1b8a-6804" field="selections" scope="parent" shared="true" type="max" value="6"/>
           </constraints>
           <selectionEntries>
             <selectionEntry name="Praetorian Breachers" id="48f0-42a5-10f5-3da5" hidden="false" import="true" type="model">
