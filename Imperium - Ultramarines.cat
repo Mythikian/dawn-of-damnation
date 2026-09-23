@@ -2526,12 +2526,12 @@ the Hit roll.</characteristic>
       </profiles>
       <selectionEntryGroups>
         <selectionEntryGroup name="2-5 Fulmentarus Terminators" id="4fe3-38e1-9fd3-fdcf" collective="false" defaultSelectionEntryId="ea9c-3be5-b49a-800b" hidden="false" import="true" sortIndex="3">
-          <constraints>
-            <constraint id="e0c6-932b-a0bd-f668" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
-            <constraint id="dfb1-ceed-5080-cb94" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="5"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry name="Fulmentarus Terminator" id="c5a2-4afb-eea0-3829" collective="false" hidden="false" import="true" type="model">
+              <constraints>
+                <constraint id="dfb1-ceed-5080-cb94" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="5"/>
+                <constraint id="e0c6-932b-a0bd-f668" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
+              </constraints>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>

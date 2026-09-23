@@ -28668,12 +28668,12 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
       </profiles>
       <selectionEntryGroups>
         <selectionEntryGroup name="2-5 Tyrant Siege Terminators" id="2200-ee81-e5f8-a9e2" collective="false" defaultSelectionEntryId="ea9c-3be5-b49a-800b" hidden="false" import="true" sortIndex="3">
-          <constraints>
-            <constraint id="25b9-1c9c-9a11-094a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
-            <constraint id="e8aa-5d44-f3fb-0b70" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="5"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry name="Tyrant Siege Terminator" id="e3e4-3b5a-bc4b-aa4f" collective="false" hidden="false" import="true" type="model">
+              <constraints>
+                <constraint id="e8aa-5d44-f3fb-0b70" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="5"/>
+                <constraint id="25b9-1c9c-9a11-094a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
+              </constraints>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>
