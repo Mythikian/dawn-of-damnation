@@ -2532,9 +2532,6 @@ the Hit roll.</characteristic>
           </constraints>
           <selectionEntries>
             <selectionEntry name="Fulmentarus Terminator" id="c5a2-4afb-eea0-3829" collective="false" hidden="false" import="true" type="model">
-              <constraints>
-                <constraint id="9871-44bc-4429-5175" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="9"/>
-              </constraints>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>

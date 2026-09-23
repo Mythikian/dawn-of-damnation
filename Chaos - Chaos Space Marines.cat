@@ -28674,9 +28674,6 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
           </constraints>
           <selectionEntries>
             <selectionEntry name="Tyrant Siege Terminator" id="e3e4-3b5a-bc4b-aa4f" collective="false" hidden="false" import="true" type="model">
-              <constraints>
-                <constraint id="fd92-e9a8-5c76-c3ff" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="9"/>
-              </constraints>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>
@@ -30450,8 +30447,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
           <profiles>
             <profile name="Leader" id="e280-253d-4a02-5b90" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following unit: **^^Traitor Guardsmen Squad^^**
-</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following unit: **^^Traitor Guardsmen Squad^^**</characteristic>
               </characteristics>
             </profile>
           </profiles>
