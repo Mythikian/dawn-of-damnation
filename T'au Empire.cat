@@ -18406,6 +18406,10 @@ You can attach this model to a unit, even if one Ethereal model has already been
       <entryLinks>
         <entryLink name="Crusade" id="c91d-66f7-aa26-0fe6" hidden="false" import="true" sortIndex="1" targetId="bc88-2f42-15bd-1714" type="selectionEntryGroup"/>
       </entryLinks>
+      <infoLinks>
+        <infoLink name="Infiltrators" id="2618-ec57-0e1e-794c" hidden="false" targetId="c05d-f4c3-f091-4938" type="rule"/>
+        <infoLink name="Stealth" id="23c0-8527-2a4a-636d" hidden="false" targetId="bec5-4288-34a6-ccfa" type="rule"/>
+      </infoLinks>
       <modifierGroups>
         <modifierGroup type="and">
           <comment>Crusade modifiers</comment>
@@ -18473,6 +18477,13 @@ You can attach this model to a unit, even if one Ethereal model has already been
           </modifiers>
         </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier field="51b2-306e-1021-d207" type="set" value="115">
+          <conditions>
+            <condition childId="model" field="selections" scope="9875-2b9f-6595-bba0" shared="true" type="greaterThan" value="5"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Back Thrusters" id="fb8c-355d-8bff-876c" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
@@ -18502,19 +18513,19 @@ You can attach this model to a unit, even if one Ethereal model has already been
             <constraint id="b289-16ec-d26f-424f" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry name="Close combat weapon" id="e784-d5da-e252-34c9" collective="true" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Hrenian sabre" id="e784-d5da-e252-34c9" collective="true" hidden="false" import="true" type="upgrade">
               <constraints>
                 <constraint id="ae47-bcb6-cd10-d084" field="selections" scope="parent" shared="true" type="max" value="1"/>
                 <constraint id="f507-2b1b-c52f-2fc2" field="selections" scope="parent" shared="true" type="min" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Close combat weapon" id="49dd-ec76-0551-8596" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                <profile name="Hrenian sabre" id="49dd-ec76-0551-8596" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                     <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
                     <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
                     <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                   </characteristics>
@@ -18535,7 +18546,7 @@ You can attach this model to a unit, even if one Ethereal model has already been
                 <profile name="➤ Ion marksman rifle - standard" id="126e-bc2c-f1f8-7027" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
@@ -18546,7 +18557,7 @@ You can attach this model to a unit, even if one Ethereal model has already been
                 <profile name="➤ Ion marksman rifle - overcharged" id="8bf4-b760-0345-7101" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
@@ -18563,7 +18574,7 @@ You can attach this model to a unit, even if one Ethereal model has already been
         <selectionEntryGroup name="Hrenian Sniper Team" id="452f-af8d-d22f-fa18" hidden="false" sortIndex="4">
           <constraints>
             <constraint id="da40-a68a-a53b-d24b" field="selections" scope="parent" shared="true" type="max" value="9"/>
-            <constraint id="5cc6-6588-3bcc-ba42" field="selections" scope="parent" shared="true" type="min" value="9"/>
+            <constraint id="5cc6-6588-3bcc-ba42" field="selections" scope="parent" shared="true" type="min" value="4"/>
           </constraints>
           <selectionEntries>
             <selectionEntry name="Hrenian Sniper" id="d5e7-b77d-e0ee-8d8c" hidden="false" import="true" type="model">
@@ -18639,6 +18650,13 @@ You can attach this model to a unit, even if one Ethereal model has already been
         <cost name="Diplomatic Power" typeId="4d7c-04b6-8a79-837f" value="0"/>
         <cost name="Military Power" typeId="1cbe-d9c9-86a8-2d41" value="0"/>
       </costs>
+      <modifiers>
+        <modifier field="51b2-306e-1021-d207" type="set" value="130">
+          <conditions>
+            <condition childId="4d08-c07b-e3e9-0e88" childName="2 Gue&apos;vesa Sergeant &amp; 18 Gue&apos;vesa Auxiliaries" field="selections" includeChildSelections="true" scope="6bfc-9b2f-68e2-40c5" shared="true" type="atLeast" value="6"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Auxiliary Fighters" id="725b-dc5e-2b29-1de1" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
@@ -18829,7 +18847,7 @@ You can attach this model to a unit, even if one Ethereal model has already been
                         <constraint id="1600-f377-82b3-e33a" field="selections" scope="parent" shared="true" type="min" value="1"/>
                       </constraints>
                       <profiles>
-                        <profile name="Close combat weapon" id="e840-9605-e6b6-d150" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+                        <profile name="Tau Vox-caster" id="e840-9605-e6b6-d150" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                           <characteristics>
                             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP</characteristic>
                           </characteristics>
@@ -19165,7 +19183,7 @@ You can attach this model to a unit, even if one Ethereal model has already been
                         <constraint id="4d3d-e94c-f6f6-30c3" field="selections" scope="parent" shared="true" type="min" value="1"/>
                       </constraints>
                       <profiles>
-                        <profile name="Close combat weapon" id="c805-ee68-1413-b718" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+                        <profile name="Tau Vox-caster" id="c805-ee68-1413-b718" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                           <characteristics>
                             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP</characteristic>
                           </characteristics>
