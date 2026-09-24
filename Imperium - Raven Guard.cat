@@ -775,7 +775,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Twin Linked</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Twin-linked</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -798,7 +798,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Twin-Linked</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Twin-linked</characteristic>
               </characteristics>
             </profile>
             <profile name="➤ Void Ripper - Strike" id="01eb-4af3-c8c1-712e" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
@@ -889,7 +889,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
               <selectionEntries>
                 <selectionEntry name="Shadow Warden" id="44cc-2a6c-850f-59ab" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="4bfd-7366-2801-13b2" field="selections" scope="parent" shared="true" type="max" value="5"/>
+                    <constraint id="4bfd-7366-2801-13b2" field="selections" scope="parent" shared="true" type="max" value="4"/>
                     <constraint id="bb82-c6e2-8ed6-577f" field="selections" scope="parent" shared="true" type="min" value="4"/>
                   </constraints>
                   <selectionEntries>
@@ -982,7 +982,8 @@ even if you have already used that Stratagem on a different unit this phase.</c
                 </selectionEntry>
                 <selectionEntry name="Shadow Warden w/ Heavy Weapon" id="8883-e9ae-3201-ef81" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="ca63-a523-f0ec-6403" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="ca63-a523-f0ec-6403" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="2065-5e33-2cb5-e562" field="selections" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <selectionEntries>
                     <selectionEntry name="Bolt Pistol" id="3197-9d33-0e59-4d77" collective="true" hidden="false" import="true" type="upgrade">
@@ -1071,10 +1072,6 @@ even if you have already used that Stratagem on a different unit this phase.</c
               </selectionEntries>
             </selectionEntry>
             <selectionEntry name="10 Shadow Wardens" id="ec9c-b58d-de4d-788b" hidden="false" import="true" type="upgrade">
-              <constraints>
-                <constraint id="8c22-94a3-fbf7-4998" field="selections" scope="parent" shared="true" type="max" value="10"/>
-                <constraint id="589f-5b06-5051-73ab" field="selections" scope="parent" shared="true" type="min" value="10"/>
-              </constraints>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="200"/>
                 <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -1088,7 +1085,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
               <selectionEntries>
                 <selectionEntry name="Shadow Warden" id="097d-1812-8803-57b1" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="daa9-9af0-730d-6cd2" field="selections" scope="parent" shared="true" type="max" value="10"/>
+                    <constraint id="daa9-9af0-730d-6cd2" field="selections" scope="parent" shared="true" type="max" value="8"/>
                     <constraint id="ce9a-fe18-ba66-d613" field="selections" scope="parent" shared="true" type="min" value="8"/>
                   </constraints>
                   <selectionEntries>
@@ -1178,7 +1175,8 @@ even if you have already used that Stratagem on a different unit this phase.</c
                 </selectionEntry>
                 <selectionEntry name="Shadow Warden w/ Heavy Weapon" id="f5d5-8ddf-a060-8162" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="77a2-15b3-3288-8cec" field="selections" scope="parent" shared="true" type="max" value="2"/>
+                    <constraint id="77a2-15b3-3288-8cec" field="selections" scope="parent" shared="true" type="min" value="2"/>
+                    <constraint id="dea7-a4ae-4694-f573" field="selections" scope="parent" shared="true" type="max" value="2"/>
                   </constraints>
                   <selectionEntries>
                     <selectionEntry name="Bolt Pistol" id="a08b-3db2-dd8c-968d" collective="true" hidden="false" import="true" type="upgrade">
@@ -1482,7 +1480,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
       <modifiers>
         <modifier field="51b2-306e-1021-d207" type="set" value="180">
           <conditions>
-            <condition id="9760-437e-444b-0c71" childId="4c7f-c222-2995-2ac7" childName="Ravenguard Falcon Squad" field="selections" includeChildSelections="true" scope="4c7f-c222-2995-2ac7" shared="true" type="atLeast" value="6"/>
+            <condition id="9760-437e-444b-0c71" childId="model" childName="model" field="selections" includeChildSelections="true" scope="4c7f-c222-2995-2ac7" shared="true" type="atLeast" value="6"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1604,8 +1602,8 @@ even if you have already used that Stratagem on a different unit this phase.</c
       <selectionEntryGroups>
         <selectionEntryGroup name="Unit Size" id="07a6-210e-a848-c49d" defaultSelectionEntryId="980a-3657-0c9b-151d" hidden="false">
           <constraints>
-            <constraint id="0615-803e-489f-7124" field="selections" scope="parent" shared="true" type="max" value="1"/>
-            <constraint id="a27f-52ac-436b-4d4f" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="1331-8022-06cc-2fa4" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="a0af-b739-1928-e28b" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <infoLinks>
             <infoLink name="Oath of Moment" id="510f-2295-31ee-46aa" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
@@ -1630,8 +1628,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
           <selectionEntries>
             <selectionEntry name="5 Silent Guard" id="ee58-168d-1afc-7b3c" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint id="8dff-9afc-c827-970a" field="selections" scope="parent" shared="true" type="max" value="5"/>
-                <constraint id="7634-fc5d-7ea5-5b7c" field="selections" scope="parent" shared="true" type="min" value="5"/>
+                <constraint id="18f9-589e-e2e9-dd2c" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="90"/>
@@ -1646,7 +1643,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
               <selectionEntries>
                 <selectionEntry name="Silent Guard" id="c0dd-f9bc-ea26-6459" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="6084-fe64-a922-604b" field="selections" scope="parent" shared="true" type="max" value="5"/>
+                    <constraint id="6084-fe64-a922-604b" field="selections" scope="parent" shared="true" type="max" value="4"/>
                     <constraint id="b462-0930-e81c-f3d8" field="selections" scope="parent" shared="true" type="min" value="4"/>
                   </constraints>
                   <selectionEntries>
@@ -1739,7 +1736,8 @@ even if you have already used that Stratagem on a different unit this phase.</c
                 </selectionEntry>
                 <selectionEntry name="Silent Guard w/ Heavy Weapon" id="15dc-f0e0-37a8-5341" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="7bb8-862b-3b69-8c46" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="7bb8-862b-3b69-8c46" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="ad1a-9496-90b7-7e15" field="selections" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <selectionEntries>
                     <selectionEntry name="Bolt Pistol" id="b227-9a28-967f-e0c1" collective="true" hidden="false" import="true" type="upgrade">
@@ -1829,8 +1827,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
             </selectionEntry>
             <selectionEntry name="10 Silent Guard" id="e1e2-7d23-c6e9-a922" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint id="969f-9e17-769a-2a9a" field="selections" scope="parent" shared="true" type="max" value="10"/>
-                <constraint id="62f9-04fb-b3d1-0086" field="selections" scope="parent" shared="true" type="min" value="10"/>
+                <constraint id="9732-23a4-3a5f-d82c" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="180"/>
@@ -1845,7 +1842,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
               <selectionEntries>
                 <selectionEntry name="Silent Guard" id="dbb8-98a4-851d-546a" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="8a51-d43e-3b56-dd7d" field="selections" scope="parent" shared="true" type="max" value="10"/>
+                    <constraint id="8a51-d43e-3b56-dd7d" field="selections" scope="parent" shared="true" type="max" value="8"/>
                     <constraint id="28c7-03cd-bf0d-8890" field="selections" scope="parent" shared="true" type="min" value="8"/>
                   </constraints>
                   <selectionEntries>
@@ -1935,7 +1932,8 @@ even if you have already used that Stratagem on a different unit this phase.</c
                 </selectionEntry>
                 <selectionEntry name="Silent Guard w/ Heavy Weapon" id="7640-5794-6e4e-9e73" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="d259-2ecb-0006-d336" field="selections" scope="parent" shared="true" type="max" value="2"/>
+                    <constraint id="d259-2ecb-0006-d336" field="selections" scope="parent" shared="true" type="min" value="2"/>
+                    <constraint id="1979-5a53-9180-23f9" field="selections" scope="parent" shared="true" type="max" value="2"/>
                   </constraints>
                   <selectionEntries>
                     <selectionEntry name="Bolt Pistol" id="1935-6377-ebac-cb52" collective="true" hidden="false" import="true" type="upgrade">
@@ -2795,7 +2793,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
           <modifiers>
             <modifier field="750a-a2ec-90d3-21fe" type="set" value="5">
               <conditions>
-                <condition childId="6198-7228-4a39-7926" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="f282-8238-c8e6-5b31" shared="true" type="equalTo" value="1"/>
+                <condition childId="3785-1322-bdc0-b463" childName="Relic Storm Shield" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="f282-8238-c8e6-5b31" shared="true" type="equalTo" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2885,23 +2883,21 @@ even if you have already used that Stratagem on a different unit this phase.</c
                         <entryLink name="Weapon Upgrades" id="38fd-0907-3044-d50f" hidden="false" import="true" targetId="8cf2-a48c-58d2-cb4e" type="selectionEntryGroup"/>
                       </entryLinks>
                     </entryLink>
-                    <entryLink name="Relic Shield" id="92e6-5237-1ad8-6c11" collective="false" hidden="false" import="true" targetId="6198-7228-4a39-7926" type="selectionEntry">
-                      <constraints>
-                        <constraint id="7de2-f823-5945-400b" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                        <constraint id="c185-7b30-8227-3fa3" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
+                  </entryLinks>
+                  <selectionEntries>
+                    <selectionEntry name="Relic Storm Shield" id="3785-1322-bdc0-b463" collective="false" hidden="false" import="true" type="upgrade">
                       <infoLinks>
-                        <infoLink name="Invulnerable Save (4+)" id="b01b-ce03-6a79-cf32" hidden="false" targetId="5b77-29f8-7b77-75e3" type="profile"/>
+                        <infoLink name="Invulnerable Save (4+)" id="a592-f792-ea79-25ab" hidden="false" targetId="5b77-29f8-7b77-75e3" type="profile"/>
                       </infoLinks>
                       <profiles>
-                        <profile name="Relic Shield" id="730e-e4eb-8364-28fe" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+                        <profile name="Relic Shield" id="7583-1ab0-8fe6-7448" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                           <characteristics>
-                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer has a Wounds characteristic of 5.</characteristic>
+                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Add 1 to the bearer&apos;s Wounds characteristic.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
-                    </entryLink>
-                  </entryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
@@ -3034,7 +3030,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
         </profile>
         <profile name="Momentum" id="6997-edff-babe-beb5" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, that attack gains [LETHAL HITS].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, each time a model in that unit makes a melee attack, if this unit made a Charge move this turn, that attack gains [LETHAL HITS].</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" id="d31e-ea64-ddd6-67ca" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
