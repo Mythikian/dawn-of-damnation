@@ -842,8 +842,8 @@ even if you have already used that Stratagem on a different unit this phase.</c
       <selectionEntryGroups>
         <selectionEntryGroup name="Unit Size" id="78c4-e3c2-acb9-1eb3" defaultSelectionEntryId="980a-3657-0c9b-151d" hidden="false">
           <constraints>
-            <constraint id="06e1-b4b0-492f-14a7" field="selections" scope="parent" shared="true" type="max" value="1"/>
-            <constraint id="cd73-3cce-7f13-9289" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="06e1-b4b0-492f-14a7" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="7612-028e-8c27-3d6d" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <infoLinks>
             <infoLink name="Oath of Moment" id="79e8-3e9b-4980-3eca" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
@@ -872,10 +872,6 @@ even if you have already used that Stratagem on a different unit this phase.</c
           </profiles>
           <selectionEntries>
             <selectionEntry name="5 Shadow Wardens" id="980a-3657-0c9b-151d" hidden="false" import="true" type="upgrade">
-              <constraints>
-                <constraint id="8870-5180-dc74-e1ab" field="selections" scope="parent" shared="true" type="max" value="5"/>
-                <constraint id="c5d4-ec36-742f-defb" field="selections" scope="parent" shared="true" type="min" value="5"/>
-              </constraints>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
                 <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -889,8 +885,8 @@ even if you have already used that Stratagem on a different unit this phase.</c
               <selectionEntries>
                 <selectionEntry name="Shadow Warden" id="44cc-2a6c-850f-59ab" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="4bfd-7366-2801-13b2" field="selections" scope="parent" shared="true" type="max" value="4"/>
-                    <constraint id="bb82-c6e2-8ed6-577f" field="selections" scope="parent" shared="true" type="min" value="4"/>
+                    <constraint id="bb82-c6e2-8ed6-577f" field="selections" scope="parent" shared="true" type="max" value="4"/>
+                    <constraint id="022e-19df-5c96-d30c" field="selections" scope="parent" shared="true" type="min" value="4"/>
                   </constraints>
                   <selectionEntries>
                     <selectionEntry name="Bolt Pistol" id="0e25-3194-d826-a442" collective="true" hidden="false" import="true" type="upgrade">
@@ -982,7 +978,6 @@ even if you have already used that Stratagem on a different unit this phase.</c
                 </selectionEntry>
                 <selectionEntry name="Shadow Warden w/ Heavy Weapon" id="8883-e9ae-3201-ef81" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="ca63-a523-f0ec-6403" field="selections" scope="parent" shared="true" type="min" value="1"/>
                     <constraint id="2065-5e33-2cb5-e562" field="selections" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <selectionEntries>
@@ -1011,6 +1006,10 @@ even if you have already used that Stratagem on a different unit this phase.</c
                   </selectionEntries>
                   <selectionEntryGroups>
                     <selectionEntryGroup name="Wargear" id="73b5-762d-f4ef-796e" hidden="false">
+                      <constraints>
+                        <constraint id="aef3-63ea-eb88-a7af" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                        <constraint id="e112-8068-28b0-4afd" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
                       <selectionEntries>
                         <selectionEntry name="Heavy Bolter &amp; Close Combat Weapon" id="1816-ed99-138b-ca69" hidden="false" import="true" type="upgrade">
                           <constraints>
@@ -1204,6 +1203,10 @@ even if you have already used that Stratagem on a different unit this phase.</c
                   </selectionEntries>
                   <selectionEntryGroups>
                     <selectionEntryGroup name="Wargear" id="3f76-802d-607d-78e0" hidden="false">
+                      <constraints>
+                        <constraint id="e57b-74d0-a9c2-3158" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="b15b-7fdf-4de9-3228" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                      </constraints>
                       <selectionEntries>
                         <selectionEntry name="Heavy Bolter &amp; Close Combat Weapon" id="a782-b0cd-7055-8af3" hidden="false" import="true" type="upgrade">
                           <constraints>
@@ -1765,6 +1768,10 @@ even if you have already used that Stratagem on a different unit this phase.</c
                   </selectionEntries>
                   <selectionEntryGroups>
                     <selectionEntryGroup name="Wargear" id="d7db-ad1c-4a60-8d66" hidden="false">
+                      <constraints>
+                        <constraint id="2247-7ce3-80dd-303e" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="fb6e-c016-66a9-c112" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                      </constraints>
                       <selectionEntries>
                         <selectionEntry name="Heavy Bolter &amp; Close Combat Weapon" id="b292-420d-a414-e1e4" hidden="false" import="true" type="upgrade">
                           <constraints>
@@ -1961,6 +1968,10 @@ even if you have already used that Stratagem on a different unit this phase.</c
                   </selectionEntries>
                   <selectionEntryGroups>
                     <selectionEntryGroup name="Wargear" id="d277-f63e-de62-17e9" hidden="false">
+                      <constraints>
+                        <constraint id="9314-5415-ea75-5abb" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="de67-3240-967c-df15" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                      </constraints>
                       <selectionEntries>
                         <selectionEntry name="Heavy Bolter &amp; Close Combat Weapon" id="42d8-2922-bf74-f28e" hidden="false" import="true" type="upgrade">
                           <constraints>
@@ -2809,15 +2820,13 @@ even if you have already used that Stratagem on a different unit this phase.</c
 
 ■ Assault Intercessor Squad
 ■ Bladeguard Veteran Squad*
-■ Hellblaster Squad*
 ■ Infernus Squad
 ■ Intercessor Squad
 ■ Silent Guard Squad
 ■ Sternguard Veteran Squad
-■ Company Heroes
 ■ Tactical Squad
 
-* This model cannot be attached to a Bladeguard Veteran Squad unless it is equipped with a relic shield, and cannot be attached to a Hellblaster Squad unless it is equipped with a plasma pistol.</characteristic>
+* This model cannot be attached to a Bladeguard Veteran Squad unless it is equipped with a relic storm shield.</characteristic>
           </characteristics>
         </profile>
         <profile name="Stormstriker&apos;s Speed" id="7337-8a72-5c90-4100" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -2872,7 +2881,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Replace Bolter" id="fe38-7e81-5a11-9a64" defaultSelectionEntryId="67aa-5a82-44d1-cd2c" hidden="false">
+                <selectionEntryGroup name="Replace Bolter" id="fe38-7e81-5a11-9a64" defaultSelectionEntryId="3785-1322-bdc0-b463" hidden="false">
                   <constraints>
                     <constraint id="6ed3-686b-1b92-2b74" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="1fea-72cb-99d0-63f2" field="selections" scope="parent" shared="true" type="min" value="1"/>
