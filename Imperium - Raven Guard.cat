@@ -915,7 +915,8 @@ even if you have already used that Stratagem on a different unit this phase.</c
                   <selectionEntryGroups>
                     <selectionEntryGroup name="Wargear" id="c9e3-4c8c-43fc-91ff" defaultSelectionEntryId="0aca-0445-af3c-0f4b" hidden="false">
                       <constraints>
-                        <constraint id="7333-6333-d230-ed3e" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                        <constraint id="7333-6333-d230-ed3e" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="fbfa-96a8-23d2-1a01" field="selections" scope="parent" shared="true" type="min" value="1"/>
                       </constraints>
                       <selectionEntries>
                         <selectionEntry name="Veteran Boltgun &amp; Close Combat Weapon" id="0aca-0445-af3c-0f4b" hidden="false" import="true" type="upgrade">
@@ -978,7 +979,8 @@ even if you have already used that Stratagem on a different unit this phase.</c
                 </selectionEntry>
                 <selectionEntry name="Shadow Warden w/ Heavy Weapon" id="8883-e9ae-3201-ef81" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="2065-5e33-2cb5-e562" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="2065-5e33-2cb5-e562" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="4627-b36a-1c57-c102" field="selections" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <selectionEntries>
                     <selectionEntry name="Bolt Pistol" id="3197-9d33-0e59-4d77" collective="true" hidden="false" import="true" type="upgrade">
@@ -1005,7 +1007,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="Wargear" id="73b5-762d-f4ef-796e" hidden="false">
+                    <selectionEntryGroup name="Wargear" id="73b5-762d-f4ef-796e" defaultSelectionEntryId="1816-ed99-138b-ca69" hidden="false">
                       <constraints>
                         <constraint id="aef3-63ea-eb88-a7af" field="selections" scope="parent" shared="true" type="min" value="1"/>
                         <constraint id="e112-8068-28b0-4afd" field="selections" scope="parent" shared="true" type="max" value="1"/>
@@ -1113,6 +1115,10 @@ even if you have already used that Stratagem on a different unit this phase.</c
                   </selectionEntries>
                   <selectionEntryGroups>
                     <selectionEntryGroup name="Wargear" id="4978-7a98-c504-4bd1" hidden="false">
+                      <constraints>
+                        <constraint id="40d1-7a3a-6219-8bcc" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="906b-816c-4d19-2313" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                      </constraints>
                       <selectionEntries>
                         <selectionEntry name="Veteran Boltgun &amp; Close Combat Weapon" id="3aaf-c67a-8c39-25eb" hidden="false" import="true" type="upgrade">
                           <constraints>
@@ -1676,7 +1682,8 @@ even if you have already used that Stratagem on a different unit this phase.</c
                   <selectionEntryGroups>
                     <selectionEntryGroup name="Wargear" id="fe4c-27c9-e0dc-cf9e" defaultSelectionEntryId="0aca-0445-af3c-0f4b" hidden="false">
                       <constraints>
-                        <constraint id="b4f2-044f-90ac-0b56" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                        <constraint id="b4f2-044f-90ac-0b56" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="f343-37ce-6f87-6e8e" field="selections" scope="parent" shared="true" type="min" value="1"/>
                       </constraints>
                       <selectionEntries>
                         <selectionEntry name="Veteran Boltgun &amp; Close Combat Weapon" id="371c-5e17-42e1-003f" hidden="false" import="true" type="upgrade">
@@ -1878,6 +1885,10 @@ even if you have already used that Stratagem on a different unit this phase.</c
                   </selectionEntries>
                   <selectionEntryGroups>
                     <selectionEntryGroup name="Wargear" id="b0f2-68d5-c574-b3d9" hidden="false">
+                      <constraints>
+                        <constraint id="68d6-f3b7-6020-8111" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="5352-85cc-11d5-1a29" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                      </constraints>
                       <selectionEntries>
                         <selectionEntry name="Veteran Boltgun &amp; Close Combat Weapon" id="ad97-fcbe-5a6d-db1d" hidden="false" import="true" type="upgrade">
                           <constraints>
@@ -1967,7 +1978,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="Wargear" id="d277-f63e-de62-17e9" hidden="false">
+                    <selectionEntryGroup name="Wargear" id="d277-f63e-de62-17e9" defaultSelectionEntryId="42d8-2922-bf74-f28e" hidden="false">
                       <constraints>
                         <constraint id="9314-5415-ea75-5abb" field="selections" scope="parent" shared="true" type="max" value="1"/>
                         <constraint id="de67-3240-967c-df15" field="selections" scope="parent" shared="true" type="min" value="1"/>
