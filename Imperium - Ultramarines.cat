@@ -39,12 +39,12 @@
     <categoryEntry name="Kaius Konorius" id="1f2d-d03c-78c5-92b0" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink name="Chaplain Cassius [Legends]" id="e1e-1c6b-bb62-f9c8" hidden="false" import="true" targetId="b180-3cac-9124-b818" type="selectionEntry"/>
+    <entryLink name="Chaplain Cassius" id="e1e-1c6b-bb62-f9c8" hidden="false" import="true" targetId="b180-3cac-9124-b818" type="selectionEntry"/>
     <entryLink name="Chief Librarian Tigurius" id="5909-4c97-aba1-e481" hidden="false" import="true" targetId="3ef1-1647-cd7b-a40b" type="selectionEntry"/>
     <entryLink name="Roboute Guilliman" id="49fb-cb39-f830-9ee" hidden="false" import="true" targetId="4aea-b1cc-6c69-1c44" type="selectionEntry"/>
-    <entryLink name="Sergeant Chronus [Legends]" id="64be-7146-5008-3e1d" hidden="false" import="true" targetId="2263-82ee-3db6-8be9" type="selectionEntry"/>
-    <entryLink name="Sergeant Telion [Legends]" id="e77f-29fb-5f25-9bed" hidden="false" import="true" targetId="696a-899e-514b-4a04" type="selectionEntry"/>
-    <entryLink name="Tyrannic War Veterans [Legends]" id="8561-6da9-fb56-15f" hidden="false" import="true" targetId="8770-b0eb-f430-1dda" type="selectionEntry"/>
+    <entryLink name="Sergeant Chronus" id="64be-7146-5008-3e1d" hidden="false" import="true" targetId="2263-82ee-3db6-8be9" type="selectionEntry"/>
+    <entryLink name="Sergeant Telion" id="e77f-29fb-5f25-9bed" hidden="false" import="true" targetId="696a-899e-514b-4a04" type="selectionEntry"/>
+    <entryLink name="Tyrannic War Veterans" id="8561-6da9-fb56-15f" hidden="false" import="true" targetId="8770-b0eb-f430-1dda" type="selectionEntry"/>
     <entryLink name="Uriel Ventris" id="22c4-3e9d-987f-d338" hidden="false" import="true" targetId="169a-7229-ea50-1c4f" type="selectionEntry"/>
     <entryLink name="Marneus Calgar in Armour of Antilochus" id="984d-c25b-86dd-9970" hidden="false" import="true" targetId="a136-76f7-34d1-8035" type="selectionEntry"/>
     <entryLink name="Cato Sicarius" id="4796-e4e0-774f-6785" hidden="false" import="true" targetId="b014-911d-271a-5b8e" type="selectionEntry"/>
@@ -2346,8 +2346,7 @@ the Hit roll.</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2917,13 +2916,13 @@ the Hit roll.</characteristic>
                 </profile>
               </profiles>
               <selectionEntries>
-                <selectionEntry name="Master-crafted Power axe" id="25f6-bd43-02e2-a0b6" collective="true" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Master-crafted Praetorian Axe" id="25f6-bd43-02e2-a0b6" collective="true" hidden="false" import="true" type="upgrade">
                   <constraints>
                     <constraint id="da3a-e2f3-23eb-1607" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="c752-04f0-be41-b6ec" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <profiles>
-                    <profile name="Master-crafted Power axe" id="c699-7dc8-c6fc-1b5b" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                    <profile name="Master-crafted Praetorian Axe" id="c699-7dc8-c6fc-1b5b" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                         <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>

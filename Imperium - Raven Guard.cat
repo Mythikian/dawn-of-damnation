@@ -504,7 +504,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Replace Heavy Bolter" id="e3a2-6c89-6c07-d449" defaultSelectionEntryId="d9f1-f4c7-d9b7-bea3" hidden="false">
+        <selectionEntryGroup name="Replace twin heavy bolter" id="e3a2-6c89-6c07-d449" defaultSelectionEntryId="d9f1-f4c7-d9b7-bea3" hidden="false">
           <constraints>
             <constraint id="daea-382b-1ca4-e52f" field="selections" scope="parent" shared="true" type="max" value="1"/>
             <constraint id="0988-1747-41a1-c9fd" field="selections" scope="parent" shared="true" type="min" value="1"/>
@@ -581,15 +581,14 @@ even if you have already used that Stratagem on a different unit this phase.</c
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Replace Twin hellstrike launchers" id="45c5-c87f-a2cf-d309" defaultSelectionEntryId="6157-7f24-bc0b-456c" hidden="false">
+        <selectionEntryGroup name="Replace twin hellstrike launchers" id="45c5-c87f-a2cf-d309" defaultSelectionEntryId="6157-7f24-bc0b-456c" hidden="false">
           <constraints>
             <constraint id="fead-8330-6a83-276d" field="selections" scope="parent" shared="true" type="max" value="1"/>
             <constraint id="de15-cf01-9964-9f64" field="selections" scope="parent" shared="true" type="min" value="1"/>
@@ -677,6 +676,9 @@ even if you have already used that Stratagem on a different unit this phase.</c
         <categoryLink name="Primarch" id="5bc4-97ce-6e04-5f73" hidden="false" primary="false" targetId="6474-0ce3-6b5a-120c"/>
         <categoryLink name="Corvus Corax" id="ee80-bcf5-ec1b-5303" hidden="false" primary="false" targetId="dfc5-f941-be7c-cefc"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="0079-0609-73c1-a2f0" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="435"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -883,7 +885,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                 <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
               </costs>
               <selectionEntries>
-                <selectionEntry name="Shadow Warden" id="44cc-2a6c-850f-59ab" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Shadow Warden" id="44cc-2a6c-850f-59ab" hidden="false" import="true" type="model">
                   <constraints>
                     <constraint id="bb82-c6e2-8ed6-577f" field="selections" scope="parent" shared="true" type="max" value="4"/>
                     <constraint id="022e-19df-5c96-d30c" field="selections" scope="parent" shared="true" type="min" value="4"/>
@@ -977,7 +979,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntry>
-                <selectionEntry name="Shadow Warden w/ Heavy Weapon" id="8883-e9ae-3201-ef81" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Shadow Warden w/ Heavy Weapon" id="8883-e9ae-3201-ef81" hidden="false" import="true" type="model">
                   <constraints>
                     <constraint id="2065-5e33-2cb5-e562" field="selections" scope="parent" shared="true" type="min" value="1"/>
                     <constraint id="4627-b36a-1c57-c102" field="selections" scope="parent" shared="true" type="max" value="1"/>
@@ -1060,8 +1062,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                                 <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -1084,7 +1085,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                 <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
               </costs>
               <selectionEntries>
-                <selectionEntry name="Shadow Warden" id="097d-1812-8803-57b1" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Shadow Warden" id="097d-1812-8803-57b1" hidden="false" import="true" type="model">
                   <constraints>
                     <constraint id="daa9-9af0-730d-6cd2" field="selections" scope="parent" shared="true" type="max" value="8"/>
                     <constraint id="ce9a-fe18-ba66-d613" field="selections" scope="parent" shared="true" type="min" value="8"/>
@@ -1178,7 +1179,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntry>
-                <selectionEntry name="Shadow Warden w/ Heavy Weapon" id="f5d5-8ddf-a060-8162" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Shadow Warden w/ Heavy Weapon" id="f5d5-8ddf-a060-8162" hidden="false" import="true" type="model">
                   <constraints>
                     <constraint id="77a2-15b3-3288-8cec" field="selections" scope="parent" shared="true" type="min" value="2"/>
                     <constraint id="dea7-a4ae-4694-f573" field="selections" scope="parent" shared="true" type="max" value="2"/>
@@ -1261,8 +1262,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                                 <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -1399,7 +1399,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
         <categoryLink name="Battleline" id="379c-f0ef-e415-f738" hidden="false" primary="true" targetId="e338-111e-d0c6-b687"/>
       </categoryLinks>
       <constraints>
-        <constraint id="c945-37d7-64cf-6abc" field="selections" scope="roster" shared="true" type="max" value="3"/>
+        <constraint id="c945-37d7-64cf-6abc" field="selections" scope="roster" shared="true" type="max" value="6"/>
         <constraint id="6802-7e1b-d064-a04b" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="3"/>
         <constraint id="07ef-4908-bf73-cf63" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
         <constraint id="dcdf-d7c3-7142-49bf" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
@@ -1650,7 +1650,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                 <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
               </costs>
               <selectionEntries>
-                <selectionEntry name="Silent Guard" id="c0dd-f9bc-ea26-6459" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Silent Guard" id="c0dd-f9bc-ea26-6459" hidden="false" import="true" type="model">
                   <constraints>
                     <constraint id="6084-fe64-a922-604b" field="selections" scope="parent" shared="true" type="max" value="4"/>
                     <constraint id="b462-0930-e81c-f3d8" field="selections" scope="parent" shared="true" type="min" value="4"/>
@@ -1744,7 +1744,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntry>
-                <selectionEntry name="Silent Guard w/ Heavy Weapon" id="15dc-f0e0-37a8-5341" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Silent Guard w/ Heavy Weapon" id="15dc-f0e0-37a8-5341" hidden="false" import="true" type="model">
                   <constraints>
                     <constraint id="7bb8-862b-3b69-8c46" field="selections" scope="parent" shared="true" type="min" value="1"/>
                     <constraint id="ad1a-9496-90b7-7e15" field="selections" scope="parent" shared="true" type="max" value="1"/>
@@ -1827,8 +1827,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                                 <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -1854,7 +1853,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                 <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
               </costs>
               <selectionEntries>
-                <selectionEntry name="Silent Guard" id="dbb8-98a4-851d-546a" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Silent Guard" id="dbb8-98a4-851d-546a" hidden="false" import="true" type="model">
                   <constraints>
                     <constraint id="8a51-d43e-3b56-dd7d" field="selections" scope="parent" shared="true" type="max" value="8"/>
                     <constraint id="28c7-03cd-bf0d-8890" field="selections" scope="parent" shared="true" type="min" value="8"/>
@@ -1948,7 +1947,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntry>
-                <selectionEntry name="Silent Guard w/ Heavy Weapon" id="7640-5794-6e4e-9e73" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Silent Guard w/ Heavy Weapon" id="7640-5794-6e4e-9e73" hidden="false" import="true" type="model">
                   <constraints>
                     <constraint id="d259-2ecb-0006-d336" field="selections" scope="parent" shared="true" type="min" value="2"/>
                     <constraint id="1979-5a53-9180-23f9" field="selections" scope="parent" shared="true" type="max" value="2"/>
@@ -2031,8 +2030,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                                 <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -2206,8 +2204,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2349,6 +2346,11 @@ even if you have already used that Stratagem on a different unit this phase.</c
         <profile name="Fast Fury" id="ae06-d265-bf9b-a2cb" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit disembarks from a Transport, it may immediately move D6&quot;.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Attached Unit" id="d3ff-6483-cf5f-8f1f" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a CHARACTER unit from your army with the Leader ability can be attached to a VANGUARD VETERANS WITH JUMP PACKS, it can instead be attached to this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2837,7 +2839,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
 ■ Sternguard Veteran Squad
 ■ Tactical Squad
 
-* This model cannot be attached to a Bladeguard Veteran Squad unless it is equipped with a relic storm shield.</characteristic>
+* This model cannot be attached to a Bladeguard Veteran Squad unless it is equipped with a Relic storm shield.</characteristic>
           </characteristics>
         </profile>
         <profile name="Stormstriker&apos;s Speed" id="7337-8a72-5c90-4100" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -2910,7 +2912,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                         <infoLink name="Invulnerable Save (4+)" id="a592-f792-ea79-25ab" hidden="false" targetId="5b77-29f8-7b77-75e3" type="profile"/>
                       </infoLinks>
                       <profiles>
-                        <profile name="Relic Shield" id="7583-1ab0-8fe6-7448" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+                        <profile name="Relic Storm Shield" id="7583-1ab0-8fe6-7448" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                           <characteristics>
                             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Add 1 to the bearer&apos;s Wounds characteristic.</characteristic>
                           </characteristics>
