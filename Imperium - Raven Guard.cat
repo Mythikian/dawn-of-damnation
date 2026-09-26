@@ -734,7 +734,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
         </profile>
         <profile name="Raven Guard Bodyguard" id="f6d1-05fb-1396-0810" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within 3&quot; of one or more friendly Adeptus Astartes Infantry units, enemy models have -1 to hit this model.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within 3&quot; of one or more friendly Adeptus Astartes Infantry models, whenever an attack is made against this model worsen the Armour Penetration charactersitic of that weapon by 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Primarch of the 19th Legion" id="74c2-c777-c392-76cf" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -744,17 +744,17 @@ even if you have already used that Stratagem on a different unit this phase.</c
         </profile>
         <profile name="Warp Lurker" id="3f57-9f6a-3f75-6f10" hidden="false" typeId="6c02-76c1-3d23-cb4c" typeName="Scourge of the Warp">
           <characteristics>
-            <characteristic name="Effect" typeId="e418-4b7e-f9d9-edf7">While a friendly Adeptus Astartes Infantry unit is within 6&quot; of this model, that unit can only be targeted by a ranged attack if the attacking model is within 18&quot;.</characteristic>
+            <characteristic name="Effect" typeId="e418-4b7e-f9d9-edf7">While a friendly **^^Adeptus Astartes Infantry^^** unit is within 6&quot; of this model, that unit can only be targeted by a ranged attack if the attacking model is within 18&quot;.</characteristic>
           </characteristics>
         </profile>
         <profile name="Shadow Incursion" id="0334-58b0-55e9-c127" hidden="false" typeId="6c02-76c1-3d23-cb4c" typeName="Scourge of the Warp">
           <characteristics>
-            <characteristic name="Effect" typeId="e418-4b7e-f9d9-edf7">Each time a Adeptus Astartes Infantry unit from your army is set up on the battlefield using the Deep Strike ability, it may be set up within 6&quot; of this model, and at least 6&quot; away from enemy units.</characteristic>
+            <characteristic name="Effect" typeId="e418-4b7e-f9d9-edf7">Each time a **^^Adeptus Astartes Infantry^^** unit from your army is set up on the battlefield using the Deep Strike ability, it may be set up within 6&quot; of this model, and at least 6&quot; away from enemy units.</characteristic>
           </characteristics>
         </profile>
         <profile name="Predatory Hawk" id="98ce-eb8e-95c3-91d4" hidden="false" typeId="6c02-76c1-3d23-cb4c" typeName="Scourge of the Warp">
           <characteristics>
-            <characteristic name="Effect" typeId="e418-4b7e-f9d9-edf7">Whenever this model makes an attack that targets your Oath of Moment Target, add 1 to the wound roll.</characteristic>
+            <characteristic name="Effect" typeId="e418-4b7e-f9d9-edf7">Whenever this model makes an attack that targets your Oath of Moment target, that attack gains [Twin-Linked].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2619,9 +2619,9 @@ even if you have already used that Stratagem on a different unit this phase.</c
         </modifierGroup>
       </modifierGroups>
       <profiles>
-        <profile name="Inhuman Stealth" id="e3ff-02e4-1933-96f7" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Lying in Wait" id="e3ff-02e4-1933-96f7" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per game when a unit declares this unit as a target in the shooting phase, you may activate this ability, if you do, the attacking unit has -1 to hit for the rest of the phase. This bonus stacks with Stealth.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whenever a model in this unit makes a ranged attack roll, it can ignore any and all modifiers to the hit roll.</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" id="335e-baf0-212a-3ea8" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
