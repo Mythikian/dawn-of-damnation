@@ -37,7 +37,6 @@
     <entryLink name="Phalanx Warders" id="f034-b280-d135-c31b" hidden="false" import="true" targetId="593e-5de7-734a-a5dd" type="selectionEntry"/>
     <entryLink name="Phalanx Strategos" id="6c73-f785-db01-0f93" hidden="false" import="true" targetId="6a00-618b-ec49-c4c6" type="selectionEntry"/>
     <entryLink name="Centurion Warden Squad" id="fe55-d83f-8549-436e" hidden="false" import="true" targetId="0f7d-b9c5-a54c-84af" type="selectionEntry"/>
-    <entryLink name="Auric Auxilia" id="d4dc-e532-3495-ec3e" hidden="false" import="true" targetId="08c8-7fdc-5118-7ee4" type="selectionEntry"/>
     <entryLink name="Vindicator Siege Mortar" id="d0cf-b298-4887-2b04" hidden="false" import="true" targetId="8181-57be-36e1-5145" type="selectionEntry"/>
     <entryLink name="Auric Auxilia" id="ae5f-f3ac-92d8-f05f" hidden="false" import="true" targetId="08c8-7fdc-5118-7ee4" type="selectionEntry"/>
   </entryLinks>
@@ -311,8 +310,8 @@
               <conditions>
                 <condition childId="f797-f718-df7d-8545" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
                 <condition childId="3d09-3368-9c3c-9009" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
-                <condition childId="32b1-2cb0-1977-fd60" childName="Gregor Dessian" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
                 <condition childId="9cb0-2aad-add8-216c" childName="Rogal Dorn" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                <condition childId="32b1-2cb0-1977-fd60" childName="Gregor Dessian" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1493,7 +1492,7 @@ Veteran Squad units from your army have an Objective Control characteristic of 
         <categoryLink name="Faction: Imperial Fists" id="21fd-d5b3-9619-7ce9" hidden="false" primary="false" targetId="97aa-d0e4-71c7-96c3"/>
         <categoryLink name="Chapter Master" id="dde6-6f69-5e99-c54d" hidden="false" primary="false" targetId="5bd8-882d-302b-48f3"/>
         <categoryLink name="Terminator" id="1dd3-aebd-d240-d450" hidden="false" primary="false" targetId="740a-892c-8958-defa"/>
-        <categoryLink name="Gregor Dessian" id="7b56-45e0-1715-6497" hidden="false" primary="false" targetId="32b1-2cb0-1977-fd60"/>
+        <categoryLink name="Gregor Dessian" id="ea00-1440-7f4e-fa1f" hidden="false" primary="false" targetId="32b1-2cb0-1977-fd60"/>
       </categoryLinks>
       <constraints>
         <constraint id="331c-bfa2-c977-8151" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
@@ -1522,6 +1521,17 @@ Veteran Squad units from your army have an Objective Control characteristic of 
         <infoLink name="Oath of Moment" id="faf3-5640-9ebe-9287" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
         <infoLink name="Leader" id="4663-b957-da3c-fd2b" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition childId="7709-796b-3022-31fe" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Gregor Dessian" id="3c3f-c81c-dfe4-df08" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
@@ -1563,15 +1573,15 @@ Veteran Squad units from your army have an Objective Control characteristic of 
             <infoLink name="Sustained Hits" id="3a99-23b1-708f-b15d" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
           </infoLinks>
           <profiles>
-            <profile name="Twin Heavy Bolter" id="55b3-263d-4898-5d63" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+            <profile name="Twin Heavy Bolter" id="55b3-263d-4898-5d63" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
               <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">36&quot;</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits 1, Twin-linked</characteristic>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1, Twin-linked</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1636,6 +1646,17 @@ Veteran Squad units from your army have an Objective Control characteristic of 
         <infoLink name="Invulnerable Save (4+)" id="5a5e-3ad2-e876-83eb" hidden="false" targetId="5b77-29f8-7b77-75e3" type="profile"/>
         <infoLink name="Lone Operative" id="2007-dd96-f292-7616" hidden="false" targetId="a8a0-8fe7-898-e0f3" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition childId="7709-796b-3022-31fe" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Rogal Dorn" id="7506-362a-8f3d-68ce" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
@@ -1783,7 +1804,7 @@ Veteran Squad units from your army have an Objective Control characteristic of 
       <profiles>
         <profile name="Industrial Melta Charge" id="f0b3-cb0b-e1ad-ad0e" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per game, if this unit successfully makes a charge against an enemy VEHICLE or FORTIFICATION, you may use this ability, if you do roll a die, on a 2+ that model takes D6+2 Mortal Wounds. Additionally you may destroy a model in this unit when you activate this ability to change the damage to D3+5.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per game, if this unit successfully makes a charge against an enemy VEHICLE or FORTIFICATION, you may use this ability, if you do roll a die, on a 2+ that model takes D6+2 Mortal Wounds. Additionally you may destroy a model in this unit when you activate this ability to change the mortal wounds dealt to D3+5.</characteristic>
           </characteristics>
         </profile>
         <profile name="Terror Bringers" id="c41a-8892-1145-8a4d" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -2251,7 +2272,7 @@ Veteran Squad units from your army have an Objective Control characteristic of 
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                         <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
@@ -2370,23 +2391,21 @@ Veteran Squad units from your army have an Objective Control characteristic of 
                     <constraint id="2bee-e90f-7145-0669" field="selections" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry name="Mastercrafted Chain Fist" id="1a10-c03f-48a1-dbae" collective="true" hidden="false" import="true" type="upgrade">
+                    <selectionEntry name="Mastercrafted Power Fist" id="1a10-c03f-48a1-dbae" collective="true" hidden="false" import="true" type="upgrade">
                       <constraints>
                         <constraint id="9284-d2f6-d2ef-40e9" field="selections" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
-                      <infoLinks>
-                        <infoLink name="Anti-" id="d68b-8191-c2e0-91f3" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
-                      </infoLinks>
                       <profiles>
-                        <profile name="Mastercrafted Chain Fist" id="4a4b-819d-7cfa-3230" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                        <profile name="Mastercrafted Power Fist" id="4a4b-819d-7cfa-3230" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                           <characteristics>
                             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                             <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
                             <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                             <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Vehicle 3+</characteristic>
+                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2772,7 +2791,7 @@ Veteran Squad units from your army have an Objective Control characteristic of 
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Wargear" id="5701-1c58-cc30-057d" hidden="false">
+                <selectionEntryGroup name="Wargear" id="5701-1c58-cc30-057d" defaultSelectionEntryId="4c9f-de2f-956e-2860" hidden="false">
                   <constraints>
                     <constraint id="f864-3a31-e234-d6ac" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="1201-9272-c159-b66c" field="selections" scope="parent" shared="true" type="min" value="1"/>
@@ -2808,24 +2827,6 @@ Veteran Squad units from your army have an Objective Control characteristic of 
                             <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
                             <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
 </characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                    </selectionEntry>
-                    <selectionEntry name="Master-crafted Thunder Hammer" id="285d-cddf-2afd-3aa8" hidden="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink name="Devastating Wounds" id="9515-8e48-458d-6cc4" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
-                      </infoLinks>
-                      <profiles>
-                        <profile name="Master-crafted Thunder Hammer" id="13de-8874-d53d-cf7c" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-                          <characteristics>
-                            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                            <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
-                            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
