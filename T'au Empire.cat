@@ -18099,8 +18099,7 @@ Shock Imprint: Each time this unit disembarks, arrives from Reserves, or is set 
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -18133,8 +18132,7 @@ Shock Imprint: Each time this unit disembarks, arrives from Reserves, or is set 
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -18370,8 +18368,7 @@ You can attach this model to a unit, even if one Ethereal model has already been
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">2</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
               </characteristics>
             </profile>
           </profiles>
@@ -18793,8 +18790,7 @@ You can attach this model to a unit, even if one Ethereal model has already been
                             <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                             <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -18868,8 +18864,7 @@ You can attach this model to a unit, even if one Ethereal model has already been
                             <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                             <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -18908,8 +18903,7 @@ You can attach this model to a unit, even if one Ethereal model has already been
                             <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                             <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -18956,8 +18950,7 @@ You can attach this model to a unit, even if one Ethereal model has already been
                                 <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-</characteristic>
+                                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -19129,8 +19122,7 @@ You can attach this model to a unit, even if one Ethereal model has already been
                             <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                             <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -19204,8 +19196,7 @@ You can attach this model to a unit, even if one Ethereal model has already been
                             <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                             <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -19244,8 +19235,7 @@ You can attach this model to a unit, even if one Ethereal model has already been
                             <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                             <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -19292,8 +19282,7 @@ You can attach this model to a unit, even if one Ethereal model has already been
                                 <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-</characteristic>
+                                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
                               </characteristics>
                             </profile>
                           </profiles>

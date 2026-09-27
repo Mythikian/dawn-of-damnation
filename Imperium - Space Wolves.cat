@@ -10137,17 +10137,17 @@ a Transport</characteristic>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within 3&quot; of one or more friendly Adeptus Astartes Infantry units, this model has the Lone Operative ability.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Strength of the Emperor" id="234e-afb8-9819-5e31" hidden="false" typeId="ffe6-0ffb-92ce-50eb" typeName="King of Fenris">
+        <profile name="Strength of the Emperor" id="234e-afb8-9819-5e31" hidden="false" typeId="ffe6-0ffb-92ce-50eb" typeName="The Wolf King">
           <characteristics>
             <characteristic name="Ability" typeId="aa4f-092a-8a1a-cbf8">Whenever this unit makes a charge roll, add 2 to the result. Each time this model makes a melee attack, if this unit made a Charge move this turn, improve the Strength characteristics of that attack by 2.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Rage of the Wolf" id="1e63-bb86-06d1-7a81" hidden="false" typeId="ffe6-0ffb-92ce-50eb" typeName="King of Fenris">
+        <profile name="Rage of the Wolf" id="1e63-bb86-06d1-7a81" hidden="false" typeId="ffe6-0ffb-92ce-50eb" typeName="The Wolf King">
           <characteristics>
             <characteristic name="Ability" typeId="aa4f-092a-8a1a-cbf8">Whenever a friendly ADEPTUS ASTARTES unit targets an enemy Oath of Moment target with an attack, add 1 to the hit roll.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Commander of the Pack (Aura)" id="bbd7-4f53-ce52-edd9" hidden="false" typeId="ffe6-0ffb-92ce-50eb" typeName="King of Fenris">
+        <profile name="Commander of the Pack (Aura)" id="bbd7-4f53-ce52-edd9" hidden="false" typeId="ffe6-0ffb-92ce-50eb" typeName="The Wolf King">
           <characteristics>
             <characteristic name="Ability" typeId="aa4f-092a-8a1a-cbf8">Friendly ADEPTUS ASTARTES units within 6&quot; of this model add 2 to advance and charge rolls.</characteristic>
           </characteristics>

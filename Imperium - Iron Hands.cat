@@ -911,10 +911,6 @@ attack has the [LETHAL HITS] ability. Each time a model in this model’s unit 
         <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
         <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
       </costs>
-      <entryLinks>
-        <entryLink name="Tank Ace Character" id="6ccf-82b8-40ea-f846" hidden="false" import="true" targetId="8810-ebe3-94f2-8eab" type="selectionEntry"/>
-        <entryLink name="Headhunter Task Force Enhancements" id="b88b-f4f4-4083-a68f" hidden="false" import="true" targetId="f545-8ae0-b440-8407" type="selectionEntryGroup"/>
-      </entryLinks>
       <infoLinks>
         <infoLink name="Oath of Moment" id="b088-2aab-6751-c978" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
         <infoLink name="Deadly Demise" id="e87a-3e6e-1587-8724" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
@@ -923,13 +919,6 @@ attack has the [LETHAL HITS] ability. Each time a model in this model’s unit 
           </modifiers>
         </infoLink>
       </infoLinks>
-      <modifiers>
-        <modifier field="category" type="add" value="b6a1-a3f9-16eb-2d31">
-          <conditions>
-            <condition childId="cf4f-5c50-4a22-6960" childName="Headhunter Task Force" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile name="Breacher ATV" id="efda-5c99-399a-668c" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
@@ -1555,10 +1544,6 @@ attack has the [LETHAL HITS] ability. Each time a model in this model’s unit 
         <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
         <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
       </costs>
-      <entryLinks>
-        <entryLink name="Tank Ace Character" id="35b8-9ba3-ca2d-2422" hidden="false" import="true" targetId="8810-ebe3-94f2-8eab" type="selectionEntry"/>
-        <entryLink name="Headhunter Task Force Enhancements" id="2b05-7274-9afe-9ca4" hidden="false" import="true" targetId="f545-8ae0-b440-8407" type="selectionEntryGroup"/>
-      </entryLinks>
       <infoLinks>
         <infoLink name="Oath of Moment" id="c49d-7ca6-908d-b071" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
         <infoLink name="Deadly Demise" id="f73c-d595-165f-fdf8" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
@@ -1567,13 +1552,6 @@ attack has the [LETHAL HITS] ability. Each time a model in this model’s unit 
           </modifiers>
         </infoLink>
       </infoLinks>
-      <modifiers>
-        <modifier field="category" type="add" value="b6a1-a3f9-16eb-2d31">
-          <conditions>
-            <condition childId="cf4f-5c50-4a22-6960" childName="Headhunter Task Force" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile name="Repulsor Charger" id="d089-a883-d53e-45b6" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
