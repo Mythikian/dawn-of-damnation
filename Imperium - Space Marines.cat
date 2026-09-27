@@ -30248,7 +30248,7 @@ Attacks characteristic of 7.</characteristic>
                         <entryLink name="Weapon Modifications" id="9e78-3dc1-58c4-a0db" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
                       </entryLinks>
                     </entryLink>
-                    <entryLink name="Astartes Chainsword" id="0a4b-2648-0d2a-6569" hidden="false" import="true" targetId="c1b9-f39d-7390-d4cb" type="selectionEntry">
+                    <entryLink name="Astartes Chainsword" id="0a4b-2648-0d2a-6569" hidden="false" import="true" targetId="efcd-180-d07-b4d6" type="selectionEntry">
                       <entryLinks>
                         <entryLink name="Weapon Modifications" id="3c56-6573-20a3-78f9" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
                       </entryLinks>

@@ -178,37 +178,37 @@
   </categoryEntries>
   <entryLinks>
     <entryLink name="Logan Grimnar" id="23f-47a2-1700-86cd" hidden="false" import="true" targetId="c65-46c6-3a62-80c" type="selectionEntry"/>
-    <entryLink name="Logan Grimnar on Stormrider [Legends]" id="5f20-f7c6-ac3b-189d" hidden="false" import="true" targetId="54e3-9fb6-416-8a90" type="selectionEntry"/>
+    <entryLink name="Logan Grimnar on Stormrider" id="5f20-f7c6-ac3b-189d" hidden="false" import="true" targetId="54e3-9fb6-416-8a90" type="selectionEntry"/>
     <entryLink name="Njal Stormcaller" id="ab79-1972-8d44-553f" hidden="false" import="true" targetId="bd47-a00a-e70-abd6" type="selectionEntry"/>
     <entryLink name="Bjorn the Fell-Handed" id="ab8-5df0-71b-e93d" hidden="false" import="true" targetId="c35a-6d78-2169-3d23" type="selectionEntry"/>
     <entryLink name="Arjac Rockfist" id="6c92-db55-3bde-cfbf" hidden="false" import="true" targetId="a9c8-1a6-a0e1-7698" type="selectionEntry"/>
     <entryLink name="Ulrik the Slayer" id="960a-a2d8-2c96-5c24" hidden="false" import="true" targetId="fc7c-83a5-7106-41ab" type="selectionEntry"/>
     <entryLink name="Ragnar Blackmane" id="6c2c-c843-40c-eb60" hidden="false" import="true" targetId="23d2-ea9a-cc45-476" type="selectionEntry"/>
-    <entryLink name="Krom Dragongaze [Legends]" id="67e8-1fd4-ceff-2375" hidden="false" import="true" targetId="af71-2b1b-2eee-d2be" type="selectionEntry"/>
-    <entryLink name="Harald Deathwolf [Legends]" id="6c2c-f5a3-41d6-3b93" hidden="false" import="true" targetId="7d72-63bf-a5f2-bb6c" type="selectionEntry"/>
-    <entryLink name="Canis Wolfborn [Legends]" id="5bd6-7d06-3210-f614" hidden="false" import="true" targetId="d63f-bf2c-d38b-58c0" type="selectionEntry"/>
-    <entryLink name="Wolf Guard Battle Leader in Terminator Armour [Legends]" id="a99b-7a34-a186-8320" hidden="false" import="true" targetId="bcab-c09a-6584-3b26" type="selectionEntry"/>
-    <entryLink name="Wolf Lord on Thunderwolf [Legends]" id="5a1f-b53-3b2a-2591" hidden="false" import="true" targetId="295-5df2-e140-7266" type="selectionEntry"/>
-    <entryLink name="Wolf Guard Battle Leader on Thunderwolf [Legends]" id="f673-43ae-9348-61fd" hidden="false" import="true" targetId="6ec-fcf9-ebb6-7c55" type="selectionEntry"/>
+    <entryLink name="Krom Dragongaze" id="67e8-1fd4-ceff-2375" hidden="false" import="true" targetId="af71-2b1b-2eee-d2be" type="selectionEntry"/>
+    <entryLink name="Harald Deathwolf" id="6c2c-f5a3-41d6-3b93" hidden="false" import="true" targetId="7d72-63bf-a5f2-bb6c" type="selectionEntry"/>
+    <entryLink name="Canis Wolfborn" id="5bd6-7d06-3210-f614" hidden="false" import="true" targetId="d63f-bf2c-d38b-58c0" type="selectionEntry"/>
+    <entryLink name="Wolf Guard Battle Leader in Terminator Armour" id="a99b-7a34-a186-8320" hidden="false" import="true" targetId="bcab-c09a-6584-3b26" type="selectionEntry"/>
+    <entryLink name="Wolf Lord on Thunderwolf" id="5a1f-b53-3b2a-2591" hidden="false" import="true" targetId="295-5df2-e140-7266" type="selectionEntry"/>
+    <entryLink name="Wolf Guard Battle Leader on Thunderwolf" id="f673-43ae-9348-61fd" hidden="false" import="true" targetId="6ec-fcf9-ebb6-7c55" type="selectionEntry"/>
     <entryLink name="Blood Claws" id="498-8bb5-1f55-65c2" hidden="false" import="true" targetId="fa8f-f5a2-993-bdbb" type="selectionEntry"/>
     <entryLink name="Grey Hunters" id="2e24-116d-87cb-1d8d" hidden="false" import="true" targetId="60ce-47ea-50fa-53f2" type="selectionEntry"/>
-    <entryLink name="Wolf Guard [Legends]" id="c62b-1220-a7b0-5917" hidden="false" import="true" targetId="8486-fe44-efc3-e51b" type="selectionEntry"/>
-    <entryLink name="Lukas the Trickster [Legends]" id="ad91-10ab-6d45-ae4e" hidden="false" import="true" targetId="6044-a19c-fd13-fdb8" type="selectionEntry"/>
+    <entryLink name="Wolf Guard" id="c62b-1220-a7b0-5917" hidden="false" import="true" targetId="8486-fe44-efc3-e51b" type="selectionEntry"/>
+    <entryLink name="Lukas the Trickster" id="ad91-10ab-6d45-ae4e" hidden="false" import="true" targetId="6044-a19c-fd13-fdb8" type="selectionEntry"/>
     <entryLink name="Wolf Guard Terminators" id="5167-2675-f8da-b1d7" hidden="false" import="true" targetId="ca30-caf3-d7a8-1d32" type="selectionEntry"/>
-    <entryLink name="Hounds of Morkai [Legends]" id="5ee-f1ee-d24d-13ad" hidden="false" import="true" targetId="f37d-87d6-e14c-e697" type="selectionEntry"/>
+    <entryLink name="Hounds of Morkai" id="5ee-f1ee-d24d-13ad" hidden="false" import="true" targetId="f37d-87d6-e14c-e697" type="selectionEntry"/>
     <entryLink name="Wulfen" id="b55a-14dc-71ca-8e55" hidden="false" import="true" targetId="d937-bd7d-618d-4e2d" type="selectionEntry"/>
     <entryLink name="Wulfen Dreadnought" id="dd6d-ee77-b9ea-d2e5" hidden="false" import="true" targetId="91fa-49ac-5b0a-c155" type="selectionEntry"/>
     <entryLink name="Murderfang" id="4bec-dc7d-f031-4d01" hidden="false" import="true" targetId="6ef5-6700-d888-df3b" type="selectionEntry"/>
     <entryLink name="Thunderwolf Cavalry" id="20ee-2cf8-78b6-58df" hidden="false" import="true" targetId="7a50-3722-8195-5877" type="selectionEntry"/>
     <entryLink name="Fenrisian Wolves" id="b429-8c1b-614c-7e94" hidden="false" import="true" targetId="dc75-5a79-4121-1d72" type="selectionEntry"/>
-    <entryLink name="Skyclaws [Legends]" id="915f-cecb-b52e-5fdb" hidden="false" import="true" targetId="b556-b0e1-3b4e-597a" type="selectionEntry"/>
-    <entryLink name="Long Fangs [Legends]" id="257a-e93f-b9f1-989a" hidden="false" import="true" targetId="47fa-f42-bb06-77d2" type="selectionEntry"/>
-    <entryLink name="Stormfang Gunship [Legends]" id="9a97-a630-1fc6-bccd" hidden="false" import="true" targetId="3b8b-19bb-1855-98c5" type="selectionEntry"/>
-    <entryLink name="Stormwolf [Legends]" id="891a-8f91-4e3-ceff" hidden="false" import="true" targetId="b85d-d565-d3a4-8f8b" type="selectionEntry"/>
+    <entryLink name="Skyclaws" id="915f-cecb-b52e-5fdb" hidden="false" import="true" targetId="b556-b0e1-3b4e-597a" type="selectionEntry"/>
+    <entryLink name="Long Fangs" id="257a-e93f-b9f1-989a" hidden="false" import="true" targetId="47fa-f42-bb06-77d2" type="selectionEntry"/>
+    <entryLink name="Stormfang Gunship" id="9a97-a630-1fc6-bccd" hidden="false" import="true" targetId="3b8b-19bb-1855-98c5" type="selectionEntry"/>
+    <entryLink name="Stormwolf" id="891a-8f91-4e3-ceff" hidden="false" import="true" targetId="b85d-d565-d3a4-8f8b" type="selectionEntry"/>
     <entryLink name="Iron Priest" id="81f7-f8b0-3d4d-5cd4" hidden="false" import="true" targetId="3212-bec7-a50e-3363" type="selectionEntry"/>
-    <entryLink name="Cyberwolf [Legends]" id="3f15-36d4-1194-be99" hidden="false" import="true" targetId="6a06-e50c-2c7d-3ec3" type="selectionEntry"/>
-    <entryLink name="Wolf Scouts [Legends]" id="d8d3-d93e-4ead-3e95" hidden="false" import="true" targetId="91e4-38c4-a96f-2090" type="selectionEntry"/>
-    <entryLink name="Iron Priest on Thunderwolf [Legends]" id="5fdd-aa39-ff88-1e6c" hidden="true" import="true" targetId="6a01-437c-998a-f48e" type="selectionEntry"/>
+    <entryLink name="Cyberwolf" id="3f15-36d4-1194-be99" hidden="false" import="true" targetId="6a06-e50c-2c7d-3ec3" type="selectionEntry"/>
+    <entryLink name="Wolf Scouts" id="d8d3-d93e-4ead-3e95" hidden="false" import="true" targetId="91e4-38c4-a96f-2090" type="selectionEntry"/>
+    <entryLink name="Iron Priest on Thunderwolf" id="5fdd-aa39-ff88-1e6c" hidden="true" import="true" targetId="6a01-437c-998a-f48e" type="selectionEntry"/>
     <entryLink name="Wolf Guard Battle Leader" id="5d5e-cd7a-4443-abfb" hidden="false" import="true" targetId="bbdb-49fd-da4d-3d7a" type="selectionEntry"/>
     <entryLink name="Wolf Guard Headtakers" id="28f3-a24d-0739-681c" hidden="false" import="true" targetId="d4ef-1ddc-1ed5-5156" type="selectionEntry"/>
     <entryLink name="Wolf Priest" id="1a8a-e245-87c8-e38a" hidden="false" import="true" targetId="b3b1-d1df-d9be-d48e" type="selectionEntry"/>
@@ -216,13 +216,13 @@
     <entryLink name="Wolf Guard Headtakers" id="3e0e-a813-a6ff-e8e9" hidden="false" import="true" targetId="0f93-6850-8f14-a351" type="selectionEntry">
       <comment>Crusade variant</comment>
     </entryLink>
-    <entryLink name="Wolf Scouts" id="1058-f2e6-8f32-7483" hidden="false" import="true" targetId="ee6b-3815-3a1a-6458" type="selectionEntry"/>
+    <entryLink name="Wolf Scout Hunters" id="1058-f2e6-8f32-7483" hidden="false" import="true" targetId="ee6b-3815-3a1a-6458" type="selectionEntry"/>
     <entryLink name="Leman Russ" id="354a-b3f1-cd01-6442" hidden="false" import="true" targetId="2455-2080-b428-ac0b" type="selectionEntry"/>
     <entryLink name="Wolf Guard Battle Leader with Jump Pack" id="2574-8e42-cb91-933d" hidden="false" import="true" targetId="f426-fbd5-798f-dde8" type="selectionEntry"/>
     <entryLink name="Iron Priest on Thunderwolf" id="0882-b5ca-cd96-27a2" hidden="false" import="true" targetId="6a01-437c-998a-f48e" type="selectionEntry"/>
   </entryLinks>
   <profileTypes>
-    <profileType name="King of Fenris" id="ffe6-0ffb-92ce-50eb" hidden="false">
+    <profileType name="The Wolf King" id="ffe6-0ffb-92ce-50eb" hidden="false">
       <characteristicTypes>
         <characteristicType name="Ability" id="aa4f-092a-8a1a-cbf8"/>
       </characteristicTypes>
@@ -9726,11 +9726,11 @@ a Transport</characteristic>
           <selectionEntries>
             <selectionEntry name="12 Models" id="56e0-a9ea-52fd-7270" hidden="false" import="true" type="upgrade">
               <entryLinks>
-                <entryLink name="Wolf Scout Pack Leader" id="c3a6-3151-fe5d-ef1f" hidden="false" sortIndex="1" targetId="4174-3c06-0bf7-e559" type="selectionEntry"/>
-                <entryLink name="Wolf Scout w/ plasma gun" id="ecf6-3629-0895-9208" hidden="false" import="true" sortIndex="3" targetId="602e-f68d-8d32-93c1" type="selectionEntry"/>
-                <entryLink name="Wolf Scout w/ haywire mine" id="1ee4-7ac7-12e1-2d8e" hidden="false" import="true" sortIndex="4" targetId="dd91-ea35-42d8-fcd8" type="selectionEntry"/>
-                <entryLink name="Wolf Scout w/ runic stave and Thunderclap" id="be02-a6da-0789-313c" hidden="false" import="true" sortIndex="5" targetId="a8a3-25ba-af91-6a4d" type="selectionEntry"/>
-                <entryLink name="Wolf Scout" id="1ff3-11fc-d465-c0dc" hidden="false" import="true" sortIndex="2" targetId="c374-ad8b-3d27-eb75" type="selectionEntry">
+                <entryLink name="Wolf Scout Hunter Pack Leader" id="c3a6-3151-fe5d-ef1f" hidden="false" sortIndex="1" targetId="4174-3c06-0bf7-e559" type="selectionEntry"/>
+                <entryLink name="Wolf Scout Hunter w/ plasma gun" id="ecf6-3629-0895-9208" hidden="false" import="true" sortIndex="3" targetId="602e-f68d-8d32-93c1" type="selectionEntry"/>
+                <entryLink name="Wolf Scout Hunter w/ haywire mine" id="1ee4-7ac7-12e1-2d8e" hidden="false" import="true" sortIndex="4" targetId="dd91-ea35-42d8-fcd8" type="selectionEntry"/>
+                <entryLink name="Wolf Scout Hunter w/ runic stave and Thunderclap" id="be02-a6da-0789-313c" hidden="false" import="true" sortIndex="5" targetId="a8a3-25ba-af91-6a4d" type="selectionEntry"/>
+                <entryLink name="Wolf Scout Hunter" id="1ff3-11fc-d465-c0dc" hidden="false" import="true" sortIndex="2" targetId="c374-ad8b-3d27-eb75" type="selectionEntry">
                   <constraints>
                     <constraint id="e596-b470-108b-b95f-min" automatic="true" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="9"/>
                     <constraint id="e596-b470-108b-b95f-max" automatic="true" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="9"/>
@@ -9836,8 +9836,8 @@ a Transport</characteristic>
             </selectionEntry>
             <selectionEntry name="6 Models" id="dbdf-c5af-9b25-325b" hidden="false" import="true" type="upgrade">
               <entryLinks>
-                <entryLink name="Wolf Scout w/ haywire mine" id="5265-aebf-0654-d0cb" hidden="false" sortIndex="4" targetId="dd91-ea35-42d8-fcd8" type="selectionEntry"/>
-                <entryLink name="Wolf Scout" id="aed8-30c1-7637-6bab" hidden="false" sortIndex="2" targetId="c374-ad8b-3d27-eb75" type="selectionEntry">
+                <entryLink name="Wolf Scout Hunter w/ haywire mine" id="5265-aebf-0654-d0cb" hidden="false" sortIndex="4" targetId="dd91-ea35-42d8-fcd8" type="selectionEntry"/>
+                <entryLink name="Wolf Scout Hunter" id="aed8-30c1-7637-6bab" hidden="false" sortIndex="2" targetId="c374-ad8b-3d27-eb75" type="selectionEntry">
                   <constraints>
                     <constraint id="6863-8854-ffc0-f067-min" automatic="true" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="4"/>
                     <constraint id="6863-8854-ffc0-f067-max" automatic="true" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
@@ -9859,9 +9859,9 @@ a Transport</characteristic>
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink name="Wolf Scout w/ plasma gun" id="35f0-330a-45a2-aed5" hidden="false" sortIndex="3" targetId="602e-f68d-8d32-93c1" type="selectionEntry"/>
-                <entryLink name="Wolf Scout w/ runic stave and Thunderclap" id="52ca-b98d-55d8-e045" hidden="false" sortIndex="5" targetId="a8a3-25ba-af91-6a4d" type="selectionEntry"/>
-                <entryLink name="Wolf Scout Pack Leader" id="d010-5c82-701f-cd7f" hidden="false" import="true" sortIndex="1" targetId="4174-3c06-0bf7-e559" type="selectionEntry"/>
+                <entryLink name="Wolf Scout Hunter w/ plasma gun" id="35f0-330a-45a2-aed5" hidden="false" sortIndex="3" targetId="602e-f68d-8d32-93c1" type="selectionEntry"/>
+                <entryLink name="Wolf Scout Hunter w/ runic stave and Thunderclap" id="52ca-b98d-55d8-e045" hidden="false" sortIndex="5" targetId="a8a3-25ba-af91-6a4d" type="selectionEntry"/>
+                <entryLink name="Wolf Scout Hunter Pack Leader" id="d010-5c82-701f-cd7f" hidden="false" import="true" sortIndex="1" targetId="4174-3c06-0bf7-e559" type="selectionEntry"/>
               </entryLinks>
               <selectionEntries>
                 <selectionEntry name="Hunting Wolf" id="aadf-bce7-7d3b-fce5" hidden="false" import="true" sortIndex="6" type="model">
@@ -10122,9 +10122,9 @@ a Transport</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">4</characteristic>
           </characteristics>
         </profile>
-        <profile name="King of Fenris" id="4982-d332-279f-db3b" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="The Wolf King" id="4982-d332-279f-db3b" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command phase, select two King of Fenris abilities. Until the start of your next Command phase, this model has those abilities.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command phase, select two The Wolf King abilities. Until the start of your next Command phase, this model has those abilities.</characteristic>
           </characteristics>
         </profile>
         <profile name="Primarch of the 6th legion" id="7b7f-2014-4547-064d" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
