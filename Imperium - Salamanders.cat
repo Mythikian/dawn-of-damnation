@@ -596,6 +596,21 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is in your army, it must be your Warlord.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Into the Fire" id="6a8d-15bd-5086-87b1" hidden="false" typeId="a70c-e780-23ac-b35d" typeName="Ruler of Nocturne">
+          <characteristics>
+            <characteristic name="Ability" typeId="fbf4-9abf-05c1-71cb">Ranged weapons equipped by friendly ADEPTUS ASTARTES units within 6&quot; gain the [ASSAULT] keyword, if they already have the [ASSAULT] keyword on all their ranged weapons then they may reroll Advance rolls instead.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Where He is Needed" id="547a-7424-5d15-a321" hidden="false" typeId="a70c-e780-23ac-b35d" typeName="Ruler of Nocturne">
+          <characteristics>
+            <characteristic name="Ability" typeId="fbf4-9abf-05c1-71cb">At the end of your opponent&apos;s turn, if this model is not within 3&quot; of one or more enemy units, you can remove it from the battlefield and then, in the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9&quot; horizontally away from all enemy models. If the battle ends and this model is not on the battlefield, it is destroyed.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Scorching Heat" id="bf9d-3c87-836a-1675" hidden="false" typeId="a70c-e780-23ac-b35d" typeName="Ruler of Nocturne">
+          <characteristics>
+            <characteristic name="Ability" typeId="fbf4-9abf-05c1-71cb">While a friendly ADEPTUS ASTARTES unit is within 6&quot; of this model, improve the Armour Penetration characteristic of ranged weapons equipped by that unit by 1 when attacking an enemy unit within 12” of it.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <selectionEntries>
         <selectionEntry name="Doomtremor" id="d44f-dadb-7f3d-3605" hidden="false" import="true" type="upgrade">
@@ -2000,7 +2015,7 @@
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Pistol, Twin Linked</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Pistol, Twin-linked</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2203,7 +2218,6 @@
             <selectionEntry name="Two Heavy Bolters" id="9022-8b96-f026-b5ab" hidden="false" import="true" type="upgrade">
               <constraints>
                 <constraint id="bb42-c57c-1ca9-3ce8" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                <constraint id="820b-9cf2-3dec-620c" field="selections" scope="parent" shared="true" type="min" value="1"/>
               </constraints>
               <infoLinks>
                 <infoLink name="Sustained Hits" id="9b64-ba2d-300d-764c" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
@@ -2236,7 +2250,6 @@
             <selectionEntry name="Two Heavy Flamers" id="d690-24ae-d4b2-620e" hidden="false" import="true" type="upgrade">
               <constraints>
                 <constraint id="4175-7b39-095a-4602" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                <constraint id="0f7f-4e27-2a23-16fb" field="selections" scope="parent" shared="true" type="min" value="1"/>
               </constraints>
               <infoLinks>
                 <infoLink name="Torrent" id="8cde-a1de-c535-449d" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
@@ -2270,13 +2283,12 @@
             <selectionEntry name="Two Meltas" id="3451-e449-2da4-0d26" hidden="false" import="true" type="upgrade">
               <constraints>
                 <constraint id="c0df-d1f2-e605-d22b" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                <constraint id="3b9f-c028-df7c-d589" field="selections" scope="parent" shared="true" type="min" value="1"/>
               </constraints>
               <infoLinks>
                 <infoLink name="Melta" id="7fe6-49a6-67a9-58e4" hidden="false" targetId="7cdb-fb99-44a9-8849" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Melta" id="25cd-3b23-5671-4f96" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                <profile name="Melta" id="cf69-2e5d-6789-40a0" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
@@ -2287,7 +2299,7 @@
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Melta" id="cf69-2e5d-6789-40a0" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                <profile name="Melta" id="dc56-32ee-13b4-e71e" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
