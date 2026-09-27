@@ -33,6 +33,8 @@
     <entryLink name="Pyroclasts" id="e8bc-4484-02c7-2b09" hidden="false" import="true" targetId="cf6f-2133-99d9-0202" type="selectionEntry"/>
     <entryLink name="Sanctifier Squad" id="ce93-c7fe-3c51-5073" hidden="false" import="true" targetId="5303-6ce9-4119-f660" type="selectionEntry"/>
     <entryLink name="Saturnine Dreadnought" id="b56d-49fa-65e4-5270" hidden="false" import="true" targetId="6c62-11c8-75f9-fc73" type="selectionEntry"/>
+    <entryLink name="Salamanders Captain in Saturnine Armor" id="a14c-9fde-7f40-1f4f" hidden="false" import="true" targetId="4118-eda1-50c4-583e" type="selectionEntry"/>
+    <entryLink name="Saturnine Terminator Squad" id="b4f8-561c-f7f1-6ddc" hidden="false" import="true" targetId="e548-03e7-a40d-8542" type="selectionEntry"/>
   </entryLinks>
   <profileTypes>
     <profileType name="Ruler of Nocturne" id="a70c-e780-23ac-b35d" hidden="false">
