@@ -36,29 +36,29 @@
     <entryLink name="Death Company Intercessors" id="995-6e4c-ec61-ec2c" hidden="false" import="true" targetId="bb83-db85-6ce1-9a61" type="selectionEntry"/>
     <entryLink name="Astorath" id="1032-6744-7fe5-1975" hidden="false" import="true" targetId="f943-72c8-581c-e6f2" type="selectionEntry"/>
     <entryLink name="Baal Predator" id="eacb-5067-279-84c4" hidden="false" import="true" targetId="640-9969-d5b9-875c" type="selectionEntry"/>
-    <entryLink name="Brother Corbulo [Legends]" id="4abd-de59-2daa-fe2e" hidden="false" import="true" targetId="8d87-ee8a-6af4-3715" type="selectionEntry"/>
-    <entryLink name="Captain Tycho [Legends]" id="22a0-b94-dd32-bcd3" hidden="false" import="true" targetId="ae0a-e23c-2184-7c65" type="selectionEntry"/>
+    <entryLink name="Brother Corbulo" id="4abd-de59-2daa-fe2e" hidden="false" import="true" targetId="8d87-ee8a-6af4-3715" type="selectionEntry"/>
+    <entryLink name="Captain Antargo" id="22a0-b94-dd32-bcd3" hidden="false" import="true" targetId="ae0a-e23c-2184-7c65" type="selectionEntry"/>
     <entryLink name="Chief Librarian Mephiston" id="af4f-95a4-dbfc-3987" hidden="false" import="true" targetId="ab35-2c36-9389-d1d5" type="selectionEntry"/>
     <entryLink name="Commander Dante" id="d641-aa45-acbb-beff" hidden="false" import="true" targetId="7323-ebf-9afe-7e7a" type="selectionEntry"/>
-    <entryLink name="Death Company Dreadnought with Magna-Grapple [Legends]" id="4369-60d9-853-801" hidden="false" import="true" targetId="e7ee-e70-bd87-7c5c" type="selectionEntry"/>
-    <entryLink name="Furioso Dreadnought [Legends]" id="e2d6-f4d8-8388-2312" hidden="false" import="true" targetId="c954-8157-25fd-5f99" type="selectionEntry"/>
-    <entryLink name="Gabriel Seth [Legends]" id="36e-e56f-90cc-8981" hidden="false" import="true" targetId="462-f17c-3bb-16a" type="selectionEntry"/>
+    <entryLink name="Death Company Dreadnought with Magna-Grapple" id="4369-60d9-853-801" hidden="false" import="true" targetId="e7ee-e70-bd87-7c5c" type="selectionEntry"/>
+    <entryLink name="Furioso Dreadnought" id="e2d6-f4d8-8388-2312" hidden="false" import="true" targetId="c954-8157-25fd-5f99" type="selectionEntry"/>
+    <entryLink name="Gabriel Seth" id="36e-e56f-90cc-8981" hidden="false" import="true" targetId="462-f17c-3bb-16a" type="selectionEntry"/>
     <entryLink name="Lemartes" id="2ac0-a864-7232-daa1" hidden="false" import="true" targetId="cbc2-18c9-45b6-6327" type="selectionEntry"/>
-    <entryLink name="Librarian Dreadnought [Legends]" id="273-d9f3-a459-c5a3" hidden="false" import="true" targetId="b6e0-b465-801c-24c8" type="selectionEntry"/>
+    <entryLink name="Librarian Dreadnought" id="273-d9f3-a459-c5a3" hidden="false" import="true" targetId="b6e0-b465-801c-24c8" type="selectionEntry"/>
     <entryLink name="Sanguinary Guard" id="60a7-f8f9-1a93-41f0" hidden="false" import="true" targetId="25e4-ead-faac-2531" type="selectionEntry"/>
     <entryLink name="Sanguinary Priest" id="eea1-54d-9cb-4857" hidden="false" import="true" targetId="f80-be5-d17c-db23" type="selectionEntry"/>
     <entryLink name="The Sanguinor" id="8f52-7888-656e-133a" hidden="false" import="true" targetId="29f1-bb28-6424-6d14" type="selectionEntry"/>
-    <entryLink name="Sanguinary Priest with Jump Pack [Legends]" id="518c-6b44-f47b-225" hidden="false" import="true" targetId="fa13-ba8a-8711-87b6" type="selectionEntry"/>
-    <entryLink name="Death Company Marines with Boltguns [Legends]" id="4877-5e0e-e27c-75d3" hidden="false" import="true" targetId="6562-9dcd-afea-d4ae" type="selectionEntry"/>
+    <entryLink name="Sanguinary Priest with Jump Pack" id="518c-6b44-f47b-225" hidden="false" import="true" targetId="fa13-ba8a-8711-87b6" type="selectionEntry"/>
+    <entryLink name="Death Company Marines with Boltguns" id="4877-5e0e-e27c-75d3" hidden="false" import="true" targetId="6562-9dcd-afea-d4ae" type="selectionEntry"/>
     <entryLink name="Death Company Marines with Jump Packs" id="8e5b-4b8e-a9cc-9dfd" hidden="false" import="true" targetId="65f6-18df-f6df-7e39" type="selectionEntry"/>
-    <entryLink name="Sanguinary Priest on Bike [Legends]" id="7b49-f741-1011-5f29" hidden="false" import="true" targetId="3621-b460-722-8954" type="selectionEntry"/>
+    <entryLink name="Sanguinary Priest on Bike" id="7b49-f741-1011-5f29" hidden="false" import="true" targetId="3621-b460-722-8954" type="selectionEntry"/>
     <entryLink name="Blood Angels Captain" id="2f4d-a03c-622b-d553" hidden="false" import="true" targetId="829b-da42-2d62-6daf" type="selectionEntry"/>
     <entryLink name="Death Company Captain" id="ce7d-96da-55fa-0e0e" hidden="false" import="true" targetId="4743-6dc9-fda7-0a8c" type="selectionEntry"/>
     <entryLink name="Death Company Captain with Jump Pack" id="db59-6442-eafa-f8db" hidden="false" import="true" targetId="2574-a949-ae3f-58c2" type="selectionEntry"/>
     <entryLink name="Death Company Marines with Bolt Rifles" id="15ed-2cca-b373-a0a9" hidden="false" import="true" targetId="4aab-3ca5-0435-ed5e" type="selectionEntry"/>
     <entryLink name="Death Company Marines" id="585d-874f-7f12-77a4" hidden="false" import="true" targetId="3825-ac3a-75ec-fa0d" type="selectionEntry"/>
     <entryLink name="Death Company Dreadnought" id="be32-1b9e-6b1b-e508" hidden="false" import="true" targetId="3b6e-cc3e-c2a4-0cbd" type="selectionEntry"/>
-    <entryLink name="Death Company Marines with Boltguns and Jump Packs [Legends]" id="86aa-d4e6-fbbd-db05" hidden="false" import="true" targetId="bcfe-f4fb-5c44-652d" type="selectionEntry"/>
+    <entryLink name="Death Company Marines with Boltguns and Jump Packs" id="86aa-d4e6-fbbd-db05" hidden="false" import="true" targetId="bcfe-f4fb-5c44-652d" type="selectionEntry"/>
     <entryLink name="Captain Karlaen" id="397b-d2f7-ba94-bfd9" hidden="false" import="true" targetId="a438-7ac6-541d-bd80" type="selectionEntry"/>
     <entryLink name="Contemptor-Incaendius Dreadnought" id="ecbf-a771-f296-14ed" hidden="false" import="true" targetId="4d2d-e364-1325-6d9b" type="selectionEntry"/>
   </entryLinks>
@@ -5899,7 +5899,7 @@ If a Character unit from your army with the Leader ability can be attached to a
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
           </characteristics>
         </profile>
-        <profile name="Master of the First Company (Aura)" id="5c00-68d7-7f4e-77ce" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Master of the First Company" id="5c00-68d7-7f4e-77ce" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle round, when you select a unit from your army to use a Stratagem, if that unit is within 6&quot; of this model, you can reduce the CP cost of that Stratagem by 1CP.</characteristic>
           </characteristics>

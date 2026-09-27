@@ -31564,9 +31564,9 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model issues an Order, it can issue it to an eligible unit up to 12&quot; away.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Aura of Ultimate Prestige" id="c0e0-5ebd-d5e8-3771" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Ultimate Prestige (Aura)" id="c0e0-5ebd-d5e8-3771" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">All friendly units within 18&quot; of this model may reroll battle-shock tests.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Friendly units within 18&quot; of this model may reroll battle-shock tests.</characteristic>
           </characteristics>
         </profile>
         <profile name="Rolling Fortress" id="0454-afba-edce-b8d8" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -33353,7 +33353,7 @@ Designer&apos;s Note: Place a Servo-scribes token next to the unit, removing it 
         </profile>
         <profile name="Frostbite" id="2ad1-c6d7-317c-49a8" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, ranged weapons equipped by models in that unit have the [Rapid Fire 1] ability, if it already has the [Rapid Fire 1] ability, improve its rapid fire by 1. </characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, ranged weapons equipped by models in that unit have the [Rapid Fire 1] ability, if it already has the [Rapid Fire 1] ability, improve its rapid fire by 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Steadfast" id="c791-9515-1e1c-dfb0" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">

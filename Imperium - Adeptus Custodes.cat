@@ -7883,17 +7883,17 @@ All other **^^Adeptus Custodes**^^ units from your army gain the following abili
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command phase, select two ^^**Master of the Ten Thousand**^^ abilities. Until the start of your next Command phase, this model has those abilities.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Emperor’s Chosen" id="219d-ee2d-8d05-49dc" hidden="false" typeId="18fc-30d5-1277-ed95" typeName="Master of the Ten Thousand">
+        <profile name="Emperor’s Chosen (Aura)" id="219d-ee2d-8d05-49dc" hidden="false" typeId="18fc-30d5-1277-ed95" typeName="Master of the Ten Thousand">
           <characteristics>
             <characteristic name="Ability" typeId="a363-ea73-3f28-f977">While a friendly ^^**ADEPTUS CUSTODES INFANTRY**^^ unit is within 6” of this model: That unit has a 6+ Feel No Pain. If it already has a Feel No Pain, improve it by +1 (to a maximum of 4+).</characteristic>
           </characteristics>
         </profile>
-        <profile name="Golden Phalanx" id="c811-a9d2-648b-6c10" hidden="false" typeId="18fc-30d5-1277-ed95" typeName="Master of the Ten Thousand">
+        <profile name="Golden Phalanx (Aura)" id="c811-a9d2-648b-6c10" hidden="false" typeId="18fc-30d5-1277-ed95" typeName="Master of the Ten Thousand">
           <characteristics>
             <characteristic name="Ability" typeId="a363-ea73-3f28-f977">^^**ADEPTUS CUSTODES INFANTRY**^^ units within 6&quot; of this model improve their Objective Control characteristic by 3.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Perfect Discipline" id="c3c3-6b27-712c-ad5e" hidden="false" typeId="18fc-30d5-1277-ed95" typeName="Master of the Ten Thousand">
+        <profile name="Perfect Discipline (Aura)" id="c3c3-6b27-712c-ad5e" hidden="false" typeId="18fc-30d5-1277-ed95" typeName="Master of the Ten Thousand">
           <characteristics>
             <characteristic name="Ability" typeId="a363-ea73-3f28-f977">Once per phase, all ^^**ADEPTUS CUSTODES**^^ units within 6&quot; may re-roll one Hit or one Save roll.</characteristic>
           </characteristics>

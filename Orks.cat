@@ -23021,7 +23021,7 @@ Designer’s Note: Place a Squig Mine token next to the model, removing it once 
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
           </characteristics>
         </profile>
-        <profile name="Bellowing Tyrant" id="8cdd-a727-11d2-c356" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Bellowing Tyrant (Aura)" id="8cdd-a727-11d2-c356" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Friendly ORKS units within 6” of this model re-roll failed Battle-shock and leadership tests.</characteristic>
           </characteristics>

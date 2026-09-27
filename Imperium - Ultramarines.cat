@@ -2236,9 +2236,25 @@ the Hit roll.</characteristic>
         <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
         <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
       </costs>
+      <entryLinks>
+        <entryLink name="Tank Ace Character" id="8aa0-bd6b-7f1d-7b3f" hidden="false" import="true" targetId="8810-ebe3-94f2-8eab" type="selectionEntry"/>
+        <entryLink name="Headhunter Task Force Enhancements" id="d61d-29aa-3b56-b1dc" hidden="false" import="true" targetId="f545-8ae0-b440-8407" type="selectionEntryGroup"/>
+      </entryLinks>
       <infoLinks>
         <infoLink name="Oath of Moment" id="8db1-429b-609e-9b6c" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+        <infoLink name="Deadly Demise" id="3579-b854-8193-4473" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier field="name" type="append" value="D3"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
+      <modifiers>
+        <modifier field="category" type="add" value="b6a1-a3f9-16eb-2d31">
+          <conditions>
+            <condition childId="cf4f-5c50-4a22-6960" childName="Headhunter Task Force" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Repulsor Imperator" id="e95a-4512-d546-f708" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>

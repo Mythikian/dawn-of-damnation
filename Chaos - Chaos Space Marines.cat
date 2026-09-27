@@ -15750,7 +15750,7 @@ You can attach this model to one of the above units even if one other CHARACTER 
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
           </characteristics>
         </profile>
         <profile name="Mind-breaking Mutations (Aura)" id="4dbc-fdb1-8acf-8009" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -27476,7 +27476,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, that unit gains the Dark Pacts ability.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Harbinger Of Ruin (Psychic)" id="84a3-c763-7e00-1cab" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Harbinger of Ruin (Aura, Psychic)" id="84a3-c763-7e00-1cab" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While an enemy unit is within 9&quot; of this model, each time a model in that unit makes an attack. subtract 1 from the Hit roll, and. if that enemy unit is Below Half-strength, subtract 1 from the Wound roll as well.</characteristic>
           </characteristics>
@@ -27806,7 +27806,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is in your army, it must be your Warlord.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Warp-Forged Bulwark (Psychic)" id="3899-08c0-556b-11b4" hidden="false" typeId="69b3-8c35-1614-9925" typeName="Lord of Iron">
+        <profile name="Warp-Forged Bulwark (Aura, Psychic)" id="3899-08c0-556b-11b4" hidden="false" typeId="69b3-8c35-1614-9925" typeName="Lord of Iron">
           <characteristics>
             <characteristic name="Ability" typeId="202a-4f94-2fd2-1435">Friendly Non-MONSTER and Non-VEHICLE HERETIC ASTARTES units within 6&quot; of this model have a 5+ Invulnerable save.</characteristic>
           </characteristics>
@@ -28445,7 +28445,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
         </profile>
         <profile name="Umbral Pinions" id="b5f4-fbd1-67b3-9b2e" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Umbral Pinions: While this model is leading a unit, models in this unit have [Scouts 6&quot;].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, models in this unit have [Scouts 6&quot;].</characteristic>
           </characteristics>
         </profile>
       </profiles>

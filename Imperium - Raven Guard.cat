@@ -743,7 +743,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is in your army, it must be your Warlord.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Warp Lurker" id="3f57-9f6a-3f75-6f10" hidden="false" typeId="6c02-76c1-3d23-cb4c" typeName="Scourge of the Warp">
+        <profile name="Warp Lurker (Aura)" id="3f57-9f6a-3f75-6f10" hidden="false" typeId="6c02-76c1-3d23-cb4c" typeName="Scourge of the Warp">
           <characteristics>
             <characteristic name="Effect" typeId="e418-4b7e-f9d9-edf7">While a friendly **^^Adeptus Astartes Infantry^^** unit is within 6&quot; of this model, that unit can only be targeted by a ranged attack if the attacking model is within 18&quot;.</characteristic>
           </characteristics>

@@ -97,14 +97,14 @@
     <entryLink name="Psychophage" id="bb17-5e67-f80d-1479" hidden="false" import="true" targetId="b6ac-f091-a018-dab2" type="selectionEntry"/>
     <entryLink name="Barbgaunts" id="2022-800a-5f81-59c3" hidden="false" import="true" targetId="6de-ccee-11b4-be3e" type="selectionEntry"/>
     <entryLink name="Detachment" id="1f79-3dd4-507b-c50" hidden="false" import="true" targetId="bac9-a18e-5a8a-48d1" type="selectionEntry"/>
-    <entryLink name="Barbed Hierodule [Legends]" id="c08c-3f82-eca5-bc5b" hidden="false" import="true" targetId="afd0-a0ca-68c3-d912" type="selectionEntry"/>
-    <entryLink name="Scythed Hierodule [Legends]" id="ca37-6c54-394c-2803" hidden="false" import="true" targetId="218c-639e-22e0-59ce" type="selectionEntry"/>
+    <entryLink name="Barbed Hierodule" id="c08c-3f82-eca5-bc5b" hidden="false" import="true" targetId="afd0-a0ca-68c3-d912" type="selectionEntry"/>
+    <entryLink name="Scythed Hierodule" id="ca37-6c54-394c-2803" hidden="false" import="true" targetId="218c-639e-22e0-59ce" type="selectionEntry"/>
     <entryLink name="Harridan" id="c849-ed0f-bc51-c66a" hidden="false" import="true" targetId="9b5c-3b5a-1f80-9a74" type="selectionEntry"/>
     <entryLink name="Hierophant" id="c6bf-2379-d8c9-2ddf" hidden="false" import="true" targetId="fbc0-3a2b-1d7d-23d9" type="selectionEntry"/>
     <entryLink name="Genestealers" id="b2fd-5fa7-ea48-c851" hidden="false" import="true" targetId="853e-48b8-4cc5-3704" type="selectionEntry"/>
     <entryLink name="Raveners" id="908f-17f2-34bf-89b4" hidden="false" import="true" targetId="3f5-f7d6-1ce8-e6b9" type="selectionEntry"/>
-    <entryLink name="Dimachaeron [Legends]" id="49a7-35fe-b205-afe6" hidden="false" import="true" targetId="78ca-3743-c254-4404" type="selectionEntry"/>
-    <entryLink name="Malanthrope [Legends]" id="1913-3800-bc84-cbff" hidden="false" import="true" targetId="c17f-f55f-a3cb-530b" type="selectionEntry"/>
+    <entryLink name="Dimachaeron" id="49a7-35fe-b205-afe6" hidden="false" import="true" targetId="78ca-3743-c254-4404" type="selectionEntry"/>
+    <entryLink name="Malanthrope" id="1913-3800-bc84-cbff" hidden="false" import="true" targetId="c17f-f55f-a3cb-530b" type="selectionEntry"/>
     <entryLink name="Show/Hide Options" id="8f9e-ad26-3fe8-f3a3" hidden="false" import="true" targetId="e8ef-836a-a9d1-901d" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Configuration" id="7e2a-2f10-7b30-35f8" hidden="false" primary="true" targetId="4ac9-fd30-1e3d-b249"/>
@@ -9307,8 +9307,7 @@
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9602,8 +9601,7 @@
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9682,8 +9680,7 @@
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9892,8 +9889,7 @@
                             <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                             <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -10241,7 +10237,7 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, at the end of your Movement phase, you may select one Tyranids Infantry unit in Strategic Reserves and set it up wholly within 6&quot; of this model and more than 9&quot; from all enemy models.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Infestation Zone" id="672c-004f-1fb7-aaa5" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Infestation Zone (Aura)" id="672c-004f-1fb7-aaa5" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Enemy units within 6&quot; of this model subtract 1 from Battle‑shock tests and cannot benefit from Cover.</characteristic>
           </characteristics>
@@ -10405,8 +10401,7 @@
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10566,7 +10561,7 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-13 wounds remaining, subtract 8 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Synaptic Beacon" id="6049-35d9-480f-3b86" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Synaptic Beacon (Aura)" id="6049-35d9-480f-3b86" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Friendly TYRANIDS units within Synapse range of this model add 1 to all hit rolls and wound rolls.</characteristic>
           </characteristics>
