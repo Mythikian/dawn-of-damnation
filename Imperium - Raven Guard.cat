@@ -705,6 +705,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
         </infoLink>
         <infoLink name="Oath of Moment" id="c8be-364c-208b-2ce6" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
         <infoLink name="Stealth" id="b2ee-2c49-2d43-8aa5" hidden="false" targetId="bec5-4288-34a6-ccfa" type="rule"/>
+        <infoLink name="Twin-linked" id="bd63-3d41-feca-3f01" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Corvus Corax" id="5703-da08-961b-c250" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -759,17 +760,16 @@ even if you have already used that Stratagem on a different unit this phase.</c
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry name="Wrath and Justice" id="d005-ccd8-42ba-42d9" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Wrath &amp; Justice" id="d005-ccd8-42ba-42d9" hidden="false" import="true" type="upgrade">
           <constraints>
             <constraint id="b560-0bdf-2671-fc49" field="selections" scope="parent" shared="true" type="max" value="1"/>
             <constraint id="cb7c-3ae7-ea0f-e28c" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <infoLinks>
             <infoLink name="Pistol" id="3968-7022-c2ec-2dcc" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
-            <infoLink name="Twin-linked" id="bd63-3d41-feca-3f01" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
           </infoLinks>
           <profiles>
-            <profile name="Wrath and Justice" id="d908-294a-72b3-d2b3" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+            <profile name="Wrath &amp; Justice" id="d908-294a-72b3-d2b3" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
@@ -777,7 +777,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Twin-linked</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -789,7 +789,6 @@ even if you have already used that Stratagem on a different unit this phase.</c
           </constraints>
           <infoLinks>
             <infoLink name="Devastating Wounds" id="f07a-7d0e-5c75-8950" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
-            <infoLink name="Twin-linked" id="f73a-c17b-9c9c-e0fc" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
           </infoLinks>
           <profiles>
             <profile name="➤ Void Ripper - Sweep" id="2f2f-30c6-8a2c-0f0b" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
@@ -800,7 +799,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Twin-linked</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
               </characteristics>
             </profile>
             <profile name="➤ Void Ripper - Strike" id="01eb-4af3-c8c1-712e" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
@@ -811,7 +810,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">16</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-4</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">D6+1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Twin-Linked</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1628,7 +1627,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
                 <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
               </characteristics>
             </profile>
-            <profile name="Dropsite Survivor" id="bbbe-8685-5694-7ad5" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+            <profile name="Dropsite Survivors" id="bbbe-8685-5694-7ad5" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in this unit cannot be targeted by ranged attacks unless the attacking model is within 12&quot;.</characteristic>
               </characteristics>
@@ -2158,7 +2157,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3&quot; horizontally of that token and not within 9&quot; horizontally of any enemy models. That token is then removed.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Brutal Strike" id="c681-cd97-e6dd-26d0" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Brutal Strikes" id="c681-cd97-e6dd-26d0" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whenever a model in this unit makes an attack that targets an INFANTRY unit, add 1 to the hit roll.</characteristic>
           </characteristics>
@@ -2343,9 +2342,9 @@ even if you have already used that Stratagem on a different unit this phase.</c
         </modifier>
       </modifiers>
       <profiles>
-        <profile name="Fast Fury" id="ae06-d265-bf9b-a2cb" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Fervorous Fury" id="ae06-d265-bf9b-a2cb" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit disembarks from a Transport, it may immediately move D6&quot;.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whenever this unit disembarks from a Transport, it may immediately move D6&quot;. It cannot finish this move in engagement range of enemy models.</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" id="d3ff-6483-cf5f-8f1f" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">

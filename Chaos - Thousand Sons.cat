@@ -13279,7 +13279,7 @@ This model cannot be attached to a unit with Fatecaster Greatbows.</characterist
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Sniper rifle" id="4752-f627-ac93-ecc6" collective="true" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Inferno sniper rifle" id="4752-f627-ac93-ecc6" collective="true" hidden="false" import="true" type="upgrade">
                   <constraints>
                     <constraint id="f0e9-0dd8-99d4-e33d" field="selections" scope="parent" shared="true" type="min" value="1"/>
                     <constraint id="49b4-3145-a01b-2c43" field="selections" scope="parent" shared="true" type="max" value="1"/>
@@ -13289,7 +13289,7 @@ This model cannot be attached to a unit with Fatecaster Greatbows.</characterist
                     <infoLink name="Precision" id="38b2-9c7c-24a0-cb1c" hidden="false" targetId="9143-31ae-e0a6-6007" type="rule"/>
                   </infoLinks>
                   <profiles>
-                    <profile name="Sniper rifle" id="7d2c-e142-9a1e-6331" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                    <profile name="Inferno sniper rifle" id="7d2c-e142-9a1e-6331" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
