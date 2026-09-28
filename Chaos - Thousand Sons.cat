@@ -14934,6 +14934,7 @@ This model cannot be attached to a unit with Fatecaster Greatbows.</characterist
                         <infoLink name="Blast" id="7f11-aa38-b143-a5af" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
                         <infoLink name="Heavy" id="df8e-2991-8327-57d6" hidden="false" targetId="1202-10a8-78e9-4c67" type="rule"/>
                         <infoLink name="Hazardous" id="27ac-e385-93bb-9411" hidden="false" targetId="8367-374c-f87-c627" type="rule"/>
+                        <infoLink name="Psychic" id="9947-1e1e-2422-01c3" hidden="false" targetId="e9c4-2bb8-12ee-cd1b" type="rule"/>
                       </infoLinks>
                       <profiles>
                         <profile name="➤ Æther-fire cannon - normal" id="6ed3-28e4-6a81-6bd8" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
@@ -14944,7 +14945,7 @@ This model cannot be attached to a unit with Fatecaster Greatbows.</characterist
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Heavy</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Heavy, Psychic</characteristic>
                           </characteristics>
                         </profile>
                         <profile name="➤ Æther-fire cannon - achean Force" id="b1d8-5a39-35ae-5b2c" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
@@ -14955,7 +14956,7 @@ This model cannot be attached to a unit with Fatecaster Greatbows.</characterist
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous, Heavy</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous, Heavy, Psychic</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
