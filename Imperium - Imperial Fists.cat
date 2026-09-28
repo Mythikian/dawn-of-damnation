@@ -2051,7 +2051,7 @@ Veteran Squad units from your army have an Objective Control characteristic of 
         <constraint id="c933-8228-650c-049d" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="205"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="215"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -2135,13 +2135,6 @@ Veteran Squad units from your army have an Objective Control characteristic of 
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <modifiers>
-        <modifier field="51b2-306e-1021-d207" type="set" value="410">
-          <conditions>
-            <condition id="a07b-fc8d-4794-5afe" childId="model" childName="model" field="selections" includeChildSelections="true" scope="485c-aa29-501c-17dc" shared="true" type="atLeast" value="6"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile name="Strategic Defenders" id="591e-8592-dac6-b1dc" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
@@ -2158,7 +2151,7 @@ Veteran Squad units from your army have an Objective Control characteristic of 
         <selectionEntryGroup name="Huscarls" id="978a-50bb-4eab-65be" defaultSelectionEntryId="2-e9c0-140-a1ef" hidden="false" sortIndex="2">
           <constraints>
             <constraint id="306a-6813-56a9-4a68" field="selections" scope="parent" shared="true" type="min" value="5"/>
-            <constraint id="992a-fc84-2ecd-f5a3" field="selections" scope="parent" shared="true" type="max" value="10"/>
+            <constraint id="992a-fc84-2ecd-f5a3" field="selections" scope="parent" shared="true" type="max" value="5"/>
           </constraints>
           <selectionEntries>
             <selectionEntry name="Huscarl Sergeant" id="07f6-eab8-174f-3950" hidden="false" import="true" type="model">
@@ -2236,7 +2229,7 @@ Veteran Squad units from your army have an Objective Control characteristic of 
             </selectionEntry>
             <selectionEntry name="Huscarl w/ Mastercrafted Power Fist" id="bf83-92c3-b3ce-b95d" hidden="false" import="true" type="model">
               <constraints>
-                <constraint id="2c97-613c-f7e3-aac1" field="selections" scope="parent" shared="true" type="max" value="9"/>
+                <constraint id="2c97-613c-f7e3-aac1" field="selections" scope="parent" shared="true" type="max" value="4"/>
               </constraints>
               <entryLinks>
                 <entryLink name="Storm bolter" id="76d4-819e-2412-d17e" hidden="false" import="true" targetId="eb61-5cd0-5242-74cc" type="selectionEntry">
@@ -2282,7 +2275,7 @@ Veteran Squad units from your army have an Objective Control characteristic of 
             </selectionEntry>
             <selectionEntry name="Huscarl w/ Mastercrafted Chain Fist" id="f66f-af1d-01de-3de0" hidden="false" import="true" type="model">
               <constraints>
-                <constraint id="42ac-b774-2692-2604" field="selections" scope="parent" shared="true" type="max" value="9"/>
+                <constraint id="42ac-b774-2692-2604" field="selections" scope="parent" shared="true" type="max" value="4"/>
               </constraints>
               <entryLinks>
                 <entryLink name="Storm bolter" id="9194-74bd-c54c-0bff" hidden="false" import="true" targetId="eb61-5cd0-5242-74cc" type="selectionEntry">

@@ -14638,6 +14638,7 @@ This model cannot be attached to a unit with Fatecaster Greatbows.</characterist
                   <infoLinks>
                     <infoLink name="Torrent" id="bf2a-1327-8b87-6d5e" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
                     <infoLink name="Psychic" id="0bc4-0d79-7c1f-e96a" hidden="false" targetId="e9c4-2bb8-12ee-cd1b" type="rule"/>
+                    <infoLink name="Hazardous" id="494d-2149-efe8-b182" hidden="false" targetId="8367-374c-f87-c627" type="rule"/>
                   </infoLinks>
                   <profiles>
                     <profile name="➤ Æther-fire blaster - normal" id="320a-2da5-5798-36a9" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
@@ -14659,7 +14660,7 @@ This model cannot be attached to a unit with Fatecaster Greatbows.</characterist
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Psychic, Torrent</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Psychic, Torrent</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
