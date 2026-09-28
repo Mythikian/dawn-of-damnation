@@ -15009,6 +15009,7 @@ This model cannot be attached to a unit with Fatecaster Greatbows.</characterist
                           <infoLinks>
                             <infoLink name="Twin-linked" id="71b9-f606-8da6-9fa3" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
                             <infoLink name="Hazardous" id="7f31-3b5f-dd09-e551" hidden="false" targetId="8367-374c-f87-c627" type="rule"/>
+                            <infoLink name="Psychic" id="5bee-4f60-12c7-3a44" hidden="false" targetId="e9c4-2bb8-12ee-cd1b" type="rule"/>
                           </infoLinks>
                           <profiles>
                             <profile name="➤ Twin heavy power claw - achean force" id="b61c-ce14-2fca-f240" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
@@ -15019,7 +15020,7 @@ This model cannot be attached to a unit with Fatecaster Greatbows.</characterist
                                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
                                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                                 <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Hazardous, Twin-linked</characteristic>
+                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Hazardous, Psychic, Twin-linked</characteristic>
                               </characteristics>
                             </profile>
                             <profile name="➤ Twin heavy power claw - normal" id="d76d-fb7d-c759-2006" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
@@ -15030,7 +15031,7 @@ This model cannot be attached to a unit with Fatecaster Greatbows.</characterist
                                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
                                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                                 <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Twin-linked</characteristic>
+                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Psychic, Twin-linked</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
