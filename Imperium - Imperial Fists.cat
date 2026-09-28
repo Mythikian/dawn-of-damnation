@@ -2136,7 +2136,7 @@ Veteran Squad units from your army have an Objective Control characteristic of 
         </modifierGroup>
       </modifierGroups>
       <modifiers>
-        <modifier field="51b2-306e-1021-d207" type="set" value="400">
+        <modifier field="51b2-306e-1021-d207" type="set" value="410">
           <conditions>
             <condition id="a07b-fc8d-4794-5afe" childId="model" childName="model" field="selections" includeChildSelections="true" scope="485c-aa29-501c-17dc" shared="true" type="atLeast" value="6"/>
           </conditions>

@@ -17,7 +17,7 @@
     <categoryEntry name="Pyroclasts" id="78fb-0c67-2906-7504" hidden="false"/>
     <categoryEntry name="Sanctifier Squad" id="86ba-8da3-042f-1994" hidden="false"/>
     <categoryEntry name="Saturnine Dreadnought" id="c2db-950a-5a15-3993" hidden="false"/>
-    <categoryEntry name="Saturnine" id="b55c-16f5-f340-0109" hidden="false"/>
+    <categoryEntry name="Saturnine" id="ef80-5780-ecb9-541c" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink name="Adrax Agatone" id="287a-5c60-5a7e-80a8" hidden="false" import="true" targetId="98c-87ea-f51b-1475" type="selectionEntry"/>
@@ -33,6 +33,8 @@
     <entryLink name="Pyroclasts" id="e8bc-4484-02c7-2b09" hidden="false" import="true" targetId="cf6f-2133-99d9-0202" type="selectionEntry"/>
     <entryLink name="Sanctifier Squad" id="ce93-c7fe-3c51-5073" hidden="false" import="true" targetId="5303-6ce9-4119-f660" type="selectionEntry"/>
     <entryLink name="Saturnine Dreadnought" id="b56d-49fa-65e4-5270" hidden="false" import="true" targetId="6c62-11c8-75f9-fc73" type="selectionEntry"/>
+    <entryLink name="Salamanders Captain in Saturnine Armor" id="ea29-3ff5-0af1-69bf" hidden="false" import="true" targetId="e187-4219-f7b6-a995" type="selectionEntry"/>
+    <entryLink name="Saturnine Terminator Squad" id="3df6-db6f-4cd6-c8bf" hidden="false" import="true" targetId="e378-c3ba-e873-d9a2" type="selectionEntry"/>
   </entryLinks>
   <profileTypes>
     <profileType name="Ruler of Nocturne" id="a70c-e780-23ac-b35d" hidden="false">
@@ -2393,20 +2395,20 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Saturnine Terminator Squad" id="778f-9660-1028-f49b" hidden="false" import="true" type="unit">
+    <selectionEntry name="Saturnine Terminator Squad" id="e378-c3ba-e873-d9a2" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Infantry" id="dc61-2043-fa69-a590" hidden="false" primary="true" targetId="cf47-a0d7-7207-29dc"/>
-        <categoryLink name="Imperium" id="5c38-253d-f56d-9108" hidden="false" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
-        <categoryLink name="Terminator" id="4b21-41ce-6841-4b8d" hidden="false" primary="false" targetId="740a-892c-8958-defa"/>
-        <categoryLink name="Faction: Adeptus Astartes" id="7e3a-46c6-9cb3-9360" hidden="false" primary="false" targetId="6e7-40c-58d9-e402"/>
-        <categoryLink name="Saturnine" id="9913-b62c-450f-210d" hidden="false" primary="false" targetId="b55c-16f5-f340-0109"/>
-        <categoryLink name="Faction: Salamanders" id="34ae-7e03-3344-c8fa" hidden="false" primary="false" targetId="65e4-13-4fa8-b36c"/>
+        <categoryLink name="Infantry" id="b137-a0e8-5cbe-e0e2" hidden="false" primary="true" targetId="cf47-a0d7-7207-29dc"/>
+        <categoryLink name="Imperium" id="e0c8-48ca-a0e8-e0ce" hidden="false" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+        <categoryLink name="Terminator" id="1695-2a16-0cbf-760f" hidden="false" primary="false" targetId="740a-892c-8958-defa"/>
+        <categoryLink name="Faction: Adeptus Astartes" id="a45e-659f-1d79-71e6" hidden="false" primary="false" targetId="6e7-40c-58d9-e402"/>
+        <categoryLink name="Saturnine" id="c6e2-9c3a-3fba-322f" hidden="false" primary="false" targetId="ef80-5780-ecb9-541c"/>
+        <categoryLink name="Faction: Salamanders" id="ea93-fb94-7dc9-35fc" hidden="false" primary="false" targetId="65e4-13-4fa8-b36c"/>
       </categoryLinks>
       <constraints>
-        <constraint id="56c2-b63f-05a6-73c1" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="3"/>
-        <constraint id="be5f-fa65-6580-95d5" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="3"/>
-        <constraint id="b4fc-c8f0-20a1-5b0b" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
-        <constraint id="f02e-d596-1923-2e39" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
+        <constraint id="bf89-c887-c252-021b" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="3"/>
+        <constraint id="09e8-459e-6555-d627" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="3"/>
+        <constraint id="edba-8393-a033-0e33" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
+        <constraint id="fef3-9b11-7f73-2e23" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="200"/>
@@ -2419,25 +2421,25 @@
         <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Oath of Moment" id="2e11-888f-90bd-845f" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
-        <infoLink name="Invulnerable Save (5+)" id="1de6-5abc-c8e4-a224" hidden="false" targetId="3b8a-73e4-1389-b399" type="profile"/>
-        <infoLink name="Deep Strike" id="51d3-6529-596e-6d8d" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
+        <infoLink name="Oath of Moment" id="368f-ca32-595f-f9b2" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+        <infoLink name="Invulnerable Save (5+)" id="b2b9-14c7-17bc-39b5" hidden="false" targetId="3b8a-73e4-1389-b399" type="profile"/>
+        <infoLink name="Deep Strike" id="429d-3089-1b24-85aa" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
       </infoLinks>
       <modifierGroups>
         <modifierGroup type="and">
           <comment>Crusade modifiers</comment>
           <modifiers>
-            <modifier field="be5f-fa65-6580-95d5" type="set" value="6">
+            <modifier field="09e8-459e-6555-d627" type="set" value="6">
               <conditions>
                 <condition childId="1511-18fe-f51e-7b9d" field="selections" includeChildSelections="true" scope="self" shared="true" type="atLeast" value="1"/>
               </conditions>
             </modifier>
-            <modifier field="b4fc-c8f0-20a1-5b0b" type="increment" value="2">
+            <modifier field="edba-8393-a033-0e33" type="increment" value="2">
               <repeats>
                 <repeat childId="d1a5-4297-168b-11cd" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
               </repeats>
             </modifier>
-            <modifier field="f02e-d596-1923-2e39" type="increment" value="2">
+            <modifier field="fef3-9b11-7f73-2e23" type="increment" value="2">
               <repeats>
                 <repeat childId="d1a5-4297-168b-11cd" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
               </repeats>
@@ -2493,53 +2495,53 @@
       <modifiers>
         <modifier field="51b2-306e-1021-d207" type="set" value="400">
           <conditions>
-            <condition id="1e45-475e-3827-1307" childId="model" childName="model" field="selections" includeChildSelections="true" scope="778f-9660-1028-f49b" shared="true" type="atLeast" value="4"/>
+            <condition id="d6d0-5a8a-3cbf-e17b" childId="model" childName="model" field="selections" includeChildSelections="true" scope="e378-c3ba-e873-d9a2" shared="true" type="atLeast" value="4"/>
           </conditions>
         </modifier>
       </modifiers>
       <profiles>
-        <profile name="Occulix Targeting Auspex" id="19c6-86b0-802c-e771" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Occulix Targeting Auspex" id="3a22-acba-915e-01fd" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can target this unit with the Fire Overwatch Stratagem even if you have used it with another unit this turn. Each time you target this unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ while resolving that Stratagem.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Saturnine Armor" id="95fa-4cfa-7477-8a5c" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Saturnine Armor" id="8412-df42-6c5e-9702" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit embarks in a Transport, each model counts as being a Centurion model.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Implacable Advance" id="6648-34ed-eaa8-4cc3" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Implacable Advance" id="36fd-9817-24ba-4eb0" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may Shoot and Charge in the same turn it Fell Back, but it must roll only one die when charging.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Saturnine Terminators" id="5515-6151-59b8-3e6e" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Saturnine Terminators" id="c24c-0c86-7900-f490" hidden="false" sortIndex="2">
           <constraints>
-            <constraint id="e8bf-2980-a9ca-2a2e" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
-            <constraint id="fc34-89a2-4b4e-e5e3" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="6"/>
+            <constraint id="a53e-f138-5ce5-7b35" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
+            <constraint id="2e4a-ed57-aea2-77ca" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="6"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry name="Saturnine Terminator" id="fbe4-4a7f-84d5-84bb" collective="false" hidden="false" import="true" sortIndex="2" type="model">
+            <selectionEntry name="Saturnine Terminator" id="e4fa-7d62-48b4-738b" collective="false" hidden="false" import="true" sortIndex="2" type="model">
               <constraints>
-                <constraint id="bb00-bf56-33d8-811e" field="selections" scope="parent" shared="true" type="min" value="2"/>
-                <constraint id="0d92-ea89-b119-bcc9" field="selections" scope="parent" shared="true" type="max" value="6"/>
+                <constraint id="8e2b-3c90-c43d-c2c0" field="selections" scope="parent" shared="true" type="min" value="2"/>
+                <constraint id="ed61-c55e-fc05-9fe5" field="selections" scope="parent" shared="true" type="max" value="6"/>
               </constraints>
               <modifiers>
-                <modifier field="0d92-ea89-b119-bcc9" type="decrement" value="1">
+                <modifier field="ed61-c55e-fc05-9fe5" type="decrement" value="1">
                   <repeats>
-                    <repeat childId="fa70-c706-8c44-fe6c" field="selections" repeats="1" roundUp="false" scope="778f-9660-1028-f49b" shared="true" value="1"/>
+                    <repeat childId="7b58-635e-4a49-5124" field="selections" repeats="1" roundUp="false" scope="e378-c3ba-e873-d9a2" shared="true" value="1"/>
                   </repeats>
                 </modifier>
-                <modifier field="bb00-bf56-33d8-811e" type="decrement" value="1">
+                <modifier field="8e2b-3c90-c43d-c2c0" type="decrement" value="1">
                   <conditions>
-                    <condition childId="fa70-c706-8c44-fe6c" field="selections" scope="778f-9660-1028-f49b" shared="true" type="atLeast" value="1"/>
+                    <condition childId="7b58-635e-4a49-5124" field="selections" scope="e378-c3ba-e873-d9a2" shared="true" type="atLeast" value="1"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <profiles>
-                <profile name="Saturnine Terminator" id="25a0-8740-aa79-aa53" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+                <profile name="Saturnine Terminator" id="8a59-5815-4c80-5947" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
                     <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
@@ -2551,19 +2553,19 @@
                 </profile>
               </profiles>
               <selectionEntries>
-                <selectionEntry name="Particle Shredder" id="83d4-2941-d580-d96c" collective="true" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Particle Shredder" id="69ab-c332-49ef-4667" collective="true" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="a0af-c95b-db91-e57e" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="6f91-0490-3979-3881" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="05a3-b75f-0115-6d4d" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="dc99-098c-0207-ad20" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink name="Assault" id="a193-ce89-7790-40c5" hidden="false" targetId="fc8a-8c24-bae9-cc1c" type="rule"/>
-                    <infoLink name="Devastating Wounds" id="3aee-270c-33e9-b19b" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
-                    <infoLink name="Ignores Cover" id="df5d-da7a-eb3e-badd" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
-                    <infoLink name="Torrent" id="12fd-e758-4850-da80" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
+                    <infoLink name="Assault" id="9ff6-cdad-d8c9-1623" hidden="false" targetId="fc8a-8c24-bae9-cc1c" type="rule"/>
+                    <infoLink name="Devastating Wounds" id="c7b7-aba0-fa68-fbf3" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+                    <infoLink name="Ignores Cover" id="2d2c-1ca4-3a12-2ef7" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
+                    <infoLink name="Torrent" id="ae39-5af4-dc06-f859" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
                   </infoLinks>
                   <profiles>
-                    <profile name="Particle Shredder" id="b478-2565-e100-63eb" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                    <profile name="Particle Shredder" id="dc1b-17c4-1f2a-4076" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
@@ -2576,13 +2578,13 @@
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Disruption Fist" id="5f73-7d0d-8418-b931" collective="true" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Disruption Fist" id="1df6-30d1-00cd-1258" collective="true" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="7436-2d80-5207-9ec7" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="11b6-2a47-b633-173b" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="1607-87bc-2cbe-1ba1" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="a399-0ede-ba16-c727" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <profiles>
-                    <profile name="Disruption Fist" id="266b-6d04-90d2-f8e5" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                    <profile name="Disruption Fist" id="f509-f271-9c7e-bf36" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                         <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
@@ -2595,17 +2597,17 @@
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Heavy Plasma Cannon" id="5115-d00f-fc53-6596" collective="true" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Heavy Plasma Cannon" id="d995-eeaf-7d73-4c1b" collective="true" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="f108-3bd8-be4b-e844" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="87ba-38cd-5019-1a25" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="760b-8239-07eb-411c" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="c5fa-cac8-3691-9b56" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink name="Hazardous" id="c249-529d-8826-e655" hidden="false" targetId="8367-374c-f87-c627" type="rule"/>
-                    <infoLink name="Blast" id="b52b-3552-89c0-b338" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+                    <infoLink name="Hazardous" id="1dd4-5182-caa0-31e9" hidden="false" targetId="8367-374c-f87-c627" type="rule"/>
+                    <infoLink name="Blast" id="44ae-8f15-994f-61b7" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
                   </infoLinks>
                   <profiles>
-                    <profile name="➤ Heavy Plasma Cannon - Standard" id="4971-6a99-a22b-d025" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                    <profile name="➤ Heavy Plasma Cannon - Standard" id="7860-77b9-4bb7-188e" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
@@ -2616,7 +2618,7 @@
                         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
                       </characteristics>
                     </profile>
-                    <profile name="➤ Heavy Plasma Cannon - Supercharge" id="25cb-59ad-b0f4-8928" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                    <profile name="➤ Heavy Plasma Cannon - Supercharge" id="88d4-fe64-4194-0e25" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
@@ -2631,12 +2633,12 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-            <selectionEntry name="Saturnine Terminator w/ Twin Heavy Disintegrator" id="fa70-c706-8c44-fe6c" collective="false" hidden="false" import="true" sortIndex="3" type="model">
+            <selectionEntry name="Saturnine Terminator w/ Twin Heavy Disintegrator" id="7b58-635e-4a49-5124" collective="false" hidden="false" import="true" sortIndex="3" type="model">
               <constraints>
-                <constraint id="f5c6-0000-419f-d05a" field="selections" scope="parent" shared="true" type="max" value="2"/>
+                <constraint id="abab-335a-f70b-8256" field="selections" scope="parent" shared="true" type="max" value="2"/>
               </constraints>
               <profiles>
-                <profile name="Saturnine Terminator" id="9c35-37cc-690c-21dd" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+                <profile name="Saturnine Terminator" id="7835-6c4b-0520-d26d" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
                     <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
@@ -2648,29 +2650,29 @@
                 </profile>
               </profiles>
               <selectionEntries>
-                <selectionEntry name="Twin Heavy Disintegrator" id="3088-b0dd-af42-bb5d" collective="true" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Twin Heavy Disintegrator" id="9fc4-8308-9f38-79fb" collective="true" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="01f7-e5ef-5141-e34f" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="4203-0dbc-013f-c2e7" field="selections" includeChildSelections="true" scope="unit" shared="true" type="max" value="2"/>
-                    <constraint id="9e66-9e46-dee4-b35d" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="66f6-a7aa-2a9b-d835" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="2371-a639-5c47-1202" field="selections" includeChildSelections="true" scope="unit" shared="true" type="max" value="2"/>
+                    <constraint id="9bfc-68ce-8cec-cc41" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink name="Twin-linked" id="0908-f38b-5ed9-b33f" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+                    <infoLink name="Twin-linked" id="dffb-c1c3-4ba8-c933" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
                   </infoLinks>
                   <modifiers>
                     <modifier field="error" type="add" value="Max 1 {this} per 3 models">
                       <conditionGroups>
                         <conditionGroup type="and">
                           <conditions>
-                            <condition childId="5515-6151-59b8-3e6e" field="selections" scope="unit" shared="true" type="lessThan" value="6"/>
-                            <condition childId="3088-b0dd-af42-bb5d" childName="Rotary Cannon" field="selections" includeChildSelections="true" scope="778f-9660-1028-f49b" shared="true" type="greaterThan" value="1"/>
+                            <condition childId="c24c-0c86-7900-f490" field="selections" scope="unit" shared="true" type="lessThan" value="6"/>
+                            <condition childId="9fc4-8308-9f38-79fb" childName="Rotary Cannon" field="selections" includeChildSelections="true" scope="e378-c3ba-e873-d9a2" shared="true" type="greaterThan" value="1"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
                     </modifier>
                   </modifiers>
                   <profiles>
-                    <profile name="Twin Heavy Disintegrator" id="d590-7463-66d7-2555" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                    <profile name="Twin Heavy Disintegrator" id="bc93-590f-f175-144b" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
@@ -2683,19 +2685,19 @@
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Particle Shredder" id="ecb4-142b-7556-da28" collective="true" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Particle Shredder" id="878f-f626-b2d8-5dc8" collective="true" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="bff7-8da0-b900-1952" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="e4cc-84a4-d24b-eb68" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="c3c5-4834-da25-aa47" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="7bf5-2af8-4761-2c5f" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink name="Assault" id="f5bf-760f-8070-761c" hidden="false" targetId="fc8a-8c24-bae9-cc1c" type="rule"/>
-                    <infoLink name="Devastating Wounds" id="5209-4713-f6d6-8cde" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
-                    <infoLink name="Ignores Cover" id="0b0e-dba1-bb21-a30f" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
-                    <infoLink name="Torrent" id="e3a7-287c-56d0-8a26" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
+                    <infoLink name="Assault" id="f26f-b75e-76dd-745c" hidden="false" targetId="fc8a-8c24-bae9-cc1c" type="rule"/>
+                    <infoLink name="Devastating Wounds" id="f720-70c3-522b-7beb" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+                    <infoLink name="Ignores Cover" id="9571-521c-6ebd-a97d" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
+                    <infoLink name="Torrent" id="f7c9-2fa9-e6eb-798c" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
                   </infoLinks>
                   <profiles>
-                    <profile name="Particle Shredder" id="9a5f-baae-ea88-e102" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                    <profile name="Particle Shredder" id="14d6-baae-63d4-4074" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
@@ -2708,13 +2710,13 @@
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Disruption Fist" id="a6bb-7a16-4a8f-9c2c" collective="true" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Disruption Fist" id="fc10-a86b-6838-e8e8" collective="true" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="46c6-f208-6cb1-ebcb" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="13f5-fe82-20e4-fda2" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="4c4b-9e01-4d47-abdb" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="6558-f85d-8860-e751" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <profiles>
-                    <profile name="Disruption Fist" id="aa19-d4f1-2d61-16ee" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                    <profile name="Disruption Fist" id="83b7-acb7-a3d1-01f9" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                         <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
@@ -2733,19 +2735,17 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Salamanders Captain in Saturnine Armor" id="cf87-048c-297a-8853" hidden="false" import="true" type="model">
+    <selectionEntry name="Salamanders Captain in Saturnine Armor" id="e187-4219-f7b6-a995" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="Character" id="b60b-f5de-f314-5c4e" hidden="false" primary="true" targetId="9cfd-1c32-585f-7d5c"/>
-        <categoryLink name="Infantry" id="b340-b3de-3d51-59b5" hidden="false" primary="false" targetId="cf47-a0d7-7207-29dc"/>
-        <categoryLink name="Captain" id="dd38-53d2-fdda-4d66" hidden="false" primary="false" targetId="2d7f-1892-2fd0-e29c"/>
-        <categoryLink name="Faction: Adeptus Astartes" id="7dc3-8a97-05e3-c724" hidden="false" primary="false" targetId="6e7-40c-58d9-e402"/>
-        <categoryLink name="Terminator" id="2f05-a633-f38e-9778" hidden="false" primary="false" targetId="740a-892c-8958-defa"/>
-        <categoryLink name="Imperium" id="837c-b916-082e-a286" hidden="false" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
-        <categoryLink name="Saturnine" id="a293-3c8e-5fa1-6b99" hidden="false" primary="false" targetId="b55c-16f5-f340-0109"/>
-        <categoryLink name="Faction: Salamanders" id="7813-5d2f-224a-b93e" hidden="false" primary="false" targetId="65e4-13-4fa8-b36c"/>
+        <categoryLink name="Character" id="4f44-c9f1-d492-521a" hidden="false" primary="true" targetId="9cfd-1c32-585f-7d5c"/>
+        <categoryLink name="Infantry" id="63ef-7c9d-fffe-15e1" hidden="false" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+        <categoryLink name="Captain" id="72db-09a1-6a51-88b4" hidden="false" primary="false" targetId="2d7f-1892-2fd0-e29c"/>
+        <categoryLink name="Faction: Adeptus Astartes" id="5534-9b1b-07f0-ffc7" hidden="false" primary="false" targetId="6e7-40c-58d9-e402"/>
+        <categoryLink name="Terminator" id="aa9f-33f6-d115-16d1" hidden="false" primary="false" targetId="740a-892c-8958-defa"/>
+        <categoryLink name="Imperium" id="e483-f75b-4414-c917" hidden="false" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
       </categoryLinks>
       <constraints>
-        <constraint id="6370-f258-e2c7-cfdc" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="3"/>
+        <constraint id="5e67-91de-479e-0a53" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="3"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="130"/>
@@ -2758,23 +2758,23 @@
         <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink name="Warlord" id="fa6a-a701-d970-719a" collective="false" hidden="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
-        <entryLink name="Enhancements" id="13e0-9a60-7fce-b139" hidden="false" import="true" targetId="9e5d-de4c-c5d1-1d3e" type="selectionEntryGroup"/>
+        <entryLink name="Warlord" id="5bf0-f4d3-96a4-362f" collective="false" hidden="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
+        <entryLink name="Enhancements" id="8938-56ac-0d79-97e2" hidden="false" import="true" targetId="9e5d-de4c-c5d1-1d3e" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Oath of Moment" id="4fc8-7b6a-18a9-f313" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
-        <infoLink name="Leader" id="d530-320e-0f0a-f122" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
-        <infoLink name="Deep Strike" id="6621-3605-1da9-babd" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
-        <infoLink name="Rites of Battle" id="68a4-8c99-e6d8-2323" hidden="false" targetId="90c7-c55c-21e2-2232" type="profile"/>
-        <infoLink name="Invulnerable Save (5+)" id="8f3a-dcc7-f13d-7bdc" hidden="false" targetId="27f4-7449-a636-ae8c" type="profile"/>
+        <infoLink name="Oath of Moment" id="7c2e-e0d8-c88b-2e94" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+        <infoLink name="Leader" id="75e2-1fcc-1e89-fcda" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+        <infoLink name="Deep Strike" id="1ee7-2ba6-f99b-afa1" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
+        <infoLink name="Rites of Battle" id="911c-d823-71fc-dca2" hidden="false" targetId="90c7-c55c-21e2-2232" type="profile"/>
+        <infoLink name="Invulnerable Save (5+)" id="0c50-f863-5fc3-1c75" hidden="false" targetId="27f4-7449-a636-ae8c" type="profile"/>
       </infoLinks>
       <profiles>
-        <profile name="Saturnine Armor" id="75b8-faef-2792-d635" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Saturnine Armor" id="65a3-eeec-a4ea-f7e7" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this model embarks in a Transport, it counts as being a Centurion model.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Salamanders Captain in Saturnine Armor" id="c2e8-43b6-5a3e-3039" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+        <profile name="Salamanders Captain in Saturnine Armor" id="3db2-4397-e2e3-7f81" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
@@ -2784,43 +2784,43 @@
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
           </characteristics>
         </profile>
-        <profile name="Leader" id="dbbb-0a55-d49d-e37b" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Leader" id="fa91-82a3-1d62-a83b" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
 
 ■ Saturnine Terminator Squad</characteristic>
           </characteristics>
         </profile>
-        <profile name="Weapon Maintenance" id="246d-33d4-3be6-08d6" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Weapon Maintenance" id="0eb7-9e93-5586-27cb" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, that unit may reroll 1 hazardous test per battle round.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Implacable Advance" id="341d-c5cd-bb26-12a7" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Implacable Advance" id="e329-c08b-b381-29ed" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may Shoot and Charge in the same turn it Fell Back, but it must roll only one die when charging.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Melee Focus" id="60ca-5540-d101-5707" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Melee Focus" id="4c44-4df6-d9aa-a426" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model has 2 Master-crafted Thunder Hammer weapons equipped, those weapons gain [Twin-Linked].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model has 2 Master-crafted Chainfist weapons equipped, those weapons gain [Twin-Linked].</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry name="Particle Shredder" id="25f3-56c0-b210-4f4c" collective="true" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Particle Shredder" id="42bb-5233-08b1-b9fe" collective="true" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="216c-8dff-d317-c08d" field="selections" scope="parent" shared="true" type="max" value="1"/>
-            <constraint id="80e1-33d2-24ea-8d97" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="b89c-0a2f-f88e-8863" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="0ca3-c43b-047c-ce1d" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <infoLinks>
-            <infoLink name="Assault" id="c747-dafe-b520-9ed0" hidden="false" targetId="fc8a-8c24-bae9-cc1c" type="rule"/>
-            <infoLink name="Devastating Wounds" id="2209-abc5-c079-5cd0" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
-            <infoLink name="Ignores Cover" id="f6b9-4541-cdab-4f7e" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
-            <infoLink name="Torrent" id="59f3-e7cc-800e-288e" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
+            <infoLink name="Assault" id="47aa-5dcf-462c-4b57" hidden="false" targetId="fc8a-8c24-bae9-cc1c" type="rule"/>
+            <infoLink name="Devastating Wounds" id="132b-003a-88af-0c61" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+            <infoLink name="Ignores Cover" id="835d-31ba-e4da-25ce" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
+            <infoLink name="Torrent" id="1cbf-344d-fadf-59c7" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
           </infoLinks>
           <profiles>
-            <profile name="Particle Shredder" id="3a73-2990-b2b8-c1ce" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+            <profile name="Particle Shredder" id="011a-67d7-8f7b-d3ca" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
@@ -2835,19 +2835,19 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Wargear" id="a375-ebbe-6a80-e793" defaultSelectionEntryId="2c93-8b39-55c0-c85e" hidden="false">
+        <selectionEntryGroup name="Wargear" id="98fc-ba38-885d-e88a" defaultSelectionEntryId="2c93-8b39-55c0-c85e" hidden="false">
           <constraints>
-            <constraint id="040a-e2fc-d349-c6ea" field="selections" scope="parent" shared="true" type="max" value="2"/>
-            <constraint id="5ffe-4a5b-0c9f-9826" field="selections" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="75ba-70c0-7f79-9b52" field="selections" scope="parent" shared="true" type="max" value="2"/>
+            <constraint id="f102-dfad-a839-5eda" field="selections" scope="parent" shared="true" type="min" value="2"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry name="Heavy Plasma Cannon" id="d80b-8651-fda1-5e94" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Heavy Plasma Cannon" id="c687-a618-7268-d18c" hidden="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink name="Hazardous" id="f580-0a7b-87ea-8b0f" hidden="false" targetId="8367-374c-f87-c627" type="rule"/>
-                <infoLink name="Blast" id="01ad-1371-b6b9-e517" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+                <infoLink name="Hazardous" id="4d51-01cc-27f0-106f" hidden="false" targetId="8367-374c-f87-c627" type="rule"/>
+                <infoLink name="Blast" id="9f30-9dc1-979f-a271" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="➤ Heavy Plasma Cannon - Standard" id="ce9b-4491-0e55-26c6" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                <profile name="➤ Heavy Plasma Cannon - Standard" id="8eac-42d1-e336-619f" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
@@ -2858,7 +2858,7 @@
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="➤ Heavy Plasma Cannon - Supercharge" id="6a8f-31ae-9151-42f2" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                <profile name="➤ Heavy Plasma Cannon - Supercharge" id="5756-9b58-87bd-96a0" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
@@ -2871,13 +2871,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Multi-melta" id="873a-cfbd-ec2c-131b" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Multi-melta" id="6a56-3199-b204-9088" hidden="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink name="Heavy" id="45ab-3614-fa05-0545" hidden="false" targetId="1202-10a8-78e9-4c67" type="rule"/>
-                <infoLink name="Melta" id="800f-aa8d-9fd2-ef93" hidden="false" targetId="7cdb-fb99-44a9-8849" type="rule"/>
+                <infoLink name="Heavy" id="4eac-20ac-3fbb-27fd" hidden="false" targetId="1202-10a8-78e9-4c67" type="rule"/>
+                <infoLink name="Melta" id="ac19-b6e1-f15c-8b53" hidden="false" targetId="7cdb-fb99-44a9-8849" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Multi-melta" id="e08d-6d35-7f20-9ea3" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                <profile name="Multi-melta" id="c4b1-dd28-6099-ce26" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
@@ -2890,12 +2890,12 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Master-crafted Thunder Hammer" id="cd11-1dc0-c458-fe4d" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Master-crafted Thunder Hammer" id="b5fd-4962-0cee-426a" hidden="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink name="Devastating Wounds" id="3084-dc09-a083-95fe" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+                <infoLink name="Devastating Wounds" id="fe88-ac28-cc81-a16d" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Master-crafted Thunder Hammer" id="d9ac-86ab-0f04-4eb9" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                <profile name="Master-crafted Thunder Hammer" id="e063-0795-c63f-a3c6" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                     <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
