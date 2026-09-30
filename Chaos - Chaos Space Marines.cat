@@ -28131,6 +28131,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
                               </constraints>
                               <infoLinks>
                                 <infoLink name="Devastating Wounds" id="dd12-21da-9abb-6d8f" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+                                <infoLink name="Heavy" id="3152-25e6-cd79-427e" hidden="false" targetId="1202-10a8-78e9-4c67" type="rule"/>
                               </infoLinks>
                               <profiles>
                                 <profile name="Volkite cavitor" id="4226-0607-e381-6f45" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
@@ -28141,7 +28142,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
                                     <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds</characteristic>
+                                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Heavy</characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
@@ -28282,6 +28283,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
                               </constraints>
                               <infoLinks>
                                 <infoLink name="Devastating Wounds" id="a0d2-188f-7629-9e4b" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+                                <infoLink name="Heavy" id="2d6e-eeba-d872-4ce9" hidden="false" targetId="1202-10a8-78e9-4c67" type="rule"/>
                               </infoLinks>
                               <profiles>
                                 <profile name="Volkite cavitor" id="d361-bab2-a56c-be70" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
@@ -28292,7 +28294,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
                                     <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds</characteristic>
+                                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Heavy</characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
