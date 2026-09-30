@@ -1289,7 +1289,7 @@
         </profile>
         <profile name="Power of Flame" id="7301-6244-92a3-edc2" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In the shooting phase, if this model makes an attack against an enemy INFANTRY unit hit by this model&apos;s Infernos Flamestorm Cannon, or an enemy VEHICLE unit hit by this model&apos;s Manga-Melta previously this turn, add 1 to the wound roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In the shooting phase, if this model makes an attack against an enemy INFANTRY unit hit by this model&apos;s Infernos Flamestorm Cannon, or an enemy VEHICLE unit hit by this model&apos;s Magna-Melta previously this turn, add 1 to the wound roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>

@@ -27148,6 +27148,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
         <categoryLink name="Epic Hero" id="6cba-c4c1-b19a-818c" hidden="false" primary="true" targetId="4f3a-f0f7-6647-348d"/>
         <categoryLink name="Chaos" id="982f-cc3d-2e53-3b6c" hidden="false" primary="false" targetId="4c00-2578-faf5-6918"/>
         <categoryLink name="Infernus Abomination" id="c9e4-3004-60e1-079e" hidden="false" primary="false" targetId="f6e7-0396-8f10-68af"/>
+        <categoryLink name="Chaos Undivided" id="6a9c-77a8-df97-5f54" hidden="false" primary="false" targetId="2c5c-6ca6-777-c633"/>
       </categoryLinks>
       <constraints>
         <constraint id="eca0-23d5-4e59-6619" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="1"/>
@@ -28124,7 +28125,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
                                 </profile>
                               </profiles>
                             </selectionEntry>
-                            <selectionEntry name="Volkite caliver" id="9629-7f5f-04c3-ec96" hidden="false" import="true" type="upgrade">
+                            <selectionEntry name="Volkite cavitor" id="9629-7f5f-04c3-ec96" hidden="false" import="true" type="upgrade">
                               <constraints>
                                 <constraint id="7a3a-eac2-2999-dd54" field="selections" scope="parent" shared="true" type="max" value="1"/>
                               </constraints>
@@ -28132,14 +28133,14 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
                                 <infoLink name="Devastating Wounds" id="dd12-21da-9abb-6d8f" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
                               </infoLinks>
                               <profiles>
-                                <profile name="Volkite caliver" id="01a1-d251-9b14-2887" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                                <profile name="Volkite cavitor" id="4226-0607-e381-6f45" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                                   <characteristics>
                                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds</characteristic>
                                   </characteristics>
                                 </profile>
@@ -28275,7 +28276,7 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
                                 </profile>
                               </profiles>
                             </selectionEntry>
-                            <selectionEntry name="Volkite caliver" id="d2c3-9f16-6cfb-d2b1" hidden="false" import="true" type="upgrade">
+                            <selectionEntry name="Volkite cavitor" id="d2c3-9f16-6cfb-d2b1" hidden="false" import="true" type="upgrade">
                               <constraints>
                                 <constraint id="e267-447f-63e3-34b3" field="selections" scope="parent" shared="true" type="max" value="1"/>
                               </constraints>
@@ -28283,14 +28284,14 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
                                 <infoLink name="Devastating Wounds" id="a0d2-188f-7629-9e4b" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
                               </infoLinks>
                               <profiles>
-                                <profile name="Volkite caliver" id="d361-bab2-a56c-be70" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                                <profile name="Volkite cavitor" id="d361-bab2-a56c-be70" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                                   <characteristics>
                                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds</characteristic>
                                   </characteristics>
                                 </profile>
@@ -29572,8 +29573,8 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
         <categoryLink name="Character" id="5a1d-e60b-da28-53a0" hidden="false" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
         <categoryLink name="Epic Hero" id="679d-b1ca-2153-da3d" hidden="false" primary="true" targetId="4f3a-f0f7-6647-348d"/>
         <categoryLink name="Chaos" id="ef92-6c10-be39-8c65" hidden="false" primary="false" targetId="4c00-2578-faf5-6918"/>
-        <categoryLink name="Chaos Undivided" id="bce2-afaf-b009-bd00" hidden="false" primary="false" targetId="2c5c-6ca6-777-c633"/>
         <categoryLink name="Kranon the Relentless" id="3f69-20cb-7953-6dad" hidden="false" primary="false" targetId="48c3-9013-259b-ba64"/>
+        <categoryLink name="Khorne" id="426a-457b-cb15-2705" hidden="false" primary="false" targetId="4bd-5ee0-f179-2fc5"/>
       </categoryLinks>
       <constraints>
         <constraint id="04ec-11bd-795f-eefb" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="1"/>
