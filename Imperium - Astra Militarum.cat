@@ -506,15 +506,6 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Arkurian Stormhammer" id="8fb2-80a9-b1ae-29db" hidden="false" import="true" targetId="59c4-e4de-fe70-b221" type="selectionEntry">
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="1d6e-2579-8e7f-1ed4" field="selections" includeChildForces="true" scope="roster" shared="true" type="atLeast" value="1"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </entryLink>
     <entryLink name="Atlas Recovery Vehicle" id="7f70-8a46-23f7-226" hidden="false" import="true" targetId="9673-7eaa-8ed9-bc7c" type="selectionEntry">
       <modifiers>
         <modifier field="hidden" type="set" value="true">

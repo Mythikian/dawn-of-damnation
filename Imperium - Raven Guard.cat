@@ -733,7 +733,7 @@ even if you have already used that Stratagem on a different unit this phase.</c
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the battle round, select one Scourge of the Warp abilities. Until the start of your next Command phase, this model has those abilities.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Raven Guard Bodyguard" id="f6d1-05fb-1396-0810" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Raven Lord&apos;s Remembrance" id="f6d1-05fb-1396-0810" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within 3&quot; of one or more friendly Adeptus Astartes Infantry models, whenever an attack is made against this model worsen the Armour Penetration charactersitic of that weapon by 1.</characteristic>
           </characteristics>

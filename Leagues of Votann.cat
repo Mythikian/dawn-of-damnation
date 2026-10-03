@@ -9647,6 +9647,11 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit does not suffer movement penalties from moving over terrain.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Ironhead Prospectors" id="c149-126d-64cd-693b" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can shoot weapons with [Pistol] when it is eligible to shoot all of its other ranged weapons.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <selectionEntryGroups>
         <selectionEntryGroup name="1 Ironhead Charter Master &amp; 9 Ironhead Prospectors" id="9beb-a04d-8006-05ba" hidden="false" sortIndex="3">
