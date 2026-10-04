@@ -110,9 +110,15 @@
         <entryLink name="Chivalric Quests" id="3337-6778-a9e3-dcc2" hidden="false" import="true" sortIndex="98" targetId="12f3-7f5b-747e-41ca" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
-    <entryLink name="Vorth Mordrak" id="5632-7565-99cb-580b" hidden="false" import="true" targetId="d625-9674-3eaa-8f11" type="selectionEntry"/>
     <entryLink name="Vorth Mordrak" id="419b-7dbd-3dee-8a0b" hidden="false" import="true" targetId="d625-9674-3eaa-8f11" type="selectionEntry"/>
     <entryLink name="Paladin Assault Squad" id="c217-3605-4ff5-7220" hidden="false" import="true" targetId="2158-a672-1728-2f1f" type="selectionEntry"/>
+    <entryLink name="Aegis Dreadnought" id="1623-41bc-5d72-1ece" hidden="false" import="true" targetId="152a-2783-6d3b-bb89" type="selectionEntry"/>
+    <entryLink name="Grey Knights Attack Bike Squad" id="b948-ab7f-1cb2-71c6" hidden="false" import="true" targetId="a662-73fd-7085-4514" type="selectionEntry"/>
+    <entryLink name="Brotherhood Apothecary" id="2117-b071-08a0-5899" hidden="false" import="true" targetId="6e7e-fe93-ce20-38d8" type="selectionEntry"/>
+    <entryLink name="Brotherhood Apothecary on Bike" id="2e18-14e9-15ca-eb37" hidden="false" import="true" targetId="4de2-e734-f892-d0ff" type="selectionEntry"/>
+    <entryLink name="Brotherhood Prognosticar" id="a280-5b02-badb-8aa9" hidden="false" import="true" targetId="24c3-6565-1c2c-8d44" type="selectionEntry"/>
+    <entryLink name="Brotherhood Champion on Bike" id="2d34-9211-3bbc-0502" hidden="false" import="true" targetId="0c3c-f886-3c16-218f" type="selectionEntry"/>
+    <entryLink name="Brotherhood Techmarine on Bike" id="2705-d940-9c58-d089" hidden="false" import="true" targetId="bdcb-9eff-e138-da61" type="selectionEntry"/>
   </entryLinks>
   <sharedProfiles>
     <profile name="Warrior Strategist" id="cb03-8115-df85-19ac" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
