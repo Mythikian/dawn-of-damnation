@@ -5408,9 +5408,9 @@ If this unit has a Leader unit attached to it during the Declare Battle Formatio
 - DEATHWATCH BLACKSHIELDS
 - DEATHWATCH TERMINATOR SQUAD
 - DEATHWATCH VETERANS
-- FORTIS KILL TEAM
 - INDOMITAR KILL TEAM
-</characteristic>
+
+- PROTEUS KILL TEAM</characteristic>
           </characteristics>
         </profile>
         <profile name="Invulnerable Save" id="7dd5-3a22-ed39-a7dd" hidden="false" page="7" publicationId="4115-3627-e608-39f6" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -6460,7 +6460,7 @@ If this unit has a Leader unit attached to it during the Declare Battle Formatio
         </profile>
         <profile name="Attached Unit" id="76fa-a88a-8cb0-8ba8" hidden="false" page="18" publicationId="4115-3627-e608-39f6" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a CHARACTER from your army with the Leader ability can be attached to a DEATHWATCH KILL TEAM, it can be attached to this unit instead.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a CHARACTER unit from your army with the Leader ability can be attached to a DEATHWATCH VETERANS or STERNGUARD VETERAN SQUAD, it can be attached to this unit instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7746,8 +7746,18 @@ If this unit has a Leader unit attached to it during the Declare Battle Formatio
             <constraint id="d28b-4edc-a582-3b67" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Bolt pistol" id="4c40-1ebc-3dd6-365f" hidden="false" import="true" targetId="18b0-8c2-173f-5" type="selectionEntry"/>
-            <entryLink name="Crozius arcanum" id="9f28-c482-e667-961c" hidden="false" import="true" targetId="871-d25c-e7b3-5dfc" type="selectionEntry"/>
+            <entryLink name="Bolt pistol" id="4c40-1ebc-3dd6-365f" hidden="false" import="true" targetId="18b0-8c2-173f-5" type="selectionEntry">
+              <constraints>
+                <constraint id="4c4e-64e9-b03d-8d6f" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="99f9-945b-4727-4b60" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Crozius arcanum" id="9f28-c482-e667-961c" hidden="false" import="true" targetId="871-d25c-e7b3-5dfc" type="selectionEntry">
+              <constraints>
+                <constraint id="90d2-85bc-618a-8091" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="7784-55db-1202-4d80" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <profiles>
             <profile name="Ortan Cassius" id="e139-ca12-2344-709d" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -7768,7 +7778,12 @@ If this unit has a Leader unit attached to it during the Declare Battle Formatio
             <constraint id="f22f-cac6-381b-1e93" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Bolt pistol" id="b812-9be8-f8bc-efae" hidden="false" import="true" targetId="18b0-8c2-173f-5" type="selectionEntry"/>
+            <entryLink name="Bolt pistol" id="b812-9be8-f8bc-efae" hidden="false" import="true" targetId="18b0-8c2-173f-5" type="selectionEntry">
+              <constraints>
+                <constraint id="b5a9-fa43-5e70-b389" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="8aa7-6480-3236-4484" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <profiles>
             <profile name="Edryc Setorax" id="09a7-3cfc-8a04-bc61" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -7813,8 +7828,18 @@ If this unit has a Leader unit attached to it during the Declare Battle Formatio
             <constraint id="fa43-3978-5dc3-3e50" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Heavy bolter" id="07f4-6105-1bc5-3555" hidden="false" import="true" targetId="d243-77eb-2a1-ff34" type="selectionEntry"/>
-            <entryLink name="Close combat weapon" id="8f04-4c8d-c597-fe38" hidden="false" import="true" targetId="6c7d-af5b-482-6fbe" type="selectionEntry"/>
+            <entryLink name="Heavy bolter" id="07f4-6105-1bc5-3555" hidden="false" import="true" targetId="d243-77eb-2a1-ff34" type="selectionEntry">
+              <constraints>
+                <constraint id="88f3-cae7-9c8f-985e" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="763c-1fb1-e596-f862" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Close combat weapon" id="8f04-4c8d-c597-fe38" hidden="false" import="true" targetId="6c7d-af5b-482-6fbe" type="selectionEntry">
+              <constraints>
+                <constraint id="e7d6-e262-ac65-50a2" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="d10b-a844-a382-4086" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <profiles>
             <profile name="Rodricus Grytt" id="8fd6-5ff9-71fe-fdae" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -7835,7 +7860,12 @@ If this unit has a Leader unit attached to it during the Declare Battle Formatio
             <constraint id="c746-bc47-898e-112b" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Bolt pistol" id="f850-84d4-f8b6-19b2" hidden="false" import="true" targetId="18b0-8c2-173f-5" type="selectionEntry"/>
+            <entryLink name="Bolt pistol" id="f850-84d4-f8b6-19b2" hidden="false" import="true" targetId="18b0-8c2-173f-5" type="selectionEntry">
+              <constraints>
+                <constraint id="1202-00a8-1bdd-65f2" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="828f-c1c6-1a2e-0739" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <profiles>
             <profile name="Drenn Redblade" id="7632-a506-f31c-4ad6" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -7880,8 +7910,18 @@ If this unit has a Leader unit attached to it during the Declare Battle Formatio
             <constraint id="7577-4604-e1f3-b5c9" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Bolt pistol" id="2398-6297-ac0c-57ee" hidden="false" import="true" targetId="18b0-8c2-173f-5" type="selectionEntry"/>
-            <entryLink name="Master-crafted power weapon" id="2faf-36ff-2654-4039" hidden="false" import="true" targetId="2b6b-56b9-13a8-3320" type="selectionEntry"/>
+            <entryLink name="Bolt pistol" id="2398-6297-ac0c-57ee" hidden="false" import="true" targetId="18b0-8c2-173f-5" type="selectionEntry">
+              <constraints>
+                <constraint id="60b2-b861-388a-ce8f" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="16a9-3bee-07a5-1c9b" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Master-crafted power weapon" id="2faf-36ff-2654-4039" hidden="false" import="true" targetId="2b6b-56b9-13a8-3320" type="selectionEntry">
+              <constraints>
+                <constraint id="c6d9-9b57-f5ba-c2eb" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="f572-de11-90a3-b5a3" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <profiles>
             <profile name="Zameon Gydrael" id="e0e1-7b94-0026-c864" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -7905,7 +7945,12 @@ If this unit has a Leader unit attached to it during the Declare Battle Formatio
             <constraint id="8203-4136-d179-1767" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Assault Cannon" id="ab1e-0e38-8809-a874" hidden="false" import="true" targetId="2de6-ff2-dc37-b20d" type="selectionEntry"/>
+            <entryLink name="Assault Cannon" id="ab1e-0e38-8809-a874" hidden="false" import="true" targetId="2de6-ff2-dc37-b20d" type="selectionEntry">
+              <constraints>
+                <constraint id="8374-7835-3354-5bd2" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="d0b4-11d2-4cc1-d977" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <profiles>
             <profile name="Garran Branatar" id="4be5-9d24-7812-27d3" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -7951,8 +7996,18 @@ If this unit has a Leader unit attached to it during the Declare Battle Formatio
             <constraint id="9e28-4100-aa82-8d28" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Twin bolt rifle" id="31aa-be30-2a7d-c39a" hidden="false" import="true" targetId="3451-a59-ad9d-cc65" type="selectionEntry"/>
-            <entryLink name="Astartes Chainsword" id="8001-fc6e-ff7c-ed9d" hidden="false" import="true" targetId="efcd-180-d07-b4d6" type="selectionEntry"/>
+            <entryLink name="Twin bolt rifle" id="31aa-be30-2a7d-c39a" hidden="false" import="true" targetId="3451-a59-ad9d-cc65" type="selectionEntry">
+              <constraints>
+                <constraint id="7769-7cd4-dee7-eb0e" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="7fae-0219-40ca-73d1" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Astartes Chainsword" id="8001-fc6e-ff7c-ed9d" hidden="false" import="true" targetId="efcd-180-d07-b4d6" type="selectionEntry">
+              <constraints>
+                <constraint id="1979-e035-3c2a-b9e1" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="ab75-f566-0d12-80dd" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <profiles>
             <profile name="Jetek Suberei" id="34f7-7ce4-13bf-1246" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -7973,8 +8028,18 @@ If this unit has a Leader unit attached to it during the Declare Battle Formatio
             <constraint id="e3b4-a5df-a94d-8aaa" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Bolt pistol" id="2fe2-9fc4-bc1c-c3c6" hidden="false" import="true" targetId="18b0-8c2-173f-5" type="selectionEntry"/>
-            <entryLink name="Astartes Chainsword" id="bb4b-a097-471f-5e4c" hidden="false" import="true" targetId="efcd-180-d07-b4d6" type="selectionEntry"/>
+            <entryLink name="Bolt pistol" id="2fe2-9fc4-bc1c-c3c6" hidden="false" import="true" targetId="18b0-8c2-173f-5" type="selectionEntry">
+              <constraints>
+                <constraint id="6458-148c-d568-94cc" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="5450-b271-9063-b3f8" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Astartes Chainsword" id="bb4b-a097-471f-5e4c" hidden="false" import="true" targetId="efcd-180-d07-b4d6" type="selectionEntry">
+              <constraints>
+                <constraint id="58bc-6cb1-2364-ab3b" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="e7ea-c4e2-330b-eb07" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <profiles>
             <profile name="Antor Delassio" id="cb57-a11b-0582-404a" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -7995,8 +8060,18 @@ If this unit has a Leader unit attached to it during the Declare Battle Formatio
             <constraint id="2ed0-cae8-cd70-393d" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Sternguard Bolt Rifle" id="9c02-bbc1-046e-d992" hidden="false" import="true" targetId="874a-4375-dbc3-b412" type="selectionEntry"/>
-            <entryLink name="Close combat weapon" id="2f7f-5c42-7651-4c72" hidden="false" import="true" targetId="6c7d-af5b-482-6fbe" type="selectionEntry"/>
+            <entryLink name="Sternguard Bolt Rifle" id="9c02-bbc1-046e-d992" hidden="false" import="true" targetId="874a-4375-dbc3-b412" type="selectionEntry">
+              <constraints>
+                <constraint id="1b64-8c80-2223-fbe1" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="05c0-1395-735a-87ba" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Close combat weapon" id="2f7f-5c42-7651-4c72" hidden="false" import="true" targetId="6c7d-af5b-482-6fbe" type="selectionEntry">
+              <constraints>
+                <constraint id="2d2c-1e6f-e1b0-9a98" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="cbbc-287a-28e4-ad58" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <profiles>
             <profile name="Vael Donatus" id="6cc1-69f7-5bb8-1db8" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -8017,8 +8092,18 @@ If this unit has a Leader unit attached to it during the Declare Battle Formatio
             <constraint id="57d2-71d2-ae37-015d" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Sternguard Bolt Rifle" id="de6a-867a-7000-49a6" hidden="false" import="true" targetId="874a-4375-dbc3-b412" type="selectionEntry"/>
-            <entryLink name="Close combat weapon" id="1e6a-bbb5-ef00-7222" hidden="false" import="true" targetId="6c7d-af5b-482-6fbe" type="selectionEntry"/>
+            <entryLink name="Sternguard Bolt Rifle" id="de6a-867a-7000-49a6" hidden="false" import="true" targetId="874a-4375-dbc3-b412" type="selectionEntry">
+              <constraints>
+                <constraint id="0e68-333d-f76c-d366" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="a62e-92e4-9a58-0df1" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Close combat weapon" id="1e6a-bbb5-ef00-7222" hidden="false" import="true" targetId="6c7d-af5b-482-6fbe" type="selectionEntry">
+              <constraints>
+                <constraint id="41bd-2ceb-483a-9442" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="15ad-2d20-e0f3-b5a8" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <profiles>
             <profile name="Ennox Sorrlock" id="c0ec-4007-29ed-4e38" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -8039,8 +8124,18 @@ If this unit has a Leader unit attached to it during the Declare Battle Formatio
             <constraint id="776b-afc5-3cab-f205" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Bolt pistol" id="1015-367d-b660-0903" hidden="false" import="true" targetId="18b0-8c2-173f-5" type="selectionEntry"/>
-            <entryLink name="Master-crafted power weapon" id="1fde-a3d6-87e6-bbf3" hidden="false" import="true" targetId="2b6b-56b9-13a8-3320" type="selectionEntry"/>
+            <entryLink name="Bolt pistol" id="1015-367d-b660-0903" hidden="false" import="true" targetId="18b0-8c2-173f-5" type="selectionEntry">
+              <constraints>
+                <constraint id="3399-5239-bb26-b5f6" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="3d91-184e-2d21-ebcf" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Master-crafted power weapon" id="1fde-a3d6-87e6-bbf3" hidden="false" import="true" targetId="2b6b-56b9-13a8-3320" type="selectionEntry">
+              <constraints>
+                <constraint id="d2d6-345e-a0a5-1880" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="d11b-ea7c-c142-e08c" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <profiles>
             <profile name="Jensus Natorian" id="b86f-66b8-526e-b447" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
