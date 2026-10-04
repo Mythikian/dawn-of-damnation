@@ -7375,6 +7375,11 @@ Strategic Reserves.</characteristic>
       <infoLinks>
         <infoLink name="Oath of Moment" id="f37-ca71-61f2-b6d0" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
         <infoLink name="Templar Vows" id="665f-bf98-daf4-d099" hidden="false" targetId="f26c-4b28-aaea-40cf" type="rule"/>
+        <infoLink name="Scouts" id="d8c2-c276-602e-640e" hidden="false" targetId="ada6-bac1-ffe0-d6f7" type="rule">
+          <modifiers>
+            <modifier field="name" type="append" value="6&quot;"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -7454,6 +7459,11 @@ Strategic Reserves.</characteristic>
         <profile name="Vanguard Assault" id="5867-7a11-d8b4-b956" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit ends a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Attached Unit" id="6b54-c5fe-9268-ccee" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a CHARACTER unit from your army with the Leader ability can be attached to an ASSAULT INTERCESSOR SQUAD, it can be attached to this unit instead. Any CHARACTER that joins this unit gains Scouts 6&quot;.</characteristic>
           </characteristics>
         </profile>
       </profiles>
