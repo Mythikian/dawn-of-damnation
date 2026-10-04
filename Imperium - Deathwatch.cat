@@ -55,6 +55,7 @@
     <entryLink name="Watch Master on Bike" id="78b3-2bf4-64bd-faa2" hidden="false" import="true" targetId="f0ec-cecc-2798-804c" type="selectionEntry"/>
     <entryLink name="Watch Captain" id="0f31-10df-af0e-c6b1" hidden="false" import="true" targetId="dfe7-fa17-8e41-79dc" type="selectionEntry"/>
     <entryLink name="Xerill" id="0400-dc70-8c93-cdda" hidden="false" import="true" targetId="3708-4059-a092-14cf" type="selectionEntry"/>
+    <entryLink name="Kill Team Cassius" id="af3b-192f-58eb-926d" hidden="false" import="true" targetId="85a0-d35b-ecdd-3e5a" type="selectionEntry"/>
   </entryLinks>
   <sharedProfiles>
     <profile name="Power Fist" id="27b9-ba9e-95a5-a6" hidden="false" page="16" publicationId="4115-3627-e608-39f6" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
@@ -6451,18 +6452,6 @@ If this unit has a Leader unit attached to it during the Declare Battle Formatio
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition id="435e-f6d9-09c6-d76f" childId="9ed-cbf4-bfe5-90bf" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
-          </conditions>
-        </modifier>
-        <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition id="f2e2-968d-01f9-0c41" childId="f89b-84e0-6e3b-f1e2" field="selections" includeChildSelections="true" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile name="Proteus Doctrines" id="b17b-e09f-2298-13f9" hidden="false" page="21" publicationId="4115-3627-e608-39f6" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
