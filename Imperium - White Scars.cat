@@ -1847,8 +1847,7 @@
                             <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                             <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2161,8 +2160,7 @@
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2331,8 +2329,7 @@
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2467,8 +2464,7 @@
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2610,7 +2606,7 @@
       <profiles>
         <profile name="Zao Charge" id="bc40-e74b-9b83-8b6f" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit ends a Charge move, select one enemy unit within Engagement Range of this unit and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers D3 mortal wounds. </characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit ends a Charge move, select one enemy unit within Engagement Range of this unit and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" id="1bf8-2a0c-395f-c108" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -2934,7 +2930,7 @@
       <modifiers>
         <modifier field="51b2-306e-1021-d207" type="set" value="210">
           <conditions>
-            <condition id="8a1e-3726-31bf-a4c3" childId="model" childName="model" field="selections" scope="50ec-3faf-1bec-eb0c" shared="true" type="atLeast" value="4"/>
+            <condition id="8a1e-3726-31bf-a4c3" childId="cc9e-dc64-f1d3-7c90" childName="White Scars Company Veteran on Bike" field="selections" scope="50ec-3faf-1bec-eb0c" shared="true" type="atLeast" value="4"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3143,8 +3139,8 @@
 
 ■ Assault Intercessor Squad
 ■ Bladeguard Veteran Squad
-■ Hellblaster Squad
-■ Infernus Squad
+■ Desolation Squad
+■ Devastator Squad
 ■ Intercessor Squad
 ■ Sternguard Veteran Squad
 ■ Tactical Squad</characteristic>
