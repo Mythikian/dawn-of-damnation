@@ -11012,10 +11012,6 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                       </profiles>
                     </selectionEntry>
                     <selectionEntry name="Ectoplasma cannon and limbs" id="0df4-4f32-9222-0a27" collective="false" hidden="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint id="e5f5-b7b5-8c48-692c" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="4a72-82f6-fbad-0c39" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                      </constraints>
                       <costs>
                         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
                       </costs>
@@ -11049,6 +11045,10 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                           <categoryLinks>
                             <categoryLink name="Attacks Dx Weapon" id="a13b-3ce7-73c5-f7e9" hidden="false" primary="false" targetId="e993-e086-6de1-12af"/>
                           </categoryLinks>
+                          <constraints>
+                            <constraint id="4c4f-ca23-93f5-59e1" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                            <constraint id="9674-c6fc-0c02-baca" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                          </constraints>
                           <costs>
                             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
                           </costs>
@@ -11228,10 +11228,6 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Wargear" id="448c-2501-601a-3269" collective="false" defaultSelectionEntryId="4128-d8b4-4f3b-ae20" hidden="false" import="true">
-              <constraints>
-                <constraint id="d3bd-cffd-8529-38c1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="9e97-0bc7-e227-d9c8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
               <selectionEntries>
                 <selectionEntry name="Autopistol" id="3e9f-ea77-01f3-9a81" collective="true" hidden="false" import="true" type="upgrade">
                   <constraints>
@@ -11282,9 +11278,6 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
           </selectionEntryGroups>
         </selectionEntry>
         <selectionEntry name="Icon of Excess" id="d039-b6fe-f05e-453f" hidden="false" import="true" type="upgrade">
-          <associations>
-            <association name="Icon of Excess" id="62fe-7597-48f7-598d" childId="e5de-0c54-e036-829d" includeChildSelections="true" max="1" min="1" scope="4494-dd7d-69f7-306c"/>
-          </associations>
           <constraints>
             <constraint id="b29c-51ee-f6c3-34d7" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -13802,7 +13795,7 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
         </profile>
         <profile name="Sonic Wake" id="b7df-4ff1-1e66-7d10" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit Advances, until the end of the turn: Ranged weapons equipped by models in this unit gain [SUSTAINED HITS 1].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit Advances, until the end of the turn: Ranged weapons equipped by models in this unit gain [LETHAL HITS].</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" id="fdd1-8827-cc47-aa55" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
