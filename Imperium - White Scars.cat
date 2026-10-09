@@ -752,6 +752,13 @@
         <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
         <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
       </costs>
+      <entryLinks>
+        <entryLink name="Warlord" id="3884-9ae7-1694-6eb4" collective="false" hidden="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry">
+          <constraints>
+            <constraint id="c893-f6ea-5ffe-f8c6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <infoLinks>
         <infoLink name="Feel No Pain" id="5015-d20c-eb92-e9d2" hidden="false" targetId="9bf4-280f-bbe2-6fbb" type="rule"/>
         <infoLink name="Oath of Moment" id="5160-6626-0d88-d4b3" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>

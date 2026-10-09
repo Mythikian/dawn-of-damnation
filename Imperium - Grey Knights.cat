@@ -7193,6 +7193,7 @@ Each time you target this unit with a Stratagem, roll one D6, adding 1 to the re
               <infoLinks>
                 <infoLink name="Twin-linked" id="df36-2c25-8bad-3dcd" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
                 <infoLink name="Psychic" id="e178-bc33-76ae-c3cd" hidden="false" targetId="e9c4-2bb8-12ee-cd1b" type="rule"/>
+                <infoLink name="Ignores Cover" id="2437-795a-a33b-8e2b" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
               </infoLinks>
               <profiles>
                 <profile name="Twin heavy psycannon" id="bd0d-bf5-b1f7-108e" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
@@ -7201,9 +7202,9 @@ Each time you target this unit with a Stratagem, roll one D6, adding 1 to the re
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Psychic, Twin-linked</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Ignores Cover, Psychic, Twin-linked</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7512,7 +7513,7 @@ Each time you target this unit with a Stratagem, roll one D6, adding 1 to the re
                     <entryLink name="Weapon Modifications" id="8fd8-3f6b-a27e-598c" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
                   </entryLinks>
                 </entryLink>
-                <entryLink name="Heavy psycannon" id="d64a-b930-b4a2-c17e" hidden="false" import="true" targetId="f39a-7a15-38e4-63aa" type="selectionEntry">
+                <entryLink name="Heavy psycannon" id="d64a-b930-b4a2-c17e" hidden="false" import="true" targetId="5a07-33e2-89ab-4bd5" type="selectionEntry">
                   <constraints>
                     <constraint id="90c5-3654-0e05-3260" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
                     <constraint id="4b31-80e8-7f24-a8e9" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
@@ -7543,7 +7544,7 @@ Each time you target this unit with a Stratagem, roll one D6, adding 1 to the re
                     <entryLink name="Weapon Modifications" id="3c2d-fd19-e26d-1aac" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
                   </entryLinks>
                 </entryLink>
-                <entryLink name="Heavy psycannon" id="a118-dce9-c4ee-f207" hidden="false" import="true" targetId="f39a-7a15-38e4-63aa" type="selectionEntry">
+                <entryLink name="Heavy psycannon" id="a118-dce9-c4ee-f207" hidden="false" import="true" targetId="5a07-33e2-89ab-4bd5" type="selectionEntry">
                   <constraints>
                     <constraint id="67cb-ca67-00e8-657e" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
                     <constraint id="05c9-6f5c-f4fe-bdf1" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
@@ -9133,7 +9134,7 @@ Each time you target this unit with a Stratagem, roll one D6, adding 1 to the re
                     <profile name="Nemesis Doomfists" id="07ac-c275-ac75-280f" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                        <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
                         <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">14</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
@@ -9165,10 +9166,11 @@ Each time you target this unit with a Stratagem, roll one D6, adding 1 to the re
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Aegis Tele-Halberd &amp; Dreadforce Heavy Psycannon" id="68cb-6773-c3ae-9837" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Aegis Tele-Halberd &amp; Heavy Psycannon" id="68cb-6773-c3ae-9837" hidden="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink name="Devastating Wounds" id="1f6c-169b-f7c7-ce03" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
                     <infoLink name="Psychic" id="bc17-44ca-7936-23f8" hidden="false" targetId="e9c4-2bb8-12ee-cd1b" type="rule"/>
+                    <infoLink name="Ignores Cover" id="52ff-aa30-deca-6495" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
                   </infoLinks>
                   <profiles>
                     <profile name="Aegis Tele-Halberd" id="f39a-a7f5-61a6-6056" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
@@ -9182,15 +9184,15 @@ Each time you target this unit with a Stratagem, roll one D6, adding 1 to the re
                         <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Psychic</characteristic>
                       </characteristics>
                     </profile>
-                    <profile name="Dreadforce Heavy Psycannon" id="ff49-7e56-dfdc-bd8d" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                    <profile name="Heavy Psycannon" id="ff49-7e56-dfdc-bd8d" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Psychic</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Ignores Cover, Psychic</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9223,6 +9225,9 @@ Each time you target this unit with a Stratagem, roll one D6, adding 1 to the re
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
         <cost name="Purgation Points" typeId="d579-52c1-3e77-dd11" value="0"/>
       </costs>
+      <entryLinks>
+        <entryLink name="Warlord" id="b7b2-effc-6056-f594" hidden="false" import="true" targetId="beae-4593-3686-1672" type="selectionEntry"/>
+      </entryLinks>
       <infoLinks>
         <infoLink name="Leader" id="2727-e797-42f7-cfdc" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
         <infoLink name="Gate of Infinity" id="1811-b2c3-5f98-2ded" hidden="false" targetId="6a5e-1316-2d87-93c5" type="rule"/>

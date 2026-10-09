@@ -1378,9 +1378,9 @@
                 <constraint id="0d4b-14e1-23e3-04f4" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry name="2 Meltaguns" id="0ef8-3c00-f4b5-42a9" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="2 Multi-meltas" id="0ef8-3c00-f4b5-42a9" hidden="false" import="true" type="upgrade">
                   <selectionEntries>
-                    <selectionEntry name="Twin Meltagun" id="3453-3a40-e320-ee69" hidden="false" import="true" type="upgrade">
+                    <selectionEntry name="Multi-melta" id="3453-3a40-e320-ee69" hidden="false" import="true" type="upgrade">
                       <constraints>
                         <constraint id="7c58-6c45-d96e-553e" field="selections" scope="parent" shared="true" type="min" value="2"/>
                         <constraint id="8fdc-2c59-a226-2ead" field="selections" scope="parent" shared="true" type="max" value="2"/>
@@ -1392,10 +1392,10 @@
                         <infoLink name="Melta" id="98c6-7a57-e75a-8358" hidden="false" targetId="7cdb-fb99-44a9-8849" type="rule"/>
                       </infoLinks>
                       <profiles>
-                        <profile name="Meltagun" id="d259-671c-abd2-a511" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                        <profile name="Multi-melta" id="d259-671c-abd2-a511" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                           <characteristics>
-                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
                             <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
@@ -1416,6 +1416,19 @@
                       </constraints>
                       <entryLinks>
                         <entryLink name="Weapon Modifications" id="a587-f1f3-70a6-e6e4" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
+                      </entryLinks>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+                <selectionEntry name="2 Heavy Flamers" id="4a71-123b-2ebb-433b" hidden="false" import="true" type="upgrade">
+                  <entryLinks>
+                    <entryLink name="Heavy Flamer" id="9cd6-0c4d-e111-5c6e" hidden="false" import="true" targetId="b3e6-f7a7-8357-2055" type="selectionEntry">
+                      <constraints>
+                        <constraint id="6169-3343-55e2-1d3d" field="selections" scope="parent" shared="true" type="min" value="2"/>
+                        <constraint id="d6a5-1d32-e9bf-39a5" field="selections" scope="parent" shared="true" type="max" value="2"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink name="Weapon Modifications" id="3e49-45ca-0271-63dd" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
                       </entryLinks>
                     </entryLink>
                   </entryLinks>
