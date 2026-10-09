@@ -11011,68 +11011,33 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                         </profile>
                       </profiles>
                     </selectionEntry>
-                    <selectionEntry name="Ectoplasma cannon and limbs" id="0df4-4f32-9222-0a27" collective="false" hidden="false" import="true" type="upgrade">
+                    <selectionEntry name="Ectoplasma cannon" id="033f-d016-3ea6-3626" collective="false" hidden="false" import="true" type="upgrade">
+                      <categoryLinks>
+                        <categoryLink name="Attacks Dx Weapon" id="a13b-3ce7-73c5-f7e9" hidden="false" primary="false" targetId="e993-e086-6de1-12af"/>
+                      </categoryLinks>
                       <constraints>
-                        <constraint id="10fa-1286-82d1-bfe9" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="4c4f-ca23-93f5-59e1" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="9674-c6fc-0c02-baca" field="selections" scope="parent" shared="true" type="min" value="1"/>
                       </constraints>
                       <costs>
                         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
                       </costs>
-                      <selectionEntries>
-                        <selectionEntry name="Armoured limbs" id="98a5-6133-dd87-31c6" collective="false" hidden="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint id="03f1-438f-849f-338f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                            <constraint id="cab4-5127-44d7-8cd2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                          </constraints>
-                          <costs>
-                            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-                          </costs>
-                          <entryLinks>
-                            <entryLink name="Weapon Modifications" id="a31b-1a5b-ab92-2341" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
-                          </entryLinks>
-                          <profiles>
-                            <profile name="Armoured limbs" id="b97d-9fd3-9161-b94e" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-                              <characteristics>
-                                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
-                                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
-                                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-                                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                        </selectionEntry>
-                        <selectionEntry name="Ectoplasma cannon" id="033f-d016-3ea6-3626" collective="false" hidden="false" import="true" type="upgrade">
-                          <categoryLinks>
-                            <categoryLink name="Attacks Dx Weapon" id="a13b-3ce7-73c5-f7e9" hidden="false" primary="false" targetId="e993-e086-6de1-12af"/>
-                          </categoryLinks>
-                          <constraints>
-                            <constraint id="4c4f-ca23-93f5-59e1" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                            <constraint id="9674-c6fc-0c02-baca" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                          </constraints>
-                          <costs>
-                            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-                          </costs>
-                          <infoLinks>
-                            <infoLink name="Blast" id="17eb-3e4d-3286-c123" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
-                          </infoLinks>
-                          <profiles>
-                            <profile name="Ectoplasma cannon" id="47ae-ee29-463e-bc01" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
-                                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
-                                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                                <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
-                                <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-                                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                        </selectionEntry>
-                      </selectionEntries>
+                      <infoLinks>
+                        <infoLink name="Blast" id="17eb-3e4d-3286-c123" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+                      </infoLinks>
+                      <profiles>
+                        <profile name="Ectoplasma cannon" id="47ae-ee29-463e-bc01" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntry>
