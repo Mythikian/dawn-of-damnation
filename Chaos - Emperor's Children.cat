@@ -166,6 +166,11 @@ No **^^Legions of Excess**^^ models from your army can be your **^^Warlord**^^.<
     <entryLink name="Phoenix Guard Squad" id="3e46-762b-160d-286f" hidden="false" import="true" targetId="43a0-a637-3121-7424" type="selectionEntry"/>
     <entryLink name="Archfiend" id="784e-2c26-04c9-91cf" hidden="false" import="true" targetId="52d0-244a-0057-3054" type="selectionEntry"/>
     <entryLink name="Phoenician Stormguards" id="c2c4-1f49-982b-eb6c" hidden="false" import="true" targetId="1de6-6e77-b61f-a225" type="selectionEntry"/>
+    <entryLink name="Helbrute" id="0426-e2fd-d5c9-6ac1" hidden="false" import="true" targetId="197c-fe78-8006-d991" type="selectionEntry"/>
+    <entryLink name="Hell-Knight" id="58c0-fdd3-21b0-506b" hidden="false" import="true" targetId="60c3-62d6-9f95-9ed7" type="selectionEntry"/>
+    <entryLink name="Hell-Scourge" id="dd56-50b2-979a-e9f7" hidden="false" import="true" targetId="bc2f-e332-3e3c-2d2c" type="selectionEntry"/>
+    <entryLink name="Hell-Strider" id="ff8a-ab7b-90a4-80a2" hidden="false" import="true" targetId="ab61-af10-07fc-8dfb" type="selectionEntry"/>
+    <entryLink name="Ecstatic Thralls" id="6f17-211e-e86b-5df4" hidden="false" import="true" targetId="401a-21bc-a1f4-ebbe" type="selectionEntry"/>
   </entryLinks>
   <sharedInfoGroups>
     <infoGroup name="Plasma pistol" id="0cbe-31f4-e833-9ef4" hidden="false"/>
@@ -6284,7 +6289,7 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">14&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">10</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
@@ -7990,7 +7995,8 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
         <profile name="Leader" id="fdf9-ad01-afd4-1539" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following unit:
-- CHAOS BIKERS</characteristic>
+■ JETBIKE SQUADRON
+■ TORMENTORS ON STEEDS OF SLAANESH</characteristic>
           </characteristics>
         </profile>
         <profile name="Sorcerer on Steed of Slaanesh" id="63ea-571f-2b22-f6dd" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -8414,21 +8420,6 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="48ad-2e1c-20fc-fc69" hidden="false" sortIndex="4">
           <selectionEntries>
-            <selectionEntry name="Chaos Familiar" id="ab65-632b-2688-68f7" collective="false" hidden="false" import="true" type="upgrade">
-              <constraints>
-                <constraint id="34ba-f3a4-1219-ca2d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-              </costs>
-              <profiles>
-                <profile name="Chaos Familiar" id="2a35-5862-0b45-e3ba" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, when an attack is allocated to the bearer, you can change the Damage characteristic to 0.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
             <selectionEntry name="Force weapon" id="083f-8d8f-979f-e2a4" hidden="false" import="true" type="upgrade">
               <categoryLinks>
                 <categoryLink name="Psychic Weapon" id="c866-73d6-e403-c5d8" hidden="false" primary="false" targetId="4546-4a0c-b3be-e84c"/>
@@ -8747,7 +8738,6 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                 <selectionEntry name="Slaangor Blades" id="6fc2-d056-830d-101c" collective="true" hidden="false" import="true" type="upgrade">
                   <constraints>
                     <constraint id="74b2-07fc-601e-899e" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="beef-c215-caa8-62b1" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <profiles>
                     <profile name="Slaangor Blades" id="488e-df4b-87b7-07a9" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
@@ -8857,9 +8847,6 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
         <selectionEntryGroup name="Wargear" id="3968-8515-f3a9-c4d4" hidden="false" sortIndex="4">
           <selectionEntries>
             <selectionEntry name="Brayhorn" id="1db9-aeb4-64af-88d1" hidden="false" import="true" type="upgrade">
-              <associations>
-                <association name="Brayhorn" id="f42b-a655-a203-2422" childId="4e4e-d54e-2597-521e" includeChildSelections="true" max="1" min="1" scope="f5b9-50c8-5c60-d8ea"/>
-              </associations>
               <constraints>
                 <constraint id="0795-8885-81b2-0f32" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -8872,9 +8859,6 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
               </profiles>
             </selectionEntry>
             <selectionEntry name="Herd banner" id="e11d-2e91-e39b-2c90" hidden="false" import="true" type="upgrade">
-              <associations>
-                <association name="Herd Banner" id="a5b1-69e8-dc0d-dce3" childId="4e4e-d54e-2597-521e" max="1" min="1" scope="f5b9-50c8-5c60-d8ea"/>
-              </associations>
               <constraints>
                 <constraint id="929a-c844-94a3-a172" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -9047,7 +9031,8 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9332,7 +9317,7 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
         </profile>
         <profile name="Symphony of Subjugation" id="8119-af09-5937-c6a7" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the Fight phase, select one enemy unit within 12&quot; of this model. That unit must take a Leadership test. If that test is failed, until the end of the phase: That unit cannot use or benefit from Stratagems and subtracts 1 from Hit rolls made by models in that unit. Each time this model makes an attack that targets that unit, add 1 to the Damage characteristic of this models attacks.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the Fights phase, select one enemy unit within 12&quot; of this model. That unit must take a Leadership test. If that test is failed, until the end of the phase: That unit cannot use or benefit from Stratagems and subtracts 1 from Hit rolls made by models in that unit. Each time this model makes an attack that targets that unit, add 1 to the Damage characteristic of that attack.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-8 wounds remaining" id="258d-a8bd-9a71-c789" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -10906,7 +10891,7 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
         </profile>
         <profile name="Exquisite Overload" id="d8f4-30b8-c0b6-903f" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model is selected to shoot, it can use this ability. If it does, until the end of the phase: Improve the Armour Penetration characteristic of its ranged weapons by 1, and Each time an attack made by this model scores a Critical Wound, that attack inflicts 1 mortal wound in addition to normal damage. After resolving its attacks, this model suffers D3 mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model is selected to shoot, it can use this ability. If it does, until the end of the phase improve the Armour Penetration characteristic of its ranged weapons by 1, and each time an attack made by this model scores a Critical Wound, that attack inflicts 1 mortal wound in addition to normal damage. After resolving its attacks, this model suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile name="Invulnerable Save" id="12f5-c160-77a7-64a0" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -11027,6 +11012,10 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                       </profiles>
                     </selectionEntry>
                     <selectionEntry name="Ectoplasma cannon and limbs" id="0df4-4f32-9222-0a27" collective="false" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="e5f5-b7b5-8c48-692c" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="4a72-82f6-fbad-0c39" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                      </constraints>
                       <costs>
                         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
                       </costs>
@@ -12275,9 +12264,6 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
           </selectionEntryGroups>
         </selectionEntry>
         <selectionEntry name="Icon of Excess" id="f4ae-cde7-ee22-0fef" hidden="false" import="true" sortIndex="4" type="upgrade">
-          <associations>
-            <association name="Icon of Excess" id="e090-be46-8c23-a034" childId="e5de-0c54-e036-829d" includeChildSelections="true" max="1" min="1" scope="4494-dd7d-69f7-306c"/>
-          </associations>
           <constraints>
             <constraint id="7e23-2d80-ce94-0797" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -12304,6 +12290,10 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
               </constraints>
               <entryLinks>
                 <entryLink name="Bolt pistol" id="883d-845f-1cde-b071" hidden="false" import="true" targetId="3469-166f-44f3-51b8" type="selectionEntry">
+                  <constraints>
+                    <constraint id="e07c-14cf-1f65-5479" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="5f44-2f25-878a-ff01" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                  </constraints>
                   <entryLinks>
                     <entryLink name="Weapon Modifications" id="aceb-368d-d733-6ac6" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
                   </entryLinks>
@@ -12688,15 +12678,6 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                     <constraint id="4d53-8c2b-2c9c-ccee" field="selections" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Close combat weapon" id="9497-e1fa-d3b9-8c62" hidden="false" import="true" targetId="ab80-e71b-5a84-2852" type="selectionEntry">
-                  <constraints>
-                    <constraint id="558a-1b44-2989-38bb" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                    <constraint id="a939-0a88-c8e8-7042" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink name="Weapon Modifications" id="dc15-33d6-0128-2d98" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
-                  </entryLinks>
-                </entryLink>
               </entryLinks>
               <profiles>
                 <profile name="Sun Killer Squad" id="b65a-77c9-2a22-cc8e" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -12712,6 +12693,10 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
               </profiles>
               <selectionEntries>
                 <selectionEntry name="Boltgun" id="2508-f420-e003-4a79" collective="true" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="f5eb-141a-9966-072a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="d6c7-8c04-2dbf-9b4f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
                   <profiles>
                     <profile name="Boltgun" id="b031-f1fb-3449-4e18" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
@@ -12722,6 +12707,25 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
                         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Astartes chainsword" id="dfdf-78cb-843d-d759" collective="true" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="c612-b2ee-9bcd-f63d" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="3380-b61b-edc4-7ad0" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Astartes chainsword" id="3c94-684f-6c58-7126" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -12739,12 +12743,6 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                     <constraint id="a96c-6cd4-101c-f64a" field="selections" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Close combat weapon" id="75bb-67f0-8979-bfa1" hidden="false" import="true" targetId="ab80-e71b-5a84-2852" type="selectionEntry">
-                  <constraints>
-                    <constraint id="e85c-236e-543b-4e91" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                    <constraint id="8ad3-997d-6b49-525f" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                </entryLink>
               </entryLinks>
               <profiles>
                 <profile name="Sun Killer Squad" id="19dc-48f4-fb8e-bb97" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -12758,6 +12756,27 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                   </characteristics>
                 </profile>
               </profiles>
+              <selectionEntries>
+                <selectionEntry name="Astartes chainsword" id="d0c9-7eb3-199e-71a7" collective="true" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="05c9-7a8c-3919-3690" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="492a-ea7b-9e64-e516" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Astartes chainsword" id="d8b1-48cd-c760-179a" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Weapon Option" id="3454-4696-679c-474a" hidden="false">
                   <constraints>
@@ -12961,7 +12980,7 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                     </entryLink>
                   </entryLinks>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="Weapon 1" id="831b-dd64-3e61-efcb" defaultSelectionEntryId="15a0-95fc-f8f5-f2eb" hidden="false">
+                    <selectionEntryGroup name="Weapon" id="831b-dd64-3e61-efcb" defaultSelectionEntryId="15a0-95fc-f8f5-f2eb" hidden="false">
                       <constraints>
                         <constraint id="7cea-a540-08ad-e05c" field="selections" scope="parent" shared="true" type="min" value="1"/>
                         <constraint id="24dd-1be2-7a4a-da4d" field="selections" scope="parent" shared="true" type="max" value="1"/>
@@ -13137,139 +13156,172 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
-                    <selectionEntryGroup name="Weapon 2" id="1d65-b6be-0fcf-29af" defaultSelectionEntryId="add8-664e-adee-3412" hidden="false">
-                      <constraints>
-                        <constraint id="a315-9afa-ce69-4811" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                        <constraint id="a99d-596d-b05f-c4e3" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry name="Astartes Chainsword" id="dc6e-5588-e5a7-efaf" collective="true" hidden="false" import="true" type="upgrade">
-                          <comment>A4 WS 3+ Collective</comment>
-                          <categoryLinks>
-                            <categoryLink name="Melee Weapon" id="56cb-83a5-96db-304b" hidden="false" primary="false" targetId="ccdd-3987-11ed-90cd"/>
-                          </categoryLinks>
-                          <profiles>
-                            <profile name="Astartes Chainsword" id="106f-e87c-156d-ea07" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-                              <characteristics>
-                                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                                <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
-                                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                                <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-                                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                        </selectionEntry>
-                        <selectionEntry name="Boltgun" id="c58a-b9f8-f2e7-99dc" collective="true" hidden="false" import="true" type="upgrade">
-                          <profiles>
-                            <profile name="Boltgun" id="1bf2-fc2e-d860-0855" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-                                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-                                <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                        </selectionEntry>
-                        <selectionEntry name="Combi-weapon" id="d7e4-56a6-6afa-7fe4" collective="true" hidden="false" import="true" type="upgrade">
-                          <comment>BS4+</comment>
-                          <categoryLinks>
-                            <categoryLink name="Ranged Weapon" id="229c-e983-e9ff-2030" hidden="false" primary="false" targetId="eeda-8544-a2f3-3fab"/>
-                          </categoryLinks>
-                          <infoLinks>
-                            <infoLink name="Anti-" id="2912-cbbb-904c-70c9" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
-                            <infoLink name="Devastating Wounds" id="00f0-60a0-c947-b1b0" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
-                            <infoLink name="Rapid Fire" id="20c3-9283-5190-48cd" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
-                          </infoLinks>
-                          <profiles>
-                            <profile name="Combi-weapon" id="808d-0acc-2240-aa0a" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-                                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-                                <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1</characteristic>
-                              </characteristics>
-                              <modifiers>
-                                <modifier field="94d-8a98-cf90-183e" type="set" value="3+">
-                                  <conditionGroups>
-                                    <conditionGroup type="or">
-                                      <conditions>
-                                        <condition childId="2d7f-1892-2fd0-e29c" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                                        <condition childId="8aae-3dc4-861e-47ab" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                                      </conditions>
-                                    </conditionGroup>
-                                  </conditionGroups>
-                                </modifier>
-                              </modifiers>
-                            </profile>
-                          </profiles>
-                        </selectionEntry>
-                        <selectionEntry name="Power fist" id="b4e5-c434-1a87-96b8" hidden="false" import="true" type="upgrade">
-                          <comment>A2 WS 3+ Collective</comment>
-                          <profiles>
-                            <profile name="Power fist" id="a7a3-7c83-d1a5-2926" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-                              <characteristics>
-                                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
-                                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
-                                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                        </selectionEntry>
-                        <selectionEntry name="Power weapon" id="33e3-d093-08c3-02c8" hidden="false" import="true" type="upgrade">
-                          <comment>A3 WS 3+</comment>
-                          <profiles>
-                            <profile name="Power weapon" id="5d39-2ade-5109-e61b" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-                              <characteristics>
-                                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                                <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-                                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                        </selectionEntry>
-                        <selectionEntry name="Thunder Hammer" id="2627-b086-61f9-ef2f" hidden="false" import="true" type="upgrade">
-                          <comment>A2 WS 4+ Collective</comment>
-                          <categoryLinks>
-                            <categoryLink name="Melee Weapon" id="671a-4c5c-9b4b-553f" hidden="false" primary="false" targetId="ccdd-3987-11ed-90cd"/>
-                          </categoryLinks>
-                          <infoLinks>
-                            <infoLink name="Devastating Wounds" id="b0c3-b317-d2b9-fa70" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
-                          </infoLinks>
-                          <profiles>
-                            <profile name="Thunder Hammer" id="ae2b-e4a2-e330-0ab6" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-                              <characteristics>
-                                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
-                                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-                                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
-                                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
                   </selectionEntryGroups>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Weapon Option" id="9bb5-d57b-4e1a-c72d" hidden="false">
+                  <constraints>
+                    <constraint id="42eb-1218-78bf-4ca5" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="b6aa-006b-3a86-68a5" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry name="Grav-cannon" id="dc7e-4823-09bb-1aae" hidden="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink name="Anti-" id="ce5b-bdb2-7a17-6ff5" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+                        <infoLink name="Heavy" id="af16-a266-a8ba-edcd" hidden="false" targetId="1202-10a8-78e9-4c67" type="rule"/>
+                      </infoLinks>
+                      <profiles>
+                        <profile name="Grav-cannon" id="b072-b1c8-a03e-79cd" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-vehicle 2+, Heavy</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry name="Heavy Bolter" id="e493-9945-c652-6d37" hidden="false" import="true" type="upgrade">
+                      <comment>Heavy</comment>
+                      <infoLinks>
+                        <infoLink name="Heavy" id="c7c7-f9b0-e18c-00ba" hidden="false" targetId="1202-10a8-78e9-4c67" type="rule"/>
+                        <infoLink name="Sustained Hits" id="da6a-50de-58e1-9425" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+                      </infoLinks>
+                      <profiles>
+                        <profile name="Heavy Bolter" id="1a15-8ff3-e737-ae53" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Sustained Hits 1</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry name="Lascannon" id="0b5d-7f31-3a69-aa49" hidden="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink name="Heavy" id="ccb4-9435-0edd-b552" hidden="false" targetId="1202-10a8-78e9-4c67" type="rule"/>
+                      </infoLinks>
+                      <profiles>
+                        <profile name="Lascannon" id="115c-3cc1-25bf-74ef" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry name="Multi-melta" id="b4b6-14f6-608b-9569" hidden="false" import="true" type="upgrade">
+                      <comment>Heavy</comment>
+                      <infoLinks>
+                        <infoLink name="Heavy" id="da70-d37f-2564-9253" hidden="false" targetId="1202-10a8-78e9-4c67" type="rule"/>
+                        <infoLink name="Melta" id="886d-21aa-6aad-dea7" hidden="false" targetId="7cdb-fb99-44a9-8849" type="rule"/>
+                      </infoLinks>
+                      <profiles>
+                        <profile name="Multi-melta" id="97be-e52a-12a8-d151" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Melta 2</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry name="Missile Launcher" id="ff02-2e17-1a4d-26fc" hidden="false" import="true" type="upgrade">
+                      <comment>BS 4+, Heavy</comment>
+                      <infoLinks>
+                        <infoLink name="Heavy" id="da44-3832-1ec9-acd0" hidden="false" targetId="1202-10a8-78e9-4c67" type="rule"/>
+                        <infoLink name="Blast" id="3e00-242e-e82c-3d6d" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+                      </infoLinks>
+                      <profiles>
+                        <profile name="➤ Missile Launcher - Frag" id="396c-b42d-cc79-2f5e" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Heavy</characteristic>
+                          </characteristics>
+                          <modifiers>
+                            <modifier field="3bb-c35f-f54-fb08" join="" type="append" value="+0">
+                              <conditions>
+                                <condition childId="2801-9f1c-645d-cb3d" field="selections" includeChildSelections="true" scope="self" shared="true" type="atLeast" value="1"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </profile>
+                        <profile name="➤ Missile Launcher - Krak" id="9070-eaa3-bc5a-1d81" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
+                          </characteristics>
+                          <modifiers>
+                            <modifier field="a354-c1c8-a745-f9e3" join="" type="append" value="+0">
+                              <conditions>
+                                <condition childId="584b-5fa7-a3c3-942e" field="selections" includeChildSelections="true" scope="self" shared="true" type="atLeast" value="1"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry name="Plasma cannon" id="f7b0-f0e9-3b7b-58a1" hidden="false" import="true" type="upgrade">
+                      <comment>BS4+ Heavy</comment>
+                      <categoryLinks>
+                        <categoryLink name="Attacks Dx Weapon" id="2080-b1ad-5a27-0b44" hidden="false" primary="false" targetId="e993-e086-6de1-12af"/>
+                      </categoryLinks>
+                      <infoLinks>
+                        <infoLink name="Hazardous" id="a657-28c1-b8aa-1e0e" hidden="false" targetId="8367-374c-f87-c627" type="rule"/>
+                        <infoLink name="Heavy" id="6fa0-f3d4-05e6-8007" hidden="false" targetId="1202-10a8-78e9-4c67" type="rule"/>
+                        <infoLink name="Blast" id="8ecf-1b34-4420-3edc" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+                      </infoLinks>
+                      <profiles>
+                        <profile name="➤ Plasma cannon - standard" id="d6b1-d4fb-46c5-e827" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Heavy</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="➤ Plasma cannon - supercharge" id="90fc-83db-0ee6-6c28" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Heavy, Hazardous</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
@@ -13784,11 +13836,18 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
             <selectionEntryGroup name="Wargear" id="82a1-4cc9-b47f-bf29" hidden="false">
               <entryLinks>
                 <entryLink name="Combi-bolter" id="d393-fea4-98fc-d320" collective="false" hidden="false" import="true" targetId="02c9-ea19-b105-af58" type="selectionEntry">
+                  <constraints>
+                    <constraint id="3144-bc22-1bac-6103" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                  </constraints>
                   <entryLinks>
                     <entryLink name="Weapon Modifications" id="5630-636e-20ca-7645" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
                   </entryLinks>
                 </entryLink>
                 <entryLink name="Bolt pistol" id="709d-52ca-ba02-51f2" collective="false" hidden="false" import="true" targetId="3469-166f-44f3-51b8" type="selectionEntry">
+                  <constraints>
+                    <constraint id="39aa-8be2-a471-b4a9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="9c01-784a-1b8f-4912" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
                   <entryLinks>
                     <entryLink name="Weapon Modifications" id="25aa-7cd3-8e00-8ed8" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
                   </entryLinks>
@@ -13822,9 +13881,6 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
           </selectionEntryGroups>
         </selectionEntry>
         <selectionEntry name="Icon of Excess" id="0abe-19ed-b908-fe88" hidden="false" import="true" type="upgrade">
-          <associations>
-            <association name="Icon of Excess" id="c82f-82af-dd67-80de" childId="bca5-1eb4-b1eb-7a4e" includeChildSelections="true" max="1" min="1" scope="e456-0afc-9b42-226c"/>
-          </associations>
           <constraints>
             <constraint id="064b-4f56-e9d5-4c21" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -13854,12 +13910,14 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
               <entryLinks>
                 <entryLink name="Bolt pistol" id="b6db-268e-fa22-ea93" collective="false" hidden="false" import="true" targetId="3469-166f-44f3-51b8" type="selectionEntry">
                   <constraints>
-                    <constraint id="7c21-36a4-47d5-f1d6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="7c21-36a4-47d5-f1d6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="90ca-64b0-2480-8c6e" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Combi-bolter" id="2b59-5693-a57e-5a3f" collective="false" hidden="false" import="true" targetId="02c9-ea19-b105-af58" type="selectionEntry">
                   <constraints>
                     <constraint id="c8b5-7c0d-d917-cce6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="0162-1d91-bed5-3f7f" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -13906,6 +13964,7 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                     <entryLink name="Bolt pistol" id="f0b0-847a-40d3-770c" collective="false" hidden="false" import="true" targetId="3469-166f-44f3-51b8" type="selectionEntry">
                       <constraints>
                         <constraint id="e00d-c24f-a810-0966" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                        <constraint id="5647-3c70-8f09-9019" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                     </entryLink>
                   </entryLinks>
@@ -13967,6 +14026,7 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                     <entryLink name="Bolt pistol" id="d1cd-22cf-80a3-61a5" collective="false" hidden="false" import="true" targetId="3469-166f-44f3-51b8" type="selectionEntry">
                       <constraints>
                         <constraint id="dc9d-7915-92e7-1838" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                        <constraint id="8e5e-8ee5-9d00-2251" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                     </entryLink>
                   </entryLinks>
@@ -14028,7 +14088,8 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                   <entryLinks>
                     <entryLink name="Bolt pistol" id="058f-46da-095a-ef7a" collective="false" hidden="false" import="true" targetId="3469-166f-44f3-51b8" type="selectionEntry">
                       <constraints>
-                        <constraint id="f238-b8b8-e6c7-4e32" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                        <constraint id="f238-b8b8-e6c7-4e32" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="4b0e-f9a1-58a8-4277" field="selections" scope="parent" shared="true" type="min" value="1"/>
                       </constraints>
                     </entryLink>
                   </entryLinks>
@@ -14414,7 +14475,7 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Twin Bladearms" id="6c12-ea30-9bfe-39f8" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Archfiend Bladearms" id="6c12-ea30-9bfe-39f8" hidden="false" import="true" type="upgrade">
               <constraints>
                 <constraint id="3183-cdf0-4ac2-084d" field="selections" scope="parent" shared="true" type="max" value="1"/>
                 <constraint id="ca0b-1028-d89e-1feb" field="selections" scope="parent" shared="true" type="min" value="1"/>
@@ -14423,7 +14484,7 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                 <infoLink name="Sustained Hits" id="497b-9051-a4c2-a34a" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="➤ Twin Bladearms - Strike" id="da77-8ce9-80e2-d210" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                <profile name="➤ Archfiend Bladearms - Strike" id="da77-8ce9-80e2-d210" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                     <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
@@ -14434,7 +14495,7 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                     <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits 1</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="➤ Twin Bladearms - Sweep" id="a2cf-9f42-da94-07e4" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                <profile name="➤ Archfiend Bladearms - Sweep" id="a2cf-9f42-da94-07e4" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                     <characteristic name="A" typeId="2337-daa1-6682-b110">12</characteristic>
