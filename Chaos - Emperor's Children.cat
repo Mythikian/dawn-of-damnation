@@ -11012,6 +11012,9 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                       </profiles>
                     </selectionEntry>
                     <selectionEntry name="Ectoplasma cannon and limbs" id="0df4-4f32-9222-0a27" collective="false" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="10fa-1286-82d1-bfe9" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
                       <costs>
                         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
                       </costs>
