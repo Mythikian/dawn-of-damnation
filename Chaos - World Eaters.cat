@@ -3255,7 +3255,7 @@ Until the end of the battle round, each of those models has the VESSEL OF WRATH 
             <selectionEntry name="Khorne Berzerker" id="b568-8a23-be6f-a14d" collective="false" hidden="false" import="true" type="model">
               <constraints>
                 <constraint id="9a73-d7f9-8179-db60" automatic="false" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="19"/>
-                <constraint id="168e-b157-a94d-739e" automatic="false" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
+                <constraint id="168e-b157-a94d-739e" automatic="false" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
               </constraints>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -3660,7 +3660,7 @@ Until the end of the battle round, each of those models has the VESSEL OF WRATH 
         </profile>
         <profile name="Invulnerable Save" id="5fb8-d528-d2e2-fce0" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Model in this unit have a 4+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in this unit have a 4+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
         <profile name="Bloody Fury" id="cabc-c518-5262-d65e" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -9084,6 +9084,12 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
                     <condition childId="a3b4-f330-4ed9-8314" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="unit" shared="true" type="greaterThan" value="2"/>
                   </conditions>
                 </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="unit" shared="true" type="lessThan" value="10"/>
+                    <condition childId="a3b4-f330-4ed9-8314" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="unit" shared="true" type="greaterThan" value="1"/>
+                  </conditions>
+                </conditionGroup>
               </conditionGroups>
             </conditionGroup>
           </conditionGroups>
@@ -9132,6 +9138,12 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
                   <conditions>
                     <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="unit" shared="true" type="lessThan" value="15"/>
                     <condition childId="6fd1-efa4-7787-db82" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="unit" shared="true" type="greaterThan" value="2"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="unit" shared="true" type="lessThan" value="10"/>
+                    <condition childId="6fd1-efa4-7787-db82" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="unit" shared="true" type="greaterThan" value="1"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -11996,7 +12008,7 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
         </profile>
         <profile name="Invulnerable Save" id="940d-4c98-c13a-a116" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Model in this unit have a 4+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in this unit have a 4+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
         <profile name="Made for Massacres" id="5dd4-d703-ed2f-9859" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -12069,7 +12081,7 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
       <selectionEntryGroups>
         <selectionEntryGroup name="4 - 9 Red Butchers" id="c1a7-475d-93b8-e6c4" collective="false" defaultSelectionEntryId="cfd2-df58-3637-0a6c" hidden="false" import="true" sortIndex="3">
           <selectionEntries>
-            <selectionEntry name="Twin Power Axe" id="b201-a912-ac86-bacf" collective="true" hidden="false" import="true" sortIndex="7" type="model">
+            <selectionEntry name="Red Butcher w/ Twin Power Axe" id="b201-a912-ac86-bacf" collective="true" hidden="false" import="true" sortIndex="7" type="model">
               <constraints>
                 <constraint id="321b-4f9f-bdd1-f0b9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="4"/>
                 <constraint id="7153-c4f3-e7b0-ba25" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="9"/>
@@ -12274,7 +12286,7 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
       <selectionEntryGroups>
         <selectionEntryGroup name="4 - 9 Khorne Assault Berzerkers" id="f307-c684-1228-6387" collective="false" defaultSelectionEntryId="b568-8a23-be6f-a14d" hidden="false" import="true" sortIndex="3">
           <constraints>
-            <constraint id="3f4a-ed4d-97af-2c0e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="4"/>
+            <constraint id="3f4a-ed4d-97af-2c0e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
             <constraint id="abd9-69f0-535c-abd7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="9"/>
           </constraints>
           <selectionEntries>
