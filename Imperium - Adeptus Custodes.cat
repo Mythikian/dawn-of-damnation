@@ -8075,25 +8075,6 @@ All other **^^Adeptus Custodes**^^ units from your army gain the following abili
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Twin arachnus storm cannon" id="5352-8f29-7c89-5383" hidden="false" import="true" type="upgrade">
-          <constraints>
-            <constraint id="7ba3-e245-32ad-bcbb" field="selections" scope="parent" shared="true" type="max" value="1"/>
-            <constraint id="510c-9010-7d91-e042" field="selections" scope="parent" shared="true" type="min" value="1"/>
-          </constraints>
-          <profiles>
-            <profile name="Twin plasma projector" id="1778-b962-380a-e50d" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Torrent, Twin-linked</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
     <selectionEntry name="Custodian Apothecary" id="9f61-bcba-70aa-a08f" hidden="false" import="true" type="model">

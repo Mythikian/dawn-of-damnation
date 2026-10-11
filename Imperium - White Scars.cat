@@ -418,11 +418,11 @@
             <profile name="Breath of the Storm" id="0dce-58ad-161a-60b1" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">7</characteristic>
                 <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
                 <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
               </characteristics>
             </profile>
@@ -494,12 +494,12 @@
         </profile>
         <profile name="Manhunters [Aura]" id="fb85-6163-c82c-d5d0" hidden="false" typeId="354c-7acb-7216-7513" typeName="Talaskar Strength">
           <characteristics>
-            <characteristic name="Ability" typeId="4848-260d-9723-fe2d">If a friendly Adeptus Astartes within 6&quot; makes an advance roll, after that roll is made you may replace that roll with a 4.</characteristic>
+            <characteristic name="Ability" typeId="4848-260d-9723-fe2d">If a friendly Adeptus Astartes unit within 6&quot; of this model makes an advance roll, after that roll is made you may replace that roll with a 4.</characteristic>
           </characteristics>
         </profile>
         <profile name="Fierce Brutality" id="fd62-464a-7c82-f882" hidden="false" typeId="354c-7acb-7216-7513" typeName="Talaskar Strength">
           <characteristics>
-            <characteristic name="Ability" typeId="4848-260d-9723-fe2d">Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Attacks and Strrength characteristic of that attack by 1</characteristic>
+            <characteristic name="Ability" typeId="4848-260d-9723-fe2d">Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Attacks and Strength characteristic of that attack by 1</characteristic>
           </characteristics>
         </profile>
         <profile name="Men of Stories" id="c3c3-5297-1f02-ab29" hidden="false" typeId="354c-7acb-7216-7513" typeName="Talaskar Strength">
