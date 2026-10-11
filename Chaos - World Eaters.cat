@@ -1671,6 +1671,7 @@
     <entryLink name="Slaughterbrute" id="e2fb-b1a9-e2f2-58c7" hidden="false" import="true" targetId="d89f-df15-bb03-bcdd" type="selectionEntry"/>
     <entryLink name="Doom Blaster" id="a29c-7b1d-4041-775a" hidden="false" import="true" targetId="c3ee-f34f-4e53-61b9" type="selectionEntry"/>
     <entryLink name="Skull Reaper" id="6704-54eb-3cdc-5970" hidden="false" import="true" targetId="9d58-e5cc-38c0-0e3c" type="selectionEntry"/>
+    <entryLink name="Blood Slaughterer" id="2bfb-1394-ac1c-d8c5" hidden="false" import="true" targetId="59d1-a146-3359-ca89" type="selectionEntry"/>
   </entryLinks>
   <profileTypes>
     <profileType name="Wrathful Presence" id="02a0-fa96-6f9b-354f">
@@ -1917,7 +1918,8 @@ Until the end of the battle round, each of those models has the VESSEL OF WRATH 
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3253,7 +3255,7 @@ Until the end of the battle round, each of those models has the VESSEL OF WRATH 
             <selectionEntry name="Khorne Berzerker" id="b568-8a23-be6f-a14d" collective="false" hidden="false" import="true" type="model">
               <constraints>
                 <constraint id="9a73-d7f9-8179-db60" automatic="false" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="19"/>
-                <constraint id="168e-b157-a94d-739e" automatic="false" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="4"/>
+                <constraint id="168e-b157-a94d-739e" automatic="false" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
               </constraints>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -11274,7 +11276,7 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
@@ -11485,6 +11487,11 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
         <profile name="Master of the Warband" id="3269-78f4-437d-f31f" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, each time that unit is selected to fight, it can take a Leadership test. If passed, each time a model in this unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Slaughterlord" id="4005-9fb2-abc3-d644" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is attached to a World Eaters Possessed unit during the Declare Battle Formations step, this model has the 10&quot; movement characteristic and Scouts 6&quot; abilities.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11770,7 +11777,8 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
               <selectionEntries>
                 <selectionEntry name="Khorngor Blades" id="b094-4dae-af49-6d8b" collective="true" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="93d6-0a39-d5b4-8eff" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="93d6-0a39-d5b4-8eff" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="1ad8-e72a-bb64-6cb8" field="selections" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <profiles>
                     <profile name="Khorngor Blades" id="96f1-6ead-7f5e-6bcf" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
@@ -12060,15 +12068,11 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="4 - 9 Red Butchers" id="c1a7-475d-93b8-e6c4" collective="false" defaultSelectionEntryId="cfd2-df58-3637-0a6c" hidden="false" import="true" sortIndex="3">
-          <constraints>
-            <constraint id="2d14-1b94-41a3-abd0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="4"/>
-            <constraint id="6179-ece7-b738-db5f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="9"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry name="Twin Power Axe" id="b201-a912-ac86-bacf" collective="true" hidden="false" import="true" sortIndex="7" type="model">
               <constraints>
-                <constraint id="321b-4f9f-bdd1-f0b9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="7153-c4f3-e7b0-ba25" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="321b-4f9f-bdd1-f0b9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="4"/>
+                <constraint id="7153-c4f3-e7b0-ba25" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="9"/>
               </constraints>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -12276,8 +12280,8 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
           <selectionEntries>
             <selectionEntry name="Khorne Assault Berzerker" id="7344-529e-7d63-8172" collective="false" hidden="false" import="true" type="model">
               <constraints>
-                <constraint id="cbaf-afaf-c28b-e3ee" automatic="false" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="19"/>
-                <constraint id="3968-aff8-ba72-37ba" automatic="false" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="4"/>
+                <constraint id="cbaf-afaf-c28b-e3ee" automatic="false" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="9"/>
+                <constraint id="3968-aff8-ba72-37ba" automatic="false" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="3"/>
               </constraints>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -12494,7 +12498,7 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
                 <constraint id="252a-0f83-b720-671c" field="selections" scope="parent" shared="true" type="min" value="1"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry name="Brassbreaker Cannon" id="90db-1067-37cb-79e6" collective="true" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Brassbreaker Cannon" id="90db-1067-37cb-79e6" hidden="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink name="Rapid Fire" id="2f77-c9d0-7b61-8801" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
                   </infoLinks>
@@ -12512,7 +12516,7 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Heavy Bolter" id="79ff-e8ba-1a56-6eac" collective="true" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Heavy Bolter" id="79ff-e8ba-1a56-6eac" hidden="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink name="Rapid Fire" id="4337-181c-e46a-33fe" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
                     <infoLink name="Sustained Hits" id="0c3a-ec0b-30dd-cdbc" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
@@ -12531,7 +12535,7 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Autocannon" id="3bd8-8ad6-1fb1-e4bf" collective="true" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Autocannon" id="3bd8-8ad6-1fb1-e4bf" hidden="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink name="Rapid Fire" id="fbd9-12b7-d710-fdf1" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
                   </infoLinks>
@@ -12549,7 +12553,7 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Reaper Chaincannon" id="936e-d436-5b65-0cac" collective="true" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Reaper Chaincannon" id="936e-d436-5b65-0cac" hidden="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink name="Rapid Fire" id="4979-fe26-a32b-8e2c" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
                   </infoLinks>
@@ -13175,7 +13179,7 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
       <modifiers>
         <modifier field="51b2-306e-1021-d207" type="set" value="260">
           <conditions>
-            <condition id="7bcb-1db9-329e-78e7" childId="model" field="selections" includeChildSelections="true" scope="ba05-9a27-c301-c23a" shared="true" type="greaterThan" value="10"/>
+            <condition id="7bcb-1db9-329e-78e7" childId="model" field="selections" includeChildSelections="true" scope="ba05-9a27-c301-c23a" shared="true" type="greaterThan" value="3"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -13326,7 +13330,7 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
       <modifiers>
         <modifier field="51b2-306e-1021-d207" type="set" value="240">
           <conditions>
-            <condition id="d805-4ca5-f885-1906" childId="model" field="selections" includeChildSelections="true" scope="f04c-8dbf-bb11-b7ac" shared="true" type="greaterThan" value="10"/>
+            <condition id="d805-4ca5-f885-1906" childId="model" field="selections" includeChildSelections="true" scope="f04c-8dbf-bb11-b7ac" shared="true" type="greaterThan" value="3"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -13642,6 +13646,9 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
         <categoryLink name="Monster" id="6ba4-11b7-7e6f-ecf9" hidden="false" primary="true" targetId="9693-cf84-fe69-37a9"/>
         <categoryLink name="Slaughterbrute" id="2e14-ef76-a2ad-f50e" hidden="false" primary="false" targetId="e864-aab4-9699-144d"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="9a65-e67f-f648-e071" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="3"/>
+      </constraints>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="220"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
