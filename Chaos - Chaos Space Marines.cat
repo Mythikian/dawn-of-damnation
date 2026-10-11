@@ -181,6 +181,7 @@
     <categoryEntry name="Procurator" id="95a2-861c-2103-ebca" hidden="false"/>
     <categoryEntry name="Saboteur Consul" id="1583-8415-975d-9717" hidden="false"/>
     <categoryEntry name="Headhunters Kill Team" id="6b64-2559-68cb-b011" hidden="false"/>
+    <categoryEntry name="Renegade Ogryn Berzerkers" id="e35c-292c-5888-6e09" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink name="Detachment" id="bb73-b206-9ef3-6644" collective="false" hidden="false" import="true" targetId="e296-4a38-d9a5-289c" type="selectionEntry"/>
@@ -1905,6 +1906,7 @@
     <entryLink name="Gal Vorbak" id="c2e8-b7d3-c137-d2aa" hidden="false" import="true" targetId="04dd-240d-c8a2-3d1c" type="selectionEntry"/>
     <entryLink name="Solomon Akurra" id="ff2a-0083-490b-5445" hidden="false" import="true" targetId="1428-71e8-e277-3094" type="selectionEntry"/>
     <entryLink name="Lernaean Huntsmen" id="4311-1ae2-e6e8-26f5" hidden="false" import="true" targetId="bed1-6689-f320-bf4d" type="selectionEntry"/>
+    <entryLink name="Renegade Ogryn Berzerkers" id="64ab-9a12-b570-ea4a" hidden="false" import="true" targetId="67a5-5bea-be89-1eba" type="selectionEntry"/>
   </entryLinks>
   <profileTypes>
     <profileType name="Marks of Chaos" id="3084-68b8-1d20-2f26">
@@ -15820,6 +15822,7 @@ You can attach this model to one of the above units even if one other CHARACTER 
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <entryLinks>
         <entryLink name="Icon of Khorne" id="4207-40fb-2d9-6e3d" collective="false" hidden="false" import="true" sortIndex="4" targetId="6e5e-48cf-cc4e-29c1" type="selectionEntry">
@@ -16139,9 +16142,9 @@ You can attach this model to one of the above units even if one other CHARACTER 
         <profile name="Chainblade" id="ad77-65f7-8b2-5ee4" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
           <characteristics>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
             <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
             <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
@@ -24459,6 +24462,34 @@ You can attach this model to one of the above units even if one other CHARACTER 
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
       </costs>
+      <modifiers>
+        <modifier field="error" type="add" value="Max 1 Khornate eviscerator per 5 models">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="unit" shared="true" type="lessThan" value="20"/>
+                    <condition childId="ab40-7267-a359-fd74" childName="Khornate eviscerator" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="unit" shared="true" type="greaterThan" value="3"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="unit" shared="true" type="lessThan" value="15"/>
+                    <condition childId="ab40-7267-a359-fd74" childName="Khornate eviscerator" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="unit" shared="true" type="greaterThan" value="2"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="unit" shared="true" type="lessThan" value="10"/>
+                    <condition childId="ab40-7267-a359-fd74" childName="Khornate eviscerator" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="unit" shared="true" type="greaterThan" value="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Khornate eviscerator" id="73bc-7dfc-1c12-2643" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
           <characteristics>
@@ -31946,6 +31977,161 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Renegade Ogryn Berzerkers" id="67a5-5bea-be89-1eba" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Infantry" id="a31e-dd99-57ee-355b" hidden="false" primary="true" targetId="cf47-a0d7-7207-29dc"/>
+        <categoryLink name="Chaos" id="5299-e35d-2a72-a342" hidden="false" primary="false" targetId="4c00-2578-faf5-6918"/>
+        <categoryLink name="Khorne" id="c22e-b8d3-900b-a360" hidden="false" primary="false" targetId="4bd-5ee0-f179-2fc5"/>
+        <categoryLink name="Faction: Heretic Astartes" id="f01f-ba86-998d-53f7" hidden="false" primary="false" targetId="1e42-dfae-cbdd-207d"/>
+        <categoryLink name="Renegade Ogryn Berzerkers" id="0d1c-b822-9830-509c" hidden="false" primary="false" targetId="e35c-292c-5888-6e09"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="9537-6282-3070-fcf9" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="3"/>
+        <constraint id="8b8a-409d-8070-9c8d" field="75bb-ded1-c86d-bdf0" includeChildSelections="false" scope="self" shared="true" type="max" value="3"/>
+        <constraint id="52b1-f37b-9b43-0e3d" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="max" value="0"/>
+        <constraint id="3b3f-1b93-f33c-a6d4" field="716d-91b7-d55a-1022" includeChildSelections="true" scope="self" shared="true" type="min" value="0"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="125"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Dark Pacts" id="6130-8a32-9837-228d" hidden="false" targetId="fd69-68cc-5d63-c84d" type="rule"/>
+        <infoLink name="Feel No Pain" id="a416-4eb3-68ab-3e5f" hidden="false" targetId="9bf4-280f-bbe2-6fbb" type="rule">
+          <modifiers>
+            <modifier field="name" type="append" value="5+"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <comment>Crusade modifiers</comment>
+          <modifiers>
+            <modifier field="8b8a-409d-8070-9c8d" type="set" value="6">
+              <conditions>
+                <condition childId="1511-18fe-f51e-7b9d" field="selections" includeChildSelections="true" scope="self" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+            <modifier field="52b1-f37b-9b43-0e3d" type="increment" value="2">
+              <repeats>
+                <repeat childId="d1a5-4297-168b-11cd" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="3b3f-1b93-f33c-a6d4" type="increment" value="2">
+              <repeats>
+                <repeat childId="d1a5-4297-168b-11cd" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="self" shared="true" value="1"/>
+              </repeats>
+            </modifier>
+            <modifier field="name" type="append" value="(Battle-ready)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="5"/>
+                    <condition childId="cac3-71d1-ea4b-795d" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Blooded)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="5"/>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="15"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Battle-hardened)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="15"/>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="30"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Heroic)">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="30"/>
+                    <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="atMost" value="50"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="name" type="append" value="(Legendary)">
+              <conditions>
+                <condition childId="2dbf-4d49-5d74-85c9" field="selections" includeChildSelections="true" scope="self" shared="true" type="greaterThan" value="50"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier field="51b2-306e-1021-d207" type="set" value="260">
+          <conditions>
+            <condition id="de7b-2128-80aa-5812" childId="model" field="selections" includeChildSelections="true" scope="67a5-5bea-be89-1eba" shared="true" type="greaterThan" value="3"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Renegade Ogryn Berzerker" id="2867-f870-5015-75af" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">7&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Slaught Injectors" id="e452-f83b-2e6e-441f" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle this unit may use this ability after you have made a failed charge roll for this unit. You may auto succeed the charge roll, but after the this model has resolved its combat in the fight phase, this unit must take 1 mortal for every inch added to the roll with no saves allowed.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="3 - 6 Renegade Ogryn Berzerkers" id="7fcb-7132-60f3-cc6e" defaultSelectionEntryId="5b9-7d59-48fd-b485" hidden="false" sortIndex="3">
+          <constraints>
+            <constraint id="cd67-c8ba-4054-9e3c" field="selections" scope="parent" shared="true" type="min" value="3"/>
+            <constraint id="2056-13a9-c41b-70de" field="selections" scope="parent" shared="true" type="max" value="6"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Renegade Ogryn Berzerker" id="04f0-f224-02e8-bc29" hidden="false" import="true" type="model">
+              <selectionEntries>
+                <selectionEntry name="Torment Blades" id="ef2b-596b-9ce4-ac29" collective="true" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="9dda-1b02-b535-a5d1" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="82d2-3a71-da2e-826e" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Torment Blades" id="fe51-8f1f-91fd-0469" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
