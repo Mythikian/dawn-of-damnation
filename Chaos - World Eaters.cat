@@ -1391,7 +1391,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink name="Hell Talon [Legends]" id="5504-a332-cd26-a84b" hidden="false" import="true" targetId="4e04-74aa-2c2f-66d0" type="selectionEntry"/>
+    <entryLink name="Hell Talon" id="5504-a332-cd26-a84b" hidden="false" import="true" targetId="4e04-74aa-2c2f-66d0" type="selectionEntry"/>
     <entryLink name="Land Raider Achilles" id="1e2d-1a05-ec5-9cbd" hidden="false" import="true" targetId="3006-ffe-2b0c-6b1b" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Chaos" id="1a4b-605b-d01-2dda" primary="false" targetId="4c00-2578-faf5-6918"/>
@@ -1906,8 +1906,7 @@ Until the end of the battle round, each of those models has the VESSEL OF WRATH 
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">16</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-4</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">D6+2</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
               </characteristics>
             </profile>
             <profile name="➤ Samni’arius and Spinegrinder - sweep" id="be4d-fdfc-bae7-1387" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
@@ -1918,8 +1917,7 @@ Until the end of the battle round, each of those models has the VESSEL OF WRATH 
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
               </characteristics>
             </profile>
           </profiles>
@@ -8234,8 +8232,7 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
 
 
 **Boon of Blood [6BTP]**
-^^**Blood Legions^^** units from your army have a 4+ Invulnerable Save.
-</description>
+^^**Blood Legions^^** units from your army have a 4+ Invulnerable Save.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -10201,8 +10198,7 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
               </characteristics>
             </profile>
           </profiles>
@@ -12134,11 +12130,6 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink name="Icon of Khorne" id="ed8e-57ee-d6e2-56c8" collective="false" hidden="false" import="true" sortIndex="4" targetId="8e1d-9846-a460-6002" type="selectionEntry">
-          <associations>
-            <association name="Icon of Khorne" id="8dcb-9694-e78a-f7f7" childId="model" max="1" min="1" scope="f909-00c7-8ba4-018a"/>
-          </associations>
-        </entryLink>
         <entryLink name="Crusade" id="85b6-eede-b9e5-d2ca" hidden="false" import="true" sortIndex="1" targetId="8bbb-e890-a169-863e" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
@@ -12282,6 +12273,21 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
+        <selectionEntry name="Icon of Khorne" id="7cbd-ef77-a0dd-e64c" collective="false" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="c24f-1287-6508-506f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Icon of Khorne" id="f3e3-9fd1-8dd8-c1a7" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If the bearer&apos;s unit contains 1 or more Icons of Khorne, each time the bearer&apos;s unit destroys an enemy unit, you gain one Bloodshed point. Each time you make a Blessings of Khorne roll, roll one additional D6 for each Bloodshed point you have, after which, all your Bloodshed points are lost.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="4 - 9 Khorne Assault Berzerkers" id="f307-c684-1228-6387" collective="false" defaultSelectionEntryId="b568-8a23-be6f-a14d" hidden="false" import="true" sortIndex="3">
@@ -12400,6 +12406,11 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
         <profile name="Blood-Fuelled Advance" id="2f22-140e-a602-1793" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit is eligible to shoot in a turn in which it Advanced. If it does so, it can only target the closest eligible enemy unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Attached Unit" id="abb6-1a43-0e9a-d860" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a CHARACTER unit from your army with the Leader ability can be attached to a Khorne Berzerkers, it can instead be attached to this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12523,7 +12534,7 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -13037,8 +13048,7 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                   </characteristics>
                 </profile>
               </profiles>

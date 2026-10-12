@@ -8,7 +8,7 @@
     <entryLink name="Windriders" id="de48-1fed-57fe-c097" collective="false" hidden="false" import="true" targetId="592a-b255-6c58-19ec" type="selectionEntry"/>
     <entryLink name="Asurmen" id="b425-6079-7cf8-c3fd" hidden="false" import="true" targetId="828d-840a-9a67-9074" type="selectionEntry"/>
     <entryLink name="Autarch" id="acc4-30c4-39c0-71e" hidden="false" import="true" targetId="df57-7a59-75eb-ce63" type="selectionEntry"/>
-    <entryLink name="Autarch Skyrunner [Legends]" id="f765-5592-1494-7b5c" hidden="false" import="true" targetId="69f4-c990-93b4-20fc" type="selectionEntry"/>
+    <entryLink name="Autarch Skyrunner" id="f765-5592-1494-7b5c" hidden="false" import="true" targetId="69f4-c990-93b4-20fc" type="selectionEntry"/>
     <entryLink name="Autarch Wayleaper" id="6dbf-1aab-83b3-2ad6" hidden="false" import="true" targetId="497a-263e-966a-5a15" type="selectionEntry"/>
     <entryLink name="Avatar of Khaine" id="115d-8239-dc6c-9e5d" hidden="false" import="true" targetId="554c-8b4f-1059-28a7" type="selectionEntry"/>
     <entryLink name="Baharroth" id="87d1-3564-c23-7818" hidden="false" import="true" targetId="8732-df2f-a542-805f" type="selectionEntry"/>
@@ -28,9 +28,9 @@
     <entryLink name="Guardian Defenders" id="db9e-df49-2d53-3dca" hidden="false" import="true" targetId="e78a-4442-4ed2-66bf" type="selectionEntry"/>
     <entryLink name="Hemlock Wraithfighter" id="b6c0-cad8-a5a-e095" hidden="false" import="true" targetId="551b-900c-3681-8f11" type="selectionEntry"/>
     <entryLink name="Howling Banshees" id="95d-ae5a-5668-b5b" hidden="false" import="true" targetId="7fcb-9262-474a-7cec" type="selectionEntry"/>
-    <entryLink name="Illic Nightspear [Legends]" id="5238-a2cd-8def-931d" hidden="false" import="true" targetId="2713-f82d-5189-d5de" type="selectionEntry"/>
+    <entryLink name="Illic Nightspear" id="5238-a2cd-8def-931d" hidden="false" import="true" targetId="2713-f82d-5189-d5de" type="selectionEntry"/>
     <entryLink name="Jain Zar" id="1255-9ad2-1468-40f4" hidden="false" import="true" targetId="77f9-e8de-225f-9e68" type="selectionEntry"/>
-    <entryLink name="Karandras [Legends]" id="c1af-2aec-777b-da40" hidden="false" import="true" targetId="c9ed-d190-419c-78d3" type="selectionEntry"/>
+    <entryLink name="Karandras" id="c1af-2aec-777b-da40" hidden="false" import="true" targetId="c9ed-d190-419c-78d3" type="selectionEntry"/>
     <entryLink name="Maugan Ra" id="fa4f-2feb-923-666a" hidden="false" import="true" targetId="6f18-95b7-2662-8925" type="selectionEntry"/>
     <entryLink name="Night Spinner" id="e98c-b305-1b4b-f54" hidden="false" import="true" targetId="908a-fc2b-5a53-599f" type="selectionEntry"/>
     <entryLink name="Rangers" id="6080-9e99-1811-9186" hidden="false" import="true" targetId="b98b-701f-9c0c-5437" type="selectionEntry"/>
@@ -66,32 +66,32 @@
     <entryLink name="Warlock Skyrunners" id="7fe1-5b20-b119-a9f" hidden="false" import="true" targetId="f52d-1814-7d66-1f7b" type="selectionEntry"/>
     <entryLink name="Warp Spiders" id="e43e-9113-736d-cdf6" hidden="false" import="true" targetId="57ec-47a8-a59a-6a46" type="selectionEntry"/>
     <entryLink name="Wave Serpent" id="c302-5769-871e-853b" hidden="false" import="true" targetId="ad88-f706-318c-e70e" type="selectionEntry"/>
-    <entryLink name="Webway Gate [Legends]" id="bdf5-36f4-8fc-1358" hidden="false" import="true" targetId="2f21-23a3-48e0-5788" type="selectionEntry"/>
+    <entryLink name="Webway Gate" id="bdf5-36f4-8fc-1358" hidden="false" import="true" targetId="2f21-23a3-48e0-5788" type="selectionEntry"/>
     <entryLink name="Wraithblades" id="8cb-f672-a815-49ef" hidden="false" import="true" targetId="bb4f-4359-cc16-e6d5" type="selectionEntry"/>
     <entryLink name="Wraithknight" id="9049-3d27-e0d4-924b" hidden="false" import="true" targetId="bfd-df5a-b358-4cf9" type="selectionEntry"/>
     <entryLink name="Wraithlord" id="6e10-c7d2-905f-1f99" hidden="false" import="true" targetId="b9e9-397e-d83a-f77a" type="selectionEntry"/>
     <entryLink name="Yvraine" id="f1bb-5b7e-c4a5-4040" hidden="false" import="true" targetId="ada5-25ce-d5d5-4ccb" type="selectionEntry"/>
     <entryLink name="Striking Scorpions" id="d4d2-fedf-140e-3f76" hidden="false" import="true" targetId="c90f-a8e5-6afa-eb91" type="selectionEntry"/>
-    <entryLink name="Cobra [Legends]" id="ae18-a032-75f6-f1f7" hidden="false" import="true" targetId="e2ad-60b4-9678-88aa" type="selectionEntry"/>
-    <entryLink name="Hornet [Legends]" id="2f74-b5a1-d291-5623" hidden="false" import="true" targetId="1224-8735-46d-1919" type="selectionEntry"/>
-    <entryLink name="Irillyth [Legends]" id="ddab-1df8-7c4e-8768" hidden="false" import="true" targetId="3e8d-c6f3-493c-4a35" type="selectionEntry"/>
-    <entryLink name="Lynx [Legends]" id="548a-b4ab-4889-cde2" hidden="false" import="true" targetId="e3c5-54ef-44a5-9366" type="selectionEntry"/>
-    <entryLink name="Scorpion [Legends]" id="3977-a2b8-ae57-1b48" hidden="false" import="true" targetId="1420-c80d-66fc-6a" type="selectionEntry"/>
-    <entryLink name="Shadow Spectres [Legends]" id="189e-becb-ef7b-1233" hidden="false" import="true" targetId="9c94-b663-fd31-6001" type="selectionEntry"/>
+    <entryLink name="Cobra" id="ae18-a032-75f6-f1f7" hidden="false" import="true" targetId="e2ad-60b4-9678-88aa" type="selectionEntry"/>
+    <entryLink name="Hornet" id="2f74-b5a1-d291-5623" hidden="false" import="true" targetId="1224-8735-46d-1919" type="selectionEntry"/>
+    <entryLink name="Irillyth" id="ddab-1df8-7c4e-8768" hidden="false" import="true" targetId="3e8d-c6f3-493c-4a35" type="selectionEntry"/>
+    <entryLink name="Lynx" id="548a-b4ab-4889-cde2" hidden="false" import="true" targetId="e3c5-54ef-44a5-9366" type="selectionEntry"/>
+    <entryLink name="Scorpion" id="3977-a2b8-ae57-1b48" hidden="false" import="true" targetId="1420-c80d-66fc-6a" type="selectionEntry"/>
+    <entryLink name="Shadow Spectres" id="189e-becb-ef7b-1233" hidden="false" import="true" targetId="9c94-b663-fd31-6001" type="selectionEntry"/>
     <entryLink name="Phantom Titan" id="c387-32f8-8aa0-4b34" hidden="false" import="true" targetId="79b3-2cd1-d7b4-d7b1" type="selectionEntry"/>
     <entryLink name="Revenant Titan" id="ed6a-ff9f-28a3-1716" hidden="false" import="true" targetId="ca40-4a0d-567-852" type="selectionEntry"/>
-    <entryLink name="Warp Hunter [Legends]" id="3549-ed9e-6768-b32b" hidden="false" import="true" targetId="ef18-ff32-2be6-7372" type="selectionEntry"/>
-    <entryLink name="Wraithseer [Legends]" id="42ef-1197-f9dd-799c" hidden="false" import="true" targetId="b369-a813-75ac-2dc6" type="selectionEntry"/>
+    <entryLink name="Warp Hunter" id="3549-ed9e-6768-b32b" hidden="false" import="true" targetId="ef18-ff32-2be6-7372" type="selectionEntry"/>
+    <entryLink name="Wraithseer" id="42ef-1197-f9dd-799c" hidden="false" import="true" targetId="b369-a813-75ac-2dc6" type="selectionEntry"/>
     <entryLink name="Detachment" id="73aa-e2f4-3244-456f" hidden="false" import="true" targetId="68f1-24f4-a4c6-303f" type="selectionEntry"/>
-    <entryLink name="Amallyn Shadowguide [Legends]" id="1df5-80f8-ca82-262f" hidden="false" import="true" targetId="965e-3df7-287a-6ac0" type="selectionEntry"/>
-    <entryLink name="Bonesinger [Legends]" id="f207-382f-bf76-960a" hidden="false" import="true" targetId="2384-4154-b67a-3827" type="selectionEntry"/>
-    <entryLink name="Corsair Cloud Dancer Band [Legends]" id="2760-2254-881f-bf94" hidden="false" import="true" targetId="790d-9fdf-b359-62ba" type="selectionEntry"/>
-    <entryLink name="Corsair Reaver Band [Legends]" id="fd2e-272b-759a-2841" hidden="false" import="true" targetId="758b-bfd2-96ed-52b" type="selectionEntry"/>
-    <entryLink name="Phoenix [Legends]" id="2733-fc54-d8dc-75c7" hidden="false" import="true" targetId="6083-affa-5163-a94c" type="selectionEntry"/>
-    <entryLink name="Firestorm [Legends]" id="91b4-e4b0-3b25-efe0" hidden="false" import="true" targetId="d11f-239d-94b4-c194" type="selectionEntry"/>
-    <entryLink name="Vampire Hunter [Legends]" id="29f8-1df0-6e9c-27fe" hidden="false" import="true" targetId="22ea-9a4-cda3-a24" type="selectionEntry"/>
-    <entryLink name="Vampire Raider [Legends]" id="fa62-6321-b557-7cc1" hidden="false" import="true" targetId="4016-44d3-c64b-cc1a" type="selectionEntry"/>
-    <entryLink name="Wasp Assault Walker [Legends]" id="64d4-a8cd-f722-b4ba" hidden="false" import="true" targetId="6c50-7486-7c0d-52d0" type="selectionEntry"/>
+    <entryLink name="Amallyn Shadowguide" id="1df5-80f8-ca82-262f" hidden="false" import="true" targetId="965e-3df7-287a-6ac0" type="selectionEntry"/>
+    <entryLink name="Bonesinger" id="f207-382f-bf76-960a" hidden="false" import="true" targetId="2384-4154-b67a-3827" type="selectionEntry"/>
+    <entryLink name="Corsair Cloud Dancer Band" id="2760-2254-881f-bf94" hidden="false" import="true" targetId="790d-9fdf-b359-62ba" type="selectionEntry"/>
+    <entryLink name="Corsair Reaver Band" id="fd2e-272b-759a-2841" hidden="false" import="true" targetId="758b-bfd2-96ed-52b" type="selectionEntry"/>
+    <entryLink name="Phoenix" id="2733-fc54-d8dc-75c7" hidden="false" import="true" targetId="6083-affa-5163-a94c" type="selectionEntry"/>
+    <entryLink name="Firestorm" id="91b4-e4b0-3b25-efe0" hidden="false" import="true" targetId="d11f-239d-94b4-c194" type="selectionEntry"/>
+    <entryLink name="Vampire Hunter" id="29f8-1df0-6e9c-27fe" hidden="false" import="true" targetId="22ea-9a4-cda3-a24" type="selectionEntry"/>
+    <entryLink name="Vampire Raider" id="fa62-6321-b557-7cc1" hidden="false" import="true" targetId="4016-44d3-c64b-cc1a" type="selectionEntry"/>
+    <entryLink name="Wasp Assault Walker" id="64d4-a8cd-f722-b4ba" hidden="false" import="true" targetId="6c50-7486-7c0d-52d0" type="selectionEntry"/>
     <entryLink name="Show/Hide Options" id="9721-c3a1-948c-5f2d" hidden="false" import="true" targetId="e8ef-836a-a9d1-901d" type="selectionEntry"/>
     <entryLink name="Ynnari Archon" id="5f93-aebf-dd87-1aac" hidden="false" import="true" targetId="5f10-27fc-f1e4-af90" type="selectionEntry"/>
     <entryLink name="Ynnari Incubi" id="503c-fe73-760b-2405" hidden="false" import="true" targetId="5bf7-f905-8fab-43b4" type="selectionEntry"/>
