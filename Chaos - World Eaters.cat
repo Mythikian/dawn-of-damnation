@@ -12048,7 +12048,7 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Twin Power Axe" id="e981-ca76-1026-fb5e" hidden="false" import="true" type="model">
+                <selectionEntry name="Twin Power Axe" id="e981-ca76-1026-fb5e" hidden="false" import="true" type="upgrade">
                   <costs>
                     <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
                   </costs>
