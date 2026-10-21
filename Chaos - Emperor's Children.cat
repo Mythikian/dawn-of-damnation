@@ -171,6 +171,86 @@ No **^^Legions of Excess**^^ models from your army can be your **^^Warlord**^^.<
     <entryLink name="Hell-Scourge" id="dd56-50b2-979a-e9f7" hidden="false" import="true" targetId="bc2f-e332-3e3c-2d2c" type="selectionEntry"/>
     <entryLink name="Hell-Strider" id="ff8a-ab7b-90a4-80a2" hidden="false" import="true" targetId="ab61-af10-07fc-8dfb" type="selectionEntry"/>
     <entryLink name="Ecstatic Thralls" id="6f17-211e-e86b-5df4" hidden="false" import="true" targetId="401a-21bc-a1f4-ebbe" type="selectionEntry"/>
+    <entryLink name="Cerberus" id="3e20-5edd-38c2-1817" hidden="false" import="true" targetId="4044-b458-fb4d-d05b" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Thrill Seekers" id="05e3-30b3-1a28-f7ed" hidden="false" targetId="1674-23e6-eacf-9624" type="rule"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink name="Chaos Thunderhawk" id="70b4-77c3-fd02-2683" hidden="false" import="true" targetId="6844-986c-b0ea-6dd5" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Thrill Seekers" id="de6b-147e-6f54-2d4a" hidden="false" targetId="1674-23e6-eacf-9624" type="rule"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink name="Deredeo Dreadnought" id="3fba-d435-a399-f984" hidden="false" import="true" targetId="d38d-c3a2-f753-efea" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Thrill Seekers" id="718e-54c0-0ebe-64e3" hidden="false" targetId="1674-23e6-eacf-9624" type="rule"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink name="Fellblade" id="e440-a824-c762-451e" hidden="false" import="true" targetId="585d-722b-4304-2f63" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Thrill Seekers" id="a94e-3a4f-0620-4eff" hidden="false" targetId="1674-23e6-eacf-9624" type="rule"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink name="Falchion" id="9c57-7ef8-b69f-1c1f" hidden="false" import="true" targetId="625b-29e4-7be7-db5a" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Thrill Seekers" id="1807-0d50-352e-2337" hidden="false" targetId="1674-23e6-eacf-9624" type="rule"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink name="Fire Raptor Gunship" id="5bae-0fc5-5165-f25f" hidden="false" import="true" targetId="1fc7-7880-e4d4-acbf" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Thrill Seekers" id="5d4f-2976-9ba3-f003" hidden="false" targetId="1674-23e6-eacf-9624" type="rule"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink name="Land Raider Achilles" id="d6e0-93ea-1d39-6533" hidden="false" import="true" targetId="3006-ffe-2b0c-6b1b" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Thrill Seekers" id="d132-c84a-002f-8a13" hidden="false" targetId="1674-23e6-eacf-9624" type="rule"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink name="Land Raider Proteus" id="8c49-6926-ed87-2548" hidden="false" import="true" targetId="34c8-1025-33f7-baaf" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Thrill Seekers" id="e35a-76c5-bdda-88f0" hidden="false" targetId="1674-23e6-eacf-9624" type="rule"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink name="Leviathan Dreadnought" id="2a6d-2634-2aeb-1227" hidden="false" import="true" targetId="14d4-8062-f090-6719" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Thrill Seekers" id="4ba3-9b15-a0d1-b50f" hidden="false" targetId="1674-23e6-eacf-9624" type="rule"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink name="Mastodon" id="2c66-c22d-c8b9-1885" hidden="false" import="true" targetId="e337-7f05-f1b3-d64e" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Thrill Seekers" id="1064-d6cd-45ff-a08b" hidden="false" targetId="1674-23e6-eacf-9624" type="rule"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink name="Rapier Carrier" id="489f-2abc-d00e-e877" hidden="false" import="true" targetId="2aee-e03c-836e-4c6e" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Thrill Seekers" id="5ef5-ee56-2a65-86dd" hidden="false" targetId="1674-23e6-eacf-9624" type="rule"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink name="Relic Contemptor Dreadnought" id="c7f3-3eb3-97f2-8ce4" hidden="false" import="true" targetId="783a-1c02-b377-b169" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Thrill Seekers" id="e9d0-26ca-bee4-b804" hidden="false" targetId="1674-23e6-eacf-9624" type="rule"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink name="Sokar-pattern Stormbird" id="c7bc-7de1-728d-da0f" hidden="false" import="true" targetId="a80f-8343-85f3-716a" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Thrill Seekers" id="d618-7775-1088-b730" hidden="false" targetId="1674-23e6-eacf-9624" type="rule"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink name="Storm Eagle Gunship" id="ca88-8f11-1e70-3543" hidden="false" import="true" targetId="3b7d-b14e-603-e1ad" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Thrill Seekers" id="bf0f-59d7-0afa-c4f8" hidden="false" targetId="1674-23e6-eacf-9624" type="rule"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink name="Whirlwind Scorpius" id="d45c-31c8-c30e-16c0" hidden="false" import="true" targetId="97dc-f0c8-1354-88fb" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Thrill Seekers" id="b3fe-19e2-3262-867a" hidden="false" targetId="1674-23e6-eacf-9624" type="rule"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink name="Xiphon Interceptor" id="eea7-a1e3-bcd9-1a45" hidden="false" import="true" targetId="1aa5-d081-2442-4c37" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Thrill Seekers" id="6920-0870-be5e-4a18" hidden="false" targetId="1674-23e6-eacf-9624" type="rule"/>
+      </infoLinks>
+    </entryLink>
   </entryLinks>
   <sharedInfoGroups>
     <infoGroup name="Plasma pistol" id="0cbe-31f4-e833-9ef4" hidden="false"/>
@@ -12619,6 +12699,11 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the first battle round, select one enemy unit. Until the end of the battle, this unit re-rolls failed wound rolls of 1 against that unit.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Attached Unit" id="80f0-7024-cd07-89fc" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a character unit from your army with the Leader ability can be attached to Noise Marines, it can be attached to this unit instead.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <selectionEntryGroups>
         <selectionEntryGroup name="Sun Killer Squad" id="20ed-4db5-6fb8-1405" defaultSelectionEntryId="624c-c49c-b0a5-9cd4" hidden="false" sortIndex="3">
@@ -12671,13 +12756,13 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Astartes chainsword" id="dfdf-78cb-843d-d759" collective="true" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Astartes Chainsword" id="dfdf-78cb-843d-d759" collective="true" hidden="false" import="true" type="upgrade">
                   <constraints>
                     <constraint id="c612-b2ee-9bcd-f63d" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="3380-b61b-edc4-7ad0" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <profiles>
-                    <profile name="Astartes chainsword" id="3c94-684f-6c58-7126" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                    <profile name="Astartes Chainsword" id="3c94-684f-6c58-7126" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                         <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
@@ -12717,13 +12802,13 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                 </profile>
               </profiles>
               <selectionEntries>
-                <selectionEntry name="Astartes chainsword" id="d0c9-7eb3-199e-71a7" collective="true" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Astartes Chainsword" id="d0c9-7eb3-199e-71a7" collective="true" hidden="false" import="true" type="upgrade">
                   <constraints>
                     <constraint id="05c9-7a8c-3919-3690" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="492a-ea7b-9e64-e516" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <profiles>
-                    <profile name="Astartes chainsword" id="d8b1-48cd-c760-179a" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                    <profile name="Astartes Chainsword" id="d8b1-48cd-c760-179a" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                         <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>

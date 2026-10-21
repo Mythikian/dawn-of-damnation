@@ -1959,11 +1959,6 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit is not within range of an objective, it may reroll the advance roll. If this unit is within range of an objective marker this unit may shoot and perform an action.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Sanctifier Squad" id="4f35-5fe8-66dd-70ca" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can shoot weapons with [Pistol] when it is eligible to shoot all of its other ranged weapons.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Attached Unit" id="1498-60fc-f8e0-7ffa" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a character unit from your army with the leader ability can be attached to an Intercessor Squad, it can be attached to this unit instead.</characteristic>
