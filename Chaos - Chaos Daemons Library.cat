@@ -2182,9 +2182,30 @@ In your Command phase, if your opponent has one or more Flux tokens, you gain on
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
-          <entryLinks>
-            <entryLink name="Hellblade" id="659c-c5d8-4bd3-1009" collective="false" hidden="false" import="true" targetId="e4f0-79-126a-ac41" type="selectionEntry"/>
-          </entryLinks>
+          <selectionEntries>
+            <selectionEntry name="Hellblade" id="7c21-2eab-504a-c2f4" collective="true" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="9d12-ef14-d691-4ef4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="24b3-5e94-fb97-0f46" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Hellblade" id="733d-21fd-50e7-b96d" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
         <selectionEntry name="Bloodreaper" id="a30d-a7e8-b7d1-a55c" hidden="false" import="true" sortIndex="2" type="model">
           <constraints>
@@ -2408,9 +2429,32 @@ In your Command phase, if your opponent has one or more Flux tokens, you gain on
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
           <entryLinks>
-            <entryLink name="Hellblade" id="c732-f21f-2d32-d480" collective="false" hidden="false" import="true" targetId="e4f0-79-126a-ac41" type="selectionEntry"/>
             <entryLink name="Juggernaut&apos;s bladed horn" id="73ae-e8b8-130-eb8f" collective="false" hidden="false" import="true" targetId="4848-c7ef-a65f-d15c" type="selectionEntry"/>
           </entryLinks>
+          <selectionEntries>
+            <selectionEntry name="Hellblade" id="1044-5377-69e1-710e" collective="true" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="bc4a-10f5-1940-aa19" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="0e1f-e26a-dd6e-ec68" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Hellblade" id="7fcb-94b4-a879-3a9b" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
         <selectionEntry name="Bloodhunter" id="b87a-5121-1c03-894f" collective="false" hidden="false" import="true" sortIndex="2" type="model">
           <constraints>
