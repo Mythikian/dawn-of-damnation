@@ -12756,13 +12756,14 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Astartes Chainsword" id="dfdf-78cb-843d-d759" collective="true" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Astartes Chainsword" id="52ad-3d4b-a583-a618" collective="true" hidden="false" import="true" type="upgrade">
+                  <comment>A4 WS 3+ Collective</comment>
                   <constraints>
-                    <constraint id="c612-b2ee-9bcd-f63d" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="3380-b61b-edc4-7ad0" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="6c9b-a01f-8878-5a94" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="fc8a-abad-6b62-941f" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <profiles>
-                    <profile name="Astartes Chainsword" id="3c94-684f-6c58-7126" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                    <profile name="Astartes Chainsword" id="dbde-8c27-4ecc-e2ea" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                         <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
@@ -12770,7 +12771,7 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -12802,13 +12803,14 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                 </profile>
               </profiles>
               <selectionEntries>
-                <selectionEntry name="Astartes Chainsword" id="d0c9-7eb3-199e-71a7" collective="true" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Astartes Chainsword" id="837e-b563-0594-429a" collective="true" hidden="false" import="true" type="upgrade">
+                  <comment>A4 WS 3+ Collective</comment>
                   <constraints>
-                    <constraint id="05c9-7a8c-3919-3690" field="selections" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="492a-ea7b-9e64-e516" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="c657-98d4-0216-e3ef" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="f16d-84bb-4b1c-06ba" field="selections" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <profiles>
-                    <profile name="Astartes Chainsword" id="d8b1-48cd-c760-179a" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                    <profile name="Astartes Chainsword" id="9f30-7170-3cd5-27fd" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                         <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
@@ -12816,7 +12818,7 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>

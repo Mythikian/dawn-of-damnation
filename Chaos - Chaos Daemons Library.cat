@@ -2209,6 +2209,19 @@ In your Command phase, if your opponent has one or more Flux tokens, you gain on
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
       </costs>
+      <profiles>
+        <profile name="Hellblade" id="5ea7-2c8e-3f63-6f45" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry name="Daemonic Icon" id="bc2f-662f-58e7-5fef" collective="false" hidden="false" import="true" type="upgrade">
       <constraints>
@@ -16253,11 +16266,6 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         <infoLink name="The Shadow of Chaos" id="949d-7689-92f5-ab18" hidden="false" targetId="a312-a2f1-e1c0-30ed" type="rule"/>
         <infoLink name="Warp Rifts" id="b7e4-f044-5010-1656" hidden="false" targetId="877e-cc0c-8a1d-be46" type="rule"/>
         <infoLink name="Murderer&apos;s Cowl" id="da58-1cc4-cdfa-4889" hidden="false" targetId="b864-9b7d-e224-f6be" type="profile"/>
-        <infoLink name="Deadly Demise" id="74d5-f7d4-2cf7-a598" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
-          <modifiers>
-            <modifier field="name" type="append" value="1"/>
-          </modifiers>
-        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="category" type="set-primary" value="887b-ab87-92a2-20f5">
@@ -18027,6 +18035,18 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
       <constraints>
         <constraint id="4738-d4c3-0460-4a08" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="3"/>
       </constraints>
+      <entryLinks>
+        <entryLink name="Daemonic Icon" id="6918-8709-49bc-5c51" collective="false" hidden="false" import="true" targetId="bc2f-662f-58e7-5fef" type="selectionEntry">
+          <associations>
+            <association name="New Association" id="e296-611a-864d-00fe" childId="8876-fc4f-a6a0-5df" max="1" min="1" scope="parent"/>
+          </associations>
+        </entryLink>
+        <entryLink name="Instrument of Chaos" id="a040-465c-8800-acd0" collective="false" hidden="false" import="true" targetId="47bc-4cb8-5ff6-e208" type="selectionEntry">
+          <associations>
+            <association name="New Association" id="f621-7f81-85fa-c4da" childId="8876-fc4f-a6a0-5df" max="1" min="1" scope="parent"/>
+          </associations>
+        </entryLink>
+      </entryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditions>
@@ -18095,6 +18115,13 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
                         <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
                         <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
                       </characteristics>
+                      <modifiers>
+                        <modifier field="58d2-b879-49c7-43bc" type="set" value="6+">
+                          <conditions>
+                            <condition childId="8e29-86c6-c71a-5ebc" childName="Daemonic Icon" field="selections" scope="548a-a8e6-0c87-7d21" shared="true" type="atLeast" value="1"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                     </profile>
                   </profiles>
                   <selectionEntries>
@@ -18180,7 +18207,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
                         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit is eligible to declare a charge in a turn in which it Advanced or Fell Back. Each time an attack is made against this unit, subtract 1 from the Hit roll.</characteristic>
                       </characteristics>
                     </profile>
-                    <profile name="Pleasureseeker" id="6b97-f825-003d-21e1" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+                    <profile name="Pleasureseeker" id="660a-b022-363c-7d17" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
                       <characteristics>
                         <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">14&quot;</characteristic>
                         <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
@@ -18189,6 +18216,13 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
                         <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
                         <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
                       </characteristics>
+                      <modifiers>
+                        <modifier field="58d2-b879-49c7-43bc" type="set" value="6+">
+                          <conditions>
+                            <condition childId="8e29-86c6-c71a-5ebc" childName="Daemonic Icon" field="selections" scope="548a-a8e6-0c87-7d21" shared="true" type="atLeast" value="1"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                     </profile>
                   </profiles>
                   <selectionEntries>
@@ -18381,11 +18415,6 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         <infoLink name="Deep Strike" id="71af-197d-2bbe-55d9" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
         <infoLink name="The Shadow of Chaos" id="99e0-be64-4043-b41f" hidden="false" targetId="a312-a2f1-e1c0-30ed" type="rule"/>
         <infoLink name="Warp Rifts" id="421f-9e7d-f5af-6605" hidden="false" targetId="877e-cc0c-8a1d-be46" type="rule"/>
-        <infoLink name="Deadly Demise" id="fafb-efe1-9beb-0159" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
-          <modifiers>
-            <modifier field="name" type="append" value="1"/>
-          </modifiers>
-        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
