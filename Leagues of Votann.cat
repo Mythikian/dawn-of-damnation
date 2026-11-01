@@ -7655,7 +7655,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         </profile>
         <profile name="Ancestral Imperative" id="b080-e5ad-0d78-abfd" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, models in that unit have ^^LETHAL HITS^^ on melee attacks. Each time a model in that unit makes any attack, they reroll hit rolls of 1 and may ignore any modifiers to hit of their choice.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, each time a model in that unit makes an attack roll, they can re-roll a hit roll of 1 and ignore any modifiers to hit of their choice.Additionally, melee weapons equipped by models in that unit have the [LETHAL HITS] ability.</characteristic>
           </characteristics>
         </profile>
         <profile name="Supreme Kin-Warlord" id="1c04-487b-c617-e2f6" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -11000,7 +11000,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Twin bolt cannon" id="c301-f775-09df-9f75" collective="false" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Bolt cannon" id="c301-f775-09df-9f75" collective="false" hidden="false" import="true" type="upgrade">
               <constraints>
                 <constraint id="042f-b4a6-534a-0b8b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                 <constraint id="a64d-c894-d481-9cfb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -11013,10 +11013,9 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
               </entryLinks>
               <infoLinks>
                 <infoLink name="Sustained Hits" id="5e2b-ad42-dd82-92d3" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
-                <infoLink name="Twin-linked" id="3027-3bbb-412e-8ae4" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Twin bolt cannon" id="5e7b-2b21-e1ef-a20f" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                <profile name="Bolt cannon" id="5e7b-2b21-e1ef-a20f" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
@@ -11024,28 +11023,27 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 2, Twin-linked</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 2</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Twin bolt cannon" id="6241-7ac5-61e1-0096" collective="false" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Bolt cannon" id="8ef5-aeb8-392a-0910" collective="false" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint id="1bfb-3c1a-3543-b8f0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                <constraint id="d1ca-b7f1-b725-1ac1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="106f-4a71-5bfb-5a1d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="eec2-5a20-59dd-b188" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
               </constraints>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Weapon Modifications" id="7d75-d63b-0ab3-4486" flatten="false" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
+                <entryLink name="Weapon Modifications" id="3ead-ef83-1b93-e53b" flatten="false" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
               </entryLinks>
               <infoLinks>
-                <infoLink name="Sustained Hits" id="2586-a296-0633-e574" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
-                <infoLink name="Twin-linked" id="d9d0-b868-dc7f-1400" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+                <infoLink name="Sustained Hits" id="2a6b-dbbf-c05b-4ad9" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Twin bolt cannon" id="4c2e-5301-95cf-bd41" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                <profile name="Bolt cannon" id="a1e8-1bab-dda4-1b28" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
@@ -11053,7 +11051,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 2, Twin-linked</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 2</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11392,7 +11390,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Orrin Grimjarl" id="5a6b-8a0e-2f98-9b2f" hidden="false" import="true" type="model">
+    <selectionEntry name="Orrin Grimjarl" id="5a6b-8a0e-2f98-9b2f" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Epic Hero" id="1a4e-01ca-9c44-8b8b" hidden="false" primary="true" targetId="4f3a-f0f7-6647-348d"/>
         <categoryLink name="Infantry" id="bf2c-a795-8806-1cdf" hidden="false" primary="false" targetId="cf47-a0d7-7207-29dc"/>
@@ -11454,21 +11452,21 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry name="Las-beam cutter" id="cf51-81fc-76f2-5ff4" hidden="false" import="true" sortIndex="3" type="upgrade">
+        <selectionEntry name="Plasma torch" id="cf51-81fc-76f2-5ff4" hidden="false" import="true" sortIndex="3" type="upgrade">
           <constraints>
             <constraint id="9f37-9733-fed8-8e58" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="f441-fcaa-c6c2-6735" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <profiles>
-            <profile name="Las-beam cutter" id="9c0f-c108-4512-ea82" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+            <profile name="Plasma torch" id="9c0f-c108-4512-ea82" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
               <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12040,16 +12038,17 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                         </profile>
                       </profiles>
                     </selectionEntry>
-                    <selectionEntry name="Multi-melta &amp; rocket pods" id="338f-e405-8fcd-db5f" hidden="false" import="true" type="upgrade">
+                    <selectionEntry name="Rocket pods &amp; Twin multi-melta" id="338f-e405-8fcd-db5f" hidden="false" import="true" type="upgrade">
                       <entryLinks>
                         <entryLink name="Weapon Modifications" id="e3f7-fc8b-4c13-8ddd" hidden="false" import="true" targetId="f9da-852a-d7f0-92e9" type="selectionEntryGroup"/>
                       </entryLinks>
                       <infoLinks>
                         <infoLink name="Blast" id="9544-a1a0-e4b9-8bf5" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
                         <infoLink name="Melta" id="d807-0629-2d61-6b99" hidden="false" targetId="7cdb-fb99-44a9-8849" type="rule"/>
+                        <infoLink name="Twin-linked" id="b46a-d314-50e6-7d96" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
                       </infoLinks>
                       <profiles>
-                        <profile name="Multi-melta" id="2392-0432-46f1-a046" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                        <profile name="Twin multi-melta" id="2392-0432-46f1-a046" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
@@ -12057,10 +12056,10 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2, Twin-linked</characteristic>
                           </characteristics>
                         </profile>
-                        <profile name="Rocket pods" id="373a-4898-58a4-3481" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                        <profile name="➤ Rocket pods - blast" id="373a-4898-58a4-3481" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
@@ -12069,6 +12068,18 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
                             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="➤ Rocket pods - focused" id="d368-35af-b108-656c" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -12093,7 +12104,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
                           </characteristics>
                         </profile>
-                        <profile name="Heavy bolters" id="3291-bfc6-1b7e-19e5" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                        <profile name="Autoch-pattern heavy bolter" id="3291-bfc6-1b7e-19e5" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
@@ -12285,11 +12296,11 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Breacher mortar" id="d7d6-4b49-7a1b-83ed" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
               <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+1</characteristic>
                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                 <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Indirect Fire</characteristic>
               </characteristics>
@@ -12848,8 +12859,6 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
       <infoLinks>
         <infoLink name="Prioritised Efficiency" id="3a04-1a4a-4f30-ad53" hidden="false" targetId="351a-a702-9080-7f08" type="rule"/>
         <infoLink name="Leader" id="5302-82f2-9f25-ef4e" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
-        <infoLink name="Infiltrators" id="fb7d-bb4f-46bf-4348" hidden="false" targetId="c05d-f4c3-f091-4938" type="rule"/>
-        <infoLink name="Lone Operative" id="8ee9-7e06-eee4-891e" hidden="false" targetId="a8a0-8fe7-898-e0f3" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Iron Master Marvi" id="0787-49ba-95bc-5d31" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -12871,9 +12880,8 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command phase, select one friendly ^^**Leagues of Votann Vehicle**^^ unit within 3&quot; of this model. Until the start of your next Command phase, that unit gains one of the following benefits: 
 
-
 Calibrated Fire Solutions: Improve the Armour Penetration characteristic of that unit’s ranged weapons by 1.
-Optimized Actuators: Add 1&quot; to Move and +1 to Advance rolls. 
+Optimized Actuators: Add 1&quot; to the Move characteristic of that unit, and whenever that unit Advances, it adds 1 to its Advance roll. 
 Reinforced Plating: Improve the Save characteristic of that unit by 1 (to a maximum of 2+).</characteristic>
           </characteristics>
         </profile>
@@ -12887,6 +12895,11 @@ Reinforced Plating: Improve the Save characteristic of that unit by 1 (to a maxi
         <profile name="Invulnerable Save" id="c6ef-3015-5cb5-5bf3" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Multi-spectral visor" id="3e98-b938-cdb2-c2a8" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>

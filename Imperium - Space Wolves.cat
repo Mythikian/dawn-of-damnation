@@ -10139,7 +10139,7 @@ a Transport</characteristic>
         </profile>
         <profile name="Strength of the Emperor" id="234e-afb8-9819-5e31" hidden="false" typeId="ffe6-0ffb-92ce-50eb" typeName="The Wolf King">
           <characteristics>
-            <characteristic name="Ability" typeId="aa4f-092a-8a1a-cbf8">Whenever this unit makes a charge roll, add 2 to the result. Each time this model makes a melee attack, if this unit made a Charge move this turn, improve the Strength characteristics of that attack by 2.</characteristic>
+            <characteristic name="Ability" typeId="aa4f-092a-8a1a-cbf8">Whenever this unit makes a charge roll, add 2 to the result. Each time this model makes a melee attack, if this unit made a Charge move this turn, improve the Strength characteristic of that attack by 2.</characteristic>
           </characteristics>
         </profile>
         <profile name="Rage of the Wolf" id="1e63-bb86-06d1-7a81" hidden="false" typeId="ffe6-0ffb-92ce-50eb" typeName="The Wolf King">
@@ -10149,7 +10149,7 @@ a Transport</characteristic>
         </profile>
         <profile name="Commander of the Pack (Aura)" id="bbd7-4f53-ce52-edd9" hidden="false" typeId="ffe6-0ffb-92ce-50eb" typeName="The Wolf King">
           <characteristics>
-            <characteristic name="Ability" typeId="aa4f-092a-8a1a-cbf8">Friendly ADEPTUS ASTARTES units within 6&quot; of this model add 2 to advance and charge rolls.</characteristic>
+            <characteristic name="Ability" typeId="aa4f-092a-8a1a-cbf8">Friendly ADEPTUS ASTARTES units within 6&quot; of this model add 2 to Advance and Charge rolls.</characteristic>
           </characteristics>
         </profile>
         <profile name="Lord of Winter and War" id="6e0d-c0c0-bd4c-24a7" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -10199,8 +10199,7 @@ a Transport</characteristic>
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
               </characteristics>
             </profile>
           </profiles>

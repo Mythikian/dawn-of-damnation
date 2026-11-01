@@ -27863,9 +27863,9 @@ This unit cannot join an Attached unit, and only ^^**Huron Blackheart**^^ can jo
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Iron Father of the Legion (Aura)" id="6c41-d84b-f4bd-e6d9" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Iron Father of the Legion" id="6c41-d84b-f4bd-e6d9" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your movement phase, select one friendly HERETIC ASTARTES Vehicle unit within 6” of this model. Until the end of the turn, that model adds 1 to hit rolls.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command phase, select one friendly HERETIC ASTARTES VEHICLE unit within 6” of this model. Until the end of the turn, whenever that unit makes an attack, add 1 to the hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
