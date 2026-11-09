@@ -8022,6 +8022,11 @@ All other **^^Adeptus Custodes**^^ units from your army gain the following abili
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Damaged: 1-4 wounds remaining" id="c5e9-c8ad-31e6-54b8" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <selectionEntries>
         <selectionEntry name="Fist of rebuke" id="f2d6-110b-2d46-0a61" hidden="false" import="true" type="upgrade">
