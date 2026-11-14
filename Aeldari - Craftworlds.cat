@@ -115,5 +115,16 @@
     <entryLink name="Kharseth" id="ef4f-7a5e-9eb2-66c7" hidden="false" import="true" targetId="4273-173c-e850-4071" type="selectionEntry"/>
     <entryLink name="Starfangs" id="932c-12b7-e16e-d9a0" hidden="false" import="true" targetId="a074-87f8-810d-492a" type="selectionEntry"/>
     <entryLink name="Corsair Skyreavers" id="f780-34e2-b8f7-eeee" hidden="false" import="true" targetId="662e-14c3-c894-e830" type="selectionEntry"/>
+    <entryLink name="Dragon Knight Lord on Carnosaur" id="3f6c-806b-5e96-df94" hidden="false" import="true" targetId="3c4a-548f-ebb0-62df" type="selectionEntry"/>
+    <entryLink name="Dragon Knights on Raptors" id="84a8-5ef7-61d5-8aaf" hidden="false" import="true" targetId="5736-f3fc-3f83-4646" type="selectionEntry"/>
+    <entryLink name="Dragon Knights on Winged Dragons" id="eccd-b103-6bec-b1f6" hidden="false" import="true" targetId="ceae-cb87-2586-c73c" type="selectionEntry"/>
+    <entryLink name="Exodite Scouts" id="6e4d-20dc-9750-7e78" hidden="false" import="true" targetId="a362-682f-1cc2-3046" type="selectionEntry"/>
+    <entryLink name="WorldSinger" id="e8bd-a507-4555-1ce2" hidden="false" import="true" targetId="e1f9-4422-5ae6-84ae" type="selectionEntry"/>
+    <entryLink name="Megadon Howda" id="fdb4-3882-1492-fd71" hidden="false" import="true" targetId="3f27-d152-7b0a-70be" type="selectionEntry"/>
+    <entryLink name="Brachiosaur Howda" id="45a7-fc9c-507f-a2a8" hidden="false" import="true" targetId="3a01-edc3-ecda-8626" type="selectionEntry"/>
+    <entryLink name="Kurnite Hunter" id="c0cc-21ae-68a8-3d88" hidden="false" import="true" targetId="2678-bfc9-ef3b-5c4a" type="selectionEntry"/>
+    <entryLink name="Mawr" id="f6fd-c9ff-4c02-a2bd" hidden="false" import="true" targetId="2964-8d77-7cf3-5ac3" type="selectionEntry"/>
+    <entryLink name="Laryin Sil Cadaiyth" id="9a0f-1029-c025-3121" hidden="false" import="true" targetId="352e-202b-3788-a882" type="selectionEntry"/>
+    <entryLink name="Kelseth" id="6ed9-bd22-4bf9-b93e" hidden="false" import="true" targetId="7875-31bd-d837-4c7e" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

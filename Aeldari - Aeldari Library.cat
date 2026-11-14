@@ -252,6 +252,8 @@
     <categoryEntry name="Megadon Howda" id="3430-b792-15fc-6f9a" hidden="false"/>
     <categoryEntry name="Brachiosaur Howda" id="21e7-2dfa-4275-33c0" hidden="false"/>
     <categoryEntry name="Kurnite Hunter" id="e692-c3f1-e10c-9fea" hidden="false"/>
+    <categoryEntry name="Mawr" id="aa80-3206-0a6c-f226" hidden="false"/>
+    <categoryEntry name="Kelseth" id="89f5-d930-7711-a3d8" hidden="false"/>
   </categoryEntries>
   <publications>
     <publication name="Codex: Aeldari" id="442c-a37c-3908-d701" publicationDate="08/02/2025" publisher="Codex: Aeldari" shortName="C:Aeldari"/>
@@ -38855,8 +38857,7 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
 ■ Exodite Scouts
 ■ Guardian Defenders
 ■ Rangers
-■ Storm Guardians
-</characteristic>
+■ Storm Guardians</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -39083,8 +39084,7 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
                   <profiles>
                     <profile name="Laser Cannon" id="b423-fc62-7990-9d9e" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;
-</characteristic>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
@@ -39095,8 +39095,7 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
                     </profile>
                     <profile name="Laser Cannon" id="540a-72b4-03c0-be4b" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;
-</characteristic>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
@@ -39115,8 +39114,7 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
                   <profiles>
                     <profile name="Twin Shuriken Cannon" id="878b-8197-0b8f-fcb2" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;
-</characteristic>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
@@ -39127,8 +39125,7 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
                     </profile>
                     <profile name="Twin Shuriken Cannon" id="0eb2-626b-713a-84b7" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;
-</characteristic>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
@@ -39417,8 +39414,7 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
                   <profiles>
                     <profile name="Laser Cannon" id="4b46-8e36-cac2-e705" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;
-</characteristic>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
@@ -39429,8 +39425,7 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
                     </profile>
                     <profile name="Laser Cannon" id="636a-312a-0181-8a62" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;
-</characteristic>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
@@ -39441,8 +39436,7 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
                     </profile>
                     <profile name="Laser Cannon" id="e9b3-7f21-0fda-0176" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;
-</characteristic>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
@@ -39453,8 +39447,7 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
                     </profile>
                     <profile name="Laser Cannon" id="5715-b9d9-b043-a04c" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;
-</characteristic>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
@@ -39473,8 +39466,7 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
                   <profiles>
                     <profile name="Twin Shuriken Cannon" id="55dd-df7e-0b6a-b021" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;
-</characteristic>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
@@ -39485,8 +39477,7 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
                     </profile>
                     <profile name="Twin Shuriken Cannon" id="0f14-0196-ae44-b9a2" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;
-</characteristic>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
@@ -39497,8 +39488,7 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
                     </profile>
                     <profile name="Twin Shuriken Cannon" id="bf65-0179-a9f9-daaa" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;
-</characteristic>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
@@ -39509,8 +39499,7 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
                     </profile>
                     <profile name="Twin Shuriken Cannon" id="f94e-bb52-c7af-a649" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;
-</characteristic>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
@@ -39780,8 +39769,7 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
 ■ Exodite Scouts
 ■ Howling Banshees
-■ Striking Scorpions
-</characteristic>
+■ Striking Scorpions</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -39868,6 +39856,7 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
         <categoryLink name="Faction: Asuryani" id="3c4d-be11-861a-a991" hidden="false" primary="false" targetId="4378-1827-4988-be4e"/>
         <categoryLink name="Aeldari" id="8c05-8bfb-395a-dfd9" hidden="false" primary="false" targetId="e035-51fc-813a-1313"/>
         <categoryLink name="Exodites" id="2d87-0193-e204-720a" hidden="false" primary="false" targetId="a739-313c-a021-2124"/>
+        <categoryLink name="Mawr" id="280c-4f80-9fdd-d2de" hidden="false" primary="false" targetId="aa80-3206-0a6c-f226"/>
       </categoryLinks>
       <constraints>
         <constraint id="3e3c-92c6-4a72-a7eb" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="1"/>
@@ -39880,10 +39869,25 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
+      <entryLinks>
+        <entryLink name="Warlord" id="b79f-8ae9-57b0-9ab9" collective="false" hidden="false" import="true" targetId="3f04-19ab-bfb0-6c67" type="selectionEntry"/>
+      </entryLinks>
       <infoLinks>
         <infoLink name="Leader" id="7268-6b86-e11e-b98a" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
         <infoLink name="Battle Focus" id="7a64-0afd-0ace-5988" hidden="false" targetId="c324-e193-e23c-7d2e" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="notInstanceOf" value="1"/>
+          </conditions>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="1d6e-2579-8e7f-1ed4" field="forces" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Mawr" id="20a1-853e-1638-8ed0" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
@@ -39977,6 +39981,219 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
                 <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
                 <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Laryin Sil Cadaiyth" id="352e-202b-3788-a882" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Epic Hero" id="1504-7da1-95af-455d" hidden="false" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+        <categoryLink name="Character" id="b02b-c1d9-2e29-767d" hidden="false" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+        <categoryLink name="Infantry" id="07f7-f7cd-b91f-38bd" hidden="false" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+        <categoryLink name="Faction: Asuryani" id="46b3-1b84-1c74-4589" hidden="false" primary="false" targetId="4378-1827-4988-be4e"/>
+        <categoryLink name="Aeldari" id="baf3-5d40-b987-e05d" hidden="false" primary="false" targetId="e035-51fc-813a-1313"/>
+        <categoryLink name="Exodites" id="bddc-b7f8-8c46-c4d9" hidden="false" primary="false" targetId="a739-313c-a021-2124"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="fd26-d323-05a3-69d8" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="95"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Warlord" id="a703-b528-29c1-6623" collective="false" hidden="false" import="true" targetId="3f04-19ab-bfb0-6c67" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Leader" id="87ea-f26f-93cb-0dbd" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+        <infoLink name="Battle Focus" id="6784-aaa1-4afe-f290" hidden="false" targetId="c324-e193-e23c-7d2e" type="rule"/>
+        <infoLink name="Invulnerable Save (4+)" id="3862-c919-7503-f7fd" hidden="false" targetId="5b77-29f8-7b77-75e3" type="profile"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="notInstanceOf" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Laryin Sil Cadaiyth" id="02b5-8cc6-e242-d6ad" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">7</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" id="4747-ba87-f7ae-6e13" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+■ Exodite Scouts
+■ Guardian Defenders
+■ Rangers
+■ Storm Guardians</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Words of Gaia (Psychic)" id="5a27-f2c3-695e-7ae9" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Command phase, select one friendly EXODITES unit within 6&quot; of this model. If one or more models in that unit are destroyed, and all models in that unit have less than 4 starting wounds, you can return one destroyed model to that unit. Otherwise, one model in that unit regains up to D3 lost wounds. Each unit can only be selected for this ability once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Blessing of The World Spirit" id="310e-7c7f-3026-e862" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command Phase, you may activate one of the abilities below:
+
+
+Grasping Vines: Select an enemy unit within 12” of and visible to this model. That unit must make a leadership test. If failed, that unit is ensnared until the start of your next turn. While a unit is ensnared, subtract 2&quot; from its Move characteristic and subtract 2 from Charge rolls made for it.
+
+
+Spirit Chants: Select one friendly unit within 12” of this model, until the end of the turn, models in that unit have a 5+ Invulnerable Save.
+
+
+Spirit Control: Select one enemy unit within 12” of this model, that unit must make a Battle-shock test with a -2 penalty.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Singer Staff" id="e08f-4a67-d0c6-84db" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="7553-61ed-78a6-c7d6" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="7e96-ff2e-13c5-f3be" field="selections" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Anti-" id="b275-c25a-9b73-43ec" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+            <infoLink name="Psychic" id="e2d3-f70e-c318-46b7" hidden="false" targetId="e9c4-2bb8-12ee-cd1b" type="rule"/>
+            <infoLink name="Sustained Hits" id="30af-b561-4c97-59a8" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Singer Staff" id="35da-1aaf-624c-8dd0" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">D3</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 2+, Psychic, Sustained Hits 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Kelseth" id="7875-31bd-d837-4c7e" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Epic Hero" id="b7d6-dff9-4bff-a9e6" hidden="false" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+        <categoryLink name="Character" id="6ada-0669-67ab-abbb" hidden="false" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+        <categoryLink name="Infantry" id="acf3-4001-0c78-2b96" hidden="false" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+        <categoryLink name="Aeldari" id="60dd-9b70-434d-ebf6" hidden="false" primary="false" targetId="e035-51fc-813a-1313"/>
+        <categoryLink name="Exodites" id="a46c-2fa4-c991-8a06" hidden="false" primary="false" targetId="a739-313c-a021-2124"/>
+        <categoryLink name="Kelseth" id="adc8-d821-b2f4-10e2" hidden="false" primary="false" targetId="89f5-d930-7711-a3d8"/>
+        <categoryLink name="Faction: Harlequins" id="867a-c07a-40c3-7c60" hidden="false" primary="false" targetId="a5a2-d0c0-0349-d226"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="7f91-0aca-b977-0fa3" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="110"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Warlord" id="cfb1-a8d4-714c-ebd5" collective="false" hidden="false" import="true" targetId="3f04-19ab-bfb0-6c67" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Battle Focus" id="a092-853b-442e-04b4" hidden="false" targetId="c324-e193-e23c-7d2e" type="rule"/>
+        <infoLink name="Invulnerable Save (4+)" id="be2b-d712-0161-662f" hidden="false" targetId="5b77-29f8-7b77-75e3" type="profile"/>
+        <infoLink name="Infiltrators" id="3ab3-6a76-1204-b7e9" hidden="false" targetId="c05d-f4c3-f091-4938" type="rule"/>
+        <infoLink name="Lone Operative" id="249f-4b04-8c70-a6cb" hidden="false" targetId="a8a0-8fe7-898-e0f3" type="rule"/>
+        <infoLink name="Stealth" id="ce2f-41cd-8013-0129" hidden="false" targetId="bec5-4288-34a6-ccfa" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="notInstanceOf" value="1"/>
+          </conditions>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="1d6e-2579-8e7f-1ed4" field="forces" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Kelseth" id="a5c5-a7b0-62dc-61bd" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Flip Belt" id="b6f3-3eec-fc47-3ecd" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time the bearer&apos;s unit makes a Normal, Advance, Fall Back or Charge move, ignore any vertical distance when determining the total distance the bearer can be moved during that move.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Gripped By Death" id="1e2b-48d0-96b0-a945" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit (excluding Monsters and Vehicles) hit by one or more of those attacks. That enemy unit must take a Leadership test. If one or more of those attacks destroyed a model in that enemy unit, subtract 1 from that test, if a Character model was lost, subtract 3 instead. If that test is failed then that enemy unit is that unit is ensnared. While a unit is ensnared, subtract 2&quot; from its Move characteristic and subtract 2 from Charge rolls made for it.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Last Rites" id="fd4c-979e-c66e-3b00" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="9e13-ef60-9597-31d7" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="23fa-579e-5565-8fa6" field="selections" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Anti-" id="3bb5-5965-5b03-5113" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+            <infoLink name="Heavy" id="23a8-1bcf-69aa-5f7d" hidden="false" targetId="1202-10a8-78e9-4c67" type="rule"/>
+            <infoLink name="Precision" id="5761-31f5-7a53-9b7d" hidden="false" targetId="9143-31ae-e0a6-6007" type="rule"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Last Rites" id="2fe3-e8b3-0be1-e864" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 3+, Heavy, Precision</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Jester&apos;s Blade" id="6410-ed22-ee00-5914" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="42c6-a4ed-d690-4bba" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="83ab-d796-250f-95bb" field="selections" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Jester&apos;s Blade" id="076c-8b50-6176-64ad" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
                 <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
