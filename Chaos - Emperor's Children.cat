@@ -14498,7 +14498,7 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Lashing Tendrils" id="9996-54ac-51e1-3c34" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Flaying Tendrils" id="9996-54ac-51e1-3c34" hidden="false" import="true" type="upgrade">
               <constraints>
                 <constraint id="7faa-80e1-76a1-ad4a" field="selections" scope="parent" shared="true" type="max" value="1"/>
                 <constraint id="29cb-ad1e-8cef-ee26" field="selections" scope="parent" shared="true" type="min" value="1"/>
@@ -14508,7 +14508,7 @@ While a unit from your army is Empowered, weapons equipped by models in that uni
                 <infoLink name="Extra Attacks" id="4533-0ee6-0b38-2d05" hidden="false" targetId="115b-79dc-f723-d761" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Lashing Tendrils" id="5dd3-e9a5-a87a-d32d" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                <profile name="Flaying Tendrils" id="5dd3-e9a5-a87a-d32d" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                     <characteristic name="A" typeId="2337-daa1-6682-b110">8</characteristic>

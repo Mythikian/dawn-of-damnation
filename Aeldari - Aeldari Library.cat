@@ -37686,9 +37686,14 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
           </conditions>
         </modifier>
         <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <profiles>
@@ -38020,9 +38025,14 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
           </conditions>
         </modifier>
         <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <profiles>
@@ -38300,9 +38310,14 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
           </conditionGroups>
         </modifier>
         <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <profiles>
@@ -38538,9 +38553,14 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
           </conditions>
         </modifier>
         <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <profiles>
@@ -38825,9 +38845,14 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
           </conditionGroups>
         </modifier>
         <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <profiles>
@@ -39012,9 +39037,14 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
           </conditions>
         </modifier>
         <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <profiles>
@@ -39337,9 +39367,14 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
           </conditions>
         </modifier>
         <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <profiles>
@@ -39738,9 +39773,14 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
           </conditionGroups>
         </modifier>
         <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <profiles>
@@ -40020,9 +40060,14 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
       </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <profiles>
@@ -40126,13 +40171,18 @@ Spirit Control: Select one enemy unit within 12” of this model, that unit must
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditions>
-            <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="forces" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="notInstanceOf" value="1"/>
+            <condition childId="1d6e-2579-8e7f-1ed4" field="forces" scope="roster" shared="true" type="atLeast" value="1"/>
           </conditions>
         </modifier>
         <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="1d6e-2579-8e7f-1ed4" field="forces" scope="roster" shared="true" type="atLeast" value="1"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="df30-8ca4-faa4-aa92" childName="Primal Path" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+                <condition childId="cac3-71d1-ea4b-795d" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <profiles>

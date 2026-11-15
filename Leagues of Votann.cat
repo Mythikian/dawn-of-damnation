@@ -7755,7 +7755,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         </profile>
         <profile name="Nerves of Steel" id="7cf9-5272-8b16-52e1" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, models in that unit have the [Feel No Pain 5+] ability.</characteristic>
           </characteristics>
         </profile>
         <profile name="Bounty Hunter" id="94cf-6905-004b-0459" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -8400,9 +8400,9 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit is elected to fight, if it made a Charge move this turn, melee weapons equipped by models in this unit gain [Sustained Hits 1].</characteristic>
           </characteristics>
         </profile>
-        <profile name="Hearthkyn Warriors" id="1a90-19cc-c997-4b5e" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+        <profile name="Hearthkyn Jump Pack Warriors" id="1a90-19cc-c997-4b5e" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
@@ -11452,91 +11452,6 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry name="Plasma torch" id="cf51-81fc-76f2-5ff4" hidden="false" import="true" sortIndex="3" type="upgrade">
-          <constraints>
-            <constraint id="9f37-9733-fed8-8e58" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
-            <constraint id="f441-fcaa-c6c2-6735" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <profiles>
-            <profile name="Plasma torch" id="9c0f-c108-4512-ea82" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-        <selectionEntry name="Mass gauntlet" id="d329-3ac7-9ac9-0d5f" hidden="false" import="true" sortIndex="4" type="upgrade">
-          <constraints>
-            <constraint id="c795-f2ee-53d7-4cd7" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
-            <constraint id="eda7-0a36-b1a0-0d65" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <profiles>
-            <profile name="Mass gauntlet" id="6efc-4e1f-3f4c-792a" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-        <selectionEntry name="Fractal pulse beamer" id="1000-de3a-0445-12b4" hidden="false" import="true" sortIndex="3" type="upgrade">
-          <constraints>
-            <constraint id="55a3-ef73-065a-9054" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
-            <constraint id="f3a1-de9a-1efe-f71b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <infoLinks>
-            <infoLink name="Heavy" id="6932-ec36-a9c2-3917" hidden="false" targetId="1202-10a8-78e9-4c67" type="rule"/>
-            <infoLink name="Melta" id="adb7-dbce-bf8c-57ec" hidden="false" targetId="7cdb-fb99-44a9-8849" type="rule"/>
-            <infoLink name="Sustained Hits" id="d367-3ff0-1e2b-a24a" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
-          </infoLinks>
-          <profiles>
-            <profile name="Fractal pulse beamer" id="3d04-6272-a735-47b9" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Melta 2, Sustained Hits 1</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-        <selectionEntry name="Inferno pistol" id="13c8-a91f-dcab-25af" hidden="false" import="true" sortIndex="3" type="upgrade">
-          <constraints>
-            <constraint id="05c3-47f4-a5c3-f296" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
-            <constraint id="71af-2107-f5b5-802c" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <infoLinks>
-            <infoLink name="Melta" id="8677-6871-51c7-5473" hidden="false" targetId="7cdb-fb99-44a9-8849" type="rule"/>
-            <infoLink name="Pistol" id="45f0-c064-8dc3-cded" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
-          </infoLinks>
-          <profiles>
-            <profile name="Inferno pistol" id="b62e-c23e-8841-2f84" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-              <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">6&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2, Pistol</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
         <selectionEntry name="Techmite Exovator" id="310b-b99f-03d3-abd2" collective="false" hidden="false" import="true" type="model">
           <constraints>
             <constraint id="00f5-89f6-0660-7757" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -11602,6 +11517,99 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
                     <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry name="Orrin Grimjarl" id="7602-4579-a1ae-3de0" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="30de-fc69-af57-b77c" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="70f8-f940-4f51-e7c1" field="selections" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Fractal pulse beamer" id="1000-de3a-0445-12b4" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="55a3-ef73-065a-9054" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="f3a1-de9a-1efe-f71b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Heavy" id="6932-ec36-a9c2-3917" hidden="false" targetId="1202-10a8-78e9-4c67" type="rule"/>
+                <infoLink name="Melta" id="adb7-dbce-bf8c-57ec" hidden="false" targetId="7cdb-fb99-44a9-8849" type="rule"/>
+                <infoLink name="Sustained Hits" id="d367-3ff0-1e2b-a24a" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Fractal pulse beamer" id="3d04-6272-a735-47b9" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Melta 2, Sustained Hits 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Inferno pistol" id="13c8-a91f-dcab-25af" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="05c3-47f4-a5c3-f296" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="71af-2107-f5b5-802c" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Melta" id="8677-6871-51c7-5473" hidden="false" targetId="7cdb-fb99-44a9-8849" type="rule"/>
+                <infoLink name="Pistol" id="45f0-c064-8dc3-cded" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Inferno pistol" id="b62e-c23e-8841-2f84" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">6&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2, Pistol</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Plasma torch" id="cf51-81fc-76f2-5ff4" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="9f37-9733-fed8-8e58" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="f441-fcaa-c6c2-6735" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Plasma torch" id="9c0f-c108-4512-ea82" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Mass gauntlet" id="d329-3ac7-9ac9-0d5f" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="c795-f2ee-53d7-4cd7" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="eda7-0a36-b1a0-0d65" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Mass gauntlet" id="6efc-4e1f-3f4c-792a" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12078,8 +12086,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -12104,7 +12111,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
                           </characteristics>
                         </profile>
-                        <profile name="Autoch-pattern heavy bolter" id="3291-bfc6-1b7e-19e5" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                        <profile name="Autoch-pattern heavy bolters" id="3291-bfc6-1b7e-19e5" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
@@ -12926,7 +12933,7 @@ Reinforced Plating: Improve the Save characteristic of that unit by 1 (to a maxi
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Graviton hammer" id="155b-9899-d18d-82ca" hidden="false" import="true" sortIndex="4" type="upgrade">
+        <selectionEntry name="Iron master hammer" id="155b-9899-d18d-82ca" hidden="false" import="true" sortIndex="4" type="upgrade">
           <constraints>
             <constraint id="1a50-9d37-d20f-f7b5" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="57ac-4366-90b7-da83" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
@@ -12935,14 +12942,14 @@ Reinforced Plating: Improve the Save characteristic of that unit by 1 (to a maxi
             <infoLink name="Anti-" id="9853-bd8a-1155-f5ef" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
           </infoLinks>
           <profiles>
-            <profile name="Graviton hammer" id="cfd3-ee83-c006-a854" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+            <profile name="Iron master hammer" id="cfd3-ee83-c006-a854" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                 <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
                 <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">4</characteristic>
                 <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-MONSTER 3+, Anti-VEHICLE 3+</characteristic>
               </characteristics>
             </profile>
