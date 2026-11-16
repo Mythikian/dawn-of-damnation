@@ -27635,6 +27635,11 @@ You can attach this model to one of the above units even if one Character model
             <condition childId="470a-6daa-9014-12df" field="selections" includeChildForces="false" includeChildSelections="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
           </conditions>
         </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="94bb-3284-ee14-57a1" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <profiles>
         <profile name="Leader" id="e17-41e5-b31-1d44" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
