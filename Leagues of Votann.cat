@@ -7615,7 +7615,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         <constraint id="dc28-d64c-7954-584e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="1"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="200"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -7660,7 +7660,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         </profile>
         <profile name="Supreme Kin-Warlord" id="1c04-487b-c617-e2f6" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command phase, select one friendly ^^**Leagues of Votann Infantry**^^ unit within 12&quot;: That unit gains both Hostile Acquisition and Fortify Takeover until the start of your next Command phase. If this model is in your army, it must be your ^^**Warlord**^^.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command phase, select one friendly Leagues of Votann Infantry unit within 12&quot;: That unit gains either Hostile Acquisition or Fortify Takeover until the start of your next Command Phase, whatever effect you select, the other rule is not active for that unit. If this model is in your army, it must be your ^^**Warlord**^^.</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" id="eb08-e1fc-f23f-9dd7" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
