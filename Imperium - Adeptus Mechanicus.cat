@@ -13690,7 +13690,7 @@ as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.</characteristi
                                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
                                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                                 <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                                <characteristic name="AP" typeId="9ead-8a10-520-de15">1</characteristic>
+                                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                                 <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 2</characteristic>
                               </characteristics>
@@ -13917,7 +13917,7 @@ as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.</characteristi
                                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
                                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                                 <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                                <characteristic name="AP" typeId="9ead-8a10-520-de15">1</characteristic>
+                                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                                 <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 2</characteristic>
                               </characteristics>
@@ -14144,7 +14144,7 @@ as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.</characteristi
                                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
                                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                                 <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                                <characteristic name="AP" typeId="9ead-8a10-520-de15">1</characteristic>
+                                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                                 <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 2</characteristic>
                               </characteristics>
@@ -16094,6 +16094,7 @@ While attached to a unit, this model loses the INFANTRY keyword.</characteristic
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry name="New Entry" id="c39c-551a-6159-393e" hidden="false" import="true" type="upgrade"/>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Enhancements" id="65bb-2001-cac8-2761" collapsible="true" collective="false" hidden="false" import="true">
