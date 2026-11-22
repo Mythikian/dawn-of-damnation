@@ -7,7 +7,7 @@
     <categoryEntry name="Asdrubael Vect" id="60cf-61d9-e726-0811" hidden="false"/>
     <categoryEntry name="Kruellagh" id="a02b-c9e2-a2f7-7cb3" hidden="false"/>
     <categoryEntry name="Kheradruakh" id="d98a-e9e6-70b9-7bde" hidden="false"/>
-    <categoryEntry name="Dais of Destruction" id="35b0-98f5-192f-5489" hidden="false"/>
+    <categoryEntry name="Asdrubael Vect" id="35b0-98f5-192f-5489" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink name="Archon" id="f96f-85f3-fda6-40d9" hidden="false" import="true" targetId="5c1c-fa4a-3234-c711" type="selectionEntry"/>
@@ -63,12 +63,12 @@
     <entryLink name="Prince Yriel" id="aab4-eaf1-5213-21ee" hidden="false" import="true" targetId="54dc-aa1f-817a-a5c5" type="selectionEntry"/>
     <entryLink name="Kharseth" id="5fb0-7aa1-e011-6869" hidden="false" import="true" targetId="4273-173c-e850-4071" type="selectionEntry"/>
     <entryLink name="Starfangs" id="4cb1-ad14-dc73-de3c" hidden="false" import="true" targetId="a074-87f8-810d-492a" type="selectionEntry"/>
-    <entryLink name="Asdrubael Vect" id="dfdf-9ee1-2141-64bd" hidden="false" import="true" targetId="8260-614d-b030-85f8" type="selectionEntry"/>
+    <entryLink name="Dais of Destruction" id="dfdf-9ee1-2141-64bd" hidden="false" import="true" targetId="8260-614d-b030-85f8" type="selectionEntry"/>
     <entryLink name="Kruellagh" id="aa58-427b-bbc6-cd99" hidden="false" import="true" targetId="09b5-8a52-91ba-a2a3" type="selectionEntry"/>
     <entryLink name="Kheradruakh" id="cf69-364b-230f-b46f" hidden="false" import="true" targetId="be83-298a-b571-8e34" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry name="Dais of Destruction" id="8260-614d-b030-85f8" hidden="false" import="true" type="model">
+    <selectionEntry name="Asdrubael Vect" id="8260-614d-b030-85f8" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Epic Hero" id="552f-9fb0-1725-c7ad" hidden="false" primary="true" targetId="4f3a-f0f7-6647-348d"/>
         <categoryLink name="Vehicle" id="1c29-28eb-6f26-e081" hidden="false" primary="false" targetId="dbd4-63-af05-998"/>
