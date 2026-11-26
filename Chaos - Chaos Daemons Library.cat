@@ -14208,7 +14208,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3+1</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous,Psychic</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Psychic</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17011,6 +17011,9 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
         <categoryLink name="Fly" id="895f-5c2e-8be2-310d" primary="false" targetId="c619-2086-bbcf-69c9"/>
         <categoryLink name="Shadow Legion" id="7e86-fdf6-2209-49c4" primary="false" targetId="4df3-beae-010c-9087"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="b943-dfea-be91-0cff" field="selections" scope="parent" shared="true" type="max" value="3"/>
+      </constraints>
       <modifiers>
         <modifier field="category" type="set-primary" value="887b-ab87-92a2-20f5">
           <conditions>

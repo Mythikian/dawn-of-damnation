@@ -1667,9 +1667,9 @@ Psychic weapons equipped by ^^**Thousand Sons^^** models in your army have the [
             <selectionEntry name="Warpmeld Pact" id="5be7-3aa8-5d64-cbaf" hidden="false" import="true" type="upgrade">
               <rules>
                 <rule name="Warpmeld Sacrifice" id="051d-bef5-f9ed-7178" hidden="false">
-                  <description>Each time an enemy unit is selected to shoot or fight and one or more ^^**Tzeentch Mutant Infantry^^** or ^^**Tzeentch Mutant Mounted^^** units from your army are selected as a target of one or more of those attacks, each of those ^^**Tzeentch Mutant^^** units can make a Warpmeld Sacrifice. If it does, until the end of the phase, each time an attack targets that unit, subtract 1 from the Wound roll. At the end of the phase, that ^^**Tzeentch Mutant^^** unit suffers D3 mortal wounds.
+                  <description>Each time an enemy unit is selected to shoot or fight and one or more ^^**Tzeentch Mutant^^** units from your army are selected as a target of one or more of those attacks, each of those ^^**Tzeentch Mutant^^** units can make a Warpmeld Sacrifice. If it does, until the end of the phase, each time an attack targets that unit, subtract 1 from the Wound roll. At the end of the phase, that ^^**Tzeentch Mutant^^** unit suffers D3 mortal wounds with no Feel No Pain rolls allowed.
 
-Each time a ^^**Tzeentch Mutant Infantry^^** or ^^**Tzeentch Mutant Mounted^^*** unit from your army is selected to shoot or fight, before selecting its targets, that unit can make a Warpmeld Sacrifice. If it does, until the end of the phase, each time a model in that unit makes an attack, add 1 to the Wound roll. At the end of the phase, that ^^**Tzeentch Mutant^^** unit suffers D3 mortal wounds.
+Each time a ^^**Tzeentch Mutant^^** unit from your army is selected to shoot or fight, before selecting its targets, that unit can make a Warpmeld Sacrifice. If it does, until the end of the phase, each time a model in that unit makes an attack, add 1 to the Wound roll. At the end of the phase, that ^^**Tzeentch Mutant^^** unit suffers D3 mortal wounds with no Feel No Pain rolls allowed.
 
 ^^**Tzaangors^^** units from your army have the Battleline keyword, and while such a unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in that unit.</description>
                 </rule>
@@ -11954,13 +11954,16 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry name="Power khopesh" id="ee57-dc64-bc7f-06d1" collective="true" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Force khopesh" id="ee57-dc64-bc7f-06d1" collective="true" hidden="false" import="true" type="upgrade">
                   <constraints>
                     <constraint id="ca2f-2ea8-cf47-232b" field="selections" scope="parent" shared="true" type="min" value="1"/>
                     <constraint id="e911-3912-4ae0-f0a5" field="selections" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
+                  <infoLinks>
+                    <infoLink name="Psychic" id="4cdf-6ee3-0df3-c719" hidden="false" targetId="e9c4-2bb8-12ee-cd1b" type="rule"/>
+                  </infoLinks>
                   <profiles>
-                    <profile name="Power khopesh" id="b5ad-f297-8735-88c2" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                    <profile name="Force khopesh" id="b5ad-f297-8735-88c2" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                         <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
@@ -11968,7 +11971,7 @@ _Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Psychic</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
