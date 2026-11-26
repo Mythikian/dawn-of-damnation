@@ -284,7 +284,7 @@ attack has the [LETHAL HITS] ability. Each time a model in this model’s unit 
             <constraint id="f3b8-fc83-e119-8519-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <profiles>
-            <profile name="Axiom - Strike" id="24a8-048e-3348-9638" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+            <profile name="➤ Axiom - Strike" id="24a8-048e-3348-9638" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                 <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
@@ -295,7 +295,7 @@ attack has the [LETHAL HITS] ability. Each time a model in this model’s unit 
                 <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
               </characteristics>
             </profile>
-            <profile name="Axiom - Sweep" id="c162-f94f-fa04-9014" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+            <profile name="➤ Axiom - Sweep" id="c162-f94f-fa04-9014" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                 <characteristic name="A" typeId="2337-daa1-6682-b110">10</characteristic>
