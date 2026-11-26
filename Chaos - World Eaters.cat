@@ -12038,7 +12038,7 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
                     <profile name="Twin Chain Fists" id="b4fc-0758-4b77-93cc" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                        <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
                         <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
@@ -13218,7 +13218,7 @@ When ^^**Blood Legions^^** models in your army make a Normal, Advance, Fall Back
         </profile>
         <profile name="Slaught Injectors" id="fc00-257d-fdaf-3cc7" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle this unit may use this ability after you have made a failed charge roll for this unit. You may auto succeed the charge roll, but after the this model has resolved its combat in the fight phase, this unit must take 1 mortal for every inch added to the roll with no saves allowed.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle this unit may use this ability after you have made a failed charge roll for this unit. You may auto succeed the charge roll, but after the this model has resolved its combat in the fight phase, this unit must take 1 mortal for every inch added to the roll with no Feel No Pain rolls allowed.</characteristic>
           </characteristics>
         </profile>
       </profiles>

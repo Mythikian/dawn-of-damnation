@@ -1709,7 +1709,7 @@ Objectives you control with Stronghold tokens have the following effects dependi
         <infoLink name="Stealth" id="59e-4e68-d071-3154" hidden="false" targetId="bec5-4288-34a6-ccfa" type="rule"/>
         <infoLink name="Deep Strike" id="8251-6cc0-fd79-a9bf" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
         <infoLink name="Shadow Assignment" id="ee1f-d532-8cf9-511d" hidden="false" targetId="3882-3521-d644-a482" type="profile"/>
-        <infoLink name="Missions For The Imperium" id="0b9b-06e9-07df-e370" hidden="false" targetId="72db-62bc-5221-db91" type="rule"/>
+        <infoLink name="Missions For The Imperium" id="dcd5-f183-0ff5-8732" hidden="false" targetId="72db-62bc-5221-db91" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -1878,6 +1878,7 @@ Objectives you control with Stronghold tokens have the following effects dependi
           </modifiers>
         </infoLink>
         <infoLink name="Shadow Assignment" id="e320-2f9e-6fa4-60a9" hidden="false" targetId="3882-3521-d644-a482" type="profile"/>
+        <infoLink name="Missions For The Imperium" id="4e4c-3bf6-d9db-b9f8" hidden="false" targetId="72db-62bc-5221-db91" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -10403,6 +10404,7 @@ At the start of the Declare Battle Formations step, you can select one SISTERS O
         </infoLink>
         <infoLink name="Hover" id="76a6-235f-6ae2-c2b0" hidden="false" targetId="eec5-5f54-9c03-c305" type="rule"/>
         <infoLink name="Stealth" id="cfff-9051-5dc2-2eb6" hidden="false" targetId="bec5-4288-34a6-ccfa" type="rule"/>
+        <infoLink name="Missions For The Imperium" id="6490-7693-d32a-aa9b" hidden="false" targetId="72db-62bc-5221-db91" type="rule"/>
       </infoLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -18494,14 +18496,14 @@ For the purposes of determining which models in this unit can embark within a ^^
       </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="b00-cd86-4b4c-97ba" field="selections" scope="primary-catalogue" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="e08b-2448-5606-fefb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
+          <conditions>
+            <condition childId="b00-cd86-4b4c-97ba" field="selections" scope="primary-catalogue" shared="true" type="notInstanceOf" value="1"/>
+          </conditions>
+        </modifier>
+        <modifier field="category" type="set-primary" value="887b-ab87-92a2-20f5">
+          <conditions>
+            <condition childId="b00-cd86-4b4c-97ba" childName="Imperium - Agents of the Imperium" field="selections" includeChildForces="true" includeChildSelections="true" scope="primary-catalogue" shared="true" type="notInstanceOf" value="1"/>
+          </conditions>
         </modifier>
       </modifiers>
       <profiles>
@@ -18606,14 +18608,14 @@ For the purposes of determining which models in this unit can embark within a ^^
       </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition childId="b00-cd86-4b4c-97ba" field="selections" scope="primary-catalogue" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="e08b-2448-5606-fefb" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
+          <conditions>
+            <condition childId="b00-cd86-4b4c-97ba" field="selections" scope="primary-catalogue" shared="true" type="notInstanceOf" value="1"/>
+          </conditions>
+        </modifier>
+        <modifier field="category" type="set-primary" value="887b-ab87-92a2-20f5">
+          <conditions>
+            <condition childId="b00-cd86-4b4c-97ba" childName="Imperium - Agents of the Imperium" field="selections" includeChildForces="true" includeChildSelections="true" scope="primary-catalogue" shared="true" type="notInstanceOf" value="1"/>
+          </conditions>
         </modifier>
       </modifiers>
       <profiles>
@@ -18727,6 +18729,52 @@ For the purposes of determining which models in this unit can embark within a ^^
           </profiles>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Darktide Internment Squad" id="ade9-46d5-4d54-a0be" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Epic Hero" id="cdae-ac46-ffbf-1af6" hidden="false" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+        <categoryLink name="Character" id="2aab-3dc5-f95a-2188" hidden="false" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+        <categoryLink name="Infantry" id="0c7f-251f-9d59-5c9a" hidden="false" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+        <categoryLink name="Grenades" id="3c49-701f-0641-6d56" hidden="false" primary="false" targetId="5a61-81ac-eb7c-a87e"/>
+        <categoryLink name="Imperium" id="a916-36b3-d1c5-134a" hidden="false" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+        <categoryLink name="Faction: Agents of the Imperium" id="35a5-2422-42c7-8f7c" hidden="false" primary="false" targetId="5128-90b-e4a5-dcbd"/>
+        <categoryLink name="Requisitioned" id="7a98-2ac4-6ebc-b990" hidden="false" primary="false" targetId="75f4-93ee-b9a0-bb5f"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="200"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Missions For The Imperium" id="3163-7472-d353-af71" hidden="false" targetId="72db-62bc-5221-db91" type="rule"/>
+        <infoLink name="Leader" id="ca81-0424-53d0-5fbc" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="b00-cd86-4b4c-97ba" field="selections" scope="primary-catalogue" shared="true" type="notInstanceOf" value="1"/>
+          </conditions>
+        </modifier>
+        <modifier field="category" type="set-primary" value="887b-ab87-92a2-20f5">
+          <conditions>
+            <condition childId="b00-cd86-4b4c-97ba" childName="Imperium - Agents of the Imperium" field="selections" includeChildForces="true" includeChildSelections="true" scope="primary-catalogue" shared="true" type="notInstanceOf" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Leader" id="8e38-579e-f516-9db6" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units: 
+■ Imperial Navy Breachers
+■ Planetary Guard
+
+■ Voidsmen-at-Arms</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
